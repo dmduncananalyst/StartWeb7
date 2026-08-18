@@ -17,19 +17,21 @@
   <script>
     (function () {
       var isMobile = window.matchMedia("(max-width: 760px)").matches;
+
       var destination = isMobile
-        ? "startweb7_mobile(1).html"
-        : "startweb7_desktop.html";
+        ? "mobile.html"
+        : "desktop.html";
 
       window.location.replace(destination);
     })();
   </script>
 </head>
+
 <body>
   <noscript>
     <p>
-      <a href="startweb7_desktop.html">Desktop site</a><br>
-      <a href="startweb7_mobile(1).html">Mobile site</a>
+      <a href="desktop.html">Desktop site</a><br>
+      <a href="mobile.html">Mobile site</a>
     </p>
   </noscript>
 </body>
