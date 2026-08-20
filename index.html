@@ -1,22 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>StartWeb7</title>
-
   <script>
-    (function () {
-      const isMobile = window.matchMedia("(max-width: 768px)").matches;
-
-      if (isMobile) {
-        window.location.replace("mobil.html");
-      } else {
-        window.location.replace("desktop.html");
-      }
-    })();
+    if (window.innerWidth <= 768) {
+      window.location.replace('/mobil.html');
+    } else {
+      window.location.replace('/desktop.html');
+    }
   </script>
 </head>
-<body>
-</body>
+<body></body>
 </html>
