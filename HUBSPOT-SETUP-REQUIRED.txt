@@ -1,0 +1,7 @@
+HUBSPOT CONNECTION REQUIRED
+
+The uploaded HTML files did not include a HubSpot portal ID, form ID, embed code, or public HubSpot form URL.
+
+The visible forms currently use a working email fallback to desirae@startweb7.com.
+
+To send submissions into HubSpot, replace the fallback after supplying the HubSpot embed code or the portal ID and form ID.
