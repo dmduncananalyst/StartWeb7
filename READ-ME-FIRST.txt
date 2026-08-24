@@ -8,8 +8,3 @@ HOW TO OPEN THE STARTWEB7 WEBSITE
 Do not open index.html from inside the ZIP preview. A browser cannot reach the other website pages from the temporary ZIP location.
 
 When publishing the website, upload robots.txt and sitemap.xml with the HTML files so search engines can discover every page.
-
-HUBSPOT FORM
-
-The HubSpot contact form is connected on every page. Click OPEN CONTACT FORM under FORM FILL to display it.
-The former service-interest dropdown has been removed.

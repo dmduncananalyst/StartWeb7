@@ -83,19 +83,12 @@
   const menu = document.createElement('div');
   menu.className = 'sw7-nav-menu';
   menu.innerHTML = `
-    <div class="sw7-flat-section sw7-flat-website"><div class="sw7-flat-heading">WEBSITE DESIGN</div><div class="sw7-flat-links"><a href="landing-page.html">LANDING PAGE</a><a href="multi-page-website.html">MULTI-PAGE WEBSITE</a><a href="seo-optimized-website.html">SEO-OPTIMIZED WEBSITE</a></div></div>
-    <div class="sw7-flat-section sw7-flat-seo"><div class="sw7-flat-heading">SEO + AEO MANAGEMENT</div><div class="sw7-flat-links"><a href="essentials.html">ESSENTIALS</a><a href="competitive.html">COMPETITIVE</a></div></div>
+    <div class="sw7-sub sw7-website-group"><button class="sw7-sub-head" type="button">WEBSITE DESIGN</button><div class="sw7-sub-menu"><a href="landing-page.html">LANDING PAGE</a><a href="multi-page-website.html">MULTI-PAGE WEBSITE</a><a href="seo-optimized-website.html">SEO-OPTIMIZED WEBSITE</a></div></div>
+    <div class="sw7-sub sw7-seo-group"><button class="sw7-sub-head" type="button">SEO + AEO MANAGEMENT</button><div class="sw7-sub-menu"><a href="seo-aeo-management.html">SEO MANAGEMENT</a><a href="essentials.html">ESSENTIALS</a><a href="competitive.html">COMPETITIVE</a></div></div>
   `;
   wrapper.appendChild(menu);
-  /* services-submenu-mouseenter */
-  menu.querySelectorAll('.sw7-sub').forEach(function(group){
-    group.addEventListener('mouseenter',function(){
-      menu.querySelectorAll('.sw7-sub').forEach(function(other){other.classList.remove('open');});
-      group.classList.add('open');
-    });
-  });
   toggle.addEventListener('click', function (event) { event.stopPropagation(); wrapper.classList.toggle('open'); toggle.setAttribute('aria-expanded', wrapper.classList.contains('open') ? 'true' : 'false'); });
-  menu.querySelectorAll('.sw7-sub-head').forEach(button => { button.addEventListener('click', function (event) { event.stopPropagation(); const group=button.parentElement; const shouldOpen=!group.classList.contains('open'); menu.querySelectorAll('.sw7-sub.open').forEach(item=>item.classList.remove('open')); if(shouldOpen) group.classList.add('open'); }); });
+  menu.querySelectorAll('.sw7-sub-head').forEach(button => { button.addEventListener('click', function (event) { event.stopPropagation(); button.parentElement.classList.toggle('open'); }); });
   const contactLink = candidates.find(a => a.textContent.trim().toLowerCase() === 'contact');
   if (contactLink && !contactLink.closest('.sw7-contact-item')) {
     const contactWrapper = document.createElement('div');
