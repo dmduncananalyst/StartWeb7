@@ -15,12 +15,12 @@ if(oldLogo){var logo=oldLogo.cloneNode(true);logo.removeAttribute('class');logo.
 var name=document.createElement('span');name.textContent='StartWeb7';brand.appendChild(name);
 var mobileButton=document.createElement('button');mobileButton.className='sw7-mobile-toggle';mobileButton.type='button';mobileButton.setAttribute('aria-label','Open navigation menu');mobileButton.setAttribute('aria-expanded','false');mobileButton.innerHTML='<i></i><i></i><i></i>';
 var nav=document.createElement('nav');nav.className='sw7-clean-nav';nav.setAttribute('aria-label','Main navigation');
-nav.innerHTML='<a href="index.html">Home</a><a href="about.html">About</a><div class="sw7-clean-item"><div class="sw7-item-row"><a href="services.html">Services</a><button type="button" aria-label="Open Services menu" aria-expanded="false">›</button></div><div class="sw7-clean-menu"><div class="sw7-clean-sub"><button type="button" class="website" aria-expanded="false">WEBSITE DESIGN <b>›</b></button><div class="sw7-clean-submenu"><a href="landing-page.html">LANDING PAGE</a><a href="multi-page-website.html">MULTI-PAGE WEBSITE</a><a href="seo-optimized-website.html">SEO-OPTIMIZED WEBSITE</a></div></div><div class="sw7-clean-sub"><button type="button" class="seo" aria-expanded="false">SEO + AEO MANAGEMENT <b>›</b></button><div class="sw7-clean-submenu"><a href="essentials.html">ESSENTIALS</a><a href="competitive.html">COMPETITIVE</a></div></div></div></div><a href="reviews.html">Reviews</a><a href="faq.html">FAQ</a><div class="sw7-clean-item sw7-contact-item"><div class="sw7-item-row"><a href="contact.html">Contact</a><button type="button" aria-label="Open Contact menu" aria-expanded="false">›</button></div><div class="sw7-clean-menu"><a href="contact.html">CONTACT</a><a href="support.html">24/7 SUPPORT</a><a href="careers.html">CAREERS</a></div></div>';
+nav.innerHTML='<a href="index.html">Home</a><a href="about.html">About</a><div class="sw7-clean-item"><div class="sw7-item-row"><a href="services.html">Services</a><button type="button" aria-label="Open Services menu" aria-expanded="false">›</button></div><div class="sw7-clean-menu"><div class="sw7-clean-sub"><div class="sw7-sub-row website"><a href="services.html">WEBSITE DESIGN</a><button type="button" aria-label="Open Website Design menu" aria-expanded="false">›</button></div><div class="sw7-clean-submenu"><a href="landing-page.html">LANDING PAGE</a><a href="multi-page-website.html">MULTI-PAGE WEBSITE</a><a href="seo-optimized-website.html">SEO-OPTIMIZED WEBSITE</a></div></div><div class="sw7-clean-sub"><div class="sw7-sub-row seo"><a href="seo-aeo-management.html">SEO + AEO MANAGEMENT</a><button type="button" aria-label="Open SEO and AEO Management menu" aria-expanded="false">›</button></div><div class="sw7-clean-submenu"><a href="essentials.html">ESSENTIALS</a><a href="competitive.html">COMPETITIVE</a></div></div></div></div><a href="reviews.html">Reviews</a><a href="faq.html">FAQ</a><div class="sw7-clean-item sw7-contact-item"><div class="sw7-item-row"><a href="contact.html">Contact</a><button type="button" aria-label="Open Contact menu" aria-expanded="false">›</button></div><div class="sw7-clean-menu"><a href="contact.html">CONTACT</a><a href="support.html">24/7 SUPPORT</a><a href="careers.html">CAREERS</a></div></div>';
 document.querySelectorAll('header,nav,.topbar').forEach(function(el){el.classList.add('sw7-original-header-hidden')});
 header.append(brand,mobileButton,nav);document.body.insertBefore(header,document.body.firstChild);
 function closeSubs(){header.querySelectorAll('.open').forEach(function(el){el.classList.remove('open')});header.querySelectorAll('.sw7-clean-nav [aria-expanded]').forEach(function(el){el.setAttribute('aria-expanded','false')})}
 mobileButton.addEventListener('click',function(e){e.stopPropagation();var open=header.classList.toggle('mobile-open');mobileButton.setAttribute('aria-expanded',String(open));mobileButton.setAttribute('aria-label',open?'Close navigation menu':'Open navigation menu');document.body.classList.toggle('sw7-menu-open',open);if(!open)closeSubs()});
-header.querySelectorAll('.sw7-item-row>button,.sw7-clean-sub>button').forEach(function(button){button.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();var item=button.closest('.sw7-clean-item,.sw7-clean-sub');var open=item.classList.toggle('open');button.setAttribute('aria-expanded',String(open))})});
+header.querySelectorAll('.sw7-item-row>button,.sw7-sub-row>button').forEach(function(button){button.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();var item=button.closest('.sw7-clean-item,.sw7-clean-sub');var open=item.classList.toggle('open');button.setAttribute('aria-expanded',String(open))})});
 nav.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){header.classList.remove('mobile-open');document.body.classList.remove('sw7-menu-open')})});
 document.addEventListener('click',function(e){if(!header.contains(e.target))closeSubs()});
 document.addEventListener('keydown',function(e){if(e.key==='Escape'){header.classList.remove('mobile-open');document.body.classList.remove('sw7-menu-open');mobileButton.setAttribute('aria-expanded','false');closeSubs()}});
@@ -153,13 +153,13 @@ input,select,textarea,button{max-width:100%!important}
 /* Keep the glass-crack focal point centered on phones without changing desktop framing. */
 .sw7-page-multi-page-website #heroVideo{object-position:center center!important}
 
-/* Show the complete 24/7 response sequence as one self-contained phone scene. */
-.sw7-page-support .support-hero{height:calc(100svh - 118px)!important;min-height:362px!important;padding:12px 7vw!important;display:block!important;overflow:hidden!important}
+/* Keep the 24/7 response sequence compact; do not stretch the console into an empty full-screen panel. */
+.sw7-page-support .support-hero{height:auto!important;min-height:0!important;padding:12px 7vw 18px!important;display:block!important;overflow:hidden!important}
 .sw7-page-support .support-hero>div:first-child{display:none!important}
-.sw7-page-support .support-console{height:100%!important;min-height:0!important;padding:12px!important;box-shadow:none!important}
+.sw7-page-support .support-console{height:auto!important;min-height:0!important;padding:12px!important;box-shadow:none!important}
 .sw7-page-support .console-top{padding-bottom:8px!important}.sw7-page-support .console-label{font-size:8px!important}.sw7-page-support .console-clock{font-size:18px!important}.sw7-page-support .console-date{font-size:7px!important;margin-top:2px!important}
 .sw7-page-support .alert-stack{gap:6px!important;margin-top:9px!important}.sw7-page-support .support-alert{padding:8px 10px!important;border-left-width:3px!important;transform:none!important}.sw7-page-support .alert-time{font-size:6px!important}.sw7-page-support .alert-title{margin-top:3px!important;font-size:12px!important;line-height:1.05!important}.sw7-page-support .alert-state{margin-top:4px!important;font-size:7px!important;line-height:1.1!important;letter-spacing:.08em!important}.sw7-page-support .status-pulse{width:5px!important;height:5px!important;margin-right:5px!important}
-.sw7-page-support .console-foot{left:12px!important;right:12px!important;bottom:8px!important;font-size:6px!important;letter-spacing:.05em!important}
+.sw7-page-support .console-foot{position:static!important;left:auto!important;right:auto!important;bottom:auto!important;margin-top:10px!important;font-size:6px!important;letter-spacing:.05em!important}
 
 /* Essentials and Competitive hero copy plus live display fit in the first phone screen. */
 .sw7-page-essentials .essentials-hero,.sw7-page-competitive .essentials-hero{height:calc(100svh - 118px)!important;min-height:362px!important;padding:14px 7vw 12px!important;display:grid!important;grid-template-columns:1fr!important;grid-template-rows:auto minmax(0,1fr)!important;gap:8px!important;align-items:start!important;overflow:hidden!important}
@@ -212,6 +212,36 @@ input,select,textarea,button{max-width:100%!important}
 /* Careers: the entire word remains on one line inside a 320px phone. */
 .sw7-page-careers .careers-hero{height:calc(100svh - 118px)!important;min-height:362px!important;padding:20px 7vw!important}
 .sw7-page-careers .careers-title{width:100%!important;margin:0!important;font-size:50px!important;line-height:.9!important;letter-spacing:-.055em!important;white-space:nowrap!important}
+}
+
+/* Parent service labels navigate to their overview pages; the separate arrow opens child choices. */
+.sw7-sub-row{display:flex!important;align-items:stretch!important;width:100%!important;border-left:4px solid!important;box-sizing:border-box!important}
+.sw7-sub-row.website{border-color:#0784ff!important}.sw7-sub-row.seo{border-color:#00a978!important}
+.sw7-sub-row>a{display:flex!important;align-items:center!important;flex:1!important;padding:13px 10px!important;text-decoration:none!important;font:800 12px/1.2 Arial!important;letter-spacing:.04em!important}
+.sw7-sub-row.website>a{color:#0784ff!important}.sw7-sub-row.seo>a{color:#00a978!important}
+.sw7-sub-row>button{width:44px!important;border:0!important;background:transparent!important;color:inherit!important;font:800 20px/1 Arial!important;cursor:pointer!important}
+.sw7-sub-row:hover{background:#fff!important}
+@media(max-width:900px){
+.sw7-sub-row>a{min-height:48px!important;padding:14px 12px!important}
+.sw7-sub-row>button{width:48px!important;font-size:24px!important;transform:rotate(90deg)!important}
+.sw7-clean-sub.open>.sw7-sub-row>button{transform:rotate(-90deg)!important}
+
+/* SEO Management package chooser: two compact, readable choices with no split background. */
+.sw7-page-seo-aeo-management .levels{padding:24px 7vw!important;background:#ece9e2!important}
+.sw7-page-seo-aeo-management .levels-title{margin:0 0 16px!important;font-size:28px!important;line-height:.92!important}
+.sw7-page-seo-aeo-management .tier-grid{display:grid!important;grid-template-columns:1fr!important;gap:12px!important;min-height:0!important;background:transparent!important}
+.sw7-page-seo-aeo-management .tier,.sw7-page-seo-aeo-management .tier:nth-child(2){display:flex!important;justify-content:center!important;min-height:0!important;height:142px!important;padding:18px 20px!important;border-radius:12px!important;overflow:hidden!important;text-decoration:none!important;box-shadow:none!important}
+.sw7-page-seo-aeo-management .tier:nth-child(1){background:#dcecff!important;color:#152033!important}
+.sw7-page-seo-aeo-management .tier:nth-child(2){background:#15181d!important;color:#fff!important}
+.sw7-page-seo-aeo-management .tier h3,.sw7-page-seo-aeo-management .tier:nth-child(2) h3{margin:0 0 12px!important;font-size:30px!important;line-height:1!important;white-space:nowrap!important}
+.sw7-page-seo-aeo-management .tier:nth-child(1) h3{color:#087ef5!important}
+.sw7-page-seo-aeo-management .tier:nth-child(2) h3{color:#00c28b!important}
+.sw7-page-seo-aeo-management .tier p,.sw7-page-seo-aeo-management .tier:nth-child(2) p{margin:0!important;max-width:none!important;font-size:15px!important;line-height:1.35!important;font-weight:700!important}
+.sw7-page-seo-aeo-management .tier:nth-child(1) p{color:#263d56!important}
+.sw7-page-seo-aeo-management .tier:nth-child(2) p{color:#d4dae2!important}
+
+/* Keep MANAGEMENT intact on a 320px phone. The explicit BR still separates the two title lines. */
+.sw7-page-seo-aeo-management .management-title{font-size:clamp(31px,10.3vw,42px)!important;white-space:nowrap!important;word-break:normal!important;overflow-wrap:normal!important;letter-spacing:-.05em!important}
 }
 `;document.head.appendChild(style)
 }
