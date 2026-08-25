@@ -249,3 +249,33 @@ input,select,textarea,button{max-width:100%!important}
 }
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',build);else build()
 })();
+
+/* StartWeb7 HubSpot contact form: replace the former email-app fallback on every page. */
+(function(){
+  function installHubSpotForm(){
+    var shell=document.getElementById('quickForm');
+    if(!shell||shell.querySelector('.hs-form-frame')) return;
+
+    shell.innerHTML='';
+    var frame=document.createElement('div');
+    frame.className='hs-form-frame';
+    frame.setAttribute('data-region','na2');
+    frame.setAttribute('data-form-id','47546dcb-3db5-4d2a-a0a9-b76952b44c90');
+    frame.setAttribute('data-portal-id','247103073');
+    shell.appendChild(frame);
+
+    if(!document.querySelector('script[data-startweb7-hubspot-form]')){
+      var script=document.createElement('script');
+      script.src='https://js-na2.hsforms.net/forms/embed/247103073.js';
+      script.defer=true;
+      script.setAttribute('data-startweb7-hubspot-form','');
+      document.head.appendChild(script);
+    }
+  }
+
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded',installHubSpotForm);
+  }else{
+    installHubSpotForm();
+  }
+})();
