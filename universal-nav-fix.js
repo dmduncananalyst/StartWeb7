@@ -250,6 +250,53 @@ input,select,textarea,button{max-width:100%!important}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',build);else build()
 })();
 
+/* Keep Google's reCAPTCHA image challenge fully inside narrow phone screens.
+   The challenge is injected after page load, so watch for it and scale only
+   the challenge window (not the normal checkbox/badge). */
+(function(){
+  function fitRecaptchaChallenge(){
+    var frames=document.querySelectorAll('iframe[title*="challenge" i],iframe[src*="recaptcha"][title*="recaptcha" i]');
+    frames.forEach(function(frame){
+      var title=(frame.getAttribute('title')||'').toLowerCase();
+      if(title.indexOf('challenge')===-1) return;
+      var holder=frame.parentElement;
+      if(!holder) return;
+
+      if(window.innerWidth<=520){
+        var naturalWidth=frame.offsetWidth||400;
+        var available=Math.max(240,window.innerWidth-16);
+        var scale=Math.min(1,available/naturalWidth);
+        holder.style.setProperty('position','fixed','important');
+        holder.style.setProperty('left','50%','important');
+        holder.style.setProperty('right','auto','important');
+        holder.style.setProperty('top','50%','important');
+        holder.style.setProperty('bottom','auto','important');
+        holder.style.setProperty('transform','translate(-50%,-50%) scale('+scale+')','important');
+        holder.style.setProperty('transform-origin','center center','important');
+        holder.style.setProperty('max-width','none','important');
+      }else{
+        holder.style.removeProperty('position');
+        holder.style.removeProperty('left');
+        holder.style.removeProperty('right');
+        holder.style.removeProperty('top');
+        holder.style.removeProperty('bottom');
+        holder.style.removeProperty('transform');
+        holder.style.removeProperty('transform-origin');
+        holder.style.removeProperty('max-width');
+      }
+    });
+  }
+
+  var recaptchaObserver=new MutationObserver(fitRecaptchaChallenge);
+  function startRecaptchaFit(){
+    recaptchaObserver.observe(document.documentElement,{childList:true,subtree:true});
+    fitRecaptchaChallenge();
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',startRecaptchaFit);
+  else startRecaptchaFit();
+  window.addEventListener('resize',fitRecaptchaChallenge);
+})();
+
 /* StartWeb7 HubSpot contact form: replace the former email-app fallback on every page. */
 (function(){
   function installHubSpotForm(){
