@@ -63,13 +63,13 @@
     document.body.appendChild(copyright);
   }
   const existingCandidates = [...document.querySelectorAll('header nav a, header .nav a, body > .page > nav a, .topbar .service-nav a, .nav a')];
-  const existingServiceLink = existingCandidates.find(a => a.textContent.trim().toLowerCase() === 'services');
+  const existingServiceLink = existingCandidates.find(a => a.textContent.trim().toLowerCase().startsWith('services'));
   if (!existingServiceLink || existingServiceLink.closest('.sw7-nav-item')) return;
   const navLinks = existingServiceLink.parentElement;
-  navLinks.innerHTML = '<a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="reviews.html">Reviews</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a>';
+  navLinks.innerHTML = '<a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><a href="reviews.html">Reviews</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a>';
   navLinks.classList.add('sw7-nav-links');
   const candidates = [...navLinks.querySelectorAll('a')];
-  const serviceLink = candidates.find(a => a.textContent.trim().toLowerCase() === 'services');
+  const serviceLink = candidates.find(a => a.textContent.trim().toLowerCase().startsWith('services'));
   const wrapper = document.createElement('div');
   wrapper.className = 'sw7-nav-item';
   serviceLink.parentNode.insertBefore(wrapper, serviceLink);
@@ -83,8 +83,8 @@
   const menu = document.createElement('div');
   menu.className = 'sw7-nav-menu';
   menu.innerHTML = `
-    <div class="sw7-sub sw7-website-group"><button class="sw7-sub-head" type="button">WEBSITE DESIGN</button><div class="sw7-sub-menu"><a href="business-website.html">BUSINESS WEBSITE</a><a href="seo-optimized-website.html">SEO-OPTIMIZED WEBSITE</a></div></div>
-    <div class="sw7-sub sw7-seo-group"><button class="sw7-sub-head" type="button">SEO + AEO MANAGEMENT</button><div class="sw7-sub-menu"><a href="seo-aeo-management.html">SEO MANAGEMENT</a><a href="essentials.html">ESSENTIALS</a><a href="competitive.html">COMPETITIVE</a></div></div>
+    <div class="sw7-sub sw7-website-group"><button class="sw7-sub-head" type="button">WEBSITE DESIGN <span class="sw7-down-arrow" aria-hidden="true">▼</span></button><div class="sw7-sub-menu"><a href="business-website.html">BUSINESS WEBSITE</a><a href="seo-optimized-website.html">SEO-OPTIMIZED WEBSITE</a></div></div>
+    <div class="sw7-sub sw7-seo-group"><button class="sw7-sub-head" type="button">SEO + AEO MANAGEMENT <span class="sw7-down-arrow" aria-hidden="true">▼</span></button><div class="sw7-sub-menu"><a href="essentials.html">ESSENTIALS</a><a href="competitive.html">COMPETITIVE</a></div></div>
   `;
   wrapper.appendChild(menu);
   toggle.addEventListener('click', function (event) { event.stopPropagation(); wrapper.classList.toggle('open'); toggle.setAttribute('aria-expanded', wrapper.classList.contains('open') ? 'true' : 'false'); });
