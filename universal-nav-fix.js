@@ -83,7 +83,7 @@
   const menu = document.createElement('div');
   menu.className = 'sw7-nav-menu';
   menu.innerHTML = `
-    <div class="sw7-sub sw7-website-group"><button class="sw7-sub-head" type="button">WEBSITE DESIGN</button><div class="sw7-sub-menu"><a href="landing-page.html">LANDING PAGE</a><a href="multi-page-website.html">MULTI-PAGE WEBSITE</a><a href="seo-optimized-website.html">SEO-OPTIMIZED WEBSITE</a></div></div>
+    <div class="sw7-sub sw7-website-group"><button class="sw7-sub-head" type="button">WEBSITE DESIGN</button><div class="sw7-sub-menu"><a href="business-website.html">BUSINESS WEBSITE</a><a href="seo-optimized-website.html">SEO-OPTIMIZED WEBSITE</a></div></div>
     <div class="sw7-sub sw7-seo-group"><button class="sw7-sub-head" type="button">SEO + AEO MANAGEMENT</button><div class="sw7-sub-menu"><a href="seo-aeo-management.html">SEO MANAGEMENT</a><a href="essentials.html">ESSENTIALS</a><a href="competitive.html">COMPETITIVE</a></div></div>
   `;
   wrapper.appendChild(menu);
