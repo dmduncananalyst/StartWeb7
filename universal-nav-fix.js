@@ -19,7 +19,7 @@
     const nav = document.createElement('nav');
     nav.className = 'sw7-clean-nav';
     nav.setAttribute('aria-label', 'Main navigation');
-    nav.innerHTML = '<a href="index.html">Home</a><a href="about.html">About</a><div class="sw7-clean-item"><a class="sw7-clean-trigger" href="services.html">Services <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><div class="sw7-clean-menu"><div class="sw7-clean-sub"><button class="website" type="button">WEBSITE DESIGN <span aria-hidden="true">▼</span></button><div class="sw7-clean-submenu"><a href="business-website.html">BUSINESS WEBSITE</a><a href="seo-optimized-website.html">SEO-OPTIMIZED WEBSITE</a></div></div><div class="sw7-clean-sub"><button class="seo" type="button">SEO + AEO MANAGEMENT <span aria-hidden="true">▼</span></button><div class="sw7-clean-submenu"><a href="essentials.html">ESSENTIALS</a><a href="competitive.html">COMPETITIVE</a></div></div></div></div><a href="reviews.html">Reviews</a><a href="faq.html">FAQ</a><div class="sw7-clean-item sw7-contact-item"><a class="sw7-clean-trigger" href="contact.html">Contact <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><div class="sw7-clean-menu"><a href="contact.html">CONTACT</a><a href="support.html">24/7 SUPPORT</a><a href="careers.html">CAREERS</a></div></div>';
+    nav.innerHTML = '<a href="index.html">Home</a><a href="about.html">About</a><div class="sw7-clean-item"><a class="sw7-clean-trigger" href="services.html">Services <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><div class="sw7-clean-menu"><div class="sw7-clean-sub"><button class="website" type="button">WEBSITE DESIGN <span aria-hidden="true">▼</span></button><div class="sw7-clean-submenu"><a href="business-website.html">BUSINESS WEBSITE</a><a href="seo-optimized-website.html">SEO-OPTIMIZED WEBSITE</a></div></div><div class="sw7-clean-sub"><button class="seo" type="button">SEO + AEO MANAGEMENT <span aria-hidden="true">▼</span></button><div class="sw7-clean-submenu"><a href="essentials.html">ESSENTIALS</a><a href="competitive.html">COMPETITIVE</a></div></div></div></div><div class="sw7-clean-item sw7-industries-item"><a class="sw7-clean-trigger" href="industries.html">Industries <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><div class="sw7-clean-menu"><a href="real-estate-agents.html">REAL ESTATE</a><a href="med-spas.html">MED SPAS</a><a href="cosmetic-clinics.html">COSMETIC CLINICS</a></div></div><a href="reviews.html">Reviews</a><a href="faq.html">FAQ</a><div class="sw7-clean-item sw7-contact-item"><a class="sw7-clean-trigger" href="contact.html">Contact <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><div class="sw7-clean-menu"><a href="contact.html">CONTACT</a><a href="support.html">24/7 SUPPORT</a><a href="careers.html">CAREERS</a></div></div>';
     header.append(brand, nav);
     document.querySelectorAll('body > .page > .nav, body > .nav').forEach(function (oldNav) { oldNav.remove(); });
     document.body.insertBefore(header, document.body.firstChild);
@@ -35,6 +35,17 @@
       @media(max-width:900px){body{padding-top:118px!important}.sw7-universal-header{height:118px!important;display:block!important;padding:0!important;overflow:visible!important}.sw7-universal-brand{height:70px!important;width:max-content!important;margin:0 auto!important;justify-content:center!important;gap:8px!important}.sw7-universal-brand img{width:82px!important;height:52px!important}.sw7-universal-brand span{font-size:14px!important}.sw7-clean-nav{position:absolute!important;inset:70px 0 auto!important;width:100%!important;height:48px!important;margin:0!important;padding:0 5px!important;background:#fff!important;display:flex!important;align-items:center!important;justify-content:space-between!important;gap:0!important;overflow:visible!important;box-sizing:border-box!important;border-top:1px solid #e5e5e5!important}.sw7-clean-nav>a,.sw7-clean-item{display:flex!important;align-items:center!important;justify-content:center!important;width:auto!important;height:47px!important;min-height:47px!important;min-width:0!important;flex:0 1 auto!important}.sw7-clean-nav>a,.sw7-clean-trigger{display:flex!important;align-items:center!important;justify-content:center!important;min-height:47px!important;font:800 clamp(8px,2.55vw,11px)/1 Arial,sans-serif!important;text-transform:uppercase!important;letter-spacing:0!important;text-align:center!important}.sw7-down-arrow{margin-left:2px!important;font-size:7px!important}.sw7-clean-menu{position:fixed!important;left:6px!important;right:6px!important;top:112px!important;width:auto!important;min-width:0!important;max-height:calc(100dvh - 118px)!important;overflow-y:auto!important}.sw7-contact-item>.sw7-clean-menu{left:6px!important;right:6px!important}.sw7-clean-submenu{position:static!important;display:none!important;opacity:1!important;visibility:visible!important;transform:none!important;box-shadow:none!important;padding:0 0 6px 15px!important}.sw7-clean-sub.open>.sw7-clean-submenu{display:block!important}}
     `;
     document.head.appendChild(fallbackStyle);
+    const industriesNavStyle = document.createElement('style');
+    industriesNavStyle.textContent = `
+      .sw7-clean-nav{grid-template-columns:repeat(7,1fr)!important;width:770px!important}
+      .sw7-industries-item>.sw7-clean-menu{left:0!important;right:auto!important;min-width:235px!important}
+      @media(max-width:900px){
+        .sw7-clean-nav{width:100%!important}
+        .sw7-clean-nav>a,.sw7-clean-trigger{font-size:clamp(6px,2.05vw,9px)!important}
+        .sw7-industries-item>.sw7-clean-menu{position:fixed!important;left:6px!important;right:6px!important;top:112px!important;width:auto!important;min-width:0!important}
+      }
+    `;
+    document.head.appendChild(industriesNavStyle);
     header.querySelectorAll('.sw7-clean-trigger').forEach(function (trigger) {
       trigger.addEventListener('click', function (event) {
         if (window.matchMedia('(max-width:900px)').matches) {
@@ -214,4 +225,14 @@
     });
   }
   document.addEventListener('click', () => { wrapper.classList.remove('open'); toggle.setAttribute('aria-expanded', 'false'); });
+  if (document.querySelector('.journey-demo')) {
+    const industryActionStyles = document.createElement('link');
+    industryActionStyles.rel = 'stylesheet';
+    industryActionStyles.href = 'industry-live-actions.css';
+    document.head.appendChild(industryActionStyles);
+    const industryDistinctStyles = document.createElement('link');
+    industryDistinctStyles.rel = 'stylesheet';
+    industryDistinctStyles.href = 'industry-distinct-visuals.css';
+    document.head.appendChild(industryDistinctStyles);
+  }
 })();
