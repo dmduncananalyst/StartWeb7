@@ -143,7 +143,7 @@
     brandName.textContent = 'StartWeb7';
     brandLogo.appendChild(brandName);
   }
-  const copyrightText = '© 2026 StartWeb7. All Rights Reserved.';
+  const copyrightText = '2026 StartWeb7 All Rights Reserved';
   const copyrightMatches = [...document.querySelectorAll('body *')].filter(function (element) {
     return element.children.length === 0 && /all rights reserved/i.test(element.textContent || '');
   });
