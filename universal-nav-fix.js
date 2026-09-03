@@ -19,7 +19,7 @@
     const nav = document.createElement('nav');
     nav.className = 'sw7-clean-nav';
     nav.setAttribute('aria-label', 'Main navigation');
-    nav.innerHTML = '<a href="index.html">Home</a><a href="about.html">About</a><div class="sw7-clean-item"><a class="sw7-clean-trigger" href="services.html">Services <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><div class="sw7-clean-menu"><div class="sw7-clean-sub"><button class="website" type="button">WEBSITE DESIGN <span aria-hidden="true">▼</span></button><div class="sw7-clean-submenu"><a href="landing-page.html">LANDING PAGE</a><a href="business-website.html">BUSINESS WEBSITE</a><a href="seo-optimized-website.html">SEO-OPTIMIZED WEBSITE</a></div></div><div class="sw7-clean-sub"><button class="seo" type="button">SEO + AEO MANAGEMENT <span aria-hidden="true">▼</span></button><div class="sw7-clean-submenu"><a href="essentials.html">ESSENTIALS</a><a href="competitive.html">COMPETITIVE</a></div></div></div></div><div class="sw7-clean-item sw7-industries-item"><a class="sw7-clean-trigger" href="industries.html">Industries <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><div class="sw7-clean-menu"><a href="real-estate-agents.html">REAL ESTATE</a><a href="med-spas.html">MED SPAS</a><a href="cosmetic-clinics.html">COSMETIC CLINICS</a></div></div><a href="reviews.html">Reviews</a><a href="faq.html">FAQ</a><div class="sw7-clean-item sw7-contact-item"><a class="sw7-clean-trigger" href="contact.html">Contact <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><div class="sw7-clean-menu"><a href="contact.html">CONTACT</a><a href="support.html">24/7 SUPPORT</a><a href="careers.html">CAREERS</a></div></div>';
+    nav.innerHTML = '<a href="index.html">Home</a><a href="about.html">About</a><div class="sw7-clean-item"><a class="sw7-clean-trigger" href="services.html">Services <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><div class="sw7-clean-menu"><div class="sw7-clean-sub"><button class="website" type="button">WEBSITE DESIGN <span aria-hidden="true">▼</span></button><div class="sw7-clean-submenu"><a href="landing-page.html">LANDING PAGE</a><a href="business-website.html">BUSINESS WEBSITE</a><a href="seo-optimized-website.html">SEO-OPTIMIZED WEBSITE</a></div></div><div class="sw7-clean-sub"><button class="seo" type="button">SEO + AEO MANAGEMENT <span aria-hidden="true">▼</span></button><div class="sw7-clean-submenu"><a href="essentials.html">ESSENTIALS</a><a href="competitive.html">COMPETITIVE</a></div></div></div></div><div class="sw7-clean-item sw7-industries-item"><a class="sw7-clean-trigger" href="industries.html">Industries <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><div class="sw7-clean-menu"><a href="real-estate-agents.html">REAL ESTATE</a><a href="med-spas.html">MED SPAS</a><a href="cosmetic-clinics.html">COSMETIC CLINICS</a><a href="auto-body-shops.html">AUTO BODY SHOPS</a></div></div><a href="reviews.html">Reviews</a><a href="faq.html">FAQ</a><div class="sw7-clean-item sw7-contact-item"><a class="sw7-clean-trigger" href="contact.html">Contact <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><div class="sw7-clean-menu"><a href="support.html">24/7 SUPPORT</a><a href="careers.html">CAREERS</a></div></div>';
     header.append(brand, nav);
     document.querySelectorAll('body > .page > .nav, body > .nav').forEach(function (oldNav) { oldNav.remove(); });
     document.body.insertBefore(header, document.body.firstChild);
@@ -61,6 +61,43 @@
         button.closest('.sw7-clean-sub').classList.toggle('open');
       });
     });
+    const servicesItem = header.querySelector('.sw7-clean-item');
+    if (servicesItem) {
+      let servicesHoverTimer;
+      servicesItem.addEventListener('mouseenter', function () {
+        window.clearTimeout(servicesHoverTimer);
+      });
+      servicesItem.querySelectorAll('.sw7-clean-sub').forEach(function (subsection) {
+        subsection.addEventListener('mouseenter', function () {
+          if (window.matchMedia('(hover:hover) and (pointer:fine)').matches) {
+            window.clearTimeout(servicesHoverTimer);
+            servicesItem.classList.add('open');
+            subsection.classList.add('open');
+          }
+        });
+      });
+      servicesItem.addEventListener('mouseleave', function () {
+        servicesHoverTimer = window.setTimeout(function () {
+          servicesItem.classList.remove('open');
+          servicesItem.querySelectorAll('.sw7-clean-sub.open').forEach(function (subsection) {
+            subsection.classList.remove('open');
+          });
+        }, 350);
+      });
+    }
+    const contactItem = header.querySelector('.sw7-contact-item');
+    if (contactItem) {
+      let contactHoverTimer;
+      contactItem.addEventListener('mouseenter', function () {
+        window.clearTimeout(contactHoverTimer);
+        if (window.matchMedia('(hover:hover) and (pointer:fine)').matches) contactItem.classList.add('open');
+      });
+      contactItem.addEventListener('mouseleave', function () {
+        contactHoverTimer = window.setTimeout(function () {
+          contactItem.classList.remove('open');
+        }, 350);
+      });
+    }
     document.addEventListener('click', function () { header.querySelectorAll('.open').forEach(function (item) { item.classList.remove('open'); }); });
     return;
   }
@@ -205,7 +242,7 @@
     contactWrapper.appendChild(contactToggle);
     const contactMenu = document.createElement('div');
     contactMenu.className = 'sw7-contact-menu';
-    contactMenu.innerHTML = '<a href="contact.html">CONTACT</a><a href="support.html">24/7 SUPPORT</a><a href="careers.html">CAREERS</a>';
+    contactMenu.innerHTML = '<a href="support.html">24/7 SUPPORT</a><a href="careers.html">CAREERS</a>';
     contactWrapper.appendChild(contactMenu);
     contactLink.addEventListener('click', function (event) {
       if (window.matchMedia('(max-width:820px)').matches) {
