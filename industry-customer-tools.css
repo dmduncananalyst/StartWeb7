@@ -1,0 +1,104 @@
+.customer-tool{padding:clamp(64px,8vw,118px) clamp(24px,7vw,110px);font-family:Arial,Helvetica,sans-serif;color:#0a1422;background:#f4f6f8}
+.customer-tool *{box-sizing:border-box}
+.tool-intro{max-width:760px;margin-bottom:42px}
+.tool-kicker{display:block;margin-bottom:13px;color:#087cff;font-size:.76rem;font-weight:900;letter-spacing:.18em}
+.tool-intro h2{margin:0 0 18px;font-size:clamp(2.35rem,5.8vw,5.7rem);line-height:.9;letter-spacing:-.055em}
+.tool-intro p{max-width:650px;margin:0;color:#52606d;font-size:1.08rem;line-height:1.65}
+.tool-shell{max-width:1180px;margin:auto}
+.tool-card{background:#fff;border:1px solid #dce2e8;box-shadow:0 22px 70px rgba(9,20,34,.1)}
+.tool-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;padding:clamp(24px,4vw,52px)}
+.tool-field{display:flex;flex-direction:column;gap:9px;min-width:0}
+.tool-field.full{grid-column:1/-1}
+.tool-field label,.tool-label{font-size:.76rem;font-weight:900;letter-spacing:.11em;text-transform:uppercase}
+.tool-field input,.tool-field select,.tool-field textarea{width:100%;min-height:52px;border:1px solid #cbd3dc;border-radius:0;background:#fff;color:#111;font:600 1rem/1.4 Arial;padding:13px 15px}
+.tool-field textarea{min-height:112px;resize:vertical}
+.tool-field input[readonly]{background:#edf5ff;color:#0a1422;font-weight:900}
+.field-help{margin:-10px 0 0;color:#596673;font-size:.84rem;line-height:1.55}
+.tool-field input:focus,.tool-field select:focus,.tool-field textarea:focus{outline:3px solid rgba(8,124,255,.18);border-color:#087cff}
+.choice-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.choice-grid label{display:flex;align-items:center;gap:9px;min-height:52px;padding:13px;border:1px solid #cad3dc;background:#fff;font-size:.86rem;font-weight:800;cursor:pointer}
+.choice-grid input{width:18px;height:18px;margin:0;accent-color:#087cff}
+.tool-actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center;grid-column:1/-1}
+.tool-button{min-height:51px;border:0;padding:14px 21px;background:#087cff;color:#fff;font-size:.76rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;cursor:pointer}
+.tool-button.secondary{background:#0a1422}
+.tool-button.ghost{border:1px solid #aeb9c4;background:#fff;color:#0a1422}
+.tool-note{grid-column:1/-1;margin:0;padding:15px 17px;border-left:4px solid #087cff;background:#edf5ff;color:#384756;font-size:.84rem;line-height:1.55}
+.tool-result{display:none;grid-column:1/-1;padding:22px;border:1px solid #b9e6d6;background:#effbf7;color:#123e31;line-height:1.55}
+.tool-result.show{display:block}
+.file-control{display:flex;flex-wrap:wrap;align-items:center;gap:12px}
+.file-control input[type=file]{position:absolute;width:1px;height:1px;overflow:hidden;opacity:0}
+.file-button{display:inline-flex;align-items:center;min-height:48px;padding:12px 17px;background:#0a1422;color:#fff;font-size:.75rem;font-weight:900;letter-spacing:.08em;cursor:pointer}
+.file-name{color:#596673;font-size:.88rem}
+.photo-preview{display:none;width:150px;height:112px;margin-top:12px;object-fit:cover;border:1px solid #cad3dc}
+.photo-preview.show{display:block}
+.tool-cta{padding:42px clamp(24px,4vw,52px);background:#071323;color:#fff;display:flex;justify-content:space-between;gap:24px;align-items:center}
+.tool-cta h3{margin:0 0 8px;font-size:clamp(1.65rem,3vw,3rem);line-height:1}
+.tool-cta p{margin:0;color:#b7c2cf;line-height:1.5}
+.tool-cta a{flex:none;color:#fff;font-size:.8rem;font-weight:900;letter-spacing:.1em;text-decoration:underline;text-underline-offset:7px}
+
+/* Real estate: bright listing workspace */
+.real-estate-tool{background:#f3f0e9}
+.real-estate-tool .tool-card{display:grid;grid-template-columns:1.1fr .9fr;border-top:7px solid #087cff}
+.real-estate-tool .match-panel{padding:clamp(24px,4vw,52px);background:#0a1422;color:#fff}
+.match-panel .match-count{font-size:clamp(4rem,8vw,8rem);font-weight:900;line-height:1;color:#2f86ff}
+.match-panel h3{margin:16px 0 10px;font-size:1.7rem}
+.match-panel p{color:#b8c3cf;line-height:1.6}
+.match-points{display:grid;gap:12px;margin-top:28px}
+.match-points span{padding:13px 0;border-top:1px solid #26364b;font-size:.8rem;font-weight:900;letter-spacing:.08em}
+
+/* Med spa: calm clinical intake */
+.med-spa-tool{background:#edf7f5}
+.med-spa-tool .tool-card{border-radius:28px;overflow:hidden;border-color:#cae2dc}
+.med-spa-tool .tool-form{background:linear-gradient(135deg,#fff 0%,#f8fcfb 100%)}
+.med-spa-tool .tool-button{background:#147866;border-radius:999px}
+.med-spa-tool .tool-button.secondary{background:#193933}
+.med-spa-tool .tool-note{border-color:#147866;background:#e7f6f1}
+.med-spa-tool .tool-field input,.med-spa-tool .tool-field select,.med-spa-tool .tool-field textarea{border-radius:12px}
+
+/* Cosmetic: private consultation dossier */
+.cosmetic-tool{background:#161318;color:#fff}
+.cosmetic-tool .tool-intro p{color:#c7bdc9}
+.cosmetic-tool .tool-kicker{color:#e0a7c1}
+.cosmetic-tool .tool-card{background:#f9f6f8;border:0;border-radius:4px;overflow:hidden;color:#241b24}
+.cosmetic-tool .tool-form{border-left:12px solid #b95e86}
+.cosmetic-tool .tool-button{background:#9e426d}
+.cosmetic-tool .tool-note{border-color:#b95e86;background:#f6e9ef}
+
+/* Collision: repair order */
+.collision-tool{background:#dfe4e8}
+.collision-tool .tool-card{border:3px solid #1c2732;box-shadow:10px 10px 0 #087cff}
+.collision-tool .tool-intro h2{font-style:italic;text-transform:uppercase}
+.collision-tool .tool-button{background:#e2362c}
+.collision-tool .tool-note{border-color:#e2362c;background:#fff1f0}
+
+/* Pool: visual selection board */
+.pool-tool{background:linear-gradient(180deg,#dff6ff,#f7fcff)}
+.pool-tool .tool-card{border-radius:34px;overflow:hidden;border:0}
+.pool-tool .tool-form{background:#fff}
+.pool-tool .choice-grid label{border-radius:14px;background:#f4fbff;border-color:#b8ddea}
+.pool-tool .tool-button{background:#007eae;border-radius:999px}
+.pool-tool .pool-summary{min-height:240px;padding:32px;background:linear-gradient(150deg,#007eae,#00a8bf);color:#fff}
+.pool-summary h3{margin:0 0 18px;font-size:2rem}
+.pool-summary ul{margin:0;padding-left:19px;line-height:2}
+
+/* Contractors: project brief */
+.contractor-tool{background:#ece8df}
+.contractor-tool .tool-card{border-top:10px solid #db8a24}
+.contractor-tool .tool-intro h2{text-transform:uppercase}
+.contractor-tool .tool-form{background-image:linear-gradient(#fff 31px,#edf0f2 32px);background-size:100% 32px}
+.contractor-tool .tool-field,.contractor-tool .tool-actions,.contractor-tool .tool-note,.contractor-tool .tool-result{background:#fff}
+.contractor-tool .tool-button{background:#c66e12}
+
+@media(max-width:760px){
+  .customer-tool{padding:58px 20px}
+  .tool-form{grid-template-columns:1fr;padding:23px}
+  .tool-field.full{grid-column:auto}
+  .choice-grid{grid-template-columns:1fr 1fr}
+  .tool-actions,.tool-note,.tool-result{grid-column:auto}
+  .tool-cta{display:block}
+  .tool-cta a{display:inline-block;margin-top:23px}
+  .real-estate-tool .tool-card{grid-template-columns:1fr}
+  .real-estate-tool .match-panel{order:-1}
+  .collision-tool .tool-card{box-shadow:6px 6px 0 #087cff}
+}
+@media(max-width:430px){.choice-grid{grid-template-columns:1fr}.tool-intro h2{font-size:2.55rem}.file-button{width:100%;justify-content:center}}

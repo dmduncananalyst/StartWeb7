@@ -1,6 +1,6 @@
 (function () {
   const industries = [
-    { label: 'REAL ESTATE', query: 'real estate agent los angeles', old: '4. Compass Realty Group' },
+    { label: 'REAL ESTATE', query: 'real estate agent los angeles', old: '4. Oak & Key Realty' },
     { label: 'MED SPA', query: 'botox near me', old: '5. GlowMed Spa' },
     { label: 'COSMETIC CLINIC', query: 'cosmetic clinic beverly hills', old: '6. Radiance Clinic' }
   ];
