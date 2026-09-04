@@ -91,10 +91,23 @@
       if(preview){preview.classList.remove('show');preview.removeAttribute('src');}
       selected.filter(function(item){return item.type.indexOf('image/')===0;}).forEach(function(item,index){var reader=new FileReader();reader.onload=function(e){form._photoData[index]=e.target.result;if(index===0&&preview){preview.src=e.target.result;preview.classList.add('show');}};reader.readAsDataURL(item);});
     });}
-    form.addEventListener('submit',function(e){e.preventDefault();});
+    form.addEventListener('submit',function(e){e.preventDefault();var result=form.querySelector('.tool-result');if(result){result.classList.add('show');result.scrollIntoView({behavior:'smooth',block:'nearest'});}});
     var dl=form.querySelector('[data-download]');if(dl)dl.addEventListener('click',function(){download(form);});
     var clear=form.querySelector('[data-clear]');if(clear)clear.addEventListener('click',function(){form.reset();form._photoData=[];var p=form.querySelector('.photo-preview');if(p){p.classList.remove('show');p.removeAttribute('src');}var n=form.querySelector('.file-name'),f=form.querySelector('input[type=file]');if(n)n.textContent=f&&f.multiple?'No photos selected':'No photo selected';var result=form.querySelector('.tool-result');if(result)result.classList.remove('show');});
     var show=form.querySelector('[data-show-result]');if(show)show.addEventListener('click',function(){var result=form.querySelector('.tool-result');if(result){result.classList.add('show');result.scrollIntoView({behavior:'smooth',block:'nearest'});}});
-    if(form.classList.contains('pool-builder'))form.addEventListener('change',function(){var list=form.querySelector('.pool-summary ul');if(!list)return;var rows=values(form).slice(0,8);list.innerHTML=rows.length?rows.map(function(r){return '<li><strong>'+esc(r[0])+':</strong> '+esc(r[1])+'</li>';}).join(''):'<li>Your pool selections will appear here.</li>';});
+  });
+  var recoveryData={
+    hydrafacial:{title:'HydraFacial',summary:'A refreshing treatment with little interruption to the day.',day:'Skin may look fresh and hydrated immediately.',next:"Keep the routine gentle and follow the provider's instructions.",routine:'Most clients return to normal activities right away.',results:'A hydrated glow may be visible immediately.'},
+    'chemical-peel':{title:'Chemical Peel',summary:'A resurfacing option with recovery that varies by peel depth.',day:'Skin may feel warm, tight, or sensitive.',next:'Redness or visible peeling may begin depending on the treatment.',routine:'Timing varies; lighter peels often require less downtime.',results:'Skin texture and tone continue changing as the peeling period ends.'},
+    microneedling:{title:'Microneedling',summary:'A collagen-focused treatment with a short visible recovery period.',day:'Redness and sensitivity are common immediately afterward.',next:'The skin may remain pink, dry, or slightly tender.',routine:'Many clients resume their routine within a few days.',results:'Visible changes develop gradually over the following weeks.'},
+    injectables:{title:'Injectables',summary:'An appointment-friendly option with minimal planned downtime.',day:'Small bumps, redness, or tenderness may be visible.',next:'Most temporary treatment-site effects begin settling.',routine:'Many clients return to normal activities the same day.',results:'The timing of visible results depends on the injectable selected.'},
+    laser:{title:'Laser Treatment',summary:'A customizable treatment whose recovery depends on intensity and area.',day:'Warmth, redness, or sensitivity may be noticeable.',next:'The treated area may remain sensitive as recovery begins.',routine:'Downtime varies considerably by the type of laser treatment.',results:'Changes may continue developing over several days or weeks.'}
+  };
+  document.querySelectorAll('[data-recovery-explorer]').forEach(function(explorer){
+    explorer.querySelectorAll('[data-recovery-treatment]').forEach(function(button){button.addEventListener('click',function(){
+      var data=recoveryData[button.getAttribute('data-recovery-treatment')];if(!data)return;
+      explorer.querySelectorAll('[data-recovery-treatment]').forEach(function(item){item.classList.toggle('active',item===button);});
+      ['title','summary','day','next','routine','results'].forEach(function(key){var target=explorer.querySelector('[data-recovery-'+key+']');if(target)target.textContent=data[key];});
+    });});
   });
 })();

@@ -44,6 +44,8 @@
 .tool-cta h3{margin:0 0 8px;font-size:clamp(1.65rem,3vw,3rem);line-height:1}
 .tool-cta p{margin:0;color:#b7c2cf;line-height:1.5}
 .tool-cta a{flex:none;color:#fff;font-size:.8rem;font-weight:900;letter-spacing:.1em;text-decoration:underline;text-underline-offset:7px}
+.crm-note{display:flex;grid-column:1/-1;align-items:center;justify-content:center;gap:12px;padding:16px 22px;background:#0d1d2f;color:#c6d1dc;font-size:.78rem;letter-spacing:.03em;text-align:center}
+.crm-note strong{color:#39d4a6;font-size:.68rem;letter-spacing:.14em}
 
 /* Real estate: bright listing workspace */
 .real-estate-tool{background:#f3f0e9}
@@ -63,6 +65,19 @@
 .med-spa-tool .tool-button.secondary{background:#193933}
 .med-spa-tool .tool-note{border-color:#147866;background:#e7f6f1}
 .med-spa-tool .tool-field input,.med-spa-tool .tool-field select,.med-spa-tool .tool-field textarea{border-radius:12px}
+.recovery-picker{display:flex;flex-wrap:wrap;gap:10px;padding:28px clamp(24px,4vw,52px);border-bottom:1px solid #d8e8e4;background:#f8fcfb}
+.recovery-picker button{border:1px solid #b9d5cf;border-radius:999px;background:#fff;color:#193933;padding:13px 18px;font-size:.72rem;font-weight:900;letter-spacing:.08em;cursor:pointer}
+.recovery-picker button.active,.recovery-picker button:hover,.recovery-picker button:focus-visible{border-color:#147866;background:#147866;color:#fff;outline:none}
+.recovery-display{padding:clamp(28px,4vw,52px);background:linear-gradient(135deg,#fff 0%,#f1faf7 100%)}
+.recovery-heading span{color:#147866;font-size:.72rem;font-weight:900;letter-spacing:.16em}
+.recovery-heading h3{margin:8px 0 9px;color:#122c27;font-size:clamp(2.1rem,4vw,4rem);line-height:1}
+.recovery-heading p{margin:0;color:#526b65;font-size:1.02rem}
+.recovery-track{position:relative;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:38px}
+.recovery-track:before{content:"";position:absolute;top:28px;left:7%;right:7%;height:2px;background:#b9d8d1}
+.recovery-track article{position:relative;z-index:1;min-height:205px;padding:20px;background:#fff;border:1px solid #d5e6e2;border-radius:16px;box-shadow:0 12px 30px rgba(20,120,102,.07)}
+.recovery-track article>span{display:grid;width:56px;height:56px;margin-bottom:24px;border-radius:50%;place-items:center;background:#147866;color:#fff;font-size:.78rem;font-weight:900}
+.recovery-track article strong{display:block;color:#193933;font-size:.72rem;letter-spacing:.1em}
+.recovery-track article p{margin:11px 0 0;color:#5a6d68;font-size:.9rem;line-height:1.55}
 
 /* Cosmetic: private consultation dossier */
 .cosmetic-tool{background:#161318;color:#fff}
@@ -86,9 +101,6 @@
 .pool-tool .tool-form{background:#fff}
 .pool-tool .choice-grid label{border-radius:14px;background:#f4fbff;border-color:#b8ddea}
 .pool-tool .tool-button{background:#007eae;border-radius:999px}
-.pool-tool .pool-summary{min-height:240px;padding:32px;background:linear-gradient(150deg,#007eae,#00a8bf);color:#fff}
-.pool-summary h3{margin:0 0 18px;font-size:2rem}
-.pool-summary ul{margin:0;padding-left:19px;line-height:2}
 
 /* Contractors: project brief */
 .contractor-tool{background:#ece8df}
@@ -109,8 +121,11 @@
   .tool-actions,.tool-note,.tool-result{grid-column:auto}
   .tool-cta{display:block}
   .tool-cta a{display:inline-block;margin-top:23px}
+  .crm-note{align-items:flex-start;flex-direction:column;text-align:left}
   .real-estate-tool .tool-card{grid-template-columns:1fr}
   .real-estate-tool .match-panel{order:-1}
   .collision-tool .tool-card{box-shadow:6px 6px 0 #087cff}
+  .recovery-track{grid-template-columns:1fr 1fr}
+  .recovery-track:before{display:none}
 }
-@media(max-width:430px){.choice-grid{grid-template-columns:1fr}.tool-intro h2{font-size:2.55rem}.file-button{width:100%;justify-content:center}}
+@media(max-width:430px){.choice-grid{grid-template-columns:1fr}.tool-intro h2{font-size:2.55rem}.file-button{width:100%;justify-content:center}.recovery-picker{display:grid;grid-template-columns:1fr 1fr}.recovery-picker button{padding:12px 8px}.recovery-track{grid-template-columns:1fr}}
