@@ -43,15 +43,43 @@
     Object.keys(grouped).forEach(function(k){rows.push([k,grouped[k]]);});
     return rows;
   }
-  function download(form){
-    var title=form.getAttribute('data-title')||'Completed Website Form';
+  async function download(form){
+    if(!window.PDFLib){window.alert('The PDF generator did not load. Please refresh the page and try again.');return;}
+    var title=form.getAttribute('data-title')||'Completed Request';
     var rows=values(form);
-    var preview=form.querySelector('.photo-preview.show');
-    var images=form._photoData&&form._photoData.length?form._photoData.map(function(src){return '<img src="'+src+'" alt="Selected photo">';}).join(''):(preview&&preview.src.indexOf('data:image/')===0?'<img src="'+preview.src+'" alt="Selected photo">':'');
-    var body=rows.map(function(row){return '<div class="row"><strong>'+esc(row[0])+'</strong><span>'+esc(row[1])+'</span></div>';}).join('');
-    var html='<!doctype html><html><head><meta charset="utf-8"><title>'+esc(title)+'</title><style>body{font-family:Arial;margin:40px;color:#15202b}h1{border-bottom:4px solid #087cff;padding-bottom:14px}.row{display:grid;grid-template-columns:210px 1fr;gap:20px;padding:12px 0;border-bottom:1px solid #ddd}.row strong{text-transform:capitalize}img{max-width:420px;max-height:320px;object-fit:contain;margin:22px 12px 22px 0;border:1px solid #ccc}.notice{margin-top:28px;padding:14px;background:#f2f5f7;font-size:12px;line-height:1.5}@media print{body{margin:20px}}</style></head><body><h1>'+esc(title)+'</h1>'+images+body+'<p class="notice">Generated locally in your browser. StartWeb7 did not receive, access, transmit, or store the information or selected files.</p></body></html>';
-    var blob=new Blob([html],{type:'text/html'}),url=URL.createObjectURL(blob),a=document.createElement('a');
-    a.href=url;a.download=(form.getAttribute('data-file')||'completed-form')+'.html';document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(url);},1000);
+    var pdf=await PDFLib.PDFDocument.create();
+    var regular=await pdf.embedFont(PDFLib.StandardFonts.Helvetica);
+    var bold=await pdf.embedFont(PDFLib.StandardFonts.HelveticaBold);
+    var page=pdf.addPage([612,792]);
+    var y=742;
+    function freshPage(){page=pdf.addPage([612,792]);y=742;}
+    function wrapped(text,font,size,maxWidth){
+      var words=String(text||'').split(/\s+/),lines=[],line='';
+      words.forEach(function(word){var next=line?line+' '+word:word;if(font.widthOfTextAtSize(next,size)<=maxWidth)line=next;else{if(line)lines.push(line);line=word;}});
+      if(line)lines.push(line);return lines.length?lines:[''];
+    }
+    page.drawText(title,{x:44,y:y,size:24,font:bold,color:PDFLib.rgb(.06,.13,.2)});y-=20;
+    page.drawRectangle({x:44,y:y,width:524,height:2,color:PDFLib.rgb(.06,.13,.2)});y-=34;
+    var photos=(form._photoData||[]).filter(Boolean);
+    for(var p=0;p<photos.length;p++){
+      try{
+        var source=photos[p],bytes=Uint8Array.from(atob(source.split(',')[1]),function(c){return c.charCodeAt(0);});
+        var image=source.indexOf('image/png')>-1?await pdf.embedPng(bytes):await pdf.embedJpg(bytes);
+        var scale=Math.min(500/image.width,250/image.height,1),width=image.width*scale,height=image.height*scale;
+        if(y-height<70)freshPage();
+        page.drawImage(image,{x:44,y:y-height,width:width,height:height});y-=height+22;
+      }catch(ignore){}
+    }
+    rows.forEach(function(row){
+      var label=String(row[0]).replace(/\b\w/g,function(c){return c.toUpperCase();});
+      var lines=wrapped(row[1],regular,11,338),height=Math.max(28,lines.length*15+12);
+      if(y-height<44)freshPage();
+      page.drawText(label,{x:44,y:y-15,size:11,font:bold,color:PDFLib.rgb(.06,.13,.2)});
+      lines.forEach(function(line,index){page.drawText(line,{x:220,y:y-15-(index*15),size:11,font:regular,color:PDFLib.rgb(.06,.13,.2)});});
+      page.drawLine({start:{x:44,y:y-height},end:{x:568,y:y-height},thickness:.5,color:PDFLib.rgb(.82,.84,.86)});y-=height;
+    });
+    var bytes=await pdf.save(),blob=new Blob([bytes],{type:'application/pdf'}),url=URL.createObjectURL(blob),a=document.createElement('a');
+    a.href=url;a.download=(form.getAttribute('data-file')||'completed-request')+'.pdf';document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(url);},1000);
   }
   forms.forEach(function(form){
     var file=form.querySelector('input[type=file]');
