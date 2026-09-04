@@ -1,5 +1,32 @@
 (function(){
   'use strict';
+  var toolSections=document.querySelectorAll('.customer-tool');
+  toolSections.forEach(function(section,index){
+    var sectionId=section.id||'lead-capture-example-'+(index+1);
+    section.id=sectionId;
+    section.hidden=true;
+    var reveal=document.createElement('div');
+    reveal.className='lead-capture-reveal';
+    var revealInner=document.createElement('div');
+    revealInner.className='lead-capture-reveal-inner';
+    var heading=document.createElement('h2');
+    heading.textContent='AFTER THE SEARCH, CAPTURE THE LEAD.';
+    var button=document.createElement('button');
+    button.className='lead-capture-button';
+    button.type='button';
+    button.textContent='CAPTURE LEADS';
+    button.setAttribute('aria-controls',sectionId);
+    button.setAttribute('aria-expanded','false');
+    button.addEventListener('click',function(){
+      section.hidden=false;
+      button.setAttribute('aria-expanded','true');
+      reveal.remove();
+      window.requestAnimationFrame(function(){section.scrollIntoView({behavior:'smooth',block:'start'});});
+    });
+    revealInner.append(heading,button);
+    reveal.appendChild(revealInner);
+    section.parentNode.insertBefore(reveal,section);
+  });
   var forms=document.querySelectorAll('[data-local-tool]');
   function esc(value){return String(value||'').replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
   function values(form){

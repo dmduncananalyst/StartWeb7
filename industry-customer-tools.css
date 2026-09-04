@@ -1,4 +1,11 @@
 .customer-tool{padding:clamp(64px,8vw,118px) clamp(24px,7vw,110px);font-family:Arial,Helvetica,sans-serif;color:#0a1422;background:#f4f6f8}
+.customer-tool{scroll-margin-top:100px}
+.lead-capture-reveal{display:flex;justify-content:center;align-items:center;padding:42px 24px;background:#fff;border-top:1px solid #dce2e8;border-bottom:1px solid #dce2e8}
+.lead-capture-reveal-inner{text-align:center}
+.lead-capture-reveal h2{margin:0 0 20px;color:#071323;font:900 clamp(1.65rem,3.5vw,3.2rem)/.95 Arial,Helvetica,sans-serif;letter-spacing:-.035em}
+.lead-capture-button{min-height:56px;padding:16px 30px;border:0;background:#087cff;color:#fff;font:900 .82rem/1 Arial,Helvetica,sans-serif;letter-spacing:.12em;cursor:pointer;box-shadow:0 12px 30px rgba(8,124,255,.24);transition:transform .18s ease,box-shadow .18s ease}
+.lead-capture-button:hover,.lead-capture-button:focus-visible{transform:translateY(-2px);box-shadow:0 16px 34px rgba(8,124,255,.3)}
+.lead-capture-button:focus-visible{outline:3px solid rgba(8,124,255,.3);outline-offset:4px}
 .customer-tool *{box-sizing:border-box}
 .tool-intro{max-width:760px;margin-bottom:42px}
 .tool-kicker{display:block;margin-bottom:13px;color:#087cff;font-size:.76rem;font-weight:900;letter-spacing:.18em}
@@ -90,6 +97,9 @@
 .contractor-tool .tool-button{background:#c66e12}
 
 @media(max-width:760px){
+  .customer-tool{scroll-margin-top:132px}
+  .lead-capture-reveal{padding:30px 20px}
+  .lead-capture-button{width:100%;max-width:360px}
   .customer-tool{padding:58px 20px}
   .tool-form{grid-template-columns:1fr;padding:23px}
   .tool-field.full{grid-column:auto}

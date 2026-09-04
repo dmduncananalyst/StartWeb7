@@ -32,7 +32,6 @@
       @media(min-width:901px){.sw7-clean-nav>a,.sw7-clean-item{transition:background-color .18s ease!important}.sw7-clean-nav>a:hover,.sw7-clean-nav>a:focus-visible,.sw7-clean-item:hover,.sw7-clean-item:focus-within{background:#eef6ff!important}.sw7-clean-nav>a:hover,.sw7-clean-nav>a:focus-visible,.sw7-clean-item:hover>.sw7-clean-trigger,.sw7-clean-item:focus-within>.sw7-clean-trigger{color:#0784ff!important}.sw7-clean-menu a:hover,.sw7-clean-menu a:focus-visible,.sw7-clean-sub>button:hover,.sw7-clean-sub>button:focus-visible{background:#dceeff!important}.sw7-website-group>.sw7-clean-submenu a:hover,.sw7-website-group>.sw7-clean-submenu a:focus-visible{color:#0784ff!important}.sw7-seo-group>.sw7-clean-submenu a:hover,.sw7-seo-group>.sw7-clean-submenu a:focus-visible{color:#00a978!important}.sw7-clean-submenu{position:relative!important;left:0!important;right:auto!important;top:0!important;width:100%!important;min-width:0!important;transform:none!important;box-sizing:border-box!important}}
       .sw7-clean-menu{position:absolute!important;z-index:2147483001!important;top:78px!important;left:0!important;min-width:270px!important;padding:10px!important;background:#f4f3ef!important;box-shadow:0 20px 50px rgba(0,0,0,.2)!important;opacity:0!important;visibility:hidden!important;transform:translateY(8px)!important}.sw7-contact-item>.sw7-clean-menu{left:0!important;right:auto!important;min-width:210px!important}.sw7-clean-item:not(.sw7-services-item):hover>.sw7-clean-menu,.sw7-clean-item:focus-within>.sw7-clean-menu,.sw7-clean-item.open>.sw7-clean-menu{opacity:1!important;visibility:visible!important;transform:none!important}
       .sw7-clean-menu a,.sw7-clean-sub>button{display:flex!important;align-items:center!important;justify-content:space-between!important;width:100%!important;padding:13px 14px!important;border:0!important;background:transparent!important;color:#111!important;text-decoration:none!important;font:800 12px/1.2 Arial!important;letter-spacing:.04em!important;box-sizing:border-box!important;cursor:pointer!important}.sw7-clean-sub{position:relative!important}.sw7-clean-sub>button.website{color:#0784ff!important;border-left:4px solid #0784ff!important}.sw7-clean-sub>button.seo{color:#00a978!important;border-left:4px solid #00a978!important}.sw7-clean-submenu{position:static!important;display:none!important;min-width:0!important;padding:0 0 6px 15px!important;background:#fff!important;box-shadow:none!important;opacity:1!important;visibility:visible!important;transform:none!important}.sw7-clean-sub.open>.sw7-clean-submenu{display:block!important}
-      @media(min-width:901px){.sw7-services-item>.sw7-clean-menu{width:270px!important}.sw7-services-item .sw7-clean-submenu{position:absolute!important;top:0!important;left:100%!important;width:270px!important;min-width:270px!important;padding:10px!important;background:#fff!important;box-shadow:14px 18px 36px rgba(0,0,0,.18)!important}.sw7-services-item .sw7-clean-submenu a{min-height:44px!important}}
       @media(max-width:900px){body{padding-top:118px!important}.sw7-universal-header{height:118px!important;display:block!important;padding:0!important;overflow:visible!important}.sw7-universal-brand{height:70px!important;width:max-content!important;margin:0 auto!important;justify-content:center!important;gap:8px!important}.sw7-universal-brand img{width:82px!important;height:52px!important}.sw7-universal-brand span{font-size:14px!important}.sw7-clean-nav{position:absolute!important;inset:70px 0 auto!important;width:100%!important;height:48px!important;margin:0!important;padding:0 5px!important;background:#fff!important;display:flex!important;align-items:center!important;justify-content:space-between!important;gap:0!important;overflow:visible!important;box-sizing:border-box!important;border-top:1px solid #e5e5e5!important}.sw7-clean-nav>a,.sw7-clean-item{display:flex!important;align-items:center!important;justify-content:center!important;width:auto!important;height:47px!important;min-height:47px!important;min-width:0!important;flex:0 1 auto!important}.sw7-clean-nav>a,.sw7-clean-trigger{display:flex!important;align-items:center!important;justify-content:center!important;min-height:47px!important;font:800 clamp(8px,2.55vw,11px)/1 Arial,sans-serif!important;text-transform:uppercase!important;letter-spacing:0!important;text-align:center!important}.sw7-down-arrow{margin-left:2px!important;font-size:7px!important}.sw7-clean-menu{position:fixed!important;left:6px!important;right:6px!important;top:112px!important;width:auto!important;min-width:0!important;max-height:calc(100dvh - 118px)!important;overflow-y:auto!important}.sw7-contact-item>.sw7-clean-menu{left:6px!important;right:6px!important}.sw7-clean-submenu{position:static!important;display:none!important;opacity:1!important;visibility:visible!important;transform:none!important;box-shadow:none!important;padding:0 0 6px 15px!important}.sw7-clean-sub.open>.sw7-clean-submenu{display:block!important}}
     `;
     document.head.appendChild(fallbackStyle);
@@ -60,11 +59,7 @@
       button.addEventListener('click', function (event) {
         event.stopPropagation();
         const subsection = button.closest('.sw7-clean-sub');
-        const wasOpen = subsection.classList.contains('open');
-        subsection.parentElement.querySelectorAll('.sw7-clean-sub.open').forEach(function (sibling) {
-          sibling.classList.remove('open');
-        });
-        if (!wasOpen) subsection.classList.add('open');
+        subsection.classList.toggle('open');
       });
     });
     const servicesItem = header.querySelector('.sw7-clean-item');
@@ -83,16 +78,10 @@
           if (window.matchMedia('(hover:hover) and (pointer:fine)').matches) {
             window.clearTimeout(servicesHoverTimer);
             servicesItem.classList.add('open');
-            servicesItem.querySelectorAll('.sw7-clean-sub.open').forEach(function (sibling) {
-              if (sibling !== subsection) sibling.classList.remove('open');
-            });
             subsection.classList.add('open');
           }
         });
         subsection.addEventListener('focusin', function () {
-          servicesItem.querySelectorAll('.sw7-clean-sub.open').forEach(function (sibling) {
-            if (sibling !== subsection) sibling.classList.remove('open');
-          });
           subsection.classList.add('open');
         });
       });
