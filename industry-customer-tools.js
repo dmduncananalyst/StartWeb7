@@ -27,25 +27,6 @@
     a.href=url;a.download=(form.getAttribute('data-file')||'completed-form')+'.html';document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(url);},1000);
   }
   forms.forEach(function(form){
-    if(form.hasAttribute('data-lender-form')){
-      var price=form.querySelector('#re-price'),down=form.querySelector('#re-down'),rate=form.querySelector('#re-rate'),term=form.querySelector('#re-term');
-      var loanOutput=form.querySelector('#re-loan-estimate'),paymentOutput=form.querySelector('#re-payment-estimate');
-      function number(value){return Number(String(value||'').replace(/[^0-9.]/g,''))||0;}
-      function money(value){return value>0?'$'+Math.round(value).toLocaleString('en-US'):'$0';}
-      function updateLenderEstimates(){
-        var principal=Math.max(0,number(price.value)-number(down.value));
-        var monthlyRate=number(rate.value)/1200;
-        var months=number(term.value)*12;
-        var payment=0;
-        if(principal&&months)payment=monthlyRate?principal*monthlyRate*Math.pow(1+monthlyRate,months)/(Math.pow(1+monthlyRate,months)-1):principal/months;
-        loanOutput.value=money(principal);
-        paymentOutput.value=money(payment);
-      }
-      form.addEventListener('input',updateLenderEstimates);
-      form.addEventListener('change',updateLenderEstimates);
-      form.addEventListener('reset',function(){setTimeout(updateLenderEstimates,0);});
-      updateLenderEstimates();
-    }
     var file=form.querySelector('input[type=file]');
     if(file){file.addEventListener('change',function(){
       var name=form.querySelector('.file-name'),preview=form.querySelector('.photo-preview');
