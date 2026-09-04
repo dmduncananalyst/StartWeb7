@@ -1,4 +1,12 @@
 @media (max-width:850px){
+html,body{width:100%;max-width:100%;overflow-x:hidden}
+.industry-hero{width:100%;max-width:100%;grid-template-columns:minmax(0,1fr)!important;overflow:hidden!important}
+.industry-hero>*,.industry-hero>*>*{min-width:0;max-width:100%}
+.industry-hero h1{width:100%;max-width:100%;font-size:clamp(42px,12vw,54px)!important;line-height:.9!important;letter-spacing:-.055em!important;overflow-wrap:anywhere}
+.industry-hero h1 span{display:block;max-width:100%;line-height:1!important}
+.industry-hero p{width:100%;max-width:100%;font-size:16px!important;line-height:1.55!important;overflow-wrap:break-word}
+.industry-hero .journey-demo{width:100%;max-width:100%;min-width:0}
+.hero-action{max-width:100%;line-height:1.45;white-space:normal}
   .sw7-contact-item>.sw7-clean-menu>a[href="contact.html"]{display:none!important}
 body[data-sw7-page="home"] .home-service{width:100%;max-width:100%;padding:64px 7vw!important;gap:30px!important;overflow:hidden}
 body[data-sw7-page="home"] .home-service-label{width:100%;max-width:100%;font-size:clamp(34px,12vw,48px)!important;line-height:.92!important;letter-spacing:-.045em!important;overflow-wrap:anywhere}

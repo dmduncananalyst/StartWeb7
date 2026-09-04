@@ -44,8 +44,7 @@
 .tool-cta h3{margin:0 0 8px;font-size:clamp(1.65rem,3vw,3rem);line-height:1}
 .tool-cta p{margin:0;color:#b7c2cf;line-height:1.5}
 .tool-cta a{flex:none;color:#fff;font-size:.8rem;font-weight:900;letter-spacing:.1em;text-decoration:underline;text-underline-offset:7px}
-.crm-note{display:flex;grid-column:1/-1;align-items:center;justify-content:center;gap:12px;padding:16px 22px;background:#0d1d2f;color:#c6d1dc;font-size:.78rem;letter-spacing:.03em;text-align:center}
-.crm-note strong{color:#39d4a6;font-size:.68rem;letter-spacing:.14em}
+.crm-inline{display:block;margin-top:12px;color:#8fa0b3;font-size:.72rem;line-height:1.5;letter-spacing:.04em}
 
 /* Real estate: bright listing workspace */
 .real-estate-tool{background:#f3f0e9}
@@ -110,6 +109,27 @@
 .contractor-tool .tool-field,.contractor-tool .tool-actions,.contractor-tool .tool-note,.contractor-tool .tool-result{background:#fff}
 .contractor-tool .tool-button{background:#c66e12}
 
+/* Industry specific SEO and AEO content */
+.industry-seo-content{padding:96px max(7vw,calc((100vw - 1180px)/2));background:#fff;color:#101820}
+.industry-seo-inner{max-width:1180px;margin:auto}
+.industry-seo-content .content-label{display:block;margin-bottom:17px;color:#087cff;font-size:.78rem;font-weight:900;letter-spacing:.16em}
+.industry-seo-content h2{max-width:920px;margin:0 0 30px;font-size:clamp(2.6rem,5vw,5.2rem);line-height:.92;letter-spacing:-.055em}
+.industry-seo-intro{max-width:940px;margin:0;color:#455463;font-size:1.08rem;line-height:1.75}
+.industry-content-pair{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:58px;border-top:1px solid #ccd4dc;border-bottom:1px solid #ccd4dc}
+.industry-content-pair article{padding:34px 42px 34px 0}
+.industry-content-pair article+article{padding-left:42px;border-left:1px solid #ccd4dc}
+.industry-content-pair h3,.industry-faq h3{margin:0 0 16px;font-size:.78rem;letter-spacing:.14em}
+.industry-content-pair p{margin:0;color:#455463;font-size:1rem;line-height:1.7}
+.industry-faq{margin-top:78px}
+.industry-faq>h3{margin-bottom:23px;color:#087cff}
+.industry-faq details{border-top:1px solid #ccd4dc}
+.industry-faq details:last-child{border-bottom:1px solid #ccd4dc}
+.industry-faq summary{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:24px 0;list-style:none;cursor:pointer;font-size:1.15rem;font-weight:800;line-height:1.3}
+.industry-faq summary::-webkit-details-marker{display:none}
+.industry-faq summary:after{content:'+';flex:none;color:#087cff;font-size:1.7rem;font-weight:400}
+.industry-faq details[open] summary:after{content:'−'}
+.industry-faq details p{max-width:900px;margin:0;padding:0 0 25px;color:#52606d;font-size:1rem;line-height:1.7}
+
 @media(max-width:760px){
   .customer-tool{scroll-margin-top:132px}
   .lead-capture-reveal{padding:30px 20px}
@@ -121,11 +141,18 @@
   .tool-actions,.tool-note,.tool-result{grid-column:auto}
   .tool-cta{display:block}
   .tool-cta a{display:inline-block;margin-top:23px}
-  .crm-note{align-items:flex-start;flex-direction:column;text-align:left}
   .real-estate-tool .tool-card{grid-template-columns:1fr}
   .real-estate-tool .match-panel{order:-1}
   .collision-tool .tool-card{box-shadow:6px 6px 0 #087cff}
   .recovery-track{grid-template-columns:1fr 1fr}
   .recovery-track:before{display:none}
+  .industry-seo-content{padding:68px 7vw}
+  .industry-seo-content h2{font-size:clamp(2.25rem,10vw,3.5rem)}
+  .industry-seo-intro{font-size:1rem;line-height:1.65}
+  .industry-content-pair{grid-template-columns:1fr;margin-top:42px}
+  .industry-content-pair article,.industry-content-pair article+article{padding:27px 0;border-left:0}
+  .industry-content-pair article+article{border-top:1px solid #ccd4dc}
+  .industry-faq{margin-top:55px}
+  .industry-faq summary{padding:21px 0;font-size:1rem}
 }
 @media(max-width:430px){.choice-grid{grid-template-columns:1fr}.tool-intro h2{font-size:2.55rem}.file-button{width:100%;justify-content:center}.recovery-picker{display:grid;grid-template-columns:1fr 1fr}.recovery-picker button{padding:12px 8px}.recovery-track{grid-template-columns:1fr}}
