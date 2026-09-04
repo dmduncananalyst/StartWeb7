@@ -8,6 +8,7 @@
 .lead-capture-button{min-height:56px;padding:16px 30px;border:0;background:#087cff;color:#fff;font:900 .82rem/1 Arial,Helvetica,sans-serif;letter-spacing:.12em;cursor:pointer;box-shadow:0 12px 30px rgba(8,124,255,.24);transition:transform .18s ease,box-shadow .18s ease}
 .lead-capture-button:hover,.lead-capture-button:focus-visible{transform:translateY(-2px);box-shadow:0 16px 34px rgba(8,124,255,.3)}
 .lead-capture-button:focus-visible{outline:3px solid rgba(8,124,255,.3);outline-offset:4px}
+.lead-capture-crm{display:block;margin-top:12px;color:#687586;font-size:.75rem;line-height:1.4;letter-spacing:.04em}
 .customer-tool *{box-sizing:border-box}
 .tool-intro{max-width:760px;margin-bottom:42px}
 .tool-kicker{display:block;margin-bottom:13px;color:#087cff;font-size:.76rem;font-weight:900;letter-spacing:.18em}
@@ -44,6 +45,7 @@
 .tool-cta h3{margin:0 0 8px;font-size:clamp(1.65rem,3vw,3rem);line-height:1}
 .tool-cta p{margin:0;color:#b7c2cf;line-height:1.5}
 .tool-cta a{flex:none;color:#fff;font-size:.8rem;font-weight:900;letter-spacing:.1em;text-decoration:underline;text-underline-offset:7px}
+.tool-cta-action{flex:none;text-align:left}
 .crm-inline{display:block;margin-top:12px;color:#8fa0b3;font-size:.72rem;line-height:1.5;letter-spacing:.04em}
 
 /* Real estate: bright listing workspace */
@@ -140,7 +142,8 @@
   .choice-grid{grid-template-columns:1fr 1fr}
   .tool-actions,.tool-note,.tool-result{grid-column:auto}
   .tool-cta{display:block}
-  .tool-cta a{display:inline-block;margin-top:23px}
+  .tool-cta-action{margin-top:23px}
+  .tool-cta a{display:inline-block;margin-top:0}
   .real-estate-tool .tool-card{grid-template-columns:1fr}
   .real-estate-tool .match-panel{order:-1}
   .collision-tool .tool-card{box-shadow:6px 6px 0 #087cff}

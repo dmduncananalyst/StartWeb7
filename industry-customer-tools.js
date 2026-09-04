@@ -17,13 +17,16 @@
     button.textContent='CAPTURE LEADS';
     button.setAttribute('aria-controls',sectionId);
     button.setAttribute('aria-expanded','false');
+    var crmNote=document.createElement('small');
+    crmNote.className='lead-capture-crm';
+    crmNote.textContent='Put leads in your CRM';
     button.addEventListener('click',function(){
       section.hidden=false;
       button.setAttribute('aria-expanded','true');
       reveal.remove();
       window.requestAnimationFrame(function(){section.scrollIntoView({behavior:'smooth',block:'start'});});
     });
-    revealInner.append(heading,button);
+    revealInner.append(heading,button,crmNote);
     reveal.appendChild(revealInner);
     section.parentNode.insertBefore(reveal,section);
   });
