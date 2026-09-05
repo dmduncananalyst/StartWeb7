@@ -50,7 +50,7 @@
 
 /* Real estate: bright listing workspace */
 .real-estate-tool{background:#f3f0e9}
-.real-estate-tool .tool-card{display:grid;grid-template-columns:1.1fr .9fr;border-top:7px solid #087cff}
+.real-estate-tool .tool-card{display:grid;grid-template-columns:1fr;border-top:7px solid #087cff}
 .real-estate-tool .match-panel{padding:clamp(24px,4vw,52px);background:#0a1422;color:#fff}
 .match-panel .match-count{font-size:clamp(4rem,8vw,8rem);font-weight:900;line-height:1;color:#2f86ff}
 .match-panel h3{margin:16px 0 10px;font-size:1.7rem}
