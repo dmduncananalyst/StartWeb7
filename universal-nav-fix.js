@@ -26,6 +26,12 @@
     nav.className = 'sw7-clean-nav';
     nav.setAttribute('aria-label', 'Main navigation');
     nav.innerHTML = '<a href="index.html">Home</a><a href="about.html">About</a><div class="sw7-clean-item sw7-services-item"><a class="sw7-clean-trigger" href="services.html">Services <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><div class="sw7-clean-menu"><div class="sw7-clean-sub"><button class="sw7-website-button" type="button">WEBSITE DESIGN <span aria-hidden="true">▼</span></button><div class="sw7-clean-submenu"><a href="landing-page.html">LANDING PAGE</a><a href="business-website.html">BUSINESS WEBSITE</a><a href="seo-optimized-website.html">SEO-OPTIMIZED WEBSITE</a></div></div><div class="sw7-clean-sub"><button class="sw7-management-toggle" type="button" aria-expanded="false">SEO + AEO MANAGEMENT <span aria-hidden="true">▼</span></button><div class="sw7-clean-submenu"><a href="essentials.html">ESSENTIALS</a><a href="competitive.html">COMPETITIVE</a></div></div></div></div><div class="sw7-clean-item sw7-industries-item"><a class="sw7-clean-trigger" href="industries.html">Industries <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><div class="sw7-clean-menu"><a href="real-estate-agents.html">REAL ESTATE</a><a href="collision-repair.html">COLLISION REPAIR</a><a href="pool-construction.html">POOL CONSTRUCTION</a><a href="general-contractors.html">GENERAL CONTRACTORS</a></div></div><a href="resources.html">Resources</a><a href="reviews.html">Reviews</a><a href="faq.html">FAQ</a><div class="sw7-clean-item sw7-contact-item"><a class="sw7-clean-trigger" href="contact.html">Contact <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><div class="sw7-clean-menu"><a href="support.html">24/7 SUPPORT</a><a href="careers.html">CAREERS</a></div></div>';
+    const mobileScrollTrack = document.createElement('div');
+    mobileScrollTrack.className = 'sw7-mobile-scroll-track';
+    mobileScrollTrack.setAttribute('aria-hidden', 'true');
+    const mobileScrollThumb = document.createElement('div');
+    mobileScrollThumb.className = 'sw7-mobile-scroll-thumb';
+    mobileScrollTrack.appendChild(mobileScrollThumb);
     const compactMenuButton = document.createElement('button');
     compactMenuButton.className = 'sw7-compact-toggle';
     compactMenuButton.type = 'button';
@@ -36,7 +42,7 @@
     compactMenuOverlay.className = 'sw7-compact-overlay';
     compactMenuOverlay.type = 'button';
     compactMenuOverlay.setAttribute('aria-label', 'Close menu');
-    header.append(brand, nav, compactMenuButton);
+    header.append(brand, nav, mobileScrollTrack, compactMenuButton);
     document.querySelectorAll('body > .page > .nav, body > .nav').forEach(function (oldNav) { oldNav.remove(); });
     document.body.insertBefore(header, document.body.firstChild);
     header.insertAdjacentElement('afterend', compactMenuOverlay);
@@ -147,6 +153,7 @@
     document.head.appendChild(compactDesktopNavStyle);
     const mobileMenuStyle = document.createElement('style');
     mobileMenuStyle.textContent = `
+      .sw7-mobile-scroll-track{display:none}
       @media(max-width:700px){
         body{padding-top:86px!important}
         .sw7-universal-header{height:86px!important;padding:0 24px!important;display:flex!important;align-items:center!important;justify-content:space-between!important;overflow:visible!important}
@@ -154,9 +161,15 @@
         .sw7-universal-brand img{width:82px!important;height:54px!important}.sw7-universal-brand span{font-size:15px!important}
         .sw7-compact-toggle{display:flex!important;position:fixed!important;top:20px!important;right:22px!important;width:46px!important;height:46px!important}
         .sw7-compact-overlay{display:block!important}
-        .sw7-clean-nav{position:fixed!important;z-index:2147483003!important;top:0!important;right:0!important;bottom:0!important;left:auto!important;width:min(350px,90vw)!important;height:100dvh!important;margin:0!important;padding:82px 18px 24px!important;display:flex!important;flex-direction:column!important;align-items:stretch!important;justify-content:flex-start!important;overflow-y:auto!important;overscroll-behavior:contain!important;background:#fff!important;box-shadow:-24px 0 60px rgba(7,16,28,.2)!important;border:0!important;transform:translateX(105%)!important}
+        .sw7-clean-nav{position:fixed!important;z-index:2147483003!important;top:0!important;right:0!important;bottom:auto!important;left:auto!important;box-sizing:border-box!important;width:min(350px,90vw)!important;height:100vh!important;height:100dvh!important;max-height:100dvh!important;margin:0!important;padding:82px 28px 24px 18px!important;display:block!important;overflow-x:hidden!important;overflow-y:scroll!important;-webkit-overflow-scrolling:touch!important;overscroll-behavior-y:contain!important;touch-action:pan-y!important;scrollbar-gutter:stable!important;scrollbar-width:thin!important;scrollbar-color:#7f8790 #e1e5e9!important;background:#fff!important;box-shadow:-24px 0 60px rgba(7,16,28,.2)!important;border:0!important;transform:translateX(105%)!important}
+        .sw7-clean-nav::-webkit-scrollbar{width:7px!important}.sw7-clean-nav::-webkit-scrollbar-track{background:#e8edf3!important}.sw7-clean-nav::-webkit-scrollbar-thumb{background:#0784ff!important;border-radius:8px!important}
+        .sw7-clean-nav::after{content:""!important;display:block!important;width:100%!important;height:calc(100dvh - 150px)!important;min-height:420px!important;pointer-events:none!important}
+        .sw7-mobile-scroll-track{display:none!important;position:fixed!important;z-index:2147483640!important;top:86px!important;right:4px!important;bottom:10px!important;width:10px!important;border-radius:10px!important;background:#d7dde5!important;opacity:1!important;visibility:visible!important;pointer-events:auto!important;touch-action:none!important}
+        .sw7-universal-header.compact-open .sw7-mobile-scroll-track{display:block!important}
+        .sw7-universal-header.compact-open::after{content:none!important;display:none!important}
+        .sw7-mobile-scroll-thumb{position:absolute!important;top:0!important;right:0!important;width:10px!important;height:120px;min-height:52px!important;border-radius:10px!important;background:#0784ff!important;box-shadow:0 0 0 1px rgba(0,77,160,.18)!important;cursor:grab!important}
         .sw7-universal-header.compact-open .sw7-clean-nav{transform:none!important}
-        .sw7-clean-nav>a,.sw7-clean-item{display:block!important;width:100%!important;height:auto!important;min-height:54px!important;border-bottom:1px solid #e4e9ef!important;background:#fff!important}
+        .sw7-clean-nav>a,.sw7-clean-item{display:block!important;flex:0 0 auto!important;width:100%!important;height:auto!important;min-height:54px!important;border-bottom:1px solid #e4e9ef!important;background:#fff!important}
         .sw7-clean-nav>a,.sw7-clean-trigger{display:flex!important;min-height:54px!important;padding:0 10px!important;align-items:center!important;justify-content:space-between!important;font:800 14px/1 Arial,sans-serif!important}
         .sw7-clean-trigger .sw7-down-arrow{display:flex!important;flex:0 0 28px!important;width:28px!important;height:28px!important;margin-left:10px!important;border:1px solid #0784ff!important;background:#edf6ff!important;color:#006ff1!important;font-size:7px!important}
         .sw7-clean-menu,.sw7-contact-item>.sw7-clean-menu,.sw7-industries-item>.sw7-clean-menu{position:static!important;width:100%!important;min-width:0!important;max-height:none!important;margin:0!important;padding:5px 0 10px 10px!important;display:none!important;overflow:visible!important;background:#f6f8fb!important;box-shadow:none!important;opacity:0!important;visibility:hidden!important;transform:none!important}
@@ -167,6 +180,57 @@
       }
     `;
     document.head.appendChild(mobileMenuStyle);
+    function updateMobileScrollThumb() {
+      if (window.innerWidth > 700) return;
+      const trackHeight = mobileScrollTrack.clientHeight;
+      const scrollRange = nav.scrollHeight - nav.clientHeight;
+      if (!trackHeight || scrollRange <= 1) {
+        mobileScrollThumb.style.height = Math.max(52, Math.round(trackHeight * .28)) + 'px';
+        mobileScrollThumb.style.transform = 'translateY(0)';
+        return;
+      }
+      const thumbHeight = Math.max(44, Math.round(trackHeight * nav.clientHeight / nav.scrollHeight));
+      const thumbRange = Math.max(0, trackHeight - thumbHeight);
+      const thumbTop = scrollRange ? Math.round(thumbRange * nav.scrollTop / scrollRange) : 0;
+      mobileScrollThumb.style.height = thumbHeight + 'px';
+      mobileScrollThumb.style.transform = 'translateY(' + thumbTop + 'px)';
+    }
+    function revealMobileDropdown(item) {
+      if (!item || !window.matchMedia('(max-width:700px)').matches) return;
+      window.requestAnimationFrame(function () {
+        const topPadding = 94;
+        const targetTop = Math.max(0, item.offsetTop - topPadding);
+        nav.scrollTo({ top: targetTop, behavior: 'smooth' });
+        updateMobileScrollThumb();
+        window.setTimeout(updateMobileScrollThumb, 80);
+        window.setTimeout(updateMobileScrollThumb, 180);
+        window.setTimeout(updateMobileScrollThumb, 350);
+      });
+    }
+    nav.addEventListener('scroll', updateMobileScrollThumb, { passive: true });
+    window.addEventListener('resize', updateMobileScrollThumb);
+    new MutationObserver(function () { window.requestAnimationFrame(updateMobileScrollThumb); }).observe(nav, { attributes: true, subtree: true, attributeFilter: ['class'] });
+    let scrollDragStartY = 0;
+    let scrollDragStartTop = 0;
+    mobileScrollThumb.addEventListener('pointerdown', function (event) {
+      event.preventDefault();
+      scrollDragStartY = event.clientY;
+      scrollDragStartTop = nav.scrollTop;
+      mobileScrollThumb.setPointerCapture(event.pointerId);
+    });
+    mobileScrollThumb.addEventListener('pointermove', function (event) {
+      if (!mobileScrollThumb.hasPointerCapture(event.pointerId)) return;
+      event.preventDefault();
+      const trackRange = mobileScrollTrack.clientHeight - mobileScrollThumb.offsetHeight;
+      const scrollRange = nav.scrollHeight - nav.clientHeight;
+      if (trackRange > 0) nav.scrollTop = scrollDragStartTop + (event.clientY - scrollDragStartY) * scrollRange / trackRange;
+    });
+    mobileScrollTrack.addEventListener('pointerdown', function (event) {
+      if (event.target === mobileScrollThumb) return;
+      const rect = mobileScrollTrack.getBoundingClientRect();
+      const ratio = Math.max(0, Math.min(1, (event.clientY - rect.top) / rect.height));
+      nav.scrollTop = ratio * (nav.scrollHeight - nav.clientHeight);
+    });
     const mobileBackStyle = document.createElement('style');
     mobileBackStyle.textContent = `
       @media(max-width:700px){
@@ -181,6 +245,7 @@
       compactMenuButton.setAttribute('aria-expanded', open ? 'true' : 'false');
       compactMenuButton.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
       if (!open) header.querySelectorAll('.open').forEach(function (item) { item.classList.remove('open'); });
+      window.requestAnimationFrame(updateMobileScrollThumb);
     }
     function saveCompactMenuState(link) {
       const item = link.closest('.sw7-clean-item');
@@ -238,7 +303,13 @@
           if (event.target.closest('.sw7-down-arrow')) {
             event.preventDefault();
             event.stopPropagation();
-            trigger.closest('.sw7-clean-item').classList.toggle('open');
+            const item = trigger.closest('.sw7-clean-item');
+            const willOpen = !item.classList.contains('open');
+            header.querySelectorAll('.sw7-clean-item.open').forEach(function (otherItem) {
+              if (otherItem !== item) otherItem.classList.remove('open');
+            });
+            item.classList.toggle('open', willOpen);
+            revealMobileDropdown(item);
           } else {
             saveCompactMenuState(trigger);
           }
