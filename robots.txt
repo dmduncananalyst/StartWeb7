@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://startweb7.com/sitemap.xml
