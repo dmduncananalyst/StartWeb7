@@ -129,7 +129,7 @@
       @media(min-width:701px) and (max-width:1180px){
         body{padding-top:78px!important}
         .sw7-universal-header{height:78px!important;display:flex!important;padding:0 14px!important;overflow:visible!important}
-        .sw7-universal-brand{height:78px!important;width:175px!important;min-width:175px!important;margin:0!important;justify-content:flex-start!important;gap:7px!important}
+        .sw7-universal-brand{box-sizing:border-box!important;height:78px!important;width:195px!important;min-width:195px!important;margin:0!important;padding-right:18px!important;justify-content:flex-start!important;gap:7px!important}
         .sw7-universal-brand img{width:82px!important;height:52px!important}.sw7-universal-brand span{font-size:14px!important}
         .sw7-compact-toggle,.sw7-compact-overlay{display:none!important}
         .sw7-clean-nav,.sw7-universal-header.compact-open .sw7-clean-nav{position:static!important;inset:auto!important;flex:1 1 auto!important;width:auto!important;height:78px!important;margin:0!important;padding:0!important;display:grid!important;grid-template-columns:repeat(8,minmax(0,1fr))!important;grid-template-rows:none!important;transform:none!important;overflow:visible!important;background:#fff!important;box-shadow:none!important;border-left:1px solid #e4e9ef!important;border-top:0!important}
@@ -145,6 +145,28 @@
       }
     `;
     document.head.appendChild(compactDesktopNavStyle);
+    const mobileMenuStyle = document.createElement('style');
+    mobileMenuStyle.textContent = `
+      @media(max-width:700px){
+        body{padding-top:86px!important}
+        .sw7-universal-header{height:86px!important;padding:0 24px!important;display:flex!important;align-items:center!important;justify-content:space-between!important;overflow:visible!important}
+        .sw7-universal-brand{height:86px!important;width:auto!important;min-width:0!important;margin:0!important;gap:8px!important}
+        .sw7-universal-brand img{width:82px!important;height:54px!important}.sw7-universal-brand span{font-size:15px!important}
+        .sw7-compact-toggle{display:flex!important;position:fixed!important;top:20px!important;right:22px!important;width:46px!important;height:46px!important}
+        .sw7-compact-overlay{display:block!important}
+        .sw7-clean-nav{position:fixed!important;z-index:2147483003!important;top:0!important;right:0!important;bottom:0!important;left:auto!important;width:min(350px,90vw)!important;height:100dvh!important;margin:0!important;padding:82px 18px 24px!important;display:flex!important;flex-direction:column!important;align-items:stretch!important;justify-content:flex-start!important;overflow-y:auto!important;overscroll-behavior:contain!important;background:#fff!important;box-shadow:-24px 0 60px rgba(7,16,28,.2)!important;border:0!important;transform:translateX(105%)!important}
+        .sw7-universal-header.compact-open .sw7-clean-nav{transform:none!important}
+        .sw7-clean-nav>a,.sw7-clean-item{display:block!important;width:100%!important;height:auto!important;min-height:54px!important;border-bottom:1px solid #e4e9ef!important;background:#fff!important}
+        .sw7-clean-nav>a,.sw7-clean-trigger{display:flex!important;min-height:54px!important;padding:0 10px!important;align-items:center!important;justify-content:space-between!important;font:800 14px/1 Arial,sans-serif!important}
+        .sw7-clean-trigger .sw7-down-arrow{display:flex!important;flex:0 0 28px!important;width:28px!important;height:28px!important;margin-left:10px!important;border:1px solid #0784ff!important;background:#edf6ff!important;color:#006ff1!important;font-size:7px!important}
+        .sw7-clean-menu,.sw7-contact-item>.sw7-clean-menu,.sw7-industries-item>.sw7-clean-menu{position:static!important;width:100%!important;min-width:0!important;max-height:none!important;margin:0!important;padding:5px 0 10px 10px!important;display:none!important;overflow:visible!important;background:#f6f8fb!important;box-shadow:none!important;opacity:0!important;visibility:hidden!important;transform:none!important}
+        .sw7-clean-item.open>.sw7-clean-menu{display:block!important;opacity:1!important;visibility:visible!important}.sw7-services-item.open>.sw7-clean-menu{display:block!important}
+        .sw7-clean-menu a,.sw7-clean-sub>button{min-height:42px!important;padding:10px 12px!important;font-size:11px!important}
+        .sw7-services-item.open .sw7-clean-submenu{display:block!important;padding:0 0 5px 12px!important}.sw7-services-item.open .sw7-clean-sub>button{pointer-events:none!important}.sw7-services-item.open .sw7-clean-sub>button span{display:none!important}
+        .sw7-clean-submenu a{min-height:39px!important}
+      }
+    `;
+    document.head.appendChild(mobileMenuStyle);
     const mobileBackStyle = document.createElement('style');
     mobileBackStyle.textContent = `
       @media(max-width:700px){
@@ -578,7 +600,12 @@
   actionButtons.forEach(function (action) {
     action.addEventListener('click', function (event) {
       const label = (action.textContent || '').replace(/[→]/g, '').trim();
-      if (/^book an appointment$/i.test(label)) return;
+      const href = action.getAttribute('href') || '';
+      const hashTarget = href.indexOf('#') >= 0 ? href.split('#').pop().toLowerCase() : '';
+      const opensForm = hashTarget === 'form-fill' || hashTarget === 'contact' ||
+        action.closest('.tool-cta-action') ||
+        /^(tell us about|choose a service|turn search traffic into leads)/i.test(label);
+      if (!opensForm) return;
       event.preventDefault();
       document.dispatchEvent(new CustomEvent('sw7:open-contact-form', {
         detail: { title: label || 'Tell Us About Your Business' }
