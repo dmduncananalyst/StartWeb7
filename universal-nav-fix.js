@@ -299,20 +299,18 @@
     });
     header.querySelectorAll('.sw7-clean-trigger').forEach(function (trigger) {
       trigger.addEventListener('click', function (event) {
-        if (window.matchMedia('(max-width:700px)').matches) {
-          if (event.target.closest('.sw7-down-arrow')) {
-            event.preventDefault();
-            event.stopPropagation();
-            const item = trigger.closest('.sw7-clean-item');
-            const willOpen = !item.classList.contains('open');
-            header.querySelectorAll('.sw7-clean-item.open').forEach(function (otherItem) {
-              if (otherItem !== item) otherItem.classList.remove('open');
-            });
-            item.classList.toggle('open', willOpen);
-            revealMobileDropdown(item);
-          } else {
+        if (event.target.closest('.sw7-down-arrow')) {
+          event.preventDefault();
+          event.stopPropagation();
+          const item = trigger.closest('.sw7-clean-item');
+          const willOpen = !item.classList.contains('open');
+          header.querySelectorAll('.sw7-clean-item.open').forEach(function (otherItem) {
+            if (otherItem !== item) otherItem.classList.remove('open');
+          });
+          item.classList.toggle('open', willOpen);
+          if (window.matchMedia('(max-width:700px)').matches) revealMobileDropdown(item);
+        } else if (window.matchMedia('(max-width:700px)').matches) {
             saveCompactMenuState(trigger);
-          }
         }
       });
     });
@@ -338,7 +336,7 @@
       let servicesHoverTimer;
       servicesItem.addEventListener('mouseenter', function () {
         window.clearTimeout(servicesHoverTimer);
-        if (window.matchMedia('(min-width:1181px) and (hover:hover) and (pointer:fine)').matches) {
+        if (window.matchMedia('(min-width:701px) and (hover:hover) and (pointer:fine)').matches) {
           servicesHoverTimer = window.setTimeout(function () {
             servicesItem.classList.add('open');
           }, 240);
@@ -346,7 +344,7 @@
       });
       servicesItem.querySelectorAll('.sw7-clean-sub').forEach(function (subsection) {
         subsection.addEventListener('mouseenter', function () {
-          if (window.matchMedia('(min-width:1181px) and (hover:hover) and (pointer:fine)').matches) {
+          if (window.matchMedia('(min-width:701px) and (hover:hover) and (pointer:fine)').matches) {
             window.clearTimeout(servicesHoverTimer);
             servicesItem.classList.add('open');
             subsection.classList.add('open');
