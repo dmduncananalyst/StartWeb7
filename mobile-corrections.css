@@ -50,4 +50,16 @@ body[data-sw7-page="contact"] .contact-kicker{width:100%;max-width:100%;font-siz
 body[data-sw7-page="contact"] .contact-hero h1{width:100%;max-width:100%;font-size:clamp(34px,11vw,48px)!important;line-height:.96!important;overflow-wrap:anywhere}
 body[data-sw7-page="contact"] .contact-hero p{width:100%;max-width:100%;font-size:16px!important;line-height:1.55!important;overflow-wrap:break-word}
 body[data-sw7-page="contact"] .contact-hero>*,body[data-sw7-page="contact"] .contact-hero>*>*{min-width:0;max-width:100%}
+
+/* Mobile spacing repair: content sections must end where their content ends. */
+body .content-section,body .intro,body .split-section,body .build,body .optimized-intro,body .benefits,body .bottom-line{height:auto!important;min-height:0!important}
+body .content-section{padding-top:58px!important;padding-bottom:58px!important}
+body .intro{padding-top:58px!important;padding-bottom:58px!important}
+body .build{padding-top:54px!important;padding-bottom:58px!important;overflow:hidden!important}
+
+/* Keep the live action immediately after the copy and large enough to read. */
+body .search-stage,body .journey-demo{height:auto!important;min-height:310px!important;margin-top:24px!important;margin-bottom:0!important}
+body .search-stage{display:block!important}
+body .search-stage .browser,body .journey-demo>div{width:100%!important;max-width:none!important;min-height:310px!important;transform:none!important}
+body .build .search-stage,body .build .journey-demo{margin-top:26px!important}
 }

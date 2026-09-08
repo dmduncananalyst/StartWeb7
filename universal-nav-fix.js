@@ -19,9 +19,16 @@
       logo.removeAttribute('style');
       brand.appendChild(logo);
     }
+    const brandCopy = document.createElement('span');
+    brandCopy.className = 'sw7-brand-copy';
     const brandName = document.createElement('span');
+    brandName.className = 'sw7-brand-name';
     brandName.textContent = 'StartWeb7';
-    brand.appendChild(brandName);
+    const brandSlogan = document.createElement('span');
+    brandSlogan.className = 'sw7-brand-slogan';
+    brandSlogan.textContent = 'We bring leads to you.';
+    brandCopy.append(brandName, brandSlogan);
+    brand.appendChild(brandCopy);
     const nav = document.createElement('nav');
     nav.className = 'sw7-clean-nav';
     nav.setAttribute('aria-label', 'Main navigation');
@@ -235,6 +242,7 @@
     mobileBackStyle.textContent = `
       @media(max-width:700px){
         body{padding-top:132px!important}
+        body.sw7-page-index{padding-top:86px!important}
         .sw7-page-back-bar{position:fixed!important;z-index:2147483001!important;top:86px!important;right:0!important;left:0!important;display:flex!important;height:46px!important;align-items:center!important;padding:0 22px!important;background:#fff!important;border-bottom:1px solid #e4e9ef!important}
       }
     `;
@@ -564,7 +572,7 @@
   if (!footer || document.querySelector('.resource-cta')) return;
   const appointment = document.createElement('section');
   appointment.className = 'resource-cta sw7-lead-source-cta';
-  appointment.innerHTML = '<div class="resource-inner"><h2>Build a lead source you own.</h2><a href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3w4acYUDZ6bDD4a3BT5IjqMcrN7_OqtNHk6iglerJgKkBYj2Cv_1UXoj2u7f_B9sLNZOI1PjWj?gv=true" target="_blank" rel="noopener">BOOK AN APPOINTMENT →</a></div>';
+  appointment.innerHTML = '<div class="resource-inner"><h2>Build a lead source of your own.</h2><a href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3w4acYUDZ6bDD4a3BT5IjqMcrN7_OqtNHk6iglerJgKkBYj2Cv_1UXoj2u7f_B9sLNZOI1PjWj?gv=true" target="_blank" rel="noopener">BOOK AN APPOINTMENT →</a></div>';
   const style = document.createElement('style');
   style.textContent = '.sw7-lead-source-cta{padding:62px 5vw;background:#0784ff;color:#fff}.sw7-lead-source-cta .resource-inner{width:min(1120px,100%);margin:auto;display:flex;align-items:center;justify-content:space-between;gap:40px}.sw7-lead-source-cta h2{margin:0;font:900 clamp(30px,3.5vw,48px)/1 Arial,Helvetica,sans-serif;letter-spacing:-.04em}.sw7-lead-source-cta a{flex:0 0 auto;padding:17px 20px;border:2px solid #fff;color:#fff;text-decoration:none;font:900 12px/1 Arial,Helvetica,sans-serif;letter-spacing:.1em}@media(max-width:700px){.sw7-lead-source-cta{padding:48px 7vw}.sw7-lead-source-cta .resource-inner{display:block}.sw7-lead-source-cta a{display:inline-block;margin-top:25px}}';
   document.head.appendChild(style);
@@ -681,4 +689,49 @@
       }));
     });
   });
+})();
+
+/* Final mobile layout pass: remove desktop-sized blank chapters and keep demos readable. */
+(function () {
+  const style = document.createElement('style');
+  style.textContent = `
+  .sw7-universal-brand .sw7-brand-copy{display:flex!important;flex-direction:column!important;align-items:flex-start!important;gap:4px!important}
+  .sw7-universal-brand .sw7-brand-name{font:900 17px/1 Arial,sans-serif!important;letter-spacing:.04em!important}
+  .sw7-universal-brand .sw7-brand-slogan{font:700 10px/1 Arial,sans-serif!important;letter-spacing:.01em!important;color:#4f5964!important}
+  @media(min-width:901px){.sw7-universal-brand{min-width:270px!important}.sw7-clean-nav{margin-left:clamp(18px,3vw,54px)!important}}
+  @media(max-width:900px){.sw7-universal-brand .sw7-brand-name{font-size:14px!important}.sw7-universal-brand .sw7-brand-slogan{font-size:9px!important}}
+  @media(max-width:700px){.sw7-universal-brand{gap:7px!important}.sw7-universal-brand .sw7-brand-copy{gap:3px!important}.sw7-universal-brand .sw7-brand-slogan{font-size:8px!important}}
+  @media(min-width:1000px){
+    .belief,.purpose,.closing,
+    .support-intro,.support-details,.support-close,
+    .home-service,.content-section,.essentials-close{
+      grid-template-columns:minmax(0,620px) minmax(0,620px)!important;
+      column-gap:clamp(70px,5.75vw,110px)!important;
+      padding-left:max(7vw,calc((100vw - 1350px)/2))!important;
+      padding-right:max(7vw,calc((100vw - 1350px)/2))!important;
+    }
+    .home-service.seo .home-service-label{
+      font-size:clamp(52px,5vw,82px)!important;
+    }
+  }
+  @media(max-width:850px){
+    .content-section,.intro,.split-section,.build,.optimized-intro,.benefits,.bottom-line{height:auto!important;min-height:0!important}
+    .content-section,.intro{padding-top:58px!important;padding-bottom:58px!important}
+    .build{padding-top:54px!important;padding-bottom:58px!important;overflow:hidden!important}
+    [class*="section"],.intro,.build,.optimized-intro,.benefits,.bottom-line,.home-service{min-height:0!important;height:auto!important}
+    [class*="section"],.intro,.build,.home-service{padding-top:48px!important;padding-bottom:48px!important}
+    .analysis-note{display:none!important}
+    .sw7-page-index .home-service-label{font-size:clamp(30px,8.5vw,34px)!important;line-height:.95!important;letter-spacing:-.04em!important;white-space:nowrap!important}
+    .sw7-page-index .home-service.seo .home-service-label{font-size:clamp(29px,8.25vw,33px)!important;white-space:normal!important}
+    .growth-hero{height:calc(100svh - 132px)!important;min-height:560px!important;padding:0!important;overflow:hidden!important}
+    .growth-stage{height:100%!important;min-height:0!important;margin:0!important}
+    .growth-main-title{top:5%!important;font-size:clamp(43px,13vw,54px)!important}
+    .growth-title{top:auto!important;bottom:auto!important;max-width:48%!important;transform:none!important;font-size:clamp(22px,6.7vw,28px)!important;line-height:.9!important;white-space:normal!important}
+    .growth-title.left{left:5%!important;top:25%!important}
+    .growth-title.right{right:5%!important;top:69%!important;text-align:right!important}
+    .growth-map{left:50%!important;top:53%!important;width:92%!important;max-height:245px!important;transform:translate(-50%,-50%)!important}
+    .growth-message{bottom:4%!important;font-size:8px!important;padding:8px 10px!important}
+  }`;
+  document.head.appendChild(style);
+  document.querySelectorAll('.analysis-note').forEach(function (note) { note.remove(); });
 })();
