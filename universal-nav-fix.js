@@ -242,7 +242,7 @@
     mobileBackStyle.textContent = `
       @media(max-width:700px){
         body{padding-top:132px!important}
-        body.sw7-page-index{padding-top:86px!important}
+        body.sw7-page-index,body[data-sw7-page="home"]{padding-top:86px!important}
         .sw7-page-back-bar{position:fixed!important;z-index:2147483001!important;top:86px!important;right:0!important;left:0!important;display:flex!important;height:46px!important;align-items:center!important;padding:0 22px!important;background:#fff!important;border-bottom:1px solid #e4e9ef!important}
       }
     `;
