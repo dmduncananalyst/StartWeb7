@@ -567,6 +567,33 @@
   }
 })();
 
+/* Give the original resource articles the same reading-page sidebar as newer articles. */
+(function () {
+  var related = {
+    'mojo-vs-vulcan7-real-estate-leads.html': [['google-maps-leads.html','How Google Maps Leads Work'],['google-business-profile-vs-website.html','Google Business Profile vs. Your Website']],
+    'angi-vs-thumbtack-general-contractors.html': [['seo-vs-paid-ads.html','SEO vs Paid Ads'],['aeo-ai-search.html','What Is AEO?']],
+    'ccc-one-vs-mitchell-collision-repair.html': [['google-maps-leads.html','How Google Maps Leads Work'],['seo-vs-paid-ads.html','SEO vs Paid Ads']]
+  };
+  var file = location.pathname.split('/').pop();
+  if (!related[file] || document.querySelector('.briefing-page .article-aside')) return;
+  var article = document.querySelector('.briefing-page .briefing-article');
+  if (!article) return;
+  var aside = document.createElement('aside');
+  aside.className = 'article-aside';
+  aside.innerHTML = '<strong>RELATED RESOURCES</strong>' + related[file].map(function (item) { return '<a href="' + item[0] + '">' + item[1] + '</a>'; }).join('') + '<a href="resources.html">All Resources</a>';
+  article.insertAdjacentElement('afterend', aside);
+})();
+
+(function () {
+  if (!document.querySelector('.article-body') || document.querySelector('.global-contact-block')) return;
+  const footer = document.createElement('footer');
+  footer.className = 'global-contact-block';
+  footer.innerHTML = '<div class="global-contact-wrap"><div class="contact-options"><a class="contact-option" href="tel:+18189340444"><span class="contact-label">CALL</span><strong>(818) 934-0444</strong></a><div class="contact-option email-option"><span class="contact-label">EMAIL</span><button class="email-address-btn" type="button" id="openEmailOptions" aria-expanded="false">desirae@startweb7.com</button><div class="email-options" id="emailOptions" aria-hidden="true"><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=desirae@startweb7.com" target="_blank" rel="noopener">Gmail</a><a href="https://outlook.live.com/mail/0/deeplink/compose?to=desirae@startweb7.com" target="_blank" rel="noopener">Outlook</a><button type="button" id="copyEmail">Copy desirae@startweb7.com</button></div></div><div class="contact-option form-trigger-block"><span class="contact-label">FORM FILL</span><label class="service-select-wrap"><select id="serviceSelect" aria-label="Choose your service"><option value="" selected disabled>Choose what you\'re interested in</option><option value="Landing Page">Landing Page</option><option value="Business Website">Business Website</option><option value="SEO-Optimized Website">SEO-Optimized Website</option><option value="SEO + AEO Essentials">SEO + AEO Essentials</option><option value="SEO + AEO Competitive">SEO + AEO Competitive</option></select></label></div></div><div class="quick-form-shell" id="quickForm" aria-hidden="true"><form class="quick-form" onsubmit="event.preventDefault()"><input type="hidden" name="service" id="selectedService"><div class="form-fields"><label><span>Name</span><input type="text" name="name" autocomplete="name"></label><label><span>Business Name</span><input type="text" name="business"></label><label><span>Email</span><input type="email" name="email" autocomplete="email"></label><label><span>Phone</span><input type="tel" name="phone" autocomplete="tel"></label></div><button class="submit-btn" type="submit">SUBMIT</button></form></div></div>';
+  const copyright = document.querySelector('.sw7-universal-copyright');
+  if (copyright) copyright.parentNode.insertBefore(footer, copyright);
+  else document.body.appendChild(footer);
+})();
+
 (function () {
   const footer = document.querySelector('.global-contact-block');
   if (!footer || document.querySelector('.resource-cta')) return;
