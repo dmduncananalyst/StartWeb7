@@ -727,7 +727,7 @@
   .sw7-universal-brand .sw7-brand-slogan{font:700 10px/1 Arial,sans-serif!important;letter-spacing:.01em!important;color:#4f5964!important}
   @media(min-width:901px){.sw7-universal-brand{min-width:270px!important}.sw7-clean-nav{margin-left:clamp(18px,3vw,54px)!important}}
   @media(max-width:900px){.sw7-universal-brand .sw7-brand-name{font-size:14px!important}.sw7-universal-brand .sw7-brand-slogan{font-size:9px!important}}
-  @media(max-width:700px){.sw7-universal-brand{gap:7px!important}.sw7-universal-brand .sw7-brand-copy{gap:3px!important}.sw7-universal-brand .sw7-brand-slogan{font-size:8px!important}}
+  @media(max-width:700px){.sw7-universal-brand{gap:7px!important}.sw7-universal-brand .sw7-brand-copy{gap:3px!important}.sw7-universal-brand .sw7-brand-slogan{font-size:12px!important}}
   @media(min-width:1000px){
     .belief,.purpose,.closing,
     .support-intro,.support-details,.support-close,
