@@ -111,7 +111,7 @@
 const phrase='How do I get more customers from Google?',typed=document.getElementById('typed'),result=document.getElementById('result'),steps=[0,1,2,3].map(i=>document.getElementById('s'+i));let timers=[];function later(fn,t){timers.push(setTimeout(fn,t))}function run(){timers.forEach(clearTimeout);timers=[];typed.textContent='';result.classList.remove('show');steps.forEach(s=>s.classList.remove('active'));steps[0].classList.add('active');[...phrase].forEach((ch,i)=>later(()=>typed.textContent+=ch,450+i*72));const done=450+phrase.length*72;later(()=>result.classList.add('show'),done+500);later(()=>{steps[0].classList.remove('active');steps[1].classList.add('active')},done+1100);later(()=>{steps[1].classList.remove('active');steps[2].classList.add('active')},done+1900);later(()=>{steps[2].classList.remove('active');steps[3].classList.add('active')},done+2700);later(run,done+5000)}run();
 </script>
 <script>const serviceSelect=document.getElementById('serviceSelect'),quickForm=document.getElementById('quickForm'),emailButton=document.getElementById('openEmailOptions'),emailOptions=document.getElementById('emailOptions'),copyEmail=document.getElementById('copyEmail');serviceSelect.addEventListener('change',()=>{quickForm.classList.add('open');setTimeout(()=>quickForm.scrollIntoView({behavior:'smooth',block:'nearest'}),80)});emailButton.addEventListener('click',()=>emailOptions.classList.toggle('open'));copyEmail.addEventListener('click',async()=>{try{await navigator.clipboard.writeText('desirae@startweb7.com');copyEmail.textContent='Copied';setTimeout(()=>copyEmail.textContent='Copy desirae@startweb7.com',1400)}catch(e){copyEmail.textContent='desirae@startweb7.com'}});</script>
-<footer class="rights-footer">© 2026 WebStart7. All rights reserved.</footer>
+<footer class="rights-footer">© 2026 StartWeb7. All rights reserved.</footer>
 
 <script>
 /* Working no-backend fallback. Replace with the owner's HubSpot embed after a portal/form ID is supplied. */
@@ -175,7 +175,7 @@ document.addEventListener('submit',function(event){
     brandName.textContent = 'StartWeb7';
     brandLogo.appendChild(brandName);
   }
-  const copyrightText = '© 2026 WebStart7. All rights reserved.';
+  const copyrightText = '© 2026 StartWeb7. All rights reserved.';
   const copyrightMatches = [...document.querySelectorAll('body *')].filter(function (element) {
     return element.children.length === 0 && /all rights reserved/i.test(element.textContent || '');
   });
@@ -422,5 +422,6 @@ input,select,textarea,button{max-width:100%!important}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',build);else build()
 })();
 
-</script><script src="universal-nav-fix.js?v=185"></script></body>
+</script><script src="universal-nav-fix.js?v=185"></script><script src="analytics-events.js" defer></script>
+</body>
 </html>
