@@ -1,7 +1,9 @@
 (function () {
   const industries = [
-    { label: 'REAL ESTATE', query: 'real estate agent los angeles', old: '4. Oak & Key Realty' },
-    { label: 'COSMETIC CLINIC', query: 'cosmetic clinic beverly hills', old: '6. Radiance Clinic' }
+    { label: 'COLLISION REPAIR', query: 'fix my bumper atlanta', old: '4. Other local companies' },
+    { label: 'POOL CONSTRUCTION', query: 'remodel my pool houston', old: '5. Other local companies' },
+    { label: 'GENERAL CONTRACTORS', query: 'ADU portland', old: '3. Other local companies' },
+    { label: 'CATERING', query: 'wedding food las vegas', old: '6. Other local companies' }
   ];
   const industryDemo = document.querySelector('.sw7-proto-industries');
   if (industryDemo) {

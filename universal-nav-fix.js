@@ -32,7 +32,7 @@
     const nav = document.createElement('nav');
     nav.className = 'sw7-clean-nav';
     nav.setAttribute('aria-label', 'Main navigation');
-    nav.innerHTML = '<a href="index.html">Home</a><a href="about.html">About</a><div class="sw7-clean-item sw7-services-item"><a class="sw7-clean-trigger" href="services.html">Services <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><div class="sw7-clean-menu"><div class="sw7-clean-sub"><button class="sw7-website-button" type="button">WEBSITE DESIGN <span aria-hidden="true">▼</span></button><div class="sw7-clean-submenu"><a href="landing-page.html">LANDING PAGE</a><a href="business-website.html">BUSINESS WEBSITE</a><a href="seo-optimized-website.html">SEO-OPTIMIZED WEBSITE</a></div></div><div class="sw7-clean-sub"><button class="sw7-management-toggle" type="button" aria-expanded="false">SEO + AEO MANAGEMENT <span aria-hidden="true">▼</span></button><div class="sw7-clean-submenu"><a href="essentials.html">ESSENTIALS</a><a href="competitive.html">COMPETITIVE</a></div></div></div></div><div class="sw7-clean-item sw7-industries-item"><a class="sw7-clean-trigger" href="industries.html">Industries <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><div class="sw7-clean-menu"><a href="real-estate-agents.html">REAL ESTATE</a><a href="collision-repair.html">COLLISION REPAIR</a><a href="pool-construction.html">POOL CONSTRUCTION</a><a href="general-contractors.html">GENERAL CONTRACTORS</a></div></div><a href="resources.html">Resources</a><a href="reviews.html">Reviews</a><a href="faq.html">FAQ</a><div class="sw7-clean-item sw7-contact-item"><a class="sw7-clean-trigger" href="contact.html">Contact <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><div class="sw7-clean-menu"><a href="support.html">24/7 SUPPORT</a><a href="careers.html">CAREERS</a></div></div>';
+    nav.innerHTML = '<a href="index.html">Home</a><a href="about.html">About</a><div class="sw7-clean-item sw7-services-item"><a class="sw7-clean-trigger" href="services.html">Services <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><div class="sw7-clean-menu"><div class="sw7-clean-sub"><button class="sw7-website-button" type="button">WEBSITE DESIGN <span aria-hidden="true">▼</span></button><div class="sw7-clean-submenu"><a href="landing-page.html">LANDING PAGE</a><a href="business-website.html">BUSINESS WEBSITE</a><a href="seo-optimized-website.html">SEO-OPTIMIZED WEBSITE</a></div></div><div class="sw7-clean-sub"><button class="sw7-management-toggle" type="button" aria-expanded="false">SEO + AEO MANAGEMENT <span aria-hidden="true">▼</span></button><div class="sw7-clean-submenu"><a href="essentials.html">ESSENTIALS</a><a href="competitive.html">COMPETITIVE</a></div></div></div></div><div class="sw7-clean-item sw7-industries-item"><a class="sw7-clean-trigger" href="industries.html">Industries <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><div class="sw7-clean-menu"><a href="real-estate-agents.html">REAL ESTATE</a><a href="collision-repair.html">COLLISION REPAIR</a><a href="pool-construction.html">POOL CONSTRUCTION</a><a href="general-contractors.html">GENERAL CONTRACTORS</a><a href="catering.html">CATERING</a></div></div><a href="resources.html">Resources</a><a href="reviews.html">Reviews</a><a href="faq.html">FAQ</a><div class="sw7-clean-item sw7-contact-item"><a class="sw7-clean-trigger" href="contact.html">Contact <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><div class="sw7-clean-menu"><a href="support.html">24/7 SUPPORT</a><a href="careers.html">CAREERS</a></div></div>';
     const mobileScrollTrack = document.createElement('div');
     mobileScrollTrack.className = 'sw7-mobile-scroll-track';
     mobileScrollTrack.setAttribute('aria-hidden', 'true');
@@ -63,12 +63,10 @@
       pageBackLink.textContent = '← BACK';
       pageBackLink.addEventListener('click', function (event) {
         event.preventDefault();
-        window.sessionStorage.setItem('sw7RestoreMenuRequested', '1');
-        let savedMenuState = null;
-        try { savedMenuState = JSON.parse(window.sessionStorage.getItem('sw7CompactMenuState') || 'null'); } catch (error) { savedMenuState = null; }
-        if (savedMenuState && savedMenuState.returnUrl) {
-          window.location.href = savedMenuState.returnUrl;
-        } else if (window.history.length > 1) {
+        /* This is a real Back button: do not redirect or recreate a menu.
+           The browser restores the visitor's actual previous state. */
+        window.sessionStorage.removeItem('sw7RestoreMenuRequested');
+        if (window.history.length > 1) {
           window.history.back();
         } else {
           window.location.href = 'index.html';
@@ -98,7 +96,12 @@
       .global-contact-block .contact-option strong,.global-contact-block .contact-option>a,.global-contact-block .email-address-btn,.global-contact-block .service-select-wrap select{display:flex!important;align-items:center!important;width:100%!important;min-height:48px!important;padding:12px 14px!important;border:1px solid #9fb3c8!important;background:#fff!important;color:#07101c!important;box-sizing:border-box!important;font-weight:800!important;text-align:left!important;text-decoration:none!important;cursor:pointer!important}
       .global-contact-block .email-address-btn:hover,.global-contact-block .email-address-btn:focus-visible,.global-contact-block .service-select-wrap select:hover,.global-contact-block .service-select-wrap select:focus-visible{border-color:#0784ff!important;box-shadow:0 0 0 3px rgba(7,132,255,.14)!important;outline:none!important}
       .global-contact-block .email-address-btn{position:relative!important;justify-content:space-between!important;padding-right:38px!important}
-      .global-contact-block .email-address-btn:after{content:"▼"!important;position:absolute!important;right:14px!important;top:50%!important;transform:translateY(-50%)!important;color:#0784ff!important;font-size:11px!important;pointer-events:none!important}
+      .global-contact-block .home-contact-options .email-address-btn{justify-content:center!important;text-align:center!important;padding:12px 0!important}
+      .global-contact-block .email-address-btn:after{display:none!important}
+      .global-contact-block .email-contact-menu{position:relative!important;display:block!important;width:100%!important}
+      .global-contact-block .email-contact-menu summary{list-style:none!important}
+      .global-contact-block .email-contact-menu summary::-webkit-details-marker{display:none!important}
+      .global-contact-block .email-contact-menu[open] .email-options{display:grid!important;gap:0!important}
       .global-contact-block .email-option{z-index:4!important}
       .global-contact-block .email-options{position:absolute!important;z-index:5!important;top:100%!important;left:0!important;right:0!important;display:none!important;width:100%!important;min-width:0!important;margin:0!important;padding:0!important;border:1px solid #9fb3c8!important;border-top:0!important;background:#fff!important;box-sizing:border-box!important;box-shadow:0 16px 28px rgba(7,16,28,.14)!important}
       .global-contact-block .email-options.open{display:grid!important;gap:0!important}
@@ -253,9 +256,15 @@
       compactMenuButton.setAttribute('aria-expanded', open ? 'true' : 'false');
       compactMenuButton.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
       if (!open) header.querySelectorAll('.open').forEach(function (item) { item.classList.remove('open'); });
+      if (!open) window.sessionStorage.removeItem('sw7CompactMenuState');
       window.requestAnimationFrame(updateMobileScrollThumb);
     }
     function saveCompactMenuState(link) {
+      /* Do not leave a saved menu behind when navigation happened normally. */
+      if (!header.classList.contains('compact-open')) {
+        window.sessionStorage.removeItem('sw7CompactMenuState');
+        return;
+      }
       const item = link.closest('.sw7-clean-item');
       let itemName = '';
       if (item && item.classList.contains('sw7-services-item')) itemName = 'services';
@@ -588,7 +597,7 @@
   if (!document.querySelector('.article-body') || document.querySelector('.global-contact-block')) return;
   const footer = document.createElement('footer');
   footer.className = 'global-contact-block';
-  footer.innerHTML = '<div class="global-contact-wrap"><div class="contact-options"><a class="contact-option" href="tel:+18189340444"><span class="contact-label">CALL</span><strong>(818) 934-0444</strong></a><div class="contact-option email-option"><span class="contact-label">EMAIL</span><button class="email-address-btn" type="button" id="openEmailOptions" aria-expanded="false">desirae@startweb7.com</button><div class="email-options" id="emailOptions" aria-hidden="true"><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=desirae@startweb7.com" target="_blank" rel="noopener">Gmail</a><a href="https://outlook.live.com/mail/0/deeplink/compose?to=desirae@startweb7.com" target="_blank" rel="noopener">Outlook</a><button type="button" id="copyEmail">Copy desirae@startweb7.com</button></div></div><div class="contact-option form-trigger-block"><span class="contact-label">FORM FILL</span><label class="service-select-wrap"><select id="serviceSelect" aria-label="Choose your service"><option value="" selected disabled>Choose what you\'re interested in</option><option value="Landing Page">Landing Page</option><option value="Business Website">Business Website</option><option value="SEO-Optimized Website">SEO-Optimized Website</option><option value="SEO + AEO Essentials">SEO + AEO Essentials</option><option value="SEO + AEO Competitive">SEO + AEO Competitive</option></select></label></div></div><div class="quick-form-shell" id="quickForm" aria-hidden="true"><form class="quick-form" onsubmit="event.preventDefault()"><input type="hidden" name="service" id="selectedService"><div class="form-fields"><label><span>Name</span><input type="text" name="name" autocomplete="name"></label><label><span>Business Name</span><input type="text" name="business"></label><label><span>Email</span><input type="email" name="email" autocomplete="email"></label><label><span>Phone</span><input type="tel" name="phone" autocomplete="tel"></label></div><button class="submit-btn" type="submit">SUBMIT</button></form></div></div>';
+  footer.innerHTML = '<div class="global-contact-wrap"><div class="contact-options"><a class="contact-option" href="tel:+18189340444"><span class="contact-label">CALL</span><strong>(818) 934-0444</strong></a><div class="contact-option email-option"><span class="contact-label">EMAIL</span><details class="email-contact-menu"><summary class="email-address-btn">desirae@startweb7.com</summary><div class="email-options"><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=desirae@startweb7.com" target="_blank" rel="noopener">GMAIL</a><a href="https://outlook.live.com/mail/0/deeplink/compose?to=desirae@startweb7.com" target="_blank" rel="noopener">OUTLOOK</a><button type="button" data-copy-email="desirae@startweb7.com">COPY EMAIL</button></div></details></div><div class="contact-option form-trigger-block"><span class="contact-label">FORM FILL</span><label class="service-select-wrap"><select id="serviceSelect" aria-label="Choose your service"><option value="" selected disabled>Choose what you\'re interested in</option><option value="Landing Page">Landing Page</option><option value="Business Website">Business Website</option><option value="SEO-Optimized Website">SEO-Optimized Website</option><option value="SEO + AEO Essentials">SEO + AEO Essentials</option><option value="SEO + AEO Competitive">SEO + AEO Competitive</option></select></label></div></div><div class="quick-form-shell" id="quickForm" aria-hidden="true"><form class="quick-form" onsubmit="event.preventDefault()"><input type="hidden" name="service" id="selectedService"><div class="form-fields"><label><span>Name</span><input type="text" name="name" autocomplete="name"></label><label><span>Business Name</span><input type="text" name="business"></label><label><span>Email</span><input type="email" name="email" autocomplete="email"></label><label><span>Phone</span><input type="tel" name="phone" autocomplete="tel"></label></div><button class="submit-btn" type="submit">SUBMIT</button></form></div></div>';
   const copyright = document.querySelector('.sw7-universal-copyright');
   if (copyright) copyright.parentNode.insertBefore(footer, copyright);
   else document.body.appendChild(footer);
@@ -599,11 +608,92 @@
   if (!footer || document.querySelector('.resource-cta')) return;
   const appointment = document.createElement('section');
   appointment.className = 'resource-cta sw7-lead-source-cta';
-  appointment.innerHTML = '<div class="resource-inner"><h2>Build a lead source of your own.</h2><a href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3w4acYUDZ6bDD4a3BT5IjqMcrN7_OqtNHk6iglerJgKkBYj2Cv_1UXoj2u7f_B9sLNZOI1PjWj?gv=true" target="_blank" rel="noopener">BOOK AN APPOINTMENT →</a></div>';
+  appointment.innerHTML = '<div class="resource-inner"><h2>Build a lead source of your own.</h2><a href="#homeContactChat" data-open-home-chat>FORM FILL</a></div>';
   const style = document.createElement('style');
-  style.textContent = '.sw7-lead-source-cta{padding:62px 5vw;background:#0784ff;color:#fff}.sw7-lead-source-cta .resource-inner{width:min(1120px,100%);margin:auto;display:flex;align-items:center;justify-content:space-between;gap:40px}.sw7-lead-source-cta h2{margin:0;font:900 clamp(30px,3.5vw,48px)/1 Arial,Helvetica,sans-serif;letter-spacing:-.04em}.sw7-lead-source-cta a{flex:0 0 auto;padding:17px 20px;border:2px solid #fff;color:#fff;text-decoration:none;font:900 12px/1 Arial,Helvetica,sans-serif;letter-spacing:.1em}@media(max-width:700px){.sw7-lead-source-cta{padding:48px 7vw}.sw7-lead-source-cta .resource-inner{display:block}.sw7-lead-source-cta a{display:inline-block;margin-top:25px}}';
+  style.textContent = '.sw7-lead-source-cta{padding:62px 5vw;background:#0784ff;color:#fff}.sw7-lead-source-cta .resource-inner{width:min(1120px,100%);margin:auto;display:flex;align-items:center;justify-content:space-between;gap:40px}.sw7-lead-source-cta h2{margin:0;font:900 clamp(30px,3.5vw,48px)/1 Arial,Helvetica,sans-serif;letter-spacing:-.04em}.sw7-lead-source-cta a{flex:0 0 auto;padding:17px 20px;border:2px solid #fff;color:#fff;text-decoration:none;font:900 12px/1 Arial,Helvetica,sans-serif;letter-spacing:.1em}@media(max-width:700px){.sw7-lead-source-cta{padding:48px 7vw}.sw7-lead-source-cta .resource-inner{display:block}.sw7-lead-source-cta a{display:table;margin:25px auto 0}}';
   document.head.appendChild(style);
   footer.parentNode.insertBefore(appointment, footer);
+})();
+
+(function () {
+  /* Use the same Call / Email / Social footer throughout the site. The home page
+     already contains this version plus its separate AI chat, so it is left alone. */
+  if (document.body && document.body.getAttribute('data-sw7-page') === 'home') return;
+  var footerMarkup = '<div class="global-contact-wrap"><div class="contact-options sw7-global-footer-options"><a class="contact-option" href="tel:+18189340444"><span class="contact-label">CALL</span><strong>(818) 934-0444</strong></a><div class="contact-option email-option"><span class="contact-label">EMAIL</span><details class="email-contact-menu"><summary class="email-address-btn">desirae@startweb7.com</summary><div class="email-options"><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=desirae@startweb7.com" target="_blank" rel="noopener">GMAIL</a><a href="https://outlook.live.com/mail/0/deeplink/compose?to=desirae@startweb7.com" target="_blank" rel="noopener">OUTLOOK</a><button type="button" data-copy-email="desirae@startweb7.com">COPY EMAIL</button></div></details></div><div class="contact-option social-option"><span class="contact-label">SOCIAL</span><div class="sw7-global-social-links"><a href="https://www.instagram.com/startweb7_?stkn=MTl4ZnpmeWswNHo3Zg%3D%3D&amp;utm_source=qr" target="_blank" rel="noopener noreferrer">INSTAGRAM</a><a href="https://www.tiktok.com/@startweb7?_r=1&amp;_t=ZP-99kVDkkjaL1" target="_blank" rel="noopener noreferrer">TIKTOK</a><a href="https://www.facebook.com/profile.php?id=61594153382875" target="_blank" rel="noopener noreferrer">FACEBOOK</a></div></div></div></div>';
+  document.querySelectorAll('.global-contact-block').forEach(function (footer) {
+    footer.classList.add('sw7-global-footer');
+    footer.innerHTML = footerMarkup;
+  });
+  var footerStyle = document.createElement('style');
+  footerStyle.textContent = '.sw7-global-footer{text-align:center!important}.sw7-global-footer .sw7-global-footer-options{grid-template-columns:repeat(3,minmax(0,1fr));gap:34px;align-items:start}.sw7-global-footer .contact-option{align-items:center;text-align:center;gap:20px!important}.sw7-global-footer .contact-option strong,.sw7-global-footer .email-address-btn{justify-content:center!important;text-align:center!important;width:100%!important;min-height:48px!important;box-sizing:border-box!important;font-size:16px!important}.sw7-global-footer .email-address-btn{display:flex!important;align-items:center!important;justify-content:center!important;padding:12px 0!important}.sw7-global-footer .email-options{text-align:left}.sw7-global-social-links{display:flex;justify-content:center;align-items:center;gap:8px;flex-wrap:nowrap;white-space:nowrap}.sw7-global-social-links a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 11px;border:1px solid #9fb3c8;color:#07101c;background:#fff;text-decoration:none;font:800 11px/1 Arial,Helvetica,sans-serif}.sw7-global-social-links a:hover,.sw7-global-social-links a:focus-visible{border-color:#0784ff;color:#0784ff}@media(max-width:700px){.sw7-global-footer .sw7-global-footer-options{grid-template-columns:1fr;gap:26px}}';
+  document.head.appendChild(footerStyle);
+})();
+
+(function () {
+  /* Every FORM FILL button opens the same HubSpot-connected AI chat. */
+  if (document.body && document.body.getAttribute('data-sw7-page') === 'home') return;
+  if (document.getElementById('homeContactChat')) return;
+  var chatStyles = document.createElement('link');
+  chatStyles.rel = 'stylesheet';
+  chatStyles.href = 'homepage-contact-chat.css?v=6';
+  document.head.appendChild(chatStyles);
+  var openButton = document.createElement('button');
+  openButton.id = 'openHomeChat';
+  openButton.type = 'button';
+  openButton.hidden = true;
+  openButton.setAttribute('aria-controls', 'homeContactChat');
+  openButton.textContent = 'Open form fill';
+  var chat = document.createElement('section');
+  chat.className = 'sw7-home-chat';
+  chat.id = 'homeContactChat';
+  chat.hidden = true;
+  chat.setAttribute('aria-label', 'StartWeb7 AI form assistant');
+  chat.innerHTML = '<div class="sw7-home-chat-window"><div class="sw7-home-chat-header"><div class="sw7-home-chat-agent"><span class="sw7-home-chat-avatar"><img src="startweb7-logo.png" alt="StartWeb7"></span><span><strong>StartWeb7 AI Assistant</strong><small>A quick form conversation</small></span></div><button class="sw7-home-chat-reset" id="resetHomeChat" type="button">START OVER</button><button class="sw7-home-chat-close" id="closeHomeChat" type="button" aria-label="Close form fill">×</button></div><div class="sw7-home-chat-messages" id="homeChatMessages" role="log" aria-live="polite"></div><div class="sw7-home-chat-choices" id="homeChatChoices" aria-label="Interest options"></div><form class="sw7-home-chat-composer" id="homeChatComposer" hidden><input id="homeChatInput" type="text" autocomplete="off" aria-label="Type your reply" placeholder="Type your reply…"><button class="sw7-home-chat-send" type="submit">SEND</button></form></div><p class="sw7-home-chat-note">Your information is only used to follow up about your inquiry.</p>';
+  var rights = document.querySelector('.rights-footer');
+  if (rights && rights.parentNode) {
+    rights.parentNode.insertBefore(openButton, rights);
+    rights.parentNode.insertBefore(chat, rights);
+  } else {
+    document.body.appendChild(openButton);
+    document.body.appendChild(chat);
+  }
+  var chatScript = document.createElement('script');
+  chatScript.src = 'homepage-contact-chat.js?v=6';
+  document.body.appendChild(chatScript);
+})();
+
+(function () {
+  /* The old scheduling links are retired: every site CTA now opens Form Fill. */
+  document.querySelectorAll('a[href*="calendar.google.com/calendar/appointments"]').forEach(function (link) {
+    link.href = '#homeContactChat';
+    link.removeAttribute('target');
+    link.removeAttribute('rel');
+    link.setAttribute('data-open-home-chat', '');
+    link.textContent = 'FORM FILL';
+  });
+})();
+
+(function () {
+  /* Every legacy contact/form CTA opens the shared AI chat. */
+  document.querySelectorAll('a[href="#contact"], a[href="#form-fill"]').forEach(function (link) {
+    link.href = '#homeContactChat';
+    link.setAttribute('data-open-home-chat', '');
+  });
+})();
+
+(function () {
+  /* Make the collision-repair preview request button interactive too. */
+  var request = document.querySelector('.autobody-estimate button');
+  var confirmation = document.querySelector('.autobody-confirm');
+  if (!request || !confirmation) return;
+  request.type = 'button';
+  request.addEventListener('click', function () {
+    confirmation.textContent = '✓ ESTIMATE REQUEST RECEIVED';
+    confirmation.style.opacity = '1';
+    confirmation.style.transform = 'none';
+    request.textContent = 'REQUEST RECEIVED';
+    request.disabled = true;
+  });
 })();
 
 (function () {
@@ -613,6 +703,11 @@
   emailOptions.classList.remove('open');
   emailOptions.setAttribute('aria-hidden', 'true');
   emailButton.setAttribute('aria-expanded', emailOptions.classList.contains('open') ? 'true' : 'false');
+  emailButton.addEventListener('click', function () {
+    const open = emailOptions.classList.toggle('open');
+    emailOptions.setAttribute('aria-hidden', open ? 'false' : 'true');
+    emailButton.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
   document.addEventListener('click', function (event) {
     window.setTimeout(function () {
       const emailArea = emailButton.closest('.email-option') || emailButton.parentElement;
@@ -630,6 +725,29 @@
     emailOptions.classList.remove('open');
     emailOptions.setAttribute('aria-hidden', 'true');
     emailButton.setAttribute('aria-expanded', 'false');
+  });
+})();
+
+(function () {
+  document.addEventListener('click', function (event) {
+    document.querySelectorAll('.email-contact-menu[open]').forEach(function (menu) {
+      if (!menu.contains(event.target)) menu.removeAttribute('open');
+    });
+  });
+})();
+
+(function () {
+  document.addEventListener('click', function (event) {
+    const copyButton = event.target.closest('[data-copy-email]');
+    if (!copyButton) return;
+    const email = copyButton.getAttribute('data-copy-email');
+    if (!email) return;
+    navigator.clipboard.writeText(email).then(function () {
+      copyButton.textContent = 'COPIED';
+      window.setTimeout(function () { copyButton.textContent = 'COPY EMAIL'; }, 1400);
+    }).catch(function () {
+      copyButton.textContent = email;
+    });
   });
 })();
 
