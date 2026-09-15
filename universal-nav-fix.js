@@ -635,7 +635,7 @@
   if (document.getElementById('homeContactChat')) return;
   var chatStyles = document.createElement('link');
   chatStyles.rel = 'stylesheet';
-  chatStyles.href = 'homepage-contact-chat.css?v=6';
+  chatStyles.href = 'homepage-contact-chat.css?v=7';
   document.head.appendChild(chatStyles);
   var openButton = document.createElement('button');
   openButton.id = 'openHomeChat';
@@ -658,7 +658,7 @@
     document.body.appendChild(chat);
   }
   var chatScript = document.createElement('script');
-  chatScript.src = 'homepage-contact-chat.js?v=6';
+  chatScript.src = 'homepage-contact-chat.js?v=8';
   document.body.appendChild(chatScript);
 })();
 

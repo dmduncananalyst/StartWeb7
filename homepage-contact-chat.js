@@ -23,14 +23,34 @@
     scrollChat();
   }
   function bot(text){window.setTimeout(function(){message(text,'bot')},180)}
-  function showChoices(items){
+  function showInterestChoices(){
+    var selected=[];
     choices.innerHTML='';
-    items.forEach(function(item){
+    ['Website','SEO + AEO Management'].forEach(function(item){
       var button=document.createElement('button');
-      button.type='button';button.textContent=item;
-      button.addEventListener('click',function(){choose(item)});
+      button.type='button';
+      button.textContent=item;
+      button.setAttribute('aria-pressed','false');
+      button.addEventListener('click',function(){
+        var index=selected.indexOf(item);
+        if(index===-1)selected.push(item);else selected.splice(index,1);
+        button.classList.toggle('is-selected',index===-1);
+        button.setAttribute('aria-pressed',index===-1?'true':'false');
+        continueButton.disabled=!selected.length;
+      });
       choices.appendChild(button);
     });
+    var continueButton=document.createElement('button');
+    continueButton.type='button';
+    continueButton.className='sw7-home-chat-continue';
+    continueButton.textContent='CONTINUE';
+    continueButton.disabled=true;
+    continueButton.addEventListener('click',function(){
+      answers.interest=selected.slice();
+      message(selected.join(' + '),'user');
+      askInput('What is your business name?','Business name','business');
+    });
+    choices.appendChild(continueButton);
     composer.hidden=true;
   }
   function askInput(question,placeholder,nextStep){
@@ -39,13 +59,6 @@
     input.value='';input.placeholder=placeholder;step=nextStep;
     bot(question);
     window.setTimeout(function(){input.focus()},260);
-  }
-  function choose(value){
-    message(value,'user');choices.innerHTML='';
-    if(step==='interest'){
-      answers.interest=value;
-      askInput('What is your business name?','Business name','business');
-    }
   }
   function nextWithText(value){
     message(value,'user');
@@ -63,38 +76,38 @@
   }
   function sendRequest(){
     choices.innerHTML='';
-    submitToHubSpot();
-    bot('Thank you. StartWeb7 will follow up with you shortly.');
+    message('Sending your information…','bot');
+    submitToHubSpot().then(function(){
+      messages.lastElementChild.textContent='Thank you. StartWeb7 will follow up with you shortly.';
+    }).catch(function(){
+      messages.lastElementChild.textContent='Your information could not be sent. Please call (818) 934-0444 or email desirae@startweb7.com.';
+    });
   }
   function submitToHubSpot(){
     var contact=answers.contact||'';
     var isEmail=contact.indexOf('@')>-1;
-    var hubSpotService={
-      'A. Business Website':'Business Website',
-      'B. SEO-Optimized Website':'SEO-Optimized Website',
-      'C. SEO + AEO Essentials':'SEO + AEO Esstentials',
-      'D. SEO + AEO Competitive':'SEO + AEO Competitve'
-    }[answers.interest]||answers.interest.replace(/^[A-F]\.\s*/, '');
+    var hubSpotService=(answers.interest||[]).join(';');
     var payload={
       fields:[
-        {name:'firstname',value:answers.name||''},
-        {name:'company',value:answers.business||''},
-        {name:'email',value:isEmail?contact:''},
-        {name:'phone',value:isEmail?'':contact},
-        {name:'what_service_are_you_interested_in',value:hubSpotService||''}
+        {objectTypeId:'0-1',name:'firstname',value:answers.name||''},
+        {objectTypeId:'0-2',name:'name',value:answers.business||''},
+        {objectTypeId:'0-1',name:'email',value:isEmail?contact:''},
+        {objectTypeId:'0-1',name:'phone',value:isEmail?'':contact},
+        {objectTypeId:'0-1',name:'startweb7_service_interest',value:hubSpotService||''}
       ].filter(function(field){return field.value;}),
       context:{pageUri:window.location.href,pageName:document.title}
     };
-    fetch('https://api.hsforms.com/submissions/v3/integration/submit/247103073/47546dcb-3db5-4d2a-a0a9-b76952b44c90',{
+    return fetch('https://api.hsforms.com/submissions/v3/integration/submit/247103073/47546dcb-3db5-4d2a-a0a9-b76952b44c90',{
       method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)
-    }).catch(function(){
-      /* The visitor can still finish the chat if their browser blocks a third-party request. */
+    }).then(function(response){
+      if(!response.ok)throw new Error('HubSpot rejected the submission');
+      return response;
     });
   }
   function start(){
     answers={};step='interest';messages.innerHTML='';choices.innerHTML='';composer.hidden=true;
     message('What are you interested in?','bot');
-    window.setTimeout(function(){showChoices(['A. Business Website','B. SEO-Optimized Website','C. SEO + AEO Essentials','D. SEO + AEO Competitive'])},220);
+    window.setTimeout(showInterestChoices,220);
   }
   function openChat(){
     section.hidden=false;section.classList.add('is-open');openButton.setAttribute('aria-expanded','true');start();
