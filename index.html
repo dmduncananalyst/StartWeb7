@@ -332,14 +332,14 @@ body{margin:0;background:#f4f3ef;color:#111;font-family:Arial,Helvetica,sans-ser
 }
 .work-wall-heading{display:block;text-align:center;border-bottom:0;padding-bottom:0;margin-bottom:48px}.work-wall-heading span{display:none}.work-wall-heading h2{text-align:center;margin:0 auto}.work-project{transition:opacity .45s ease,transform .55s cubic-bezier(.22,.8,.22,1),box-shadow .55s ease;z-index:1}.work-grid:has(.work-project:hover) .work-project:not(:hover){opacity:.52;transform:scale(.985)}.work-project:hover,.work-project:focus-within{z-index:5;transform:scale(1.035);box-shadow:0 28px 70px rgba(7,16,28,.28)}.work-project>img{transition:transform .7s cubic-bezier(.22,.8,.22,1),filter .5s ease,object-position 3.8s ease}.work-project:hover>img,.work-project:focus-within>img{object-position:bottom;transform:scale(1.02)}
 @media(max-width:850px){.work-wall-heading h2{text-align:center}.work-grid:has(.work-project:hover) .work-project:not(:hover){opacity:1;transform:none}.work-project:hover,.work-project:focus-within{transform:none;box-shadow:none}}
-.work-grid{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(2,minmax(320px,38vh))}.work-guide,.work-sk,.work-pilates,.work-sankofa{grid-column:auto}
-@media(max-width:850px){.work-grid{grid-template-columns:1fr;grid-template-rows:none}.work-guide,.work-sk,.work-pilates,.work-sankofa{min-height:58vw}}
+.work-grid{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(3,minmax(320px,38vh))}.work-guide,.work-sk,.work-pilates,.work-sankofa,.work-paradigm-security,.work-paradigm-janitorial{grid-column:auto}
+@media(max-width:850px){.work-grid{grid-template-columns:1fr;grid-template-rows:none}.work-guide,.work-sk,.work-pilates,.work-sankofa,.work-paradigm-security,.work-paradigm-janitorial{min-height:58vw}}
 @media(max-width:850px){
   .work-wall{height:calc(100svh - 118px)!important;min-height:620px!important;padding:16px 8px 18px!important;display:flex!important;flex-direction:column!important;overflow:visible!important}
   .work-wall-heading{flex:0 0 auto!important;margin:0 0 12px!important}
   .work-wall-heading h2{font-size:clamp(25px,7vw,34px)!important;line-height:.92!important}
-  .work-grid{flex:1 1 auto!important;width:100%!important;min-height:0!important;display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;grid-template-rows:repeat(2,minmax(0,1fr))!important;gap:7px!important}
-  .work-guide,.work-sk,.work-pilates,.work-sankofa{grid-column:auto!important;min-height:0!important;height:auto!important}
+  .work-grid{flex:1 1 auto!important;width:100%!important;min-height:0!important;display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;grid-template-rows:repeat(3,minmax(0,1fr))!important;gap:7px!important}
+  .work-guide,.work-sk,.work-pilates,.work-sankofa,.work-paradigm-security,.work-paradigm-janitorial{grid-column:auto!important;min-height:0!important;height:auto!important}
   .work-project>img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:top!important}
   .work-pilates>img{object-fit:contain!important;object-position:center!important;background:#07101c!important}
   .work-overlay{padding:10px!important;background:linear-gradient(180deg,transparent 24%,rgba(7,16,28,.94) 100%)!important}
@@ -349,6 +349,32 @@ body{margin:0;background:#f4f3ef;color:#111;font-family:Arial,Helvetica,sans-ser
   .work-actions .portfolio-contact-wrap{width:100%!important}
   .work-actions .portfolio-email-menu{left:0!important;right:auto!important;bottom:calc(100% + 5px)!important;width:min(210px,82vw)!important}
 }
+.work-wall{overflow:hidden!important}
+.work-grid{display:flex!important;width:max-content!important;grid-template-columns:none!important;grid-template-rows:none!important;gap:0!important;animation:workClientsSlide 92s linear infinite;will-change:transform}
+.work-set{display:flex;gap:18px;padding-right:18px}
+.work-project{flex:0 0 min(680px,72vw);width:min(680px,72vw);height:min(610px,66vh);min-height:390px}
+.work-actions{max-height:none!important;opacity:1!important;transform:none!important;padding-top:18px!important}
+.work-actions>a,.work-actions .portfolio-contact-trigger{pointer-events:auto}
+@keyframes workClientsSlide{to{transform:translateX(-50%)}}
+.client-contact-dialog{position:fixed;inset:0;z-index:30000;display:none;place-items:center;padding:22px;background:rgba(7,16,28,.78);backdrop-filter:blur(8px)}
+.client-contact-dialog.open{display:grid}
+.client-contact-dialog-panel{position:relative;width:min(430px,92vw);padding:38px;background:#fff;box-shadow:0 28px 90px rgba(0,0,0,.45)}
+.client-contact-dialog-panel h2{margin:0 0 8px;color:#07101c;font-size:27px;line-height:1}
+.client-contact-dialog-email{margin:0 0 24px;color:#516174;font:700 13px/1.4 Arial,sans-serif;overflow-wrap:anywhere}
+.client-contact-dialog-actions{display:grid;gap:10px}
+.client-contact-dialog-actions a,.client-contact-dialog-actions button{border:0;padding:15px;background:#0784ff;color:#fff;text-align:center;text-decoration:none;font:900 11px/1 Arial,sans-serif;letter-spacing:.1em;cursor:pointer}
+.client-contact-dialog-actions button{background:#00af7c}
+.client-contact-dialog-close{position:absolute;top:10px;right:12px;border:0;background:transparent;color:#07101c;font-size:27px;line-height:1;cursor:pointer}
+@media(max-width:850px){
+  .work-wall{height:auto!important;min-height:0!important;padding:64px 0!important;display:block!important}
+  .work-grid{display:flex!important;grid-template-columns:none!important;grid-template-rows:none!important;gap:0!important}
+  .work-set{gap:10px;padding-right:10px}
+  .work-project{flex:0 0 84vw!important;width:84vw!important;height:66vw!important;min-height:330px!important}
+  .work-actions{display:flex!important;flex-direction:row!important;flex-wrap:nowrap!important;gap:6px!important;padding-top:10px!important}
+  .work-actions>a,.work-actions .portfolio-contact-wrap{width:50%!important}
+  .work-actions .portfolio-contact-trigger{width:100%!important;height:100%!important}
+}
+@media(prefers-reduced-motion:reduce){.work-grid{animation:none!important}}
 </style>
 <!-- STARTWEB7 SEO AEO START -->
 <meta name="description" content="Website design and SEO + AEO management built to help businesses turn searches into clicks, leads, and customers.">
@@ -466,8 +492,9 @@ try{if(sessionStorage.getItem('sw7PaymentPhoneIntroSeenV1')==='1')document.docum
 <section class="home-hero"><div class="home-hero-copy"><h1 class="home-flow"><span>SEARCH.</span><span>CLICK.</span><span>LEAD.</span><span>CUSTOMER.</span></h1><p>Every search is a potential customer.</p><a class="home-start" href="#form-fill">START →</a></div><div class="analysis-engine" aria-label="Example search to customer analysis"><div class="analysis-top"><span>SEARCH OPPORTUNITY ANALYSIS</span><span class="analysis-status">CALCULATING</span></div><div class="analysis-row"><div class="analysis-label"><strong>SEARCHES</strong><span>MONTHLY SEARCH DEMAND</span></div><div class="analysis-value" data-analysis-value="1000">0000</div></div><div class="analysis-row"><div class="analysis-label"><strong>CLICKS</strong><span>ESTIMATED WEBSITE VISITS</span></div><div class="analysis-value" data-analysis-value="200">000</div></div><div class="analysis-row"><div class="analysis-label"><strong>LEADS</strong><span>ESTIMATED INQUIRIES</span></div><div class="analysis-value" data-analysis-value="5">00</div></div><div class="analysis-row"><div class="analysis-label"><strong>CUSTOMERS</strong><span>ILLUSTRATIVE SCENARIO</span></div><div class="analysis-value" data-analysis-value="1">00</div></div><div class="analysis-track"><span></span></div></div></section>
 <section class="home-service web"><div class="home-service-label">WEBSITE <span>DESIGN</span></div><div class="home-service-copy"><h2>BUILT TO CONVERT.</h2><p>For businesses serious about growth an SEO optimized website is the strongest option. It is built to be found on Google and in AI chats.</p><a class="home-link" href="services.html">VIEW WEBSITE OPTIONS →</a></div></section>
 <section class="home-service seo"><div class="home-service-label">SEO + AEO <span>MANAGEMENT</span></div><div class="home-service-copy"><h2>BUILT TO SCALE.</h2><p>Ongoing SEO + AEO management keeps your website updated as search changes. It expands the searches your business can appear for and creates more opportunities to reach potential customers.</p><div class="home-service-links"><a class="home-link" href="essentials.html">VIEW ESSENTIALS →</a><a class="home-link" href="competitive.html">VIEW COMPETITIVE →</a></div></div></section>
-<section class="work-wall" aria-label="Websites built by StartWeb7">
+<section class="work-wall" aria-label="StartWeb7 client websites">
   <div class="work-grid">
+   <div class="work-set">
     <article class="work-project work-guide">
       <img src="guideme2-current-homepage.jpg" alt="Current GuideMe2 homepage featuring the SFV Guide">
       <div class="work-overlay"><div class="work-actions"><a href="https://guideme2.com/" target="_blank" rel="noopener">VIEW LIVE WEBSITE →</a></div></div>
@@ -484,6 +511,15 @@ try{if(sessionStorage.getItem('sw7PaymentPhoneIntroSeenV1')==='1')document.docum
       <img src="https://image.thum.io/get/width/1800/crop/1000/noanimate/https://thesankofainstitute.com" alt="Completed website project">
       <div class="work-overlay"><div class="work-actions"><a href="https://thesankofainstitute.com" target="_blank" rel="noopener">VIEW LIVE WEBSITE →</a><div class="portfolio-contact-wrap"><button class="portfolio-contact-trigger" type="button">CONTACT CLIENT →</button><div class="portfolio-email-menu"><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=vduncanevans@gmail.com" target="_blank" rel="noopener">Gmail</a><a href="https://outlook.live.com/mail/0/deeplink/compose?to=vduncanevans@gmail.com" target="_blank" rel="noopener">Outlook</a><button type="button" data-copy-email="vduncanevans@gmail.com">Copy email</button></div></div></div></div>
     </article>
+    <article class="work-project work-paradigm-security">
+      <img src="https://image.thum.io/get/width/1800/crop/1000/noanimate/https://www.paradigmsecurityservices.com/" alt="Paradigm Security Services website">
+      <div class="work-overlay"><div class="work-actions"><a href="https://www.paradigmsecurityservices.com/" target="_blank" rel="noopener">VIEW LIVE WEBSITE →</a><div class="portfolio-contact-wrap"><button class="portfolio-contact-trigger" type="button">CONTACT CLIENT →</button><div class="portfolio-email-menu"><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=kevinjhawkins@aol.com" target="_blank" rel="noopener">Gmail</a><a href="https://outlook.live.com/mail/0/deeplink/compose?to=kevinjhawkins@aol.com" target="_blank" rel="noopener">Outlook</a><button type="button" data-copy-email="kevinjhawkins@aol.com">Copy email</button></div></div></div></div>
+    </article>
+    <article class="work-project work-paradigm-janitorial">
+      <img src="https://image.thum.io/get/width/1800/crop/1000/noanimate/https://www.paradigmjanitorial.net/" alt="Paradigm Janitorial website">
+      <div class="work-overlay"><div class="work-actions"><a href="https://www.paradigmjanitorial.net/" target="_blank" rel="noopener">VIEW LIVE WEBSITE →</a><div class="portfolio-contact-wrap"><button class="portfolio-contact-trigger" type="button">CONTACT CLIENT →</button><div class="portfolio-email-menu"><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=kevinjhawkins@aol.com" target="_blank" rel="noopener">Gmail</a><a href="https://outlook.live.com/mail/0/deeplink/compose?to=kevinjhawkins@aol.com" target="_blank" rel="noopener">Outlook</a><button type="button" data-copy-email="kevinjhawkins@aol.com">Copy email</button></div></div></div></div>
+    </article>
+   </div>
   </div>
 </section>
 <section class="home-close"><h2>LET’S START YOUR WEB <span>SUCCESS.</span></h2><p>Wherever you’re starting from we’ll show you how.</p></section>
@@ -751,6 +787,9 @@ const metricValues=[...document.querySelectorAll('.metric strong')];let metricTi
 </script>
 <script>
 (()=>{
+  const workGrid=document.querySelector('.work-grid');
+  const workSet=workGrid?.querySelector('.work-set');
+  if(workGrid&&workSet) workGrid.appendChild(workSet.cloneNode(true));
   const items=[...document.querySelectorAll('.portfolio-item')];
   const backgrounds=[...document.querySelectorAll('.portfolio-bg')];
   const activate=index=>{
@@ -762,17 +801,33 @@ const metricValues=[...document.querySelectorAll('.metric strong')];let metricTi
     item.querySelector('.portfolio-name')?.addEventListener('focus',()=>activate(index));
     item.querySelector('.portfolio-name')?.addEventListener('click',()=>activate(index));
   });
+  const contactDialog=document.createElement('div');
+  contactDialog.className='client-contact-dialog';
+  contactDialog.setAttribute('role','dialog');
+  contactDialog.setAttribute('aria-modal','true');
+  contactDialog.setAttribute('aria-label','Contact client');
+  contactDialog.innerHTML='<div class="client-contact-dialog-panel"><button class="client-contact-dialog-close" type="button" aria-label="Close contact options">×</button><h2>CONTACT CLIENT</h2><p class="client-contact-dialog-email"></p><div class="client-contact-dialog-actions"><a class="dialog-gmail" target="_blank" rel="noopener">OPEN GMAIL</a><a class="dialog-outlook" target="_blank" rel="noopener">OPEN OUTLOOK</a><button class="dialog-copy" type="button">COPY EMAIL</button></div></div>';
+  document.body.appendChild(contactDialog);
+  const closeContactDialog=()=>contactDialog.classList.remove('open');
+  contactDialog.querySelector('.client-contact-dialog-close').addEventListener('click',closeContactDialog);
+  contactDialog.addEventListener('click',event=>{if(event.target===contactDialog)closeContactDialog()});
+  document.addEventListener('keydown',event=>{if(event.key==='Escape')closeContactDialog()});
   document.querySelectorAll('.portfolio-contact-trigger').forEach(button=>button.addEventListener('click',event=>{
     event.stopPropagation();
-    const menu=button.nextElementSibling;
-    document.querySelectorAll('.portfolio-email-menu.open').forEach(open=>{if(open!==menu)open.classList.remove('open')});
-    menu.classList.toggle('open');
+    const email=button.parentElement.querySelector('[data-copy-email]')?.dataset.copyEmail;
+    if(!email)return;
+    contactDialog.querySelector('.client-contact-dialog-email').textContent=email;
+    contactDialog.querySelector('.dialog-gmail').href=`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(email)}`;
+    contactDialog.querySelector('.dialog-outlook').href=`https://outlook.live.com/mail/0/deeplink/compose?to=${encodeURIComponent(email)}`;
+    const copyButton=contactDialog.querySelector('.dialog-copy');
+    copyButton.dataset.copyEmail=email;
+    copyButton.textContent='COPY EMAIL';
+    contactDialog.classList.add('open');
   }));
-  document.querySelectorAll('[data-copy-email]').forEach(button=>button.addEventListener('click',async()=>{
-    await navigator.clipboard.writeText(button.dataset.copyEmail);
-    button.textContent='Email copied';
-  }));
-  document.addEventListener('click',()=>document.querySelectorAll('.portfolio-email-menu.open').forEach(menu=>menu.classList.remove('open')));
+  contactDialog.querySelector('.dialog-copy').addEventListener('click',async event=>{
+    await navigator.clipboard.writeText(event.currentTarget.dataset.copyEmail);
+    event.currentTarget.textContent='EMAIL COPIED';
+  });
   const engine=document.querySelector('.analysis-engine');
   if(engine){
     const field=document.createElement('div');field.className='equation-field';field.innerHTML='<div class="equation-noise" aria-hidden="true"></div><div class="equation-core"><div class="equation-line"><span class="equation-operator"></span><span class="equation-name">SEARCH DEMAND<span class="equation-sub">SEARCHES</span></span><span class="equation-number" data-equation-target="1000">0</span></div><div class="equation-line"><span class="equation-operator">×</span><span class="equation-name">CLICK RATE<span class="equation-sub">CLICKS</span></span><span class="equation-number" data-equation-target="20">0%</span></div><div class="equation-line"><span class="equation-operator">×</span><span class="equation-name">LEAD RATE<span class="equation-sub">LEADS</span></span><span class="equation-number" data-equation-target="2.5">0%</span></div><div class="equation-line"><span class="equation-operator">×</span><span class="equation-name">CLOSE RATE<span class="equation-sub">CUSTOMER</span></span><span class="equation-number" data-equation-target="20">0%</span></div><div class="equation-result"><strong>CUSTOMER<br>OPPORTUNITY</strong><span>1</span></div></div>';
