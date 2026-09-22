@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>window.__SW7_SHARED_NAV__=true;document.documentElement.classList.add('sw7-nav-pending');window.setTimeout(function(){document.documentElement.classList.remove('sw7-nav-pending')},1800)</script><style id="sw7-nav-paint-gate">html.sw7-nav-pending body{padding-top:86px!important}html.sw7-nav-pending body>.nav,html.sw7-nav-pending body>.page>.nav,html.sw7-nav-pending body>.topbar-wrap,html.sw7-nav-pending body>header.header,html.sw7-nav-pending body>.page>header.header,html.sw7-nav-pending body>header.topbar,html.sw7-nav-pending body>.page>header.topbar{display:none!important}@media (min-width:701px) and (max-width:900px){html.sw7-nav-pending body{padding-top:118px!important}}@media (max-width:700px){html.sw7-nav-pending body{padding-top:132px!important}html.sw7-nav-pending body[data-sw7-page="home"]{padding-top:86px!important}}</style>
 <!-- Google Analytics 4 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-K9QXV0VX3R"></script>
 <script>
@@ -456,6 +457,7 @@ document.addEventListener('submit',function(event){
 </script>
 <script>
 (function () {
+  if (window.__SW7_SHARED_NAV__) return;
   const style = document.createElement('style');
   style.textContent = `
     .nav{width:min(1120px,calc(100% - 48px))!important;height:78px!important;display:flex!important;align-items:center!important;justify-content:space-between!important;margin:0 auto!important;padding:0!important}
@@ -610,8 +612,10 @@ var name=document.createElement('span');name.textContent='StartWeb7';brand.appen
 var mobileButton=document.createElement('button');mobileButton.className='sw7-mobile-toggle';mobileButton.type='button';mobileButton.setAttribute('aria-label','Open navigation menu');mobileButton.setAttribute('aria-expanded','false');mobileButton.innerHTML='<i></i><i></i><i></i>';
 var nav=document.createElement('nav');nav.className='sw7-clean-nav';nav.setAttribute('aria-label','Main navigation');
 nav.innerHTML='<a href="index.html">Home</a><a href="about.html">About</a><div class="sw7-clean-item"><div class="sw7-item-row"><a href="services.html">Services <span class="sw7-down-arrow" aria-hidden="true">▼</span></a></div><div class="sw7-clean-menu"><div class="sw7-clean-sub"><button type="button" class="website" aria-expanded="false">WEBSITE DESIGN <span class="sw7-down-arrow" aria-hidden="true">▼</span></button><div class="sw7-clean-submenu"><a href="landing-page.html">LANDING PAGE</a><a href="business-website.html">BUSINESS WEBSITE</a><a href="seo-optimized-website.html">SEO-OPTIMIZED WEBSITE</a></div></div><div class="sw7-clean-sub"><button type="button" class="seo" aria-expanded="false">SEO + AEO MANAGEMENT <span class="sw7-down-arrow" aria-hidden="true">▼</span></button><div class="sw7-clean-submenu"><a href="essentials.html">ESSENTIALS</a><a href="competitive.html">COMPETITIVE</a></div></div></div></div><a href="reviews.html">Reviews</a><a href="faq.html">FAQ</a><div class="sw7-clean-item sw7-contact-item"><div class="sw7-item-row"><a href="contact.html">Contact <span class="sw7-down-arrow" aria-hidden="true">▼</span></a></div><div class="sw7-clean-menu"><a href="contact.html">CONTACT</a><a href="support.html">24/7 SUPPORT</a><a href="careers.html">CAREERS</a></div></div>';
-document.querySelectorAll('header,nav,.topbar').forEach(function(el){el.remove()});
-header.append(brand,mobileButton,nav);document.body.insertBefore(header,document.body.firstChild);
+if(!window.__SW7_SHARED_NAV__){
+  document.querySelectorAll('header,nav,.topbar').forEach(function(el){el.remove()});
+  header.append(brand,mobileButton,nav);document.body.insertBefore(header,document.body.firstChild);
+}
 function closeSubs(){header.querySelectorAll('.open').forEach(function(el){el.classList.remove('open')});header.querySelectorAll('.sw7-menu-hover').forEach(function(el){el.classList.remove('sw7-menu-hover')});header.querySelectorAll('.sw7-clean-nav [aria-expanded]').forEach(function(el){el.setAttribute('aria-expanded','false')})}
 mobileButton.addEventListener('click',function(e){e.stopPropagation();var open=header.classList.toggle('mobile-open');mobileButton.setAttribute('aria-expanded',String(open));mobileButton.setAttribute('aria-label',open?'Close navigation menu':'Open navigation menu');document.body.classList.toggle('sw7-menu-open',open);if(!open)closeSubs()});
 header.querySelectorAll('.sw7-clean-sub>button,.sw7-clean-sub-row>button').forEach(function(button){button.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();var item=button.closest('.sw7-clean-sub');var open=item.classList.toggle('open');button.setAttribute('aria-expanded',String(open))})});
@@ -752,6 +756,6 @@ input,select,textarea,button{max-width:100%!important}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',build);else build()
 })();
 
-</script><script src="universal-nav-fix.js?v=189"></script><script src="analytics-events.js" defer></script>
+</script><script src="universal-nav-fix.js?v=218"></script><script src="analytics-events.js" defer></script>
 </body>
 </html>

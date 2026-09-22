@@ -2,13 +2,12 @@
   'use strict';
   var section=document.querySelector('.customer-tool');
   if(!section)return;
-  var type=section.classList.contains('real-estate-tool')?'realestate':section.classList.contains('collision-tool')?'collision':section.classList.contains('pool-tool')?'pool':section.classList.contains('contractor-tool')?'contractor':'';
+  var type=section.classList.contains('real-estate-tool')?'realestate':section.classList.contains('collision-tool')?'collision':section.classList.contains('pool-tool')?'pool':section.classList.contains('contractor-tool')?'contractor':section.classList.contains('cleaning-tool')?'cleaning':section.classList.contains('security-tool')?'security':'';
   if(!type)return;
 
   var experiences={
     realestate:{
       title:'Real Estate Lead Assistant',
-      note:'On a client website, the completed buyer or seller lead can be sent to the real estate company’s CRM or email.',
       steps:[
         {question:'What are you planning?',choices:['Buy a home','Sell a home','Buy and sell']},
         {question:'What city or neighborhood are you interested in?',placeholder:'Type the city or neighborhood…'},
@@ -19,7 +18,6 @@
     },
     collision:{
       title:'Collision Repair Lead Assistant',
-      note:'On a client website, the completed repair lead can be sent to the collision repair shop’s CRM or email.',
       steps:[
         {question:'What part of the vehicle is damaged?',choices:['Front bumper','Rear bumper','Door or side panel','Fender','Multiple areas','Not sure']},
         {question:'Can the vehicle be driven safely?',choices:['Yes','No','Not sure']},
@@ -31,7 +29,6 @@
     },
     pool:{
       title:'Pool Project Lead Assistant',
-      note:'On a client website, the completed pool project lead can be sent to the pool company’s CRM or email.',
       steps:[
         {question:'What are you planning for your backyard?',choices:['New custom pool','Pool remodel','Pool and backyard redesign','Not sure yet']},
         {question:'How would you describe the available space?',choices:['Small backyard','Medium backyard','Large backyard','Not sure']},
@@ -43,7 +40,6 @@
     },
     contractor:{
       title:'Contractor Project Lead Assistant',
-      note:'On a client website, the completed construction lead can be sent to the contractor’s CRM or email.',
       steps:[
         {question:'What are you planning to build or remodel?',choices:['ADU','Home addition','Kitchen remodel','Bathroom remodel','Full renovation','Other project']},
         {question:'What type of property is this for?',choices:['Single-family home','Multifamily property','Commercial property','Other']},
@@ -52,12 +48,35 @@
         {question:'When would you like the project to begin?',choices:['As soon as possible','Within 3 months','3–6 months','Still planning']},
         {question:'What is your email address or phone number so the contractor can follow up with you?',placeholder:'Enter your email address or phone number…'}
       ]
+    },
+    cleaning:{
+      title:'Commercial Cleaning Lead Assistant',
+      steps:[
+        {question:'What type of facility needs cleaning?',choices:['Office','Medical facility','Retail space','School or daycare','Multi-tenant building','Other facility']},
+        {question:'What service are you looking for?',choices:['Recurring janitorial service','Day porter service','Deep cleaning','Floor care','Other service']},
+        {question:'How often will you need service?',choices:['Daily','3 to 5 times a week','Weekly','One time','Not sure yet']},
+        {question:'What city or ZIP code is the facility in?',placeholder:'Enter the city or ZIP code…'},
+        {question:'About how large is the facility?',choices:['Under 5,000 square feet','5,000 to 20,000 square feet','Over 20,000 square feet','Not sure yet']},
+        {question:'When would you like service to start?',choices:['Right away','This month','Planning ahead','Just comparing options']},
+        {question:'What is your email address or phone number so the cleaning company can follow up?',placeholder:'Enter your email address or phone number…'}
+      ]
+    },
+    security:{
+      title:'Security Coverage Lead Assistant',
+      steps:[
+        {question:'What needs security coverage?',choices:['Commercial property','Residential community','Construction site','Retail location','Event','Other property']},
+        {question:'What type of coverage are you looking for?',choices:['Armed guard coverage','Unarmed guard coverage','Mobile patrol','Event security','Not sure yet']},
+        {question:'What city or ZIP code needs coverage?',placeholder:'Enter the city or ZIP code…'},
+        {question:'What schedule do you need?',choices:['Business hours','Overnight','24/7 coverage','Specific event date','Not sure yet']},
+        {question:'When would you like coverage to begin?',choices:['Right away','Within 30 days','1 to 3 months','Just comparing options']},
+        {question:'What is your email address or phone number so the security company can follow up?',placeholder:'Enter your email address or phone number…'}
+      ]
     }
   };
 
   var experience=experiences[type];
   var shell=section.querySelector('.tool-shell');
-  shell.innerHTML='<div class="industry-chat-wrap '+type+'-chat"><div class="industry-chat-window"><div class="industry-chat-header"><div class="industry-chat-agent"><span class="industry-chat-avatar">CHAT</span><span><strong>'+experience.title+'</strong><small>Interactive website example</small></span></div><button class="industry-chat-reset" type="button">START OVER</button></div><div class="industry-chat-messages" role="log" aria-live="polite"></div><div class="industry-chat-choices" aria-label="Suggested replies"></div><form class="industry-chat-composer"><input type="text" autocomplete="off" aria-label="Type your reply" placeholder="Type your reply…"><button type="submit">SEND</button></form></div><p class="industry-chat-note">Live demonstration only. Answers stay in this browser and are not submitted. '+experience.note+'</p></div>';
+  shell.innerHTML='<div class="industry-chat-wrap '+type+'-chat"><div class="industry-chat-window"><div class="industry-chat-header"><div class="industry-chat-agent"><span class="industry-chat-avatar"><img src="startweb7-logo.png" alt="StartWeb7"></span><span><strong>'+experience.title+'</strong><small>Interactive website example</small></span></div><button class="industry-chat-reset" type="button">START OVER</button></div><div class="industry-chat-messages" role="log" aria-live="polite"></div><div class="industry-chat-choices" aria-label="Suggested replies"></div><form class="industry-chat-composer"><input type="text" autocomplete="off" aria-label="Type your reply" placeholder="Type your reply…"><button type="submit">SEND</button></form></div></div>';
 
   var messages=shell.querySelector('.industry-chat-messages');
   var choices=shell.querySelector('.industry-chat-choices');

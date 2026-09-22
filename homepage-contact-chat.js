@@ -106,7 +106,7 @@
   }
   function start(){
     answers={};step='interest';messages.innerHTML='';choices.innerHTML='';composer.hidden=true;
-    message('What are you interested in?','bot');
+    message('What are you interested in? Select all that apply.','bot');
     window.setTimeout(showInterestChoices,220);
   }
   function openChat(){

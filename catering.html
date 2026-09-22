@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>window.__SW7_SHARED_NAV__=true;document.documentElement.classList.add('sw7-nav-pending');window.setTimeout(function(){document.documentElement.classList.remove('sw7-nav-pending')},1800)</script><style id="sw7-nav-paint-gate">html.sw7-nav-pending body{padding-top:86px!important}html.sw7-nav-pending body>.nav,html.sw7-nav-pending body>.page>.nav,html.sw7-nav-pending body>.topbar-wrap,html.sw7-nav-pending body>header.header,html.sw7-nav-pending body>.page>header.header,html.sw7-nav-pending body>header.topbar,html.sw7-nav-pending body>.page>header.topbar{display:none!important}@media (min-width:701px) and (max-width:900px){html.sw7-nav-pending body{padding-top:118px!important}}@media (max-width:700px){html.sw7-nav-pending body{padding-top:132px!important}html.sw7-nav-pending body[data-sw7-page="home"]{padding-top:86px!important}}</style>
 <!-- Google Analytics 4 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-K9QXV0VX3R"></script>
 <script>
@@ -41,12 +42,12 @@
 .catering-chat[hidden]{display:none}
 .chat-window{max-width:860px;margin:0 auto;border:1px solid #cbd6e4;background:#f5f8fb;box-shadow:0 24px 70px rgba(7,16,28,.14)}
 .chat-header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:18px 22px;background:var(--navy);color:var(--white)}
-.chat-agent{display:flex;align-items:center;gap:12px}.chat-avatar{display:grid;width:42px;height:42px;border-radius:50%;place-items:center;background:var(--green);color:var(--navy);font-size:12px;font-weight:900}.chat-agent strong{display:block;font-size:14px}.chat-agent small{display:block;margin-top:3px;color:#b9c9da;font-size:11px}.chat-reset{border:1px solid #496078;background:transparent;color:var(--white);padding:9px 12px;font-size:9px;font-weight:900;letter-spacing:.1em;cursor:pointer}
+.chat-agent{display:flex;align-items:center;gap:12px}.chat-avatar{display:block;flex:none;width:58px;height:42px}.chat-avatar img{display:block;width:100%;height:100%;object-fit:contain}.chat-agent strong{display:block;font-size:14px}.chat-agent small{display:block;margin-top:3px;color:#b9c9da;font-size:11px}.chat-reset{border:1px solid #496078;background:transparent;color:var(--white);padding:9px 12px;font-size:9px;font-weight:900;letter-spacing:.1em;cursor:pointer}
 .chat-messages{min-height:340px;max-height:460px;padding:26px;overflow:auto;display:flex;flex-direction:column;gap:14px}
 .chat-message{max-width:76%;padding:14px 17px;font-size:15px;line-height:1.45;animation:chatIn .24s ease both}.chat-message.bot{align-self:flex-start;border-radius:4px 18px 18px 18px;background:var(--white);color:var(--navy);border:1px solid #d7e0e9}.chat-message.user{align-self:flex-end;border-radius:18px 4px 18px 18px;background:var(--blue);color:var(--white)}
 @keyframes chatIn{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:none}}
 .chat-choices{display:flex;flex-wrap:wrap;gap:9px;padding:0 26px 18px}.chat-choices button{min-height:40px;padding:10px 14px;border:1px solid var(--green);background:var(--white);color:var(--navy);font-size:12px;font-weight:800;cursor:pointer}.chat-choices button:hover,.chat-choices button:focus-visible{background:var(--green)}
-.chat-composer{display:grid;grid-template-columns:1fr auto;gap:10px;padding:18px 22px;border-top:1px solid #d7e0e9;background:var(--white)}.chat-composer input{min-width:0;min-height:48px;padding:12px 15px;border:1px solid #b8c6d5;color:var(--navy);font:600 14px Arial,sans-serif}.chat-composer input:focus{outline:3px solid rgba(7,132,255,.16);border-color:var(--blue)}.chat-send{min-width:92px;border:0;background:var(--green);color:var(--navy);font-size:10px;font-weight:900;letter-spacing:.1em;cursor:pointer}.chat-demo-note{margin:14px auto 0;max-width:860px;color:#687586;font-size:11px;line-height:1.5;text-align:center}
+.chat-composer{display:grid;grid-template-columns:1fr auto;gap:10px;padding:18px 22px;border-top:1px solid #d7e0e9;background:var(--white)}.chat-composer input{min-width:0;min-height:48px;padding:12px 15px;border:1px solid #b8c6d5;color:var(--navy);font:600 14px Arial,sans-serif}.chat-composer input:focus{outline:3px solid rgba(7,132,255,.16);border-color:var(--blue)}.chat-send{min-width:92px;border:0;background:var(--green);color:var(--navy);font-size:10px;font-weight:900;letter-spacing:.1em;cursor:pointer}
 .catering-copy{padding:110px max(6vw,calc((100vw - 1280px)/2));background:var(--navy);color:var(--white)}
 .catering-copy-inner{display:grid;grid-template-columns:.8fr 1.2fr;gap:8vw}
 .catering-copy h2{margin:0;font-size:clamp(46px,5.4vw,78px);line-height:.89;letter-spacing:-.06em}.catering-copy h2 span{color:var(--green)}
@@ -80,12 +81,11 @@
 </div></section>
 <section class="catering-chat" id="cateringChatDemo" hidden aria-label="Interactive catering lead chat demonstration">
 <div class="chat-window">
-<div class="chat-header"><div class="chat-agent"><span class="chat-avatar">CHAT</span><span><strong>Catering Lead Assistant</strong><small>Interactive website example</small></span></div><button class="chat-reset" id="resetCateringChat" type="button">START OVER</button></div>
+<div class="chat-header"><div class="chat-agent"><span class="chat-avatar"><img src="startweb7-logo.png" alt="StartWeb7"></span><span><strong>Catering Lead Assistant</strong><small>Interactive website example</small></span></div><button class="chat-reset" id="resetCateringChat" type="button">START OVER</button></div>
 <div class="chat-messages" id="cateringChatMessages" role="log" aria-live="polite"></div>
 <div class="chat-choices" id="cateringChatChoices" aria-label="Suggested replies"></div>
 <form class="chat-composer" id="cateringChatComposer"><input id="cateringChatInput" type="text" autocomplete="off" aria-label="Type your reply" placeholder="Type your reply…"><button class="chat-send" type="submit">SEND</button></form>
 </div>
-<p class="chat-demo-note">Live demonstration only. Answers stay in this browser and are not submitted. On a client website, the completed lead can be sent to the catering company’s CRM or email.</p>
 </section>
 
 <section class="catering-copy"><div class="catering-copy-inner">
@@ -102,7 +102,7 @@
 <section id="form-fill" class="global-contact-block"><div class="global-contact-wrap"><div class="contact-options"><a class="contact-option" href="tel:+18189340444"><span class="contact-label">CALL</span><strong>(818) 934-0444</strong></a><div class="contact-option email-option"><span class="contact-label">EMAIL</span><button class="email-address-btn" type="button" id="openEmailOptions">desirae@startweb7.com</button><div class="email-options" id="emailOptions" aria-hidden="true"><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=desirae@startweb7.com" target="_blank" rel="noopener">Gmail</a><a href="https://outlook.live.com/mail/0/deeplink/compose?to=desirae@startweb7.com" target="_blank" rel="noopener">Outlook</a><button type="button" id="copyEmail">Copy desirae@startweb7.com</button></div></div><div class="contact-option form-trigger-block"><span class="contact-label">FORM FILL</span><label class="service-select-wrap"><select id="serviceSelect" aria-label="Choose your service"><option value="" selected disabled>Choose what you're interested in</option><option value="Business Website">Business Website</option><option value="SEO-Optimized Website">SEO-Optimized Website</option><option value="SEO + AEO Essentials">SEO + AEO Essentials</option><option value="SEO + AEO Competitive">SEO + AEO Competitive</option></select></label></div></div><div class="quick-form-shell" id="quickForm" aria-hidden="true"><form class="quick-form" onsubmit="event.preventDefault()"><input type="hidden" name="service" id="selectedService"><div class="form-fields"><label><span>Name</span><input type="text" name="name" autocomplete="name"></label><label><span>Business Name</span><input type="text" name="business"></label><label><span>Email</span><input type="email" name="email" autocomplete="email"></label><label><span>Phone</span><input type="tel" name="phone" autocomplete="tel"></label></div><button class="submit-btn" type="submit">SUBMIT</button></form></div></div></section>
 </div>
 <footer class="rights-footer">© 2026 StartWeb7. All rights reserved.</footer>
-<script src="universal-nav-fix.js?v=189"></script>
+<script src="universal-nav-fix.js?v=218"></script>
 <script src="article-contact-form.js?v=139"></script>
 <script src="catering-lead-chat.js?v=1"></script>
 <script src="analytics-events.js" defer></script>

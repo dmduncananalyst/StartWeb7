@@ -49,10 +49,38 @@
     compactMenuOverlay.className = 'sw7-compact-overlay';
     compactMenuOverlay.type = 'button';
     compactMenuOverlay.setAttribute('aria-label', 'Close menu');
-    header.append(brand, nav, mobileScrollTrack, compactMenuButton);
-    document.querySelectorAll('body > .page > .nav, body > .nav').forEach(function (oldNav) { oldNav.remove(); });
+    /* The separate scroll rail looked like a broken gray bar in the compact menu.
+       The menu itself has its own normal scrollbar, so never place this extra rail
+       in the header. */
+    header.append(brand, nav, compactMenuButton);
+    /* Older pages use three different top navigation shells. Remove every
+       legacy shell after the logo has been copied, so the shared header is
+       the only navigation that can ever remain on screen. */
+    document.querySelectorAll([
+      'body > .page > .nav',
+      'body > .nav',
+      'body > .topbar-wrap',
+      'body > header.header',
+      'body > header.topbar',
+      'body > .page > header.header',
+      'body > .page > header.topbar'
+    ].join(',')).forEach(function (oldNav) { oldNav.remove(); });
     document.body.insertBefore(header, document.body.firstChild);
     header.insertAdjacentElement('afterend', compactMenuOverlay);
+    /* The shared header is now in the page, so never let a later menu
+       interaction error leave the navigation hidden behind the paint gate. */
+    document.documentElement.classList.remove('sw7-nav-pending');
+    const sessionStore = {
+      getItem: function (key) {
+        try { return window.sessionStorage.getItem(key); } catch (error) { return null; }
+      },
+      setItem: function (key, value) {
+        try { window.sessionStorage.setItem(key, value); } catch (error) { /* file:// storage may be blocked */ }
+      },
+      removeItem: function (key) {
+        try { window.sessionStorage.removeItem(key); } catch (error) { /* file:// storage may be blocked */ }
+      }
+    };
     const pageName = window.location.pathname.split('/').pop().toLowerCase() || 'index.html';
     if (/\.html$/i.test(pageName) && pageName !== 'index.html') {
       const pageBack = document.createElement('div');
@@ -65,7 +93,7 @@
         event.preventDefault();
         /* This is a real Back button: do not redirect or recreate a menu.
            The browser restores the visitor's actual previous state. */
-        window.sessionStorage.removeItem('sw7RestoreMenuRequested');
+        sessionStore.removeItem('sw7RestoreMenuRequested');
         if (window.history.length > 1) {
           window.history.back();
         } else {
@@ -87,7 +115,7 @@
       .sw7-clean-menu a,.sw7-clean-sub>button{display:flex!important;align-items:center!important;justify-content:space-between!important;width:100%!important;padding:13px 14px!important;border:0!important;background:transparent!important;color:#111!important;text-decoration:none!important;font:800 12px/1.2 Arial!important;letter-spacing:.04em!important;box-sizing:border-box!important;cursor:pointer!important}.sw7-clean-sub{position:relative!important}.sw7-clean-sub>button.sw7-website-button{color:#0784ff!important;border-left:4px solid #0784ff!important}.sw7-management-toggle{display:flex!important;align-items:center!important;justify-content:space-between!important;width:100%!important;min-height:46px!important;padding:13px 14px!important;border:0!important;border-left:4px solid #00a978!important;background:transparent!important;color:#00a978!important;-webkit-text-fill-color:#00a978!important;visibility:visible!important;opacity:1!important;font:800 12px/1.2 Arial,sans-serif!important;letter-spacing:.04em!important;box-sizing:border-box!important;cursor:pointer!important}.sw7-management-toggle:hover,.sw7-management-toggle:focus-visible{background:#dceeff!important;outline:none!important}.sw7-management-toggle>span{display:inline-flex!important;color:#00a978!important;-webkit-text-fill-color:#00a978!important;font-size:11px!important}.sw7-clean-submenu{position:static!important;display:none!important;min-width:0!important;padding:0 0 6px 15px!important;background:#fff!important;box-shadow:none!important;opacity:1!important;visibility:visible!important;transform:none!important}.sw7-clean-sub.open>.sw7-clean-submenu{display:block!important}
       .sw7-page-back-bar{display:none!important;height:46px!important;align-items:center!important;padding:0 5vw!important;background:#fff!important;border-bottom:1px solid #e4e9ef!important;box-sizing:border-box!important}.sw7-page-back-link{display:inline-flex!important;align-items:center!important;min-height:34px!important;color:#07101c!important;text-decoration:none!important;font:900 11px/1 Arial,sans-serif!important;letter-spacing:.1em!important}.sw7-page-back-link:hover,.sw7-page-back-link:focus-visible{color:#006ff1!important;outline:none!important}
       .sw7-compact-toggle,.sw7-compact-overlay{display:none!important}
-      .global-contact-block{padding-top:64px!important;padding-bottom:180px!important}
+      .global-contact-block{padding-top:64px!important;padding-bottom:48px!important}
       .global-contact-block .contact-options{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;align-items:start!important;gap:28px!important}
       .global-contact-block .contact-option{position:relative!important;min-height:0!important;padding:0!important;border:0!important;background:transparent!important;box-sizing:border-box!important;text-decoration:none!important;gap:8px!important}
       .global-contact-block .contact-label{display:block!important;margin:0!important;line-height:.95!important}
@@ -256,13 +284,13 @@
       compactMenuButton.setAttribute('aria-expanded', open ? 'true' : 'false');
       compactMenuButton.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
       if (!open) header.querySelectorAll('.open').forEach(function (item) { item.classList.remove('open'); });
-      if (!open) window.sessionStorage.removeItem('sw7CompactMenuState');
+      if (!open) sessionStore.removeItem('sw7CompactMenuState');
       window.requestAnimationFrame(updateMobileScrollThumb);
     }
     function saveCompactMenuState(link) {
       /* Do not leave a saved menu behind when navigation happened normally. */
       if (!header.classList.contains('compact-open')) {
-        window.sessionStorage.removeItem('sw7CompactMenuState');
+        sessionStore.removeItem('sw7CompactMenuState');
         return;
       }
       const item = link.closest('.sw7-clean-item');
@@ -272,7 +300,7 @@
       if (item && item.classList.contains('sw7-contact-item')) itemName = 'contact';
       const subsection = link.closest('.sw7-clean-sub');
       const subsections = item ? Array.from(item.querySelectorAll(':scope > .sw7-clean-menu > .sw7-clean-sub')) : [];
-      window.sessionStorage.setItem('sw7CompactMenuState', JSON.stringify({
+      sessionStore.setItem('sw7CompactMenuState', JSON.stringify({
         returnUrl: window.location.href,
         destinationUrl: link.href,
         itemName: itemName,
@@ -282,11 +310,11 @@
     }
     let restoringCompactMenu = false;
     function restoreCompactMenuState() {
-      if (window.sessionStorage.getItem('sw7RestoreMenuRequested') !== '1') return;
+      if (sessionStore.getItem('sw7RestoreMenuRequested') !== '1') return;
       let state;
-      try { state = JSON.parse(window.sessionStorage.getItem('sw7CompactMenuState') || 'null'); } catch (error) { state = null; }
+      try { state = JSON.parse(sessionStore.getItem('sw7CompactMenuState') || 'null'); } catch (error) { state = null; }
       if (!state || state.returnUrl !== window.location.href || !window.matchMedia('(max-width:700px)').matches) return;
-      window.sessionStorage.removeItem('sw7RestoreMenuRequested');
+      sessionStore.removeItem('sw7RestoreMenuRequested');
       restoringCompactMenu = true;
       window.requestAnimationFrame(function () {
         window.setTimeout(function () {
@@ -576,11 +604,50 @@
   }
 })();
 
+/* Visual tile dropdowns, shared by every page. */
+(function () {
+  const nav = document.querySelector('.sw7-clean-nav');
+  if (!nav) return;
+  /* This old visual scrollbar was still being made by an earlier menu layer. */
+  document.querySelectorAll('.sw7-mobile-scroll-track').forEach(function (track) { track.remove(); });
+  const tile = function (href, label, graphic) {
+    return '<a class="sw7-visual-tile" href="' + href + '"><span class="sw7-visual-art" style="background-image:url(\'' + graphic + '\')"></span><span class="sw7-visual-label">' + label + '</span></a>';
+  };
+  nav.innerHTML = '<a href="index.html">Home</a><a href="about.html">About</a>' +
+    '<div class="sw7-clean-item sw7-visual-dropdown"><a class="sw7-clean-trigger" href="services.html">Services <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><button class="sw7-visual-menu-toggle" type="button" aria-label="Open Services menu" aria-expanded="false">•••</button><div class="sw7-clean-menu sw7-visual-menu sw7-services-visual-menu"><div class="sw7-visual-grid">' +
+      tile('landing-page.html','LANDING PAGE','menu-plane.png') + tile('business-website.html','BUSINESS WEBSITE','menu-screen.png') + tile('seo-optimized-website.html','SEO OPTIMIZED WEBSITE','menu-screen.png') + tile('essentials.html','SEO + AEO ESSENTIALS','menu-bottle.png') + tile('competitive.html','SEO + AEO COMPETITIVE','menu-trophy.png') +
+    '</div></div></div>' +
+    '<div class="sw7-clean-item sw7-visual-dropdown"><a class="sw7-clean-trigger" href="industries.html">Industries <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><button class="sw7-visual-menu-toggle" type="button" aria-label="Open Industries menu" aria-expanded="false">•••</button><div class="sw7-clean-menu sw7-visual-menu sw7-industries-visual-menu"><div class="sw7-visual-grid">' +
+      tile('real-estate-agents.html','REAL ESTATE','menu-screen.png') + tile('collision-repair.html','COLLISION REPAIR','menu-repair-tool.png') + tile('pool-construction.html','POOL CONSTRUCTION','menu-pool.png') + tile('general-contractors.html','GENERAL CONTRACTORS','menu-bricks.png') + tile('catering.html','CATERING','menu-serving-tray.png') + tile('commercial-cleaning.html','COMMERCIAL CLEANING','menu-cleaning-cart.png') + tile('security-services.html','SECURITY SERVICES','menu-patrol-car.png') +
+    '</div></div></div><a href="resources.html">Resources</a><a href="reviews.html">Reviews</a>' +
+    '<div class="sw7-clean-item sw7-visual-dropdown"><a class="sw7-clean-trigger" href="contact.html">Contact <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><button class="sw7-visual-menu-toggle" type="button" aria-label="Open Contact menu" aria-expanded="false">•••</button><div class="sw7-clean-menu sw7-visual-menu sw7-contact-visual-menu"><div class="sw7-visual-grid">' +
+      tile('faq.html','FAQ','menu-question-mark.png') + tile('nationwide.html','NATIONWIDE','menu-usa-flag.png') + tile('support.html','24/7 SUPPORT','menu-question-mark.png') + tile('careers.html','JOIN THE TEAM','menu-join-the-team-v2.png') +
+    '</div></div></div>';
+  const style = document.createElement('style');
+  style.textContent = `
+    .sw7-visual-dropdown>.sw7-clean-menu{padding:16px!important;min-width:620px!important;background:#07101c!important;border:1px solid #233e5c!important;box-shadow:0 22px 58px rgba(0,0,0,.35)!important}.sw7-visual-dropdown:hover>.sw7-clean-menu,.sw7-visual-dropdown:focus-within>.sw7-clean-menu,.sw7-visual-dropdown.open>.sw7-clean-menu{opacity:1!important;visibility:visible!important;transform:none!important}.sw7-visual-grid{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:10px!important}.sw7-services-visual-menu .sw7-visual-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}.sw7-visual-tile{display:flex!important;min-height:154px!important;padding:13px!important;flex-direction:column!important;align-items:center!important;justify-content:space-between!important;background:#0d1d30!important;border:1px solid #294966!important;color:#fff!important;text-decoration:none!important;overflow:hidden!important;transition:border-color .24s ease,background .24s ease!important}.sw7-visual-tile:hover,.sw7-visual-tile:focus-visible{background:#102845!important;border-color:#0784ff!important;outline:none!important}.sw7-visual-art{display:block!important;width:100%!important;height:108px!important;background-position:center!important;background-size:contain!important;background-repeat:no-repeat!important;transition:transform 1.7s cubic-bezier(.2,.8,.2,1)!important}.sw7-visual-tile:hover .sw7-visual-art,.sw7-visual-tile:focus-visible .sw7-visual-art{transform:translateY(-5px) rotate(-2deg) scale(1.05)!important}.sw7-visual-label{display:block!important;width:100%!important;margin-top:5px!important;color:#fff!important;text-align:center!important;font:900 10px/1.15 Arial,sans-serif!important;letter-spacing:.08em!important}.sw7-contact-visual-menu{left:auto!important;right:0!important;min-width:500px!important}.sw7-contact-visual-menu .sw7-visual-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}.sw7-contact-visual-menu .sw7-visual-tile{min-height:144px!important}@media(max-width:900px){.sw7-visual-dropdown>.sw7-clean-menu{position:static!important;min-width:0!important;width:100%!important;padding:12px!important;border:0!important;box-shadow:none!important;background:#091827!important}.sw7-visual-grid,.sw7-services-visual-menu .sw7-visual-grid,.sw7-contact-visual-menu .sw7-visual-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:9px!important}.sw7-visual-tile{min-height:138px!important}.sw7-visual-art{height:94px!important}.sw7-visual-dropdown.open>.sw7-clean-menu{display:block!important}.sw7-visual-tile:active .sw7-visual-art{transform:translateY(-4px) rotate(-2deg) scale(1.05)!important}}
+  `;
+  document.head.appendChild(style);
+  nav.querySelectorAll('.sw7-visual-dropdown > .sw7-clean-trigger').forEach(function (trigger) {
+    const oldArrow = trigger.querySelector('.sw7-down-arrow');
+    if (oldArrow) oldArrow.remove();
+    trigger.addEventListener('click', function (event) {
+      if (window.matchMedia('(max-width:900px)').matches && event.target.closest('.sw7-visual-menu-toggle')) {
+        event.preventDefault();
+        event.stopPropagation();
+        const item = trigger.parentElement;
+        const isOpen = item.classList.contains('open');
+        nav.querySelectorAll('.sw7-visual-dropdown.open').forEach(function (node) { node.classList.remove('open'); });
+        if (!isOpen) item.classList.add('open');
+      }
+    });
+  });
+})();
+
 /* Give the original resource articles the same reading-page sidebar as newer articles. */
 (function () {
   var related = {
     'mojo-vs-vulcan7-real-estate-leads.html': [['google-maps-leads.html','How Google Maps Leads Work'],['google-business-profile-vs-website.html','Google Business Profile vs. Your Website']],
-    'angi-vs-thumbtack-general-contractors.html': [['seo-vs-paid-ads.html','SEO vs Paid Ads'],['aeo-ai-search.html','What Is AEO?']],
     'ccc-one-vs-mitchell-collision-repair.html': [['google-maps-leads.html','How Google Maps Leads Work'],['seo-vs-paid-ads.html','SEO vs Paid Ads']]
   };
   var file = location.pathname.split('/').pop();
@@ -658,7 +725,7 @@
     document.body.appendChild(chat);
   }
   var chatScript = document.createElement('script');
-  chatScript.src = 'homepage-contact-chat.js?v=8';
+  chatScript.src = 'homepage-contact-chat.js?v=9';
   document.body.appendChild(chatScript);
 })();
 
@@ -880,3 +947,178 @@
   document.head.appendChild(style);
   document.querySelectorAll('.analysis-note').forEach(function (note) { note.remove(); });
 })();
+
+/* Final visual-menu and footer pass, placed last so it also wins on mobile. */
+(function () {
+  const footer = document.querySelector('.rights-footer');
+  if (footer) {
+    footer.innerHTML = '<nav class="sw7-footer-links" aria-label="Footer"><a href="services.html">Services</a><a href="industries.html">Industries</a><a href="resources.html">Resources</a><a href="reviews.html">Reviews</a><a href="contact.html">Contact</a><a href="support.html">24/7 Support</a></nav><span class="sw7-footer-legal"><span>© 2026 StartWeb7.</span><span class="sw7-footer-rights">All Rights Reserved.</span></span>';
+  }
+  const style = document.createElement('style');
+  style.textContent = `
+    .rights-footer{display:flex!important;flex-direction:column!important;gap:16px!important}.sw7-footer-links{display:flex!important;flex-wrap:wrap!important;justify-content:center!important;gap:18px!important}.sw7-footer-links a{color:#fff!important;text-decoration:none!important;font:800 11px/1 Arial,sans-serif!important;letter-spacing:.08em!important}.sw7-footer-links a:hover,.sw7-footer-links a:focus-visible{color:#75b8ff!important;outline:none!important}.sw7-footer-legal{display:inline-flex!important;align-items:baseline!important;justify-content:center!important;gap:16px!important;flex-wrap:wrap!important}
+    @media(max-width:700px){.sw7-visual-dropdown>.sw7-clean-menu{padding:12px!important;background:#091827!important}.sw7-visual-grid,.sw7-services-visual-menu .sw7-visual-grid,.sw7-contact-visual-menu .sw7-visual-grid{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:9px!important}.sw7-visual-tile{display:flex!important;min-height:138px!important;padding:11px!important;flex-direction:column!important;align-items:center!important;justify-content:space-between!important;background:#0d1d30!important;border:1px solid #294966!important}.sw7-visual-art{display:block!important;height:94px!important;width:100%!important;background-position:center!important;background-size:contain!important;background-repeat:no-repeat!important}.sw7-visual-label{display:block!important;color:#fff!important;text-align:center!important;font:900 9px/1.15 Arial,sans-serif!important;letter-spacing:.05em!important}.sw7-visual-dropdown.open>.sw7-clean-menu{display:block!important;opacity:1!important;visibility:visible!important}.sw7-visual-dropdown.open>.sw7-clean-menu .sw7-visual-grid{display:grid!important}.sw7-footer-links{gap:12px!important}}
+  `;
+  document.head.appendChild(style);
+  const mobileDrawerStyle = document.createElement('style');
+  mobileDrawerStyle.textContent = '@media(max-width:700px){.sw7-clean-nav{left:0!important;right:0!important;width:100%!important;max-width:none!important;padding:82px 24px 24px!important}}';
+  document.head.appendChild(mobileDrawerStyle);
+})();
+
+/* Page-specific hero and CTA corrections. */
+(function () {
+  const page = window.location.pathname.split('/').pop().toLowerCase();
+  if (page === 'security-services.html') {
+    const securityVideo = document.querySelector('.sw7-new-hero video');
+    if (securityVideo) securityVideo.style.objectPosition = 'center top';
+  }
+  if (page === 'nationwide.html') {
+    const nationwideCTA = document.querySelector('.sw7-new-hero .sw7-new-cta');
+    if (nationwideCTA) {
+      nationwideCTA.href = '#homeContactChat';
+      nationwideCTA.setAttribute('data-open-home-chat', '');
+    }
+  }
+})();
+
+/* Final menu usability and graphic fit pass. */
+(function () {
+  const nav = document.querySelector('.sw7-clean-nav');
+  if (!nav) return;
+  const graphics = {
+    'BUSINESS WEBSITE': 'menu-phone.png',
+    'REAL ESTATE': 'menu-house.png',
+    'POOL CONSTRUCTION': 'menu-pool-full.png',
+    'SECURITY SERVICES': 'menu-walkie-talkie.png',
+    '24/7 SUPPORT': 'menu-24-hour-clock.png'
+  };
+  nav.querySelectorAll('.sw7-visual-tile').forEach(function (tile) {
+    const label = tile.querySelector('.sw7-visual-label');
+    const art = tile.querySelector('.sw7-visual-art');
+    const image = label && graphics[label.textContent.trim()];
+    if (art && image) art.style.backgroundImage = "url('" + image + "')";
+  });
+  nav.querySelectorAll('.sw7-visual-dropdown > .sw7-clean-trigger').forEach(function (trigger) {
+    const menu = trigger.parentElement.querySelector('.sw7-clean-menu');
+    const showFromTop = function () {
+      if (menu) menu.scrollTop = 0;
+    };
+    /* Never reopen a dropdown partway down, the first graphic must be visible. */
+    trigger.addEventListener('mouseenter', showFromTop);
+    trigger.addEventListener('focus', showFromTop);
+  });
+  /* One reliable handler for the compact three-dot controls.  The word link
+     remains a normal page link, the dots alone open the visual choices. */
+  nav.addEventListener('click', function (event) {
+    const toggle = event.target.closest('.sw7-visual-menu-toggle');
+    if (!toggle || !nav.contains(toggle) || !window.matchMedia('(max-width:700px)').matches) return;
+    event.preventDefault();
+    event.stopPropagation();
+    const item = toggle.closest('.sw7-visual-dropdown');
+    if (!item) return;
+    const menu = item.querySelector(':scope > .sw7-clean-menu');
+    if (menu) menu.scrollTop = 0;
+    const opens = !item.classList.contains('open');
+    nav.querySelectorAll('.sw7-visual-dropdown.open').forEach(function (other) {
+      other.classList.remove('open');
+      const otherToggle = other.querySelector('.sw7-visual-menu-toggle');
+      if (otherToggle) otherToggle.setAttribute('aria-expanded', 'false');
+    });
+    item.classList.toggle('open', opens);
+    toggle.setAttribute('aria-expanded', String(opens));
+  });
+  const style = document.createElement('style');
+  style.textContent = `
+    /* Every dropdown is one straight vertical sequence of graphic rows. */
+    .sw7-mobile-scroll-track{display:none!important}.sw7-visual-dropdown>.sw7-clean-menu{top:92px!important;min-width:390px!important;max-height:calc(100dvh - 106px)!important;padding:14px!important;overflow-y:auto!important}.sw7-visual-grid,.sw7-services-visual-menu .sw7-visual-grid,.sw7-contact-visual-menu .sw7-visual-grid{display:flex!important;flex-direction:column!important;gap:10px!important}.sw7-visual-art{width:86px!important;height:72px!important;background-size:contain!important;background-position:center!important;overflow:visible!important}.sw7-visual-tile,.sw7-contact-visual-menu .sw7-visual-tile{display:grid!important;grid-template-columns:86px minmax(0,1fr)!important;gap:14px!important;align-items:center!important;justify-content:start!important;min-height:92px!important;padding:9px 16px!important;overflow:visible!important;border-bottom:1px solid #294966!important}.sw7-visual-tile:hover,.sw7-visual-tile:focus-visible,.sw7-clean-menu .sw7-visual-tile:hover,.sw7-clean-menu .sw7-visual-tile:focus-visible{background:#102845!important;color:#fff!important}.sw7-visual-label{width:auto!important;margin:0!important;color:#fff!important;text-align:left!important;font-size:11px!important;line-height:1.2!important}.sw7-clean-menu .sw7-visual-tile:hover .sw7-visual-label,.sw7-clean-menu .sw7-visual-tile:focus-visible .sw7-visual-label{color:#fff!important}.sw7-visual-menu-toggle{display:none!important}.sw7-contact-visual-menu{left:0!important;right:auto!important}.sw7-contact-visual-menu .sw7-visual-tile{display:flex!important;min-height:108px!important;padding:12px 16px!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;gap:7px!important}.sw7-contact-visual-menu .sw7-visual-art{background-position:center!important}.sw7-contact-visual-menu .sw7-visual-label{text-align:center!important}
+    /* On desktop, every visual menu is the same width as its own tab and drops straight down from it. */
+    @media(min-width:1101px){.sw7-visual-dropdown>.sw7-clean-menu{top:100%!important;left:0!important;right:auto!important;width:100%!important;min-width:0!important;max-width:100%!important;padding:8px!important;box-sizing:border-box!important;transform:translateY(8px)!important}.sw7-visual-dropdown:hover>.sw7-clean-menu,.sw7-visual-dropdown:focus-within>.sw7-clean-menu,.sw7-visual-dropdown.open>.sw7-clean-menu{transform:none!important}.sw7-visual-tile,.sw7-contact-visual-menu .sw7-visual-tile{display:flex!important;grid-template-columns:none!important;min-height:126px!important;padding:11px 8px!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;gap:7px!important;box-sizing:border-box!important}.sw7-visual-art{width:86px!important;height:72px!important;background-position:center!important;background-size:contain!important}.sw7-visual-label,.sw7-contact-visual-menu .sw7-visual-label{width:100%!important;margin:0!important;text-align:center!important;font-size:9px!important;line-height:1.15!important;white-space:normal!important}}
+    /* Compact widths use one vertical list, never the desktop tile grid. */
+    @media(max-width:1100px){.sw7-clean-trigger{padding-right:0!important}.sw7-visual-menu-toggle{display:none!important}.sw7-visual-dropdown.open>.sw7-clean-menu{display:block!important;opacity:1!important;visibility:visible!important}.sw7-visual-dropdown.open>.sw7-clean-menu .sw7-visual-grid{display:flex!important;flex-direction:column!important;gap:10px!important}}
+    /* Mobile-only menu dots, the word opens its page and the dots open its choices. */
+    @media(max-width:700px){.sw7-visual-dropdown>.sw7-clean-trigger{padding-right:48px!important}.sw7-visual-dropdown>.sw7-visual-menu-toggle{position:absolute!important;z-index:2!important;top:50%!important;right:8px!important;display:inline-flex!important;width:32px!important;height:30px!important;margin:0!important;padding:0!important;align-items:center!important;justify-content:center!important;border:1px solid #0784ff!important;background:#07101c!important;color:#0784ff!important;font:900 13px/1 Arial,sans-serif!important;letter-spacing:2px!important;box-sizing:border-box!important;cursor:pointer!important;transform:translateY(-50%)!important}.sw7-visual-dropdown>.sw7-visual-menu-toggle:hover,.sw7-visual-dropdown>.sw7-visual-menu-toggle:focus-visible,.sw7-visual-dropdown.open>.sw7-visual-menu-toggle{border-color:#0784ff!important;background:#0784ff!important;color:#07101c!important;outline:none!important}}
+    @media(min-width:701px){.sw7-visual-menu-toggle{display:none!important}.sw7-visual-dropdown>.sw7-clean-trigger{padding-right:0!important}}
+    @media(min-width:701px) and (max-width:1100px){.sw7-universal-header,.sw7-clean-nav{overflow:visible!important}.sw7-visual-dropdown>.sw7-clean-menu{position:fixed!important;z-index:2147483010!important;top:94px!important;left:16px!important;right:16px!important;width:auto!important;min-width:0!important;max-height:calc(100dvh - 110px)!important;margin:0!important;overflow-y:auto!important;padding:14px!important;background:#07101c!important;border:1px solid #233e5c!important;box-shadow:0 22px 58px rgba(0,0,0,.35)!important}.sw7-visual-dropdown.open>.sw7-clean-menu{display:block!important;opacity:1!important;visibility:visible!important;pointer-events:auto!important;transform:none!important}}
+    @media(max-width:700px){.sw7-visual-dropdown>.sw7-clean-menu{position:static!important;width:100%!important;max-height:none!important;padding:12px!important;overflow:visible!important}.sw7-visual-dropdown>.sw7-visual-menu-toggle{top:12px!important;right:10px!important;transform:none!important}.sw7-visual-tile,.sw7-contact-visual-menu .sw7-visual-tile{display:flex!important;grid-template-columns:none!important;min-height:98px!important;padding:10px 12px!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;gap:7px!important}.sw7-visual-art{width:74px!important;height:62px!important;margin:0 auto!important;background-position:center!important}.sw7-visual-label,.sw7-contact-visual-menu .sw7-visual-label{width:100%!important;margin:0!important;text-align:center!important}}
+    /* Mobile dropdown graphics and their labels share the exact same center. */
+    @media(max-width:700px){.sw7-visual-dropdown>.sw7-clean-menu{box-sizing:border-box!important;padding:12px!important}.sw7-visual-menu .sw7-visual-grid,.sw7-services-visual-menu .sw7-visual-grid,.sw7-industries-visual-menu .sw7-visual-grid,.sw7-contact-visual-menu .sw7-visual-grid{display:flex!important;flex-direction:column!important;align-items:stretch!important;width:100%!important;margin:0!important;padding:0!important}.sw7-visual-menu .sw7-visual-tile,.sw7-contact-visual-menu .sw7-visual-tile{display:grid!important;grid-template-columns:1fr!important;place-items:center!important;width:100%!important;box-sizing:border-box!important;text-align:center!important}.sw7-visual-menu .sw7-visual-art,.sw7-contact-visual-menu .sw7-visual-art{align-self:center!important;justify-self:center!important;margin:0 auto!important}.sw7-visual-menu .sw7-visual-label,.sw7-contact-visual-menu .sw7-visual-label{align-self:center!important;justify-self:center!important;width:100%!important;margin:0!important;text-align:center!important}}
+  `;
+  document.head.appendChild(style);
+})();
+
+/* Mobile visual menus are one full navy surface, not a navy card inside a white drawer. */
+(function () {
+  const style = document.createElement('style');
+  style.textContent = `
+    @media(max-width:700px){
+      /* When Services, Industries, or Contact is expanded, the drawer's
+         unused lower area becomes navy.  The regular navigation rows remain
+         their original white, only the visual dropdown is the navy panel. */
+      .sw7-universal-header.compact-open .sw7-clean-nav:has(.sw7-visual-dropdown.open){
+        padding:82px 0 0!important;
+        background:#07101c!important;
+        scrollbar-color:#7f8790 #07101c!important;
+      }
+      .sw7-universal-header.compact-open .sw7-clean-nav:has(.sw7-visual-dropdown.open)::-webkit-scrollbar-track{
+        background:#07101c!important;
+      }
+      .sw7-universal-header.compact-open .sw7-clean-nav:has(.sw7-visual-dropdown.open)>a,
+      .sw7-universal-header.compact-open .sw7-clean-nav:has(.sw7-visual-dropdown.open)>.sw7-clean-item{
+        background:#fff!important;
+        border-bottom-color:#e4e9ef!important;
+      }
+      .sw7-universal-header.compact-open .sw7-clean-nav:has(.sw7-visual-dropdown.open)>a,
+      .sw7-universal-header.compact-open .sw7-clean-nav:has(.sw7-visual-dropdown.open)>.sw7-clean-item>.sw7-clean-trigger{
+        padding-inline:24px!important;
+        color:#111!important;
+      }
+      .sw7-universal-header.compact-open .sw7-clean-nav:has(.sw7-visual-dropdown.open)>.sw7-visual-dropdown.open>.sw7-clean-trigger{
+        background:#f4f7fb!important;
+        color:#006ff1!important;
+      }
+      .sw7-universal-header.compact-open .sw7-clean-nav:has(.sw7-visual-dropdown.open)>.sw7-visual-dropdown>.sw7-clean-trigger{
+        padding-right:72px!important;
+      }
+      .sw7-universal-header.compact-open .sw7-clean-nav:has(.sw7-visual-dropdown.open)>.sw7-visual-dropdown>.sw7-visual-menu-toggle{
+        right:24px!important;
+      }
+      .sw7-universal-header.compact-open .sw7-clean-nav:has(.sw7-visual-dropdown.open)>.sw7-visual-dropdown.open>.sw7-clean-menu{
+        width:100%!important;
+        margin:0!important;
+        padding:0 24px 28px!important;
+        box-sizing:border-box!important;
+        background:#07101c!important;
+      }
+      /* The new edge-to-edge panel has one true center. */
+      .sw7-universal-header.compact-open .sw7-clean-nav:has(.sw7-visual-dropdown.open) .sw7-visual-grid{
+        display:flex!important;
+        flex-direction:column!important;
+        align-items:stretch!important;
+        width:100%!important;
+        margin:0!important;
+        padding:0!important;
+      }
+      .sw7-universal-header.compact-open .sw7-clean-nav:has(.sw7-visual-dropdown.open) .sw7-visual-tile{
+        display:grid!important;
+        grid-template-columns:1fr!important;
+        place-items:center!important;
+        width:100%!important;
+        box-sizing:border-box!important;
+        text-align:center!important;
+      }
+      .sw7-universal-header.compact-open .sw7-clean-nav:has(.sw7-visual-dropdown.open) .sw7-visual-art,
+      .sw7-universal-header.compact-open .sw7-clean-nav:has(.sw7-visual-dropdown.open) .sw7-visual-label{
+        align-self:center!important;
+        justify-self:center!important;
+        margin-inline:auto!important;
+        text-align:center!important;
+      }
+    }
+  `;
+  document.head.appendChild(style);
+})();
+
+/* The head-level gate hides each page's legacy menu until this one shared
+   navigation has been built. Removing it here prevents the old-menu flash
+   during page changes without changing the final menu design. */
+document.documentElement.classList.remove('sw7-nav-pending');
