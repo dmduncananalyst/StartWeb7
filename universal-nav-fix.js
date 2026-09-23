@@ -615,7 +615,7 @@
   };
   nav.innerHTML = '<a href="index.html">Home</a><a href="about.html">About</a>' +
     '<div class="sw7-clean-item sw7-visual-dropdown"><a class="sw7-clean-trigger" href="services.html">Services <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><button class="sw7-visual-menu-toggle" type="button" aria-label="Open Services menu" aria-expanded="false">•••</button><div class="sw7-clean-menu sw7-visual-menu sw7-services-visual-menu"><div class="sw7-visual-grid">' +
-      tile('landing-page.html','LANDING PAGE','menu-plane.png') + tile('business-website.html','BUSINESS WEBSITE','menu-screen.png') + tile('seo-optimized-website.html','SEO OPTIMIZED WEBSITE','menu-screen.png') + tile('essentials.html','SEO + AEO ESSENTIALS','menu-bottle.png') + tile('competitive.html','SEO + AEO COMPETITIVE','menu-trophy.png') +
+      tile('landing-page.html','LANDING PAGE','menu-phone.png') + tile('business-website.html','BUSINESS WEBSITE','menu-screen.png') + tile('seo-optimized-website.html','SEO OPTIMIZED WEBSITE','menu-search-results.png') + tile('essentials.html','SEO + AEO ESSENTIALS','menu-bottle.png') + tile('competitive.html','SEO + AEO COMPETITIVE','menu-trophy.png') +
     '</div></div></div>' +
     '<div class="sw7-clean-item sw7-visual-dropdown"><a class="sw7-clean-trigger" href="industries.html">Industries <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><button class="sw7-visual-menu-toggle" type="button" aria-label="Open Industries menu" aria-expanded="false">•••</button><div class="sw7-clean-menu sw7-visual-menu sw7-industries-visual-menu"><div class="sw7-visual-grid">' +
       tile('real-estate-agents.html','REAL ESTATE','menu-screen.png') + tile('collision-repair.html','COLLISION REPAIR','menu-repair-tool.png') + tile('pool-construction.html','POOL CONSTRUCTION','menu-pool.png') + tile('general-contractors.html','GENERAL CONTRACTORS','menu-bricks.png') + tile('catering.html','CATERING','menu-serving-tray.png') + tile('commercial-cleaning.html','COMMERCIAL CLEANING','menu-cleaning-cart.png') + tile('security-services.html','SECURITY SERVICES','menu-patrol-car.png') +
@@ -670,17 +670,7 @@
   else document.body.appendChild(footer);
 })();
 
-(function () {
-  const footer = document.querySelector('.global-contact-block');
-  if (!footer || document.querySelector('.resource-cta')) return;
-  const appointment = document.createElement('section');
-  appointment.className = 'resource-cta sw7-lead-source-cta';
-  appointment.innerHTML = '<div class="resource-inner"><h2>Build a lead source of your own.</h2><a href="#homeContactChat" data-open-home-chat>FORM FILL</a></div>';
-  const style = document.createElement('style');
-  style.textContent = '.sw7-lead-source-cta{padding:62px 5vw;background:#0784ff;color:#fff}.sw7-lead-source-cta .resource-inner{width:min(1120px,100%);margin:auto;display:flex;align-items:center;justify-content:space-between;gap:40px}.sw7-lead-source-cta h2{margin:0;font:900 clamp(30px,3.5vw,48px)/1 Arial,Helvetica,sans-serif;letter-spacing:-.04em}.sw7-lead-source-cta a{flex:0 0 auto;padding:17px 20px;border:2px solid #fff;color:#fff;text-decoration:none;font:900 12px/1 Arial,Helvetica,sans-serif;letter-spacing:.1em}@media(max-width:700px){.sw7-lead-source-cta{padding:48px 7vw}.sw7-lead-source-cta .resource-inner{display:block}.sw7-lead-source-cta a{display:table;margin:25px auto 0}}';
-  document.head.appendChild(style);
-  footer.parentNode.insertBefore(appointment, footer);
-})();
+
 
 (function () {
   /* Use the same Call / Email / Social footer throughout the site. The home page
@@ -698,11 +688,12 @@
 
 (function () {
   /* Every FORM FILL button opens the same HubSpot-connected AI chat. */
+  if ((window.location.pathname.split('/').pop() || '').toLowerCase() === 'careers.html') return;
   if (document.body && document.body.getAttribute('data-sw7-page') === 'home') return;
   if (document.getElementById('homeContactChat')) return;
   var chatStyles = document.createElement('link');
   chatStyles.rel = 'stylesheet';
-  chatStyles.href = 'homepage-contact-chat.css?v=7';
+  chatStyles.href = 'homepage-contact-chat.css?v=10';
   document.head.appendChild(chatStyles);
   var openButton = document.createElement('button');
   openButton.id = 'openHomeChat';
@@ -714,8 +705,8 @@
   chat.className = 'sw7-home-chat';
   chat.id = 'homeContactChat';
   chat.hidden = true;
-  chat.setAttribute('aria-label', 'StartWeb7 AI form assistant');
-  chat.innerHTML = '<div class="sw7-home-chat-window"><div class="sw7-home-chat-header"><div class="sw7-home-chat-agent"><span class="sw7-home-chat-avatar"><img src="startweb7-logo.png" alt="StartWeb7"></span><span><strong>StartWeb7 AI Assistant</strong><small>A quick form conversation</small></span></div><button class="sw7-home-chat-reset" id="resetHomeChat" type="button">START OVER</button><button class="sw7-home-chat-close" id="closeHomeChat" type="button" aria-label="Close form fill">×</button></div><div class="sw7-home-chat-messages" id="homeChatMessages" role="log" aria-live="polite"></div><div class="sw7-home-chat-choices" id="homeChatChoices" aria-label="Interest options"></div><form class="sw7-home-chat-composer" id="homeChatComposer" hidden><input id="homeChatInput" type="text" autocomplete="off" aria-label="Type your reply" placeholder="Type your reply…"><button class="sw7-home-chat-send" type="submit">SEND</button></form></div><p class="sw7-home-chat-note">Your information is only used to follow up about your inquiry.</p>';
+  chat.setAttribute('aria-label', 'StartWeb7 Form');
+  chat.innerHTML = '<div class="sw7-home-chat-window"><div class="sw7-home-chat-header"><div class="sw7-home-chat-agent"><span class="sw7-home-chat-avatar"><img src="startweb7-logo.png" alt="StartWeb7"></span><span><strong>StartWeb7 Form</strong><small>Don’t worry, it will be quick.</small></span></div><button class="sw7-home-chat-reset" id="resetHomeChat" type="button">START OVER</button><button class="sw7-home-chat-close" id="closeHomeChat" type="button" aria-label="Close form fill">×</button></div><div class="sw7-home-chat-messages" id="homeChatMessages" role="log" aria-live="polite"></div><div class="sw7-home-chat-choices" id="homeChatChoices" aria-label="Interest options"></div><form class="sw7-home-chat-composer" id="homeChatComposer" hidden><input id="homeChatInput" type="text" autocomplete="off" aria-label="Type your reply" placeholder="Type your reply…"><button class="sw7-home-chat-send" type="submit">SEND</button></form></div><p class="sw7-home-chat-note">Your information is only used to follow up about your inquiry.</p>';
   var rights = document.querySelector('.rights-footer');
   if (rights && rights.parentNode) {
     rights.parentNode.insertBefore(openButton, rights);
@@ -725,7 +716,7 @@
     document.body.appendChild(chat);
   }
   var chatScript = document.createElement('script');
-  chatScript.src = 'homepage-contact-chat.js?v=9';
+  chatScript.src = 'homepage-contact-chat.js?v=23';
   document.body.appendChild(chatScript);
 })();
 
@@ -986,7 +977,9 @@
   const nav = document.querySelector('.sw7-clean-nav');
   if (!nav) return;
   const graphics = {
-    'BUSINESS WEBSITE': 'menu-phone.png',
+    'LANDING PAGE': 'menu-phone.png',
+    'BUSINESS WEBSITE': 'menu-screen.png',
+    'SEO OPTIMIZED WEBSITE': 'menu-search-results.png',
     'REAL ESTATE': 'menu-house.png',
     'POOL CONSTRUCTION': 'menu-pool-full.png',
     'SECURITY SERVICES': 'menu-walkie-talkie.png',
@@ -1121,4 +1114,18 @@
 /* The head-level gate hides each page's legacy menu until this one shared
    navigation has been built. Removing it here prevents the old-menu flash
    during page changes without changing the final menu design. */
+if (!document.querySelector('link[data-sw7-single-column]')) {
+  const singleColumnStyles = document.createElement('link');
+  singleColumnStyles.rel = 'stylesheet';
+  singleColumnStyles.href = 'sitewide-single-column.css?v=12';
+  singleColumnStyles.setAttribute('data-sw7-single-column', '');
+  document.head.appendChild(singleColumnStyles);
+}
+if (!document.querySelector('script[data-sw7-redesign]')) {
+  const redesignScript = document.createElement('script');
+  redesignScript.src = 'startweb7-redesign.js?v=9';
+  redesignScript.defer = true;
+  redesignScript.setAttribute('data-sw7-redesign', '');
+  document.head.appendChild(redesignScript);
+}
 document.documentElement.classList.remove('sw7-nav-pending');
