@@ -39,7 +39,13 @@
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Industries | Website Design, SEO + AEO | StartWeb7","description":"Website design and SEO + AEO management for real estate, collision repair, pool construction, general contracting, and catering businesses nationwide.","url":"https://startweb7.com/industries.html","isPartOf":{"@type":"WebSite","name":"StartWeb7","url":"https://startweb7.com/"}}</script>
 <link rel="stylesheet" href="sitewide-single-column.css?v=12" data-sw7-single-column>
-</head>
+<style>
+.industry-hero .sw7-proto-industries .proto-body{height:auto!important;min-height:340px!important}
+.proto-ranking-list{list-style:none;margin:0;padding:0;display:grid;gap:5px}
+.proto-ranking-row{padding:8px 10px;border:1px solid transparent;color:#b9bdc5;line-height:1.4}
+.proto-ranking-row.proto-ranking-you{border-color:var(--proto-green);color:var(--proto-green);border-radius:3px;font-weight:700;animation:protoSnap .4s ease}
+@media(prefers-reduced-motion:reduce){.proto-ranking-row.proto-ranking-you{animation:none}}
+</style></head>
 <body>
 <div class="page">
 <nav class="nav"><a class="brand-logo" href="index.html"><img src="startweb7-logo.png" alt="StartWeb7"></a><div class="nav-links"><a href="index.html">Home</a><a href="services.html">Services</a><a href="contact.html">Contact</a></div></nav>
@@ -61,7 +67,7 @@
 <div class="proto-icon" data-i="3"><svg viewBox="0 0 24 24"><path d="M7 3h10l-1 7a4 4 0 01-8 0z"/><path d="M12 14v7m-4 0h8"/></svg></div>
 </div>
 <div class="proto-industry-label">COLLISION REPAIR</div>
-<div class="proto-search-mock"><div class="proto-query">⌕&nbsp; fix my bumper atlanta</div><div class="proto-old">4. Other local companies</div><div class="proto-new">1. YOUR BUSINESS ↑</div></div>
+<div class="proto-search-mock"><div class="proto-query">⌕&nbsp; fix my bumper atlanta</div><ol class="proto-ranking-list" aria-label="Illustrative ranking example"><li class="proto-ranking-row proto-ranking-you">1. YOUR BUSINESS</li><li class="proto-ranking-row">2. Other local company</li><li class="proto-ranking-row">3. Other local company</li><li class="proto-ranking-row">4. Other local company</li><li class="proto-ranking-row">5. Other local company</li></ol></div>
 </div>
 </div>
 </div>
@@ -83,9 +89,9 @@
 </div>
 <footer class="rights-footer">© 2026 StartWeb7. All rights reserved.</footer>
 
-<script src="universal-nav-fix.js?v=222"></script>
+<script src="universal-nav-fix.js?v=224"></script>
 <script src="article-contact-form.js?v=139"></script>
-<script src="industry-prototypes.js?v=80"></script>
+<script src="industry-prototypes.js?v=81"></script>
 <script src="analytics-events.js" defer></script>
 </body>
 </html>

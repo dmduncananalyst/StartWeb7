@@ -7,22 +7,27 @@
   ];
   const industryDemo = document.querySelector('.sw7-proto-industries');
   if (industryDemo) {
-    let index = 0;
+    let example = 0;
     const icons = industryDemo.querySelectorAll('.proto-icon');
     const label = industryDemo.querySelector('.proto-industry-label');
     const query = industryDemo.querySelector('.proto-query');
-    const old = industryDemo.querySelector('.proto-old');
-    const result = industryDemo.querySelector('.proto-new');
-    setInterval(function () {
-      index = (index + 1) % industries.length;
+    const list = industryDemo.querySelector('.proto-ranking-list');
+    function renderExample() {
+      const index = example % industries.length;
+      const position = example % 3 + 1;
       icons.forEach(function (icon, i) { icon.classList.toggle('active', i === index); });
       label.textContent = industries[index].label;
       query.textContent = '⌕  ' + industries[index].query;
-      old.textContent = industries[index].old;
-      result.classList.remove('snap');
-      void result.offsetWidth;
-      result.classList.add('snap');
-    }, 3000);
+      list.replaceChildren();
+      for (let rank = 1; rank <= 5; rank++) {
+        const row = document.createElement('li');
+        row.className = rank === position ? 'proto-ranking-row proto-ranking-you' : 'proto-ranking-row';
+        row.textContent = rank + '. ' + (rank === position ? 'YOUR BUSINESS' : 'Other local company');
+        list.appendChild(row);
+      }
+    }
+    renderExample();
+    setInterval(function () { example++; renderExample(); }, 3000);
   }
 
   const pack = document.querySelector('.sw7-proto-realestate .proto-pack');

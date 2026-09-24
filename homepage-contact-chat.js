@@ -988,3 +988,20 @@
   document.addEventListener('keydown',function(event){if(event.key==='Escape'&&!section.hidden)closeChat();});
   composer.addEventListener('submit',function(event){event.preventDefault();var value=input.value.trim();if(value)nextWithText(value);});
 })();
+
+(function(){
+  if(!window.visualViewport)return;
+  function fitChat(){
+    const chat=document.getElementById('homeContactChat');
+    if(!chat)return;
+    if(window.matchMedia('(max-width:700px)').matches){
+      chat.style.setProperty('--sw7-chat-height',window.visualViewport.height+'px');
+      chat.style.setProperty('--sw7-chat-top',window.visualViewport.offsetTop+'px');
+    }else{
+      chat.style.removeProperty('--sw7-chat-height');chat.style.removeProperty('--sw7-chat-top');
+    }
+  }
+  window.visualViewport.addEventListener('resize',fitChat);
+  window.visualViewport.addEventListener('scroll',fitChat);
+  window.addEventListener('resize',fitChat);fitChat();
+})();

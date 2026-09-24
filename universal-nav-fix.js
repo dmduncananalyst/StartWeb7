@@ -106,6 +106,7 @@
     const fallbackStyle = document.createElement('style');
     fallbackStyle.textContent = `
       body{padding-top:78px!important}
+      img[src$="menu-screen.png"]{clip-path:inset(0 0 0 10%)!important}
       body.sw7-form-popup-open{overflow:hidden!important}
       .sw7-universal-header{position:fixed!important;z-index:2147483000!important;inset:0 0 auto!important;height:78px!important;background:#fff!important;color:#111!important;display:flex!important;align-items:center!important;justify-content:space-between!important;padding:0 4vw!important;box-sizing:border-box!important;box-shadow:0 1px 0 rgba(0,0,0,.08)!important}
       .sw7-universal-brand{display:flex!important;align-items:center!important;gap:13px!important;min-width:210px!important;color:#111!important;text-decoration:none!important;white-space:nowrap!important}.sw7-universal-brand img{display:block!important;width:112px!important;height:58px!important;object-fit:contain!important}.sw7-universal-brand span{font:900 17px/1 Arial,sans-serif!important;letter-spacing:.04em!important}
@@ -702,7 +703,7 @@
   if (document.getElementById('homeContactChat')) return;
   var chatStyles = document.createElement('link');
   chatStyles.rel = 'stylesheet';
-  chatStyles.href = 'homepage-contact-chat.css?v=10';
+  chatStyles.href = 'homepage-contact-chat.css?v=11';
   document.head.appendChild(chatStyles);
   var openButton = document.createElement('button');
   openButton.id = 'openHomeChat';
@@ -725,7 +726,7 @@
     document.body.appendChild(chat);
   }
   var chatScript = document.createElement('script');
-  chatScript.src = 'homepage-contact-chat.js?v=23';
+  chatScript.src = 'homepage-contact-chat.js?v=24';
   document.body.appendChild(chatScript);
 })();
 
@@ -1115,6 +1116,10 @@
         margin-inline:auto!important;
         text-align:center!important;
       }
+    }
+    @media(max-width:700px){
+      .sw7-industries-visual-menu .sw7-visual-tile .sw7-visual-art{width:120px!important;height:110px!important;background-size:contain!important}
+      .sw7-industries-visual-menu .sw7-visual-tile{min-height:158px!important;gap:10px!important}
     }
   `;
   document.head.appendChild(style);
