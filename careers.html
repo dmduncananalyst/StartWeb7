@@ -319,7 +319,7 @@ body{margin:0;background:#f4f3ef;color:#111;font-family:Arial,Helvetica,sans-ser
 </nav>
 <section class="careers-hero"><video class="careers-hero-video" autoplay muted loop playsinline preload="auto" aria-hidden="true"><source src="careers-video.mp4" type="video/mp4"></video><img class="sw7-page-graphic" src="menu-join-the-team-v2.png" alt="" aria-hidden="true" width="180" height="160"><h1 class="careers-title"><span>CAREERS</span></h1></section>
 <section class="openings"><div class="openings-head"><h2>OPEN <span>ROLES.</span></h2></div><div class="role-list"><article class="role-row"><h3>WEBSITE DEVELOPER</h3><a href="https://www.upwork.com/freelance-jobs/apply/Freelance-Website-Developer-Indepent-Project-Based-Work_~022091248950594118272/" target="_blank" rel="noopener noreferrer">VIEW JOB POSTING →</a></article><article class="role-row"><h3>SEO + AEO DEVELOPER &amp; ACCOUNT MANAGER</h3><a href="https://www.upwork.com/jobs/~022091632368767083136" target="_blank" rel="noopener noreferrer">VIEW JOB POSTING →</a></article><article class="role-row"><h3>SALES</h3><a href="https://www.upwork.com/jobs/~022091671150785926803" target="_blank" rel="noopener noreferrer">VIEW JOB POSTING →</a></article><article class="role-row"><h3>INSTAGRAM MARKETING</h3><a href="https://www.upwork.com/jobs/~022091669948970992622" target="_blank" rel="noopener noreferrer">VIEW JOB POSTING →</a></article></div></section>
-<section class="global-contact-block"></section>
+<section class="global-contact-block"><div class="global-contact-wrap"><div class="contact-options sw7-global-footer-options"><a class="contact-option" href="tel:+18189340444"><span class="contact-label">CALL</span><strong>(818) 934-0444</strong></a><div class="contact-option email-option"><span class="contact-label">EMAIL</span><details class="email-contact-menu"><summary class="email-address-btn">desirae@startweb7.com</summary><div class="email-options"><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=desirae@startweb7.com" target="_blank" rel="noopener">GMAIL</a><a href="https://outlook.live.com/mail/0/deeplink/compose?to=desirae@startweb7.com" target="_blank" rel="noopener">OUTLOOK</a><button type="button" data-copy-email="desirae@startweb7.com">COPY EMAIL</button></div></details></div><div class="contact-option social-option"><span class="contact-label">SOCIAL</span><div class="sw7-global-social-links"><a href="https://www.instagram.com/startweb7_?stkn=MTl4ZnpmeWswNHo3Zg%3D%3D&amp;utm_source=qr" target="_blank" rel="noopener noreferrer">INSTAGRAM</a><a href="https://www.tiktok.com/@startweb7?_r=1&amp;_t=ZP-99kVDkkjaL1" target="_blank" rel="noopener noreferrer">TIKTOK</a><a href="https://www.facebook.com/profile.php?id=61594153382875" target="_blank" rel="noopener noreferrer">FACEBOOK</a></div></div></div></div></section>
 <footer class="rights-footer">© 2026 StartWeb7. All Rights Reserved.</footer>
 </div>
 
@@ -376,31 +376,7 @@ const metricValues=[...document.querySelectorAll('.metric strong')];let metricTi
   update();
 })();
 </script>
-<script>
-const serviceSelect=document.getElementById('serviceSelect');
-const quickForm=document.getElementById('quickForm');
-const selectedService=document.getElementById('selectedService');
-serviceSelect.addEventListener('change',()=>{
-  selectedService.value=serviceSelect.value;
-  quickForm.classList.add('open');
-  quickForm.setAttribute('aria-hidden','false');
-  setTimeout(()=>quickForm.scrollIntoView({behavior:'smooth',block:'nearest'}),80);
-});
-const emailButton=document.getElementById('openEmailOptions');
-const emailOptions=document.getElementById('emailOptions');
-const copyEmail=document.getElementById('copyEmail');
-emailButton.addEventListener('click',()=>{
-  const open=emailOptions.classList.toggle('open');
-  emailOptions.setAttribute('aria-hidden',open?'false':'true');
-});
-copyEmail.addEventListener('click',async()=>{
-  try{
-    await navigator.clipboard.writeText('desirae@startweb7.com');
-    copyEmail.textContent='Copied';
-    setTimeout(()=>copyEmail.textContent='Copy desirae@startweb7.com',1400);
-  }catch(e){copyEmail.textContent='desirae@startweb7.com'}
-});
-</script>
+
 <script>
 (function(){
   const search=document.getElementById('faqSearch');
@@ -820,6 +796,6 @@ input,select,textarea,button{max-width:100%!important}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',build);else build()
 })();
 
-</script><script src="universal-nav-fix.js?v=221"></script><script src="analytics-events.js" defer></script>
+</script><script src="universal-nav-fix.js?v=222"></script><script src="analytics-events.js" defer></script>
 </body>
 </html>

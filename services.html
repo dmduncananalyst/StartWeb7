@@ -1670,57 +1670,7 @@ animateCounter(0);
 
 <section class="locked-build" id="contact"><div class="locked-build-inner"><div class="locked-build-eyebrow">START HERE</div><div class="locked-build-layout"><h2>Let's <span>Build</span> It</h2><div class="locked-build-copy"><p>Website design and development, with a clear way for visitors to call, book, or buy.</p></div></div></div></section>
 
-<footer class="global-contact-block">
-  <div class="wrap">
-
-    <div class="contact-options">
-      <a class="contact-option" href="tel:+18189340444">
-        <span class="contact-label">CALL</span>
-        <strong>(818) 934-0444</strong>
-      </a>
-
-      <div class="contact-option email-option">
-        <span class="contact-label">EMAIL</span>
-        <button class="email-address-btn" type="button" id="openEmailOptions">desirae@startweb7.com</button>
-
-        <div class="email-options" id="emailOptions" aria-hidden="true">
-          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=desirae@startweb7.com" target="_blank" rel="noopener">Gmail</a>
-          <a href="https://outlook.live.com/mail/0/deeplink/compose?to=desirae@startweb7.com" target="_blank" rel="noopener">Outlook</a>
-          <button type="button" id="copyEmail">Copy desirae@startweb7.com</button>
-        </div>
-      </div>
-
-      <div class="contact-option form-trigger-block">
-        <span class="contact-label">FORM FILL</span>
-        <label class="service-select-wrap">
-          <select id="serviceSelect" aria-label="Choose your service">
-            <option value="" selected disabled>Choose what you're interested in</option>
-            
-            <option value="Business Website">Business Website</option>
-            <option value="SEO-Optimized Website">SEO-Optimized Website</option>
-            <option value="SEO + AEO Essentials">SEO + AEO Essentials</option><option value="SEO + AEO Competitive">SEO + AEO Competitive</option>
-          </select>
-        </label>
-      </div>
-    </div>
-
-    <div class="quick-form-shell" id="quickForm" aria-hidden="true">
-      <form class="quick-form" onsubmit="event.preventDefault()">
-        <input type="hidden" name="service" id="selectedService">
-
-        <div class="form-fields">
-          <label><span>Name</span><input type="text" name="name" autocomplete="name"></label>
-          <label><span>Business Name</span><input type="text" name="business"></label>
-          <label><span>Email</span><input type="email" name="email" autocomplete="email"></label>
-          <label><span>Phone</span><input type="tel" name="phone" autocomplete="tel"></label>
-        </div>
-
-        <button class="submit-btn" type="submit">SUBMIT</button>
-      </form>
-    </div>
-
-  </div>
-</footer>
+<footer class="global-contact-block"><div class="global-contact-wrap"><div class="contact-options sw7-global-footer-options"><a class="contact-option" href="tel:+18189340444"><span class="contact-label">CALL</span><strong>(818) 934-0444</strong></a><div class="contact-option email-option"><span class="contact-label">EMAIL</span><details class="email-contact-menu"><summary class="email-address-btn">desirae@startweb7.com</summary><div class="email-options"><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=desirae@startweb7.com" target="_blank" rel="noopener">GMAIL</a><a href="https://outlook.live.com/mail/0/deeplink/compose?to=desirae@startweb7.com" target="_blank" rel="noopener">OUTLOOK</a><button type="button" data-copy-email="desirae@startweb7.com">COPY EMAIL</button></div></details></div><div class="contact-option social-option"><span class="contact-label">SOCIAL</span><div class="sw7-global-social-links"><a href="https://www.instagram.com/startweb7_?stkn=MTl4ZnpmeWswNHo3Zg%3D%3D&amp;utm_source=qr" target="_blank" rel="noopener noreferrer">INSTAGRAM</a><a href="https://www.tiktok.com/@startweb7?_r=1&amp;_t=ZP-99kVDkkjaL1" target="_blank" rel="noopener noreferrer">TIKTOK</a><a href="https://www.facebook.com/profile.php?id=61594153382875" target="_blank" rel="noopener noreferrer">FACEBOOK</a></div></div></div></div></footer>
 
 
 <script>
@@ -1889,48 +1839,10 @@ animateCounter(0);
 </script>
 
 
-<script>
-(function(){
-  const select=document.getElementById('serviceSelect');
-  const form=document.getElementById('quickForm');
-  const hidden=document.getElementById('selectedService');
-  if(!select || !form) return;
-
-  select.addEventListener('change',()=>{
-    hidden.value=select.value;
-    form.classList.add('open');
-    form.setAttribute('aria-hidden','false');
-    setTimeout(()=>form.scrollIntoView({behavior:'smooth',block:'nearest'}),80);
-  });
-})();
-</script>
 
 
-<script>
-(function(){
-  const btn=document.getElementById('openEmailOptions');
-  const menu=document.getElementById('emailOptions');
-  const copy=document.getElementById('copyEmail');
-  if(!btn || !menu) return;
 
-  btn.addEventListener('click',()=>{
-    const open=menu.classList.toggle('open');
-    menu.setAttribute('aria-hidden', open ? 'false' : 'true');
-  });
 
-  if(copy){
-    copy.addEventListener('click',async()=>{
-      try{
-        await navigator.clipboard.writeText('desirae@startweb7.com');
-        copy.textContent='Copied';
-        setTimeout(()=>copy.textContent='Copy desirae@startweb7.com',1400);
-      }catch(e){
-        copy.textContent='desirae@startweb7.com';
-      }
-    });
-  }
-})();
-</script>
 
 
 <section class="sw7-aeo" aria-label="Quick answers"><div class="sw7-aeo-head"><div class="sw7-aeo-kicker">QUESTIONS PEOPLE ACTUALLY ASK</div><h2>QUICK ANSWERS.</h2></div><div class="sw7-aeo-window"><div class="sw7-aeo-track"><article class="sw7-aeo-card"><h3>What services does StartWeb7 offer?</h3><p>We offer website design, SEO-optimized websites, and ongoing SEO + AEO management.</p></article><article class="sw7-aeo-card"><h3>Should I start with a website or SEO?</h3><p>It depends on what you already have. If your site needs work, we may start there before building ongoing search growth.</p></article><article class="sw7-aeo-card"><h3>Can I get a website without monthly SEO?</h3><p>Yes. Website projects and ongoing SEO + AEO management are separate services.</p></article><article class="sw7-aeo-card"><h3>How do I choose the right option?</h3><p>We look at your business, current website, competition, and goals during a short Zoom meeting.</p></article><article class="sw7-aeo-card"><h3>What services does StartWeb7 offer?</h3><p>We offer website design, SEO-optimized websites, and ongoing SEO + AEO management.</p></article><article class="sw7-aeo-card"><h3>Should I start with a website or SEO?</h3><p>It depends on what you already have. If your site needs work, we may start there before building ongoing search growth.</p></article><article class="sw7-aeo-card"><h3>Can I get a website without monthly SEO?</h3><p>Yes. Website projects and ongoing SEO + AEO management are separate services.</p></article><article class="sw7-aeo-card"><h3>How do I choose the right option?</h3><p>We look at your business, current website, competition, and goals during a short Zoom meeting.</p></article></div></div></section>
@@ -2250,6 +2162,6 @@ input,select,textarea,button{max-width:100%!important}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',build);else build()
 })();
 
-</script><script src="universal-nav-fix.js?v=221"></script><script src="analytics-events.js" defer></script>
+</script><script src="universal-nav-fix.js?v=222"></script><script src="analytics-events.js" defer></script>
 </body>
 </html>

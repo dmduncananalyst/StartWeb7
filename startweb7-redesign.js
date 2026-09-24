@@ -20,27 +20,12 @@
     var edition=document.querySelector('.resource-edition');
     if(edition){
       var stories=Array.from(edition.querySelectorAll('.resource-story'));
-      var controls=document.createElement('div');controls.className='sw7-article-controls';
-      controls.innerHTML='<label class="sw7-article-search"><span>Find articles about getting more customers</span><input type="search" placeholder="Google Maps, sales, or AI" aria-label="Find articles by topic"></label><label class="sw7-article-topic"><span>Topic</span><select aria-label="Filter articles by topic"><option value="">All topics</option></select></label>';
       var list=document.createElement('div');list.className='sw7-article-library';
-      var topics=[];
       stories.forEach(function(story){
-        var category=story.querySelector('small');var topic=category?category.textContent.trim():'';
-        story.dataset.articleTopic=topic;
-        if(topic&&topics.indexOf(topic)<0)topics.push(topic);
         list.appendChild(story);
       });
       edition.querySelectorAll('.edition-top,.edition-bottom,.edition-heading').forEach(function(old){old.remove();});
-      edition.appendChild(controls);edition.appendChild(list);
-      var status=document.createElement('p');status.className='sw7-article-status';status.setAttribute('role','status');status.hidden=true;edition.appendChild(status);
-      var select=controls.querySelector('select'),search=controls.querySelector('input');
-      topics.forEach(function(topic){var option=document.createElement('option');option.value=topic;option.textContent=topic;select.appendChild(option);});
-      function filterArticles(){
-        var query=search.value.trim().toLowerCase(),count=0;
-        stories.forEach(function(story){var matches=(!select.value||story.dataset.articleTopic===select.value)&&story.textContent.toLowerCase().includes(query);story.hidden=!matches;if(matches)count++;});
-        status.hidden=count>0;status.textContent=count?'':'No articles match this search.';
-      }
-      search.addEventListener('input',filterArticles);select.addEventListener('change',filterArticles);
+      edition.appendChild(list);
     }
     document.querySelectorAll('.article-body,.briefing-article').forEach(function (article) {
       if (article.classList.contains('sw7-reading-grid')) return;

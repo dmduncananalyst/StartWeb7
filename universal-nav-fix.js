@@ -664,7 +664,7 @@
   if (!document.querySelector('.article-body') || document.querySelector('.global-contact-block')) return;
   const footer = document.createElement('footer');
   footer.className = 'global-contact-block';
-  footer.innerHTML = '<div class="global-contact-wrap"><div class="contact-options"><a class="contact-option" href="tel:+18189340444"><span class="contact-label">CALL</span><strong>(818) 934-0444</strong></a><div class="contact-option email-option"><span class="contact-label">EMAIL</span><details class="email-contact-menu"><summary class="email-address-btn">desirae@startweb7.com</summary><div class="email-options"><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=desirae@startweb7.com" target="_blank" rel="noopener">GMAIL</a><a href="https://outlook.live.com/mail/0/deeplink/compose?to=desirae@startweb7.com" target="_blank" rel="noopener">OUTLOOK</a><button type="button" data-copy-email="desirae@startweb7.com">COPY EMAIL</button></div></details></div><div class="contact-option form-trigger-block"><span class="contact-label">FORM FILL</span><label class="service-select-wrap"><select id="serviceSelect" aria-label="Choose your service"><option value="" selected disabled>Choose what you\'re interested in</option><option value="Landing Page">Landing Page</option><option value="Business Website">Business Website</option><option value="SEO-Optimized Website">SEO-Optimized Website</option><option value="SEO + AEO Essentials">SEO + AEO Essentials</option><option value="SEO + AEO Competitive">SEO + AEO Competitive</option></select></label></div></div><div class="quick-form-shell" id="quickForm" aria-hidden="true"><form class="quick-form" onsubmit="event.preventDefault()"><input type="hidden" name="service" id="selectedService"><div class="form-fields"><label><span>Name</span><input type="text" name="name" autocomplete="name"></label><label><span>Business Name</span><input type="text" name="business"></label><label><span>Email</span><input type="email" name="email" autocomplete="email"></label><label><span>Phone</span><input type="tel" name="phone" autocomplete="tel"></label></div><button class="submit-btn" type="submit">SUBMIT</button></form></div></div>';
+  /* The shared footer below supplies Call, Email, and Social. */
   const copyright = document.querySelector('.sw7-universal-copyright');
   if (copyright) copyright.parentNode.insertBefore(footer, copyright);
   else document.body.appendChild(footer);
@@ -677,7 +677,16 @@
      already contains this version plus its separate AI chat, so it is left alone. */
   if (document.body && document.body.getAttribute('data-sw7-page') === 'home') return;
   var footerMarkup = '<div class="global-contact-wrap"><div class="contact-options sw7-global-footer-options"><a class="contact-option" href="tel:+18189340444"><span class="contact-label">CALL</span><strong>(818) 934-0444</strong></a><div class="contact-option email-option"><span class="contact-label">EMAIL</span><details class="email-contact-menu"><summary class="email-address-btn">desirae@startweb7.com</summary><div class="email-options"><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=desirae@startweb7.com" target="_blank" rel="noopener">GMAIL</a><a href="https://outlook.live.com/mail/0/deeplink/compose?to=desirae@startweb7.com" target="_blank" rel="noopener">OUTLOOK</a><button type="button" data-copy-email="desirae@startweb7.com">COPY EMAIL</button></div></details></div><div class="contact-option social-option"><span class="contact-label">SOCIAL</span><div class="sw7-global-social-links"><a href="https://www.instagram.com/startweb7_?stkn=MTl4ZnpmeWswNHo3Zg%3D%3D&amp;utm_source=qr" target="_blank" rel="noopener noreferrer">INSTAGRAM</a><a href="https://www.tiktok.com/@startweb7?_r=1&amp;_t=ZP-99kVDkkjaL1" target="_blank" rel="noopener noreferrer">TIKTOK</a><a href="https://www.facebook.com/profile.php?id=61594153382875" target="_blank" rel="noopener noreferrer">FACEBOOK</a></div></div></div></div>';
-  document.querySelectorAll('.global-contact-block').forEach(function (footer) {
+  var footers = document.querySelectorAll('.global-contact-block');
+  if (!footers.length) {
+    var newFooter = document.createElement('section');
+    newFooter.className = 'global-contact-block';
+    var rights = document.querySelector('.rights-footer');
+    if (rights) rights.parentNode.insertBefore(newFooter, rights);
+    else document.body.appendChild(newFooter);
+    footers = [newFooter];
+  }
+  footers.forEach(function (footer) {
     footer.classList.add('sw7-global-footer');
     footer.innerHTML = footerMarkup;
   });
@@ -1123,7 +1132,7 @@ if (!document.querySelector('link[data-sw7-single-column]')) {
 }
 if (!document.querySelector('script[data-sw7-redesign]')) {
   const redesignScript = document.createElement('script');
-  redesignScript.src = 'startweb7-redesign.js?v=9';
+  redesignScript.src = 'startweb7-redesign.js?v=10';
   redesignScript.defer = true;
   redesignScript.setAttribute('data-sw7-redesign', '');
   document.head.appendChild(redesignScript);
