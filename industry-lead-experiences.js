@@ -2,10 +2,22 @@
   'use strict';
   var section=document.querySelector('.customer-tool');
   if(!section)return;
-  var type=section.classList.contains('real-estate-tool')?'realestate':section.classList.contains('collision-tool')?'collision':section.classList.contains('pool-tool')?'pool':section.classList.contains('contractor-tool')?'contractor':section.classList.contains('cleaning-tool')?'cleaning':section.classList.contains('security-tool')?'security':'';
+  var type=section.classList.contains('health-tool')?'health':section.classList.contains('real-estate-tool')?'realestate':section.classList.contains('collision-tool')?'collision':section.classList.contains('pool-tool')?'pool':section.classList.contains('contractor-tool')?'contractor':section.classList.contains('cleaning-tool')?'cleaning':section.classList.contains('security-tool')?'security':'';
   if(!type)return;
 
   var experiences={
+    health:{
+      title:'Home Health Care Assistant',
+      steps:[
+        {question:'Who are you looking for care for?',choices:['Myself','A parent','Another family member','Someone I support']},
+        {question:'What kind of help are you looking for?',choices:['Nursing care at home','Therapy at home','Help with daily activities','I would like to discuss the options']},
+        {question:'What city or ZIP code would care be needed in?',placeholder:'Enter an example city or ZIP code…'},
+        {question:'When would you like care to begin?',choices:['As soon as possible','Within a few weeks','Planning ahead','Not sure yet']},
+        {question:'What payment or coverage option would you like to discuss with our team?',choices:['Medicaid','Medicare','Private insurance','Paying privately','I need help understanding my options']},
+        {question:'How would you like us to contact you?',choices:['Phone call','Email']},
+        {question:'What name and contact information should we use to reach you?',placeholder:'Example: Alex, alex@example.com'}
+      ]
+    },
     realestate:{
       title:'Real Estate Lead Assistant',
       steps:[
@@ -13,7 +25,7 @@
         {question:'What city or neighborhood are you interested in?',placeholder:'Type the city or neighborhood…'},
         {question:'What type of property is involved?',choices:['Single-family home','Condo or townhome','Multifamily property','Land','Not sure yet']},
         {question:'When are you hoping to move?',choices:['As soon as possible','Within 3 months','3–6 months','Just researching']},
-        {question:'What is your email address or phone number so an agent can follow up with you?',placeholder:'Enter your email address or phone number…'}
+        {question:'What is your email address or phone number so we can follow up with you?',placeholder:'Enter your email address or phone number…'}
       ]
     },
     collision:{
@@ -23,8 +35,8 @@
         {question:'Can the vehicle be driven safely?',choices:['Yes','No','Not sure']},
         {question:'Has an insurance claim been started?',choices:['Yes','Not yet','I’m paying myself','Not sure']},
         {question:'What city is the vehicle in?',placeholder:'Type the city…'},
-        {question:'Is there anything else the repair shop should know?',placeholder:'Describe the damage or what happened…'},
-        {question:'What is your email address or phone number so the shop can follow up with you?',placeholder:'Enter your email address or phone number…'}
+        {question:'Is there anything else we should know?',placeholder:'Describe the damage or what happened…'},
+        {question:'What is your email address or phone number so we can follow up with you?',placeholder:'Enter your email address or phone number…'}
       ]
     },
     pool:{
@@ -35,7 +47,7 @@
         {question:'Which features are you considering?',choices:['Attached spa','Baja shelf','Waterfall','Pool lighting','Outdoor kitchen','I need recommendations']},
         {question:'When would you like the project to begin?',choices:['As soon as possible','Within 3 months','3–6 months','Just researching']},
         {question:'What city is the property in?',placeholder:'Type the city…'},
-        {question:'What is your email address or phone number so the pool company can follow up with you?',placeholder:'Enter your email address or phone number…'}
+        {question:'What is your email address or phone number so we can follow up with you?',placeholder:'Enter your email address or phone number…'}
       ]
     },
     contractor:{
@@ -46,7 +58,7 @@
         {question:'How far along is the project?',choices:['I have an idea','I have plans','I have permits','Ready to build']},
         {question:'What city is the property in?',placeholder:'Type the city…'},
         {question:'When would you like the project to begin?',choices:['As soon as possible','Within 3 months','3–6 months','Still planning']},
-        {question:'What is your email address or phone number so the contractor can follow up with you?',placeholder:'Enter your email address or phone number…'}
+        {question:'What is your email address or phone number so we can follow up with you?',placeholder:'Enter your email address or phone number…'}
       ]
     },
     cleaning:{
@@ -58,7 +70,7 @@
         {question:'What city or ZIP code is the facility in?',placeholder:'Enter the city or ZIP code…'},
         {question:'About how large is the facility?',choices:['Under 5,000 square feet','5,000 to 20,000 square feet','Over 20,000 square feet','Not sure yet']},
         {question:'When would you like service to start?',choices:['Right away','This month','Planning ahead','Just comparing options']},
-        {question:'What is your email address or phone number so the cleaning company can follow up?',placeholder:'Enter your email address or phone number…'}
+        {question:'What is your email address or phone number so we can follow up?',placeholder:'Enter your email address or phone number…'}
       ]
     },
     security:{
@@ -69,7 +81,7 @@
         {question:'What city or ZIP code needs coverage?',placeholder:'Enter the city or ZIP code…'},
         {question:'What schedule do you need?',choices:['Business hours','Overnight','24/7 coverage','Specific event date','Not sure yet']},
         {question:'When would you like coverage to begin?',choices:['Right away','Within 30 days','1 to 3 months','Just comparing options']},
-        {question:'What is your email address or phone number so the security company can follow up?',placeholder:'Enter your email address or phone number…'}
+        {question:'What is your email address or phone number so we can follow up?',placeholder:'Enter your email address or phone number…'}
       ]
     }
   };
@@ -78,6 +90,12 @@
   var shell=section.querySelector('.tool-shell');
   shell.innerHTML='<div class="industry-chat-wrap '+type+'-chat"><div class="industry-chat-window"><div class="industry-chat-header"><div class="industry-chat-agent"><span class="industry-chat-avatar"><img src="startweb7-logo.png" alt="StartWeb7"></span><span><strong>'+experience.title+'</strong><small>Interactive website example</small></span></div><button class="industry-chat-reset" type="button">START OVER</button></div><div class="industry-chat-messages" role="log" aria-live="polite"></div><div class="industry-chat-choices" aria-label="Suggested replies"></div><form class="industry-chat-composer"><input type="text" autocomplete="off" aria-label="Type your reply" placeholder="Type your reply…"><button type="submit">SEND</button></form></div></div>';
 
+  if(type==='health'){
+    var note=document.createElement('p');
+    note.textContent='Interactive demo, use sample information. Our team confirms care availability and accepted coverage.';
+    note.style.cssText='max-width:760px;margin:16px auto 0;padding:0 16px;color:inherit;font-size:14px;line-height:1.5;text-align:center';
+    shell.appendChild(note);
+  }
   var messages=shell.querySelector('.industry-chat-messages');
   var choices=shell.querySelector('.industry-chat-choices');
   var composer=shell.querySelector('.industry-chat-composer');
@@ -96,7 +114,7 @@
   function showQuestion(){
     choices.replaceChildren();
     if(step>=experience.steps.length){
-      window.setTimeout(function(){bubble('Thank you. We will follow up with you shortly.','bot');},220);
+      window.setTimeout(function(){bubble(type==='health'?'Thank you for sharing what you need. Our team can discuss care options and coverage with you. This demo is complete. No inquiry has been sent.':'Thank you. We will follow up with you shortly.','bot');},220);
       input.disabled=true;
       input.placeholder='Demonstration complete';
       send.disabled=true;

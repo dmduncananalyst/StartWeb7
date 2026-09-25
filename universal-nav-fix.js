@@ -615,13 +615,16 @@
     return '<a class="sw7-visual-tile" href="' + href + '"><span class="sw7-visual-art" style="background-image:url(\'' + graphic + '\')"></span><span class="sw7-visual-label">' + label + '</span></a>';
   };
   nav.innerHTML = '<a href="index.html">Home</a><a href="about.html">About</a>' +
-    '<div class="sw7-clean-item sw7-visual-dropdown"><a class="sw7-clean-trigger" href="services.html">Services <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><button class="sw7-visual-menu-toggle" type="button" aria-label="Open Services menu" aria-expanded="false">•••</button><div class="sw7-clean-menu sw7-visual-menu sw7-services-visual-menu"><div class="sw7-visual-grid">' +
+    '<div class="sw7-clean-item sw7-visual-dropdown"><a class="sw7-clean-trigger" href="#" role="button" aria-expanded="false">Services <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><button class="sw7-visual-menu-toggle" type="button" aria-label="Open Services menu" aria-expanded="false">•••</button><div class="sw7-clean-menu sw7-visual-menu sw7-services-visual-menu"><div class="sw7-visual-grid">' +
+      tile('services.html','VIEW ALL SERVICES','menu-overview-brochure.png') +
       tile('landing-page.html','LANDING PAGE','menu-phone.png') + tile('business-website.html','BUSINESS WEBSITE','menu-screen.png') + tile('seo-optimized-website.html','SEO OPTIMIZED WEBSITE','menu-search-results.png') + tile('essentials.html','SEO + AEO ESSENTIALS','menu-bottle.png') + tile('competitive.html','SEO + AEO COMPETITIVE','menu-trophy.png') +
     '</div></div></div>' +
-    '<div class="sw7-clean-item sw7-visual-dropdown"><a class="sw7-clean-trigger" href="industries.html">Industries <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><button class="sw7-visual-menu-toggle" type="button" aria-label="Open Industries menu" aria-expanded="false">•••</button><div class="sw7-clean-menu sw7-visual-menu sw7-industries-visual-menu"><div class="sw7-visual-grid">' +
-      tile('real-estate-agents.html','REAL ESTATE','menu-screen.png') + tile('collision-repair.html','COLLISION REPAIR','menu-repair-tool.png') + tile('pool-construction.html','POOL CONSTRUCTION','menu-pool.png') + tile('general-contractors.html','GENERAL CONTRACTORS','menu-bricks.png') + tile('catering.html','CATERING','menu-serving-tray.png') + tile('commercial-cleaning.html','COMMERCIAL CLEANING','menu-cleaning-cart.png') + tile('security-services.html','SECURITY SERVICES','menu-patrol-car.png') +
+    '<div class="sw7-clean-item sw7-visual-dropdown"><a class="sw7-clean-trigger" href="#" role="button" aria-expanded="false">Industries <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><button class="sw7-visual-menu-toggle" type="button" aria-label="Open Industries menu" aria-expanded="false">•••</button><div class="sw7-clean-menu sw7-visual-menu sw7-industries-visual-menu"><div class="sw7-visual-grid">' +
+      tile('industries.html','VIEW ALL INDUSTRIES','menu-overview-people.png') +
+      tile('real-estate-agents.html','REAL ESTATE','menu-screen.png') + tile('collision-repair.html','COLLISION REPAIR','menu-repair-tool.png') + tile('pool-construction.html','POOL CONSTRUCTION','menu-pool.png') + tile('general-contractors.html','GENERAL CONTRACTORS','menu-bricks.png') + tile('catering.html','CATERING','menu-serving-tray.png') + tile('commercial-cleaning.html','COMMERCIAL CLEANING','menu-cleaning-cart.png') + tile('security-services.html','SECURITY SERVICES','menu-patrol-car.png') + tile('home-health-care.html','HOME HEALTH CARE','menu-home-health.svg') +
     '</div></div></div><a href="resources.html">Resources</a><a href="reviews.html">Reviews</a>' +
-    '<div class="sw7-clean-item sw7-visual-dropdown"><a class="sw7-clean-trigger" href="contact.html">Contact <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><button class="sw7-visual-menu-toggle" type="button" aria-label="Open Contact menu" aria-expanded="false">•••</button><div class="sw7-clean-menu sw7-visual-menu sw7-contact-visual-menu"><div class="sw7-visual-grid">' +
+    '<div class="sw7-clean-item sw7-visual-dropdown"><a class="sw7-clean-trigger" href="#" role="button" aria-expanded="false">Contact <span class="sw7-down-arrow" aria-hidden="true">▼</span></a><button class="sw7-visual-menu-toggle" type="button" aria-label="Open Contact menu" aria-expanded="false">•••</button><div class="sw7-clean-menu sw7-visual-menu sw7-contact-visual-menu"><div class="sw7-visual-grid">' +
+      tile('contact.html','REACH OUT','menu-overview-telephone.png') +
       tile('faq.html','FAQ','menu-question-mark.png') + tile('nationwide.html','NATIONWIDE','menu-usa-flag.png') + tile('support.html','24/7 SUPPORT','menu-question-mark.png') + tile('careers.html','JOIN THE TEAM','menu-join-the-team-v2.png') +
     '</div></div></div>';
   const style = document.createElement('style');
@@ -1118,8 +1121,8 @@
       }
     }
     @media(max-width:700px){
-      .sw7-industries-visual-menu .sw7-visual-tile .sw7-visual-art{width:120px!important;height:110px!important;background-size:contain!important}
-      .sw7-industries-visual-menu .sw7-visual-tile{min-height:158px!important;gap:10px!important}
+      .sw7-visual-menu .sw7-visual-tile .sw7-visual-art{width:120px!important;height:110px!important;background-size:contain!important}
+      .sw7-visual-menu .sw7-visual-tile{min-height:158px!important;gap:10px!important}
     }
   `;
   document.head.appendChild(style);
@@ -1143,3 +1146,44 @@ if (!document.querySelector('script[data-sw7-redesign]')) {
   document.head.appendChild(redesignScript);
 }
 document.documentElement.classList.remove('sw7-nav-pending');
+
+/* Overview links live inside menus; category titles only open menus. */
+(function(){
+ const nav=document.querySelector('.sw7-clean-nav'); if(!nav)return;
+ const items=Array.from(nav.querySelectorAll('.sw7-visual-dropdown'));
+ const desktop=()=>matchMedia('(min-width:701px) and (hover:hover) and (pointer:fine)').matches;
+ const setOpen=(item,open)=>{
+  item.classList.toggle('open',open);
+  item.querySelector('.sw7-clean-trigger').setAttribute('aria-expanded',String(open));
+ };
+ const closeAll=()=>items.forEach(item=>setOpen(item,false));
+ items.forEach((item,index)=>{
+  const trigger=item.querySelector('.sw7-clean-trigger');
+  const menu=item.querySelector('.sw7-clean-menu');
+  menu.id='sw7-category-menu-'+index; trigger.setAttribute('aria-controls',menu.id);
+  trigger.textContent=trigger.textContent.trim();
+  let timer;
+  trigger.addEventListener('click',event=>{
+   event.preventDefault();event.stopImmediatePropagation();clearTimeout(timer);
+   const opens=trigger.getAttribute('aria-expanded')!=='true';closeAll();setOpen(item,opens);
+   if(opens)menu.scrollTop=0;
+  },true);
+  trigger.addEventListener('keydown',event=>{
+   if(event.key===' '){event.preventDefault();trigger.click();}
+   if(event.key==='ArrowDown'){event.preventDefault();closeAll();setOpen(item,true);menu.querySelector('a').focus();}
+  });
+  item.addEventListener('mouseenter',()=>{if(desktop()){clearTimeout(timer);closeAll();setOpen(item,true);}});
+  item.addEventListener('mouseleave',()=>{if(desktop())timer=setTimeout(()=>setOpen(item,false),220);});
+  item.addEventListener('focusout',event=>{if(!item.contains(event.relatedTarget))setOpen(item,false);});
+  menu.addEventListener('click',event=>event.stopPropagation());
+ });
+ document.addEventListener('click',event=>{if(!nav.contains(event.target))closeAll();});
+ document.addEventListener('keydown',event=>{if(event.key==='Escape'){
+  const current=items.find(item=>item.querySelector('.sw7-clean-trigger').getAttribute('aria-expanded')==='true');
+  closeAll();if(current)current.querySelector('.sw7-clean-trigger').focus();
+ }});
+
+})();
+
+/* Normalize visible mobile artwork, accounting for transparent image margins. */
+(function(){const style=document.createElement("style");style.id="sw7-mobile-art-size";style.textContent="@media(max-width:700px){.sw7-clean-nav .sw7-visual-menu .sw7-visual-tile .sw7-visual-art[style*=\"menu-phone.png\"]{width:120px!important;height:110px!important;background-size:86.513px 129.770px!important;background-position:16.659px -9.885px!important;background-repeat:no-repeat!important}.sw7-clean-nav .sw7-visual-menu .sw7-visual-tile .sw7-visual-art[style*=\"menu-screen.png\"]{width:120px!important;height:110px!important;background-size:131.706px 116.254px!important;background-position:-12.107px -1.104px!important;background-repeat:no-repeat!important}.sw7-clean-nav .sw7-visual-menu .sw7-visual-tile .sw7-visual-art[style*=\"menu-search-results.png\"]{width:120px!important;height:110px!important;background-size:138.223px 121.967px!important;background-position:-13.149px -9.970px!important;background-repeat:no-repeat!important}.sw7-clean-nav .sw7-visual-menu .sw7-visual-tile .sw7-visual-art[style*=\"menu-bottle.png\"]{width:120px!important;height:110px!important;background-size:91.446px 113.313px!important;background-position:1.521px -2.319px!important;background-repeat:no-repeat!important}.sw7-clean-nav .sw7-visual-menu .sw7-visual-tile .sw7-visual-art[style*=\"menu-trophy.png\"]{width:120px!important;height:110px!important;background-size:101.229px 115.116px!important;background-position:9.020px -3.654px!important;background-repeat:no-repeat!important}.sw7-clean-nav .sw7-visual-menu .sw7-visual-tile .sw7-visual-art[style*=\"menu-house.png\"]{width:120px!important;height:110px!important;background-size:136.939px 91.293px!important;background-position:-9.896px 11.092px!important;background-repeat:no-repeat!important}.sw7-clean-nav .sw7-visual-menu .sw7-visual-tile .sw7-visual-art[style*=\"menu-repair-tool.png\"]{width:120px!important;height:110px!important;background-size:117.809px 112.037px!important;background-position:2.963px -2.037px!important;background-repeat:no-repeat!important}.sw7-clean-nav .sw7-visual-menu .sw7-visual-tile .sw7-visual-art[style*=\"menu-pool-full.png\"]{width:120px!important;height:110px!important;background-size:123.373px 82.249px!important;background-position:-2.088px 14.157px!important;background-repeat:no-repeat!important}.sw7-clean-nav .sw7-visual-menu .sw7-visual-tile .sw7-visual-art[style*=\"menu-bricks.png\"]{width:120px!important;height:110px!important;background-size:178.605px 119.070px!important;background-position:-30.349px -7.558px!important;background-repeat:no-repeat!important}.sw7-clean-nav .sw7-visual-menu .sw7-visual-tile .sw7-visual-art[style*=\"menu-serving-tray.png\"]{width:120px!important;height:110px!important;background-size:122.712px 93.220px!important;background-position:-0.339px 1.949px!important;background-repeat:no-repeat!important}.sw7-clean-nav .sw7-visual-menu .sw7-visual-tile .sw7-visual-art[style*=\"menu-cleaning-cart.png\"]{width:120px!important;height:110px!important;background-size:109.669px 110.663px!important;background-position:3.840px 0.000px!important;background-repeat:no-repeat!important}.sw7-clean-nav .sw7-visual-menu .sw7-visual-tile .sw7-visual-art[style*=\"menu-walkie-talkie.png\"]{width:120px!important;height:110px!important;background-size:80.630px 120.945px!important;background-position:19.921px -5.039px!important;background-repeat:no-repeat!important}.sw7-clean-nav .sw7-visual-menu .sw7-visual-tile .sw7-visual-art[style*=\"menu-question-mark.png\"]{width:120px!important;height:110px!important;background-size:110.482px 132.579px!important;background-position:3.601px -11.579px!important;background-repeat:no-repeat!important}.sw7-clean-nav .sw7-visual-menu .sw7-visual-tile .sw7-visual-art[style*=\"menu-usa-flag.png\"]{width:120px!important;height:110px!important;background-size:111.388px 113.817px!important;background-position:3.785px -1.041px!important;background-repeat:no-repeat!important}.sw7-clean-nav .sw7-visual-menu .sw7-visual-tile .sw7-visual-art[style*=\"menu-24-hour-clock.png\"]{width:120px!important;height:110px!important;background-size:124.158px 124.158px!important;background-position:-2.079px -6.634px!important;background-repeat:no-repeat!important}.sw7-clean-nav .sw7-visual-menu .sw7-visual-tile .sw7-visual-art[style*=\"menu-join-the-team-v2.png\"]{width:120px!important;height:110px!important;background-size:110.000px 110.000px!important;background-position:4.868px 0.000px!important;background-repeat:no-repeat!important}.sw7-clean-nav .sw7-visual-menu .sw7-visual-tile .sw7-visual-art[style*=\"menu-overview-brochure.png\"]{width:120px!important;height:110px!important;background-size:134.314px 134.314px!important;background-position:-7.478px -11.782px!important;background-repeat:no-repeat!important}.sw7-clean-nav .sw7-visual-menu .sw7-visual-tile .sw7-visual-art[style*=\"menu-overview-people.png\"]{width:120px!important;height:110px!important;background-size:120.770px 120.770px!important;background-position:-0.578px -6.011px!important;background-repeat:no-repeat!important}.sw7-clean-nav .sw7-visual-menu .sw7-visual-tile .sw7-visual-art[style*=\"menu-overview-telephone.png\"]{width:120px!important;height:110px!important;background-size:119.222px 119.222px!important;background-position:-0.039px -3.708px!important;background-repeat:no-repeat!important}.sw7-clean-nav .sw7-visual-menu .sw7-visual-tile .sw7-visual-art[style*=\"menu-home-health.svg\"]{width:120px!important;height:110px!important;background-size:152.381px 133.333px!important;background-position:-16.190px -15.714px!important;background-repeat:no-repeat!important}}";document.head.appendChild(style);})();
