@@ -1378,6 +1378,23 @@ body[data-sw7-page="home"] .work-grid > .work-project > picture.work-preview--pa
 @media(max-width:600px){
   .sw7-lead-intro .sw7-payment-icon{font-size:29px!important}
 }
+
+/* Fit the complete payment message inside the phone notification. */
+@media(max-width:600px){
+  .sw7-lead-intro .sw7-payment-card{
+    left:5px;right:5px;grid-template-columns:40px minmax(0,1fr);
+    gap:8px;padding:8px;box-sizing:border-box;
+  }
+  .sw7-lead-intro .sw7-payment-icon{
+    width:40px;height:40px;aspect-ratio:auto;
+    font-size:27px!important;
+  }
+  .sw7-lead-intro .sw7-payment-copy strong{
+    font-size:clamp(11px,3.35vw,13.5px);
+    line-height:1.15;letter-spacing:-.035em;white-space:nowrap;
+  }
+  .sw7-lead-intro .sw7-payment-time{top:9px;right:9px;font-size:10px}
+}
 </style>
 </body>
 </html>
