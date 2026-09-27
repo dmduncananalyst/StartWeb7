@@ -484,7 +484,7 @@ try{if(sessionStorage.getItem('sw7PaymentPhoneIntroSeenV1')==='1')document.docum
       <div class="sw7-phone-status"><span id="sw7PhoneStatusTime"></span><span class="sw7-status-icons"><i class="sw7-signal"></i><i class="sw7-wifi"></i><i class="sw7-battery"></i></span></div>
       <div class="sw7-phone-clock"><time id="sw7PhoneDate"></time><time id="sw7PhoneTime"></time></div>
       <div class="sw7-payment-card">
-        <div class="sw7-payment-icon"></div>
+        <div class="sw7-payment-icon" aria-hidden="true">$</div>
         <div class="sw7-payment-copy"><small>PAYMENTS</small><strong>Payment received</strong></div>
         <span class="sw7-payment-time">now</span>
       </div>
@@ -535,7 +535,7 @@ try{if(sessionStorage.getItem('sw7PaymentPhoneIntroSeenV1')==='1')document.docum
       <div class="work-overlay"><div class="work-actions"><a href="https://thesankofainstitute.com" target="_blank" rel="noopener">VIEW WEBSITE →</a><div class="portfolio-contact-wrap"><button class="portfolio-contact-trigger" type="button">CONTACT CLIENT →</button><div class="portfolio-email-menu"><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=vduncanevans@gmail.com" target="_blank" rel="noopener">Gmail</a><a href="https://outlook.live.com/mail/0/deeplink/compose?to=vduncanevans@gmail.com" target="_blank" rel="noopener">Outlook</a><button type="button" data-copy-email="vduncanevans@gmail.com">Copy email</button></div></div></div></div>
     </article>
     <article class="work-project work-paradigm-janitorial">
-<img class="work-preview work-preview--desktop" src="assets/portfolio/preview-paradigm-janitorial-desktop.png" width="1920" height="1080" alt="Paradigm Janitorial website preview"><img class="work-preview work-preview--mobile" src="assets/portfolio/preview-paradigm-janitorial-mobile.png" width="944" height="2048" alt="Paradigm Janitorial mobile website preview">
+<img class="work-preview work-preview--desktop" src="assets/portfolio/preview-paradigm-janitorial-desktop.png" width="1920" height="1080" alt="Paradigm Janitorial website preview"><img class="work-preview work-preview--mobile" src="assets/portfolio/preview-paradigm-janitorial-mobile-new.png" width="944" height="2048" alt="Paradigm Janitorial mobile website preview">
       <div class="work-overlay"><div class="work-actions"><a href="https://www.paradigmjanitorial.net/" target="_blank" rel="noopener">VIEW WEBSITE →</a><div class="portfolio-contact-wrap"><button class="portfolio-contact-trigger" type="button">CONTACT CLIENT →</button><div class="portfolio-email-menu"><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=kevinjhawkins@aol.com" target="_blank" rel="noopener">Gmail</a><a href="https://outlook.live.com/mail/0/deeplink/compose?to=kevinjhawkins@aol.com" target="_blank" rel="noopener">Outlook</a><button type="button" data-copy-email="kevinjhawkins@aol.com">Copy email</button></div></div></div></div>
     </article>
     <article class="work-project work-paradigm-security">
@@ -1345,6 +1345,38 @@ body[data-sw7-page="home"] .work-grid > .work-project > picture.work-preview--pa
     width:111.5%!important;height:121.8%!important;
     object-fit:fill!important;transform:none!important;
   }
+}
+
+/* Restore the mobile payment notification and keep its card symbol legible. */
+@media(max-width:600px){
+  .sw7-lead-intro .sw7-phone-shell{
+    width:auto;height:min(62dvh,540px,calc(100dvh - 180px));max-width:80vw;aspect-ratio:.49;
+  }
+  .sw7-lead-intro .sw7-payment-card{
+    left:6px;right:6px;grid-template-columns:43px minmax(0,1fr);
+    gap:8px;padding:10px;
+  }
+  .sw7-lead-intro .sw7-payment-icon{
+    width:43px;height:43px;aspect-ratio:auto;border-radius:11px;
+  }
+  .sw7-lead-intro .sw7-payment-icon:before{
+    left:8px;right:8px;top:12px;height:18px;border-width:2px;border-radius:4px;
+  }
+  .sw7-lead-intro .sw7-payment-icon:after{
+    left:10px;right:10px;top:17px;height:3px;
+  }
+  .sw7-lead-intro .sw7-payment-copy strong{font-size:15px;white-space:nowrap}
+}
+
+/* Payment notification icon: white dollar sign on the green tile. */
+.sw7-lead-intro .sw7-payment-icon{
+  display:grid!important;place-items:center!important;
+  color:#fff!important;font:800 29px/1 Arial,Helvetica,sans-serif!important;
+}
+.sw7-lead-intro .sw7-payment-icon:before,
+.sw7-lead-intro .sw7-payment-icon:after{content:none!important;display:none!important}
+@media(max-width:600px){
+  .sw7-lead-intro .sw7-payment-icon{font-size:29px!important}
 }
 </style>
 </body>
