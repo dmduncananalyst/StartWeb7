@@ -820,13 +820,20 @@
   addCTA();
   updateLegacyCTAs();
 
-  function scrollChat(){messages.scrollTop=messages.scrollHeight;}
+  function scrollChat(){
+    if(section.hidden)return;
+    messages.scrollTop=messages.scrollHeight;
+    window.requestAnimationFrame(function(){
+      if(!section.hidden)messages.scrollTop=messages.scrollHeight;
+    });
+  }
   function message(text,who){
     var bubble=document.createElement('div');
     bubble.className='sw7-home-chat-message '+who;
     bubble.textContent=text;
     messages.appendChild(bubble);
     scrollChat();
+    return bubble;
   }
   function bot(text){message(text,'bot');}
   function ask(question,placeholder,nextStep){
@@ -838,7 +845,8 @@
     input.placeholder=placeholder||'Type your answer';
     step=nextStep;
     bot(question);
-    input.focus();
+    input.focus({preventScroll:true});
+    scrollChat();
   }
   function askChoices(){
     choices.innerHTML='';
@@ -918,6 +926,13 @@
   }
   function nextWithText(value){
     if(step==='details'&&contactQuestions[contactIndex].key==='contact'&&!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)){bot('Enter a valid email address.');return;}
+    if(step==='details'&&contactQuestions[contactIndex].key==='website'&&!/^(n\/?a|none|no website)$/i.test(value)){
+      var website=value.match(/^https?:\/\//i)?value:'https://'+value;
+      try{
+        var parsed=new URL(website);
+        if(!/^https?:$/.test(parsed.protocol)||!/^([a-z0-9-]+\.)+[a-z]{2,}$/i.test(parsed.hostname))throw new Error('Invalid website');
+      }catch(error){bot('Enter a website address like example.com, or write N/A if you do not have one.');return;}
+    }
     message(value,'user');
     if(step==='questions'){
       answers.responses.push({question:config.questions[questionIndex],answer:value});
@@ -926,14 +941,17 @@
       askPageQuestion();
     }else if(step==='details'){
       var key=contactQuestions[contactIndex].key;
-      answers[key]=key==='phone'&&/^(skip|n\/?a)$/i.test(value)?'':value;
+      answers[key]=key==='phone'&&/^(skip|n\/?a)$/i.test(value)?'':
+        key==='website'&&/^(n\/?a|none|no website)$/i.test(value)?'N/A':
+        key==='website'?(value.match(/^https?:\/\//i)?value:'https://'+value):value;
       contactIndex+=1;
       showContact();
     }
   }
 
   function answerSummary(){
-    var lines=['STARTWEB7 PAGE-SPECIFIC CHAT','Page: '+document.title,'URL: '+window.location.href,'CTA: '+display.button,'Category: '+config.category,'Website: '+answers.website];
+    var pageUrl=window.location.protocol==='file:'?'https://startweb7.com/'+pageKey:window.location.href;
+    var lines=['STARTWEB7 PAGE-SPECIFIC CHAT','Page: '+document.title,'URL: '+pageUrl,'CTA: '+display.button,'Category: '+config.category,'Website: '+(answers.website||'N/A')];
     answers.responses.forEach(function(item,index){lines.push('Q'+(index+1)+': '+item.question);lines.push('A'+(index+1)+': '+item.answer);});
     return lines.join('\n');
   }
@@ -943,6 +961,7 @@
     var summary=answerSummary();
     var fields=[
       {objectTypeId:'0-1',name:'firstname',value:answers.name||''},
+      {objectTypeId:'0-1',name:'company',value:answers.business||''},
       {objectTypeId:'0-2',name:'name',value:answers.business||''},
       {objectTypeId:'0-2',name:'website',value:answers.website||''},
       {objectTypeId:'0-1',name:'email',value:isEmail?contact:''},
@@ -950,7 +969,8 @@
       {objectTypeId:'0-1',name:'startweb7_service_interest',value:config.interest},
       {objectTypeId:'0-1',name:'message',value:summary}
     ].filter(function(field){return field.value;});
-    var context={pageUri:window.location.href,pageName:(document.title+' | '+summary.replace(/\n/g,' | ')).slice(0,1500)};
+    var pageUri=window.location.protocol==='file:'?'https://startweb7.com/'+pageKey:window.location.href;
+    var context={pageUri:pageUri,pageName:(document.title+' | '+summary.replace(/\n/g,' | ')).slice(0,1500)};
     function post(fieldList){
       return fetch('https://api.hsforms.com/submissions/v3/integration/submit/247103073/bcf22eda-389c-4b66-a9b9-08988732bfe7',{
         method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({fields:fieldList,context:context})
@@ -958,18 +978,34 @@
     }
     return post(fields).then(function(response){
       if(response.ok)return response;
-      throw new Error('HubSpot rejected the submission');
+      return response.text().then(function(body){
+        throw new Error('HubSpot returned '+response.status+': '+body.slice(0,1200));
+      });
     });
   }
+  var deliveryStatus=null;
+  var requestInFlight=false;
   function sendRequest(){
+    if(requestInFlight)return;
     choices.innerHTML='';
-    message('Sending your answers…','bot');
-    submitToHubSpot().then(function(){messages.lastElementChild.textContent='Thank you for reaching out! We’ll get back to you shortly.';}).catch(function(){messages.lastElementChild.textContent='Your answers could not be sent. Try again, or call (818) 934-0444.';var retry=document.createElement('button');retry.type='button';retry.textContent='Try again';retry.addEventListener('click',sendRequest);choices.appendChild(retry);});
+    if(!deliveryStatus||!messages.contains(deliveryStatus))deliveryStatus=message('Sending your answers…','bot');
+    deliveryStatus.textContent='Sending your answers…';
+    requestInFlight=true;
+    submitToHubSpot().then(function(){
+      deliveryStatus.textContent='Thank you for reaching out! We’ll get back to you shortly.';
+    }).catch(function(error){
+      console.error('StartWeb7 form submission failed:',error);
+      deliveryStatus.textContent='Your answers could not be sent. Please try again, or call (818) 934-0444.';
+      var retry=document.createElement('button');retry.type='button';retry.textContent='Try again';
+      retry.addEventListener('click',sendRequest);choices.appendChild(retry);
+    }).finally(function(){requestInFlight=false;scrollChat();});
   }
   function start(){
     answers={page:pageKey,cta:display.button,category:config.category,responses:[]};
     questionIndex=0;
     contactIndex=0;
+    deliveryStatus=null;
+    requestInFlight=false;
     messages.innerHTML='';
     choices.innerHTML='';
     composer.hidden=true;
@@ -997,6 +1033,10 @@
     if(window.matchMedia('(max-width:700px)').matches){
       chat.style.setProperty('--sw7-chat-height',window.visualViewport.height+'px');
       chat.style.setProperty('--sw7-chat-top',window.visualViewport.offsetTop+'px');
+      const messages=document.getElementById('homeChatMessages');
+      if(chat.classList.contains('is-open')&&messages){
+        window.requestAnimationFrame(function(){messages.scrollTop=messages.scrollHeight;});
+      }
     }else{
       chat.style.removeProperty('--sw7-chat-height');chat.style.removeProperty('--sw7-chat-top');
     }

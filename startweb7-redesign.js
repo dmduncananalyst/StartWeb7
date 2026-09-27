@@ -2,6 +2,7 @@
   'use strict';
   var protectedSelector = 'nav,footer:not(.global-contact-block),.sw7-universal-header,.sw7-clean-menu,.sw7-payment-intro,.sw7-payment-scene,.sw7-home-chat,.catering-chat,.customer-tool,.lead-capture-reveal,.sw7-specific-cta,.sw7-support-coverage,.sw7-rebuilt,[data-sw7-preserved]';
   function init() {
+    try {
     // Mark complete hero experiences, including their nested sections.
     document.querySelectorAll('section,.hero,.hero-inner').forEach(function (section) {
       if (section.matches('.home-hero,.support-hero,.growth-hero,.faq-hero,.search-stage') || section.querySelector('video,.analysis-engine,.support-console,.visibility-stage,.live-action-preview,.journey-demo,.search-stage')) section.setAttribute('data-sw7-preserved', '');
@@ -49,6 +50,9 @@
     document.querySelectorAll('.sw7-editorial-panel h2 br').forEach(function (lineBreak) {
       lineBreak.replaceWith(document.createTextNode(' '));
     });
+    } finally {
+      document.documentElement.classList.remove('sw7-layout-pending');
+    }
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init, { once: true });
   else init();

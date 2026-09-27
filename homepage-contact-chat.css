@@ -22,7 +22,7 @@
 .sw7-home-chat-agent strong{display:block;font-size:14px}.sw7-home-chat-agent small{display:block;margin-top:3px;color:#b9c9da;font-size:11px}
 .sw7-home-chat-reset{flex:0 0 auto;border:1px solid #496078;background:transparent;color:#fff;padding:9px 12px;font-size:9px;font-weight:900;letter-spacing:.1em;cursor:pointer}
 .sw7-home-chat-close{margin-left:auto;width:34px;height:34px;border:1px solid #496078;background:transparent;color:#fff;font:400 27px/1 Arial,sans-serif;cursor:pointer}
-.sw7-home-chat-messages{min-height:330px;max-height:470px;padding:26px;overflow:auto;display:flex;flex-direction:column;gap:14px;scroll-behavior:smooth}
+.sw7-home-chat-messages{min-height:330px;max-height:470px;padding:26px;overflow:auto;display:flex;flex-direction:column;gap:14px;scroll-behavior:auto}
 .sw7-home-chat-message{max-width:78%;padding:14px 17px;font-size:15px;line-height:1.45;animation:sw7HomeChatIn .24s ease both}
 .sw7-home-chat-message.bot{align-self:flex-start;border:1px solid #d7e0e9;border-radius:4px 18px 18px 18px;background:#fff;color:#07101c}
 .sw7-home-chat-message.user{align-self:flex-end;border-radius:18px 4px 18px 18px;background:#0784ff;color:#fff}

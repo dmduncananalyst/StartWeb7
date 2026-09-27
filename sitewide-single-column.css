@@ -190,6 +190,14 @@
 .sw7-redesign-section.sw7-redesign-section.sw7-redesign-section .sw7-article-library .resource-story:hover{background:none!important;box-shadow:none!important}
 @media(max-width:620px){.sw7-redesign-section.sw7-redesign-section.sw7-redesign-section .sw7-article-library .resource-story{grid-template-columns:1fr!important;gap:12px!important}}
 
+/* Keep the Articles heading and first story together on phones. */
+@media(max-width:620px){
+ .resource-hero.sw7-redesign-section.sw7-redesign-section.sw7-redesign-section{padding-top:42px!important;padding-bottom:10px!important}
+ .resource-edition.sw7-redesign-section.sw7-redesign-section.sw7-redesign-section{padding-top:0!important}
+ .resource-edition.sw7-redesign-section .sw7-article-library{margin-top:0!important}
+ .resource-edition.sw7-redesign-section .sw7-article-library .resource-story:first-child{padding-top:14px!important}
+}
+
 /* Service overview: both services visible immediately, with explicit destination buttons. */
 .sw7-home-services{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:64px;padding:72px max(24px,calc((100vw - 1240px)/2));background:#081420;color:#fff}
 .sw7-home-services .home-service.home-service.home-service{display:flex!important;flex-direction:column!important;width:100%!important;max-width:none!important;padding:0!important;margin:0!important;background:none!important;border:0!important;min-height:0!important;color:#fff!important}

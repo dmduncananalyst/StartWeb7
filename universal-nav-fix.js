@@ -705,7 +705,7 @@
   if (document.getElementById('homeContactChat')) return;
   var chatStyles = document.createElement('link');
   chatStyles.rel = 'stylesheet';
-  chatStyles.href = 'homepage-contact-chat.css?v=11';
+  chatStyles.href = 'homepage-contact-chat.css?v=12';
   document.head.appendChild(chatStyles);
   var openButton = document.createElement('button');
   openButton.id = 'openHomeChat';
@@ -718,7 +718,7 @@
   chat.id = 'homeContactChat';
   chat.hidden = true;
   chat.setAttribute('aria-label', 'StartWeb7 Form');
-  chat.innerHTML = '<div class="sw7-home-chat-window"><div class="sw7-home-chat-header"><div class="sw7-home-chat-agent"><span class="sw7-home-chat-avatar"><img src="startweb7-logo.png" alt="StartWeb7"></span><span><strong>StartWeb7 Form</strong><small>Don’t worry, it will be quick.</small></span></div><button class="sw7-home-chat-reset" id="resetHomeChat" type="button">START OVER</button><button class="sw7-home-chat-close" id="closeHomeChat" type="button" aria-label="Close form fill">×</button></div><div class="sw7-home-chat-messages" id="homeChatMessages" role="log" aria-live="polite"></div><div class="sw7-home-chat-choices" id="homeChatChoices" aria-label="Interest options"></div><form class="sw7-home-chat-composer" id="homeChatComposer" hidden><input id="homeChatInput" type="text" autocomplete="off" aria-label="Type your reply" placeholder="Type your reply…"><button class="sw7-home-chat-send" type="submit">SEND</button></form></div><p class="sw7-home-chat-note">Your information is only used to follow up about your inquiry.</p>';
+  chat.innerHTML = '<div class="sw7-home-chat-window"><div class="sw7-home-chat-header"><div class="sw7-home-chat-agent"><span class="sw7-home-chat-avatar"><img src="startweb7-logo.png" alt="StartWeb7"></span><span><strong>StartWeb7 Form</strong><small>Don’t worry, it will be quick.</small></span></div><button class="sw7-home-chat-reset" id="resetHomeChat" type="button">START OVER</button><button class="sw7-home-chat-close" id="closeHomeChat" type="button" aria-label="Close form fill">×</button></div><div class="sw7-home-chat-messages" id="homeChatMessages" role="log" aria-live="polite"></div><div class="sw7-home-chat-choices" id="homeChatChoices" aria-label="Interest options"></div><form class="sw7-home-chat-composer" id="homeChatComposer" hidden><input id="homeChatInput" type="text" autocomplete="off" aria-label="Type your reply" placeholder="Type your reply…"><button class="sw7-home-chat-send" type="submit">SEND</button></form></div>';
   var rights = document.querySelector('.rights-footer');
   if (rights && rights.parentNode) {
     rights.parentNode.insertBefore(openButton, rights);
@@ -728,7 +728,7 @@
     document.body.appendChild(chat);
   }
   var chatScript = document.createElement('script');
-  chatScript.src = 'homepage-contact-chat.js?v=24';
+  chatScript.src = 'startweb7-contact-chat-v2.js';
   document.body.appendChild(chatScript);
 })();
 
