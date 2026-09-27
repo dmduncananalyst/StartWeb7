@@ -535,7 +535,7 @@ try{if(sessionStorage.getItem('sw7PaymentPhoneIntroSeenV1')==='1')document.docum
       <div class="work-overlay"><div class="work-actions"><a href="https://thesankofainstitute.com" target="_blank" rel="noopener">VIEW WEBSITE →</a><div class="portfolio-contact-wrap"><button class="portfolio-contact-trigger" type="button">CONTACT CLIENT →</button><div class="portfolio-email-menu"><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=vduncanevans@gmail.com" target="_blank" rel="noopener">Gmail</a><a href="https://outlook.live.com/mail/0/deeplink/compose?to=vduncanevans@gmail.com" target="_blank" rel="noopener">Outlook</a><button type="button" data-copy-email="vduncanevans@gmail.com">Copy email</button></div></div></div></div>
     </article>
     <article class="work-project work-paradigm-janitorial">
-<img class="work-preview work-preview--desktop" src="assets/portfolio/preview-paradigm-janitorial-desktop.png" width="1440" height="900" alt="Paradigm Janitorial website preview"><img class="work-preview work-preview--mobile" src="assets/portfolio/preview-paradigm-janitorial-mobile.png" width="393" height="778" alt="Paradigm Janitorial mobile website preview">
+<img class="work-preview work-preview--desktop" src="assets/portfolio/preview-paradigm-janitorial-desktop.png" width="1920" height="1080" alt="Paradigm Janitorial website preview"><img class="work-preview work-preview--mobile" src="assets/portfolio/preview-paradigm-janitorial-mobile.png" width="944" height="2048" alt="Paradigm Janitorial mobile website preview">
       <div class="work-overlay"><div class="work-actions"><a href="https://www.paradigmjanitorial.net/" target="_blank" rel="noopener">VIEW WEBSITE →</a><div class="portfolio-contact-wrap"><button class="portfolio-contact-trigger" type="button">CONTACT CLIENT →</button><div class="portfolio-email-menu"><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=kevinjhawkins@aol.com" target="_blank" rel="noopener">Gmail</a><a href="https://outlook.live.com/mail/0/deeplink/compose?to=kevinjhawkins@aol.com" target="_blank" rel="noopener">Outlook</a><button type="button" data-copy-email="kevinjhawkins@aol.com">Copy email</button></div></div></div></div>
     </article>
     <article class="work-project work-paradigm-security">
@@ -1328,6 +1328,22 @@ body[data-sw7-page="home"] .work-grid > .work-project > picture.work-preview--pa
     white-space:normal!important;
     overflow-wrap:normal!important;
     cursor:pointer!important;
+  }
+}
+
+/* Show the new Paradigm Janitorial screenshots without browser controls. */
+@media(min-width:901px){
+  body[data-sw7-page="home"] .work-grid > .work-paradigm-janitorial > .work-preview--desktop{
+    position:absolute!important;left:0!important;top:-8.333%!important;
+    width:125%!important;height:112.5%!important;
+    object-fit:fill!important;transform:none!important;
+  }
+}
+@media(max-width:900px){
+  body[data-sw7-page="home"] .work-grid > .work-paradigm-janitorial > .work-preview--mobile{
+    position:absolute!important;left:-2.8%!important;top:-8.35%!important;
+    width:111.5%!important;height:121.8%!important;
+    object-fit:fill!important;transform:none!important;
   }
 }
 </style>
