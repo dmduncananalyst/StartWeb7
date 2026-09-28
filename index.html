@@ -477,8 +477,8 @@ try{if(sessionStorage.getItem('sw7PaymentPhoneIntroSeenV1')==='1')document.docum
 <link rel="stylesheet" href="sitewide-single-column.css?v=13" data-sw7-single-column>
 </head>
 <body data-sw7-page="home">
-<div class="sw7-lead-intro" id="sw7LeadIntro" aria-hidden="true">
-  <div class="sw7-payment-scene">
+<div class="sw7-lead-intro" id="sw7LeadIntro" aria-hidden="true" style="position:fixed;inset:0;z-index:99999;display:grid;place-items:center;background:#07101c">
+  <div class="sw7-payment-scene" style="visibility:hidden">
     <div class="sw7-phone-shell" aria-hidden="true">
       <div class="sw7-phone-camera"></div>
       <div class="sw7-phone-status"><span id="sw7PhoneStatusTime"></span><span class="sw7-status-icons"><i class="sw7-signal"></i><i class="sw7-wifi"></i><i class="sw7-battery"></i></span></div>
@@ -1208,8 +1208,18 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
     window.setTimeout(function(){intro.remove()},320);
   }
   if(reduce){intro.remove();return}
-  document.documentElement.classList.add('sw7-intro-active');
-  window.setTimeout(finish,1800);
+  function revealIntro(){
+    updatePhoneClock();
+    document.documentElement.classList.add('sw7-intro-active');
+    intro.style.removeProperty('inset');
+    intro.querySelector('.sw7-payment-scene').style.visibility='visible';
+    window.setTimeout(finish,1800);
+  }
+  function revealAfterLoad(){
+    requestAnimationFrame(function(){requestAnimationFrame(revealIntro)});
+  }
+  if(document.readyState==='complete')revealAfterLoad();
+  else window.addEventListener('load',revealAfterLoad,{once:true});
 })();
 </script>
 <script src="universal-nav-fix.js?v=237" onerror="document.documentElement.classList.remove('sw7-nav-pending')"></script><script src="analytics-events.js" defer></script>
