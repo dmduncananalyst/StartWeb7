@@ -2,10 +2,22 @@
   'use strict';
   var section=document.querySelector('.customer-tool');
   if(!section)return;
-  var type=section.classList.contains('health-tool')?'health':section.classList.contains('real-estate-tool')?'realestate':section.classList.contains('collision-tool')?'collision':section.classList.contains('pool-tool')?'pool':section.classList.contains('contractor-tool')?'contractor':section.classList.contains('cleaning-tool')?'cleaning':section.classList.contains('security-tool')?'security':'';
+  var type=section.classList.contains('assisted-tool')?'assisted':section.classList.contains('health-tool')?'health':section.classList.contains('real-estate-tool')?'realestate':section.classList.contains('collision-tool')?'collision':section.classList.contains('pool-tool')?'pool':section.classList.contains('contractor-tool')?'contractor':section.classList.contains('cleaning-tool')?'cleaning':section.classList.contains('security-tool')?'security':'';
   if(!type)return;
 
   var experiences={
+    assisted:{
+      title:'Assisted Living Assistant',
+      steps:[
+        {question:'Who are you looking for assisted living for?',choices:['Myself','A parent','Another family member','Someone I support']},
+        {question:'What would you like to discuss?',choices:['Schedule a tour','Availability and pricing','Daily living support','Life in the community']},
+        {question:'What city or area are you considering?',placeholder:'Enter an example city or area…'},
+        {question:'When are you hoping to move?',choices:['As soon as possible','Within a few months','Planning ahead','Not sure yet']},
+        {question:'How would you like our team to contact you?',choices:['Phone call','Email']},
+        {question:'What is your name?',placeholder:'Enter an example name…'},
+        {question:'What phone number or email address should we use?',placeholder:'Use sample contact information…'}
+      ]
+    },
     health:{
       title:'Home Health Care Assistant',
       steps:[
@@ -90,9 +102,9 @@
   var shell=section.querySelector('.tool-shell');
   shell.innerHTML='<div class="industry-chat-wrap '+type+'-chat"><div class="industry-chat-window"><div class="industry-chat-header"><div class="industry-chat-agent"><span class="industry-chat-avatar"><img src="startweb7-logo.png" alt="StartWeb7"></span><span><strong>'+experience.title+'</strong><small>Interactive website example</small></span></div><button class="industry-chat-reset" type="button">START OVER</button></div><div class="industry-chat-messages" role="log" aria-live="polite"></div><div class="industry-chat-choices" aria-label="Suggested replies"></div><form class="industry-chat-composer"><input type="text" autocomplete="off" aria-label="Type your reply" placeholder="Type your reply…"><button type="submit">SEND</button></form></div></div>';
 
-  if(type==='health'){
+  if(type==='health'||type==='assisted'){
     var note=document.createElement('p');
-    note.textContent='Interactive demo, use sample information. Our team confirms care availability and accepted coverage.';
+    note.textContent=type==='assisted'?'Interactive demo, use sample information. No request is sent.':'Interactive demo, use sample information. Our team confirms care availability and accepted coverage.';
     note.style.cssText='max-width:760px;margin:16px auto 0;padding:0 16px;color:inherit;font-size:14px;line-height:1.5;text-align:center';
     shell.appendChild(note);
   }
@@ -114,7 +126,7 @@
   function showQuestion(){
     choices.replaceChildren();
     if(step>=experience.steps.length){
-      window.setTimeout(function(){bubble(type==='health'?'Thank you for sharing what you need. Our team can discuss care options and coverage with you. This demo is complete. No inquiry has been sent.':'Thank you. We will follow up with you shortly.','bot');},220);
+      window.setTimeout(function(){bubble(type==='assisted'?'Thank you. Our team can discuss availability and arranging a tour. This demo is complete. No request has been sent.':type==='health'?'Thank you for sharing what you need. Our team can discuss care options and coverage with you. This demo is complete. No inquiry has been sent.':'Thank you. We will follow up with you shortly.','bot');},220);
       input.disabled=true;
       input.placeholder='Demonstration complete';
       send.disabled=true;
