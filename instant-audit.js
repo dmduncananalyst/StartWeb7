@@ -12,6 +12,7 @@
  const metadata=document.getElementById('auditMetadata');
  const ending=document.getElementById('auditEnding');
  let running=false;
+ let currentResult=null;
  const store={get(key){try{return sessionStorage.getItem(key);}catch{return null;}},set(key,value){try{sessionStorage.setItem(key,value);}catch{}},remove(key){try{sessionStorage.removeItem(key);}catch{}}};
  function element(tag,text,className){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(className)n.className=className;return n;}
  function safeURL(value){try{const u=new URL(value);return /^https?:$/.test(u.protocol)&&!u.username&&!u.password?u.href:null;}catch{return null;}}
@@ -19,12 +20,29 @@
  function list(parent,title,items){if(!items?.length)return;parent.appendChild(element('h4',title));const ul=element('ul');items.forEach(item=>{const li=element('li');li.appendChild(link(item.url,item.title||item.url));if(item.position!=null)li.appendChild(element('span',', position '+item.position));ul.appendChild(li);});parent.appendChild(ul);}
  function render(result,cached){
   if(!result||!Array.isArray(result.cards)||result.cards.length!==5)throw new Error('The audit returned an incomplete response. Please try again later.');
+  currentResult=result;
   cards.replaceChildren();
   result.cards.forEach(card=>{
    const section=element('article',undefined,'audit-result-card');section.appendChild(element('h3',card.label));
    const ai=['google_ai','chatgpt','claude'].includes(card.source);
    const statuses={found:ai?'Mentioned':'Found',not_found:ai?'Not mentioned in this answer':'Not found in this result',uncertain:'Could not confirm',unable:'Unable to check this source right now'};
    section.appendChild(element('div',statuses[card.status]||statuses.unable,'audit-status '+card.status));
+   if(card.source==='google_search'&&card.status==='unable'&&result.id){
+    const retry=element('button','Retry Google Search','sw7-feature-button audit-retry');retry.type='button';
+    const message=element('p','','audit-retry-message');message.setAttribute('role','status');
+    retry.addEventListener('click',async()=>{
+     if(running)return;running=true;button.disabled=true;retry.disabled=true;retry.textContent='Checking Google Search';message.textContent='The other four results will stay as they are';
+     try{
+      let data=await read(await fetch(endpoint+'/audit/retry-google-search',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({request_id:currentResult.id}),signal:AbortSignal.timeout(100000)}));
+      if(data.state==='running')data=await waitForResult(data.request_id);
+      if(data.state==='interrupted')throw new Error(data.message);
+      render(data.result,data.cached);
+     }catch(error){message.textContent=error.name==='TimeoutError'||error.name==='AbortError'?'The retry is taking longer than expected. Click again to check the existing retry.':error.message||'Google Search is still unavailable. Please try later.';}
+     finally{running=false;button.disabled=false;retry.disabled=false;retry.textContent='Retry Google Search';}
+    });
+    section.appendChild(retry);section.appendChild(message);
+   }
+
    if(card.position!=null)section.appendChild(element('p',(card.source==='google_maps'?'Map position: ':'Organic position: ')+card.position));
    if(card.match){section.appendChild(element('p',card.match.title));if(card.match.url){const p=element('p');p.appendChild(link(card.match.url,card.match.url));section.appendChild(p);}if(card.match.description)section.appendChild(element('p',card.match.description));if(card.match.rating!=null||card.match.reviews!=null)section.appendChild(element('p',[card.match.rating!=null?'Rating: '+card.match.rating:null,card.match.reviews!=null?'Reviews: '+card.match.reviews:null].filter(Boolean).join(', ')));}
    if(card.answer){section.appendChild(element('h4','Returned answer'));section.appendChild(element('div',card.answer,'audit-answer'));}
@@ -34,7 +52,7 @@
   });
   const found=result.cards.filter(c=>c.status==='found').length;
   const unavailable=result.cards.filter(c=>c.status==='unable').length;
-  summary.textContent='Your business appeared in '+found+' of 5 places checked';
+  summary.textContent=unavailable===5?'The five sources could not be checked right now':'Your business appeared in '+found+' of '+(5-unavailable)+' places checked';
   const date=new Date(result.created_at);metadata.textContent=(cached?'Recent saved audit':'Audit completed')+(Number.isNaN(date.getTime())?'':', '+date.toLocaleString())+(unavailable?', '+unavailable+' source'+(unavailable===1?' was':'s were')+' unavailable':'');
   ending.textContent=found===5?'Your business appeared in all five places checked':unavailable===5?'The five sources could not be checked right now':'Review the results above and talk with us about your website, SEO + AEO';
   results.hidden=false;progress.hidden=true;
