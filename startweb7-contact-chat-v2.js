@@ -591,8 +591,9 @@
 };
 
   var pageKey=(window.location.pathname.split('/').pop()||'index.html').toLowerCase();
-  if(pageKey==='careers.html')return;
-  var config=configs[pageKey]||configs['index.html'];
+  // The customer button on Careers uses the customer conversation, not a job application.
+  var chatPageKey=pageKey==='careers.html'?'index.html':pageKey;
+  var config=configs[chatPageKey]||configs['index.html'];
   // Every destination has its own invitation; the chat retains that page's questions.
   var specificInvitations={
     "index.html": [
@@ -776,7 +777,7 @@
         "Attract Customers Beyond Ads"
     ]
 };
-  var invitation=specificInvitations[pageKey]||specificInvitations['index.html'];
+  var invitation=specificInvitations[chatPageKey]||specificInvitations['index.html'];
   var display={headline:invitation[0],body:invitation[1],button:invitation[2]};
   var openButton=document.getElementById('openHomeChat');
   var section=document.getElementById('homeContactChat');
@@ -793,7 +794,7 @@
   document.head.appendChild(style);
 
   function addCTA(){
-    if(pageKey==='instant-audit.html'||document.querySelector('.sw7-specific-cta'))return;
+    if(pageKey==='instant-audit.html'||pageKey==='careers.html'||document.querySelector('.sw7-specific-cta'))return;
     var existing=document.querySelector('.resource-cta,.locked-build,.section.build,.content-section.build,.closing-fit,.closing');
     var block=existing||document.createElement('section');
     block.className='sw7-specific-cta';
@@ -1017,7 +1018,16 @@
   function closeChat(){section.classList.remove('is-open');section.hidden=true;openButton.setAttribute('aria-expanded','false');}
 
   openButton.addEventListener('click',openChat);
-  document.addEventListener('click',function(event){var trigger=event.target.closest&&event.target.closest('[data-open-home-chat]');if(!trigger)return;event.preventDefault();openChat();});
+  document.addEventListener('click',function(event){
+    var trigger=event.target.closest&&event.target.closest('a,button,[data-open-home-chat]');
+    if(!trigger||trigger===openButton)return;
+    var isCustomerButton=/^get more customers$/i.test(trigger.textContent.replace(/\s+/g,' ').trim());
+    if(!trigger.hasAttribute('data-open-home-chat')&&!isCustomerButton)return;
+    event.preventDefault();
+    openChat();
+  });
+  window.sw7CustomerChatReady=true;
+  if(window.sw7PendingCustomerChat){window.sw7PendingCustomerChat=false;openChat();}
   reset.addEventListener('pointerdown',function(event){event.preventDefault();event.stopPropagation();});
   reset.addEventListener('click',function(event){event.preventDefault();event.stopPropagation();start();});
   close.addEventListener('click',closeChat);

@@ -1,4 +1,17 @@
 (function () {
+  // Remember a click made while the shared chat script is still loading.
+  document.addEventListener('click', function (event) {
+    var trigger = event.target.closest && event.target.closest('a,button,[data-open-home-chat]');
+    if (!trigger || window.sw7CustomerChatReady) return;
+    var isCustomerButton = /^get more customers$/i.test(trigger.textContent.replace(/\s+/g, ' ').trim());
+    if (!trigger.hasAttribute('data-open-home-chat') && !isCustomerButton) return;
+    event.preventDefault();
+    event.stopPropagation();
+    window.sw7PendingCustomerChat = true;
+  }, true);
+})();
+
+(function () {
   const previousUniversalHeader = document.querySelector('.sw7-universal-header');
   const previousUniversalLogo = previousUniversalHeader && previousUniversalHeader.querySelector('.sw7-universal-brand img')
     ? previousUniversalHeader.querySelector('.sw7-universal-brand img').cloneNode(true)
@@ -687,8 +700,7 @@
 })();
 
 (function () {
-  /* Every FORM FILL button opens the same HubSpot-connected AI chat. */
-  if ((window.location.pathname.split('/').pop() || '').toLowerCase() === 'careers.html') return;
+  /* Every customer CTA opens the existing HubSpot-connected chat. */
   if (document.body && document.body.getAttribute('data-sw7-page') === 'home') return;
   if (document.getElementById('homeContactChat')) return;
   var chatStyles = document.createElement('link');
@@ -716,7 +728,7 @@
     document.body.appendChild(chat);
   }
   var chatScript = document.createElement('script');
-  chatScript.src = 'startweb7-contact-chat-v2.js?v=245';
+  chatScript.src = 'startweb7-contact-chat-v2.js?v=246';
   document.body.appendChild(chatScript);
 })();
 
