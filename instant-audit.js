@@ -61,13 +61,13 @@
  async function read(response){let data;try{data=await response.json();}catch{throw new Error('The audit service could not return results. Please try again later.');}if(!response.ok)throw new Error(data.error||'The audit is unavailable right now.');return data;}
  async function waitForResult(id){
   const start=Date.now();
-  while(Date.now()-start<120000){
-   await new Promise(resolve=>setTimeout(resolve,2500));
+  while(Date.now()-start<900000){
+   await new Promise(resolve=>setTimeout(resolve,5000));
    const data=await read(await fetch(endpoint+'/audit/status?id='+encodeURIComponent(id),{cache:'no-store',signal:AbortSignal.timeout(12000)}));
    if(data.state==='complete')return data;
    if(data.state==='interrupted')throw new Error(data.message);
   }
-  throw new Error('The audit is taking longer than expected. No new checks have been started.');
+  throw new Error('Google Search is taking longer than expected. Submit the same details again to check your saved audit, without starting new paid checks.');
  }
  form.addEventListener('submit',async function(event){
   event.preventDefault();if(running||!form.reportValidity())return;

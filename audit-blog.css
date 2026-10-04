@@ -50,3 +50,9 @@
 @media(max-width:700px){.sw7-bottom-actions>button,.sw7-bottom-actions>a{width:100%!important}}
 
 .sw7-specific-cta .sw7-bottom-actions>button,.sw7-specific-cta .sw7-bottom-actions>a,.sw7-specific-cta .sw7-bottom-actions>button:hover,.sw7-specific-cta .sw7-bottom-actions>a:hover{color:#0068cf!important}
+
+/* Matching buttons in both blog article closing panels. */
+.blog-prose .blog-article-cta .sw7-feature-button,
+.blog-prose .blog-article-cta .sw7-feature-button.secondary{background:#0784ff!important;border-color:#0784ff!important;color:#fff!important}
+.blog-prose .blog-article-cta .sw7-feature-button:hover,
+.blog-prose .blog-article-cta .sw7-feature-button.secondary:hover{background:#0068cf!important;border-color:#0068cf!important;color:#fff!important}
