@@ -793,12 +793,13 @@
   document.head.appendChild(style);
 
   function addCTA(){
-    if(document.querySelector('.sw7-specific-cta'))return;
+    if(pageKey==='instant-audit.html'||document.querySelector('.sw7-specific-cta'))return;
     var existing=document.querySelector('.resource-cta,.locked-build,.section.build,.content-section.build,.closing-fit,.closing');
     var block=existing||document.createElement('section');
     block.className='sw7-specific-cta';
     block.setAttribute('aria-labelledby','sw7SpecificCtaTitle');
-    block.innerHTML='<div class="sw7-specific-cta-inner"><h2 id="sw7SpecificCtaTitle">'+display.headline+'</h2><button type="button" data-open-home-chat>'+display.button+'</button></div>';
+    block.innerHTML='<div class="sw7-specific-cta-inner"><h2 id="sw7SpecificCtaTitle">'+display.headline.replace(/\.\s*$/, '')+'</h2><div class="sw7-bottom-actions"><button type="button" data-open-home-chat>'+display.button+'</button>'+(pageKey==='instant-audit.html'?'':'<a href="instant-audit.html" class="sw7-bottom-audit">Get Your Instant Audit</a>')+'</div></div>';
+    block.querySelectorAll('.sw7-bottom-actions > button, .sw7-bottom-actions > a').forEach(function(action){ action.style.setProperty('color', '#0068cf', 'important'); });
     if(!existing){
       var target=document.querySelector('.global-contact-block, .rights-footer, footer');
       if(target&&target.parentNode)target.parentNode.insertBefore(block,target);else document.body.appendChild(block);
