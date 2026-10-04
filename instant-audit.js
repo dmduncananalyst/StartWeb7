@@ -25,19 +25,31 @@
   result.cards.forEach(card=>{
    const section=element('article',undefined,'audit-result-card');section.appendChild(element('h3',card.label));
    const ai=['google_ai','chatgpt','claude'].includes(card.source);
-   const statuses={found:ai?'Mentioned':'Found',not_found:ai?'Not mentioned in this answer':'Not found in this result',uncertain:'Could not confirm',unable:'Unable to check this source right now'};
-   section.appendChild(element('div',statuses[card.status]||statuses.unable,'audit-status '+card.status));
+   const business=result.business_name||result.website||'Your business';
+   if(ai&&result.industry&&result.city){
+    // These are the exact source-specific queries used by this audit version.
+    // Google AI receives a search keyword, ChatGPT and Claude receive a question.
+    const query=typeof card.query==='string'&&card.query.trim()?card.query:
+     card.source==='google_ai'?result.industry+' in '+result.city:
+     'I need a '+result.industry+' in '+result.city+'. Which businesses should I consider?';
+    const context=element('div',undefined,'audit-query');
+    context.appendChild(element('h4',card.source==='google_ai'?'Search checked':'Question asked'));
+    context.appendChild(element('p',query));section.appendChild(context);
+   }
+   const statuses={found:ai?business+' appeared in this answer':'Found',not_found:ai?business+' was not mentioned in this answer':'Not found in this result',uncertain:ai?'Could not confirm whether '+business+' appeared in this answer':'Could not confirm',unable:'Unable to check this source right now'};
+   const status=element('div',statuses[card.status]||statuses.unable,'audit-status '+card.status);
+   section.appendChild(status);
    if(card.source==='google_search'&&card.status==='unable'&&result.id){
     const retry=element('button','Retry Google Search','sw7-feature-button audit-retry');retry.type='button';
     const message=element('p','','audit-retry-message');message.setAttribute('role','status');
     retry.addEventListener('click',async()=>{
-     if(running)return;running=true;button.disabled=true;retry.disabled=true;retry.textContent='Checking Google Search';message.textContent='The other four results will stay as they are';
+     if(running)return;running=true;button.disabled=true;retry.disabled=true;retry.textContent='Checking Google Search';status.textContent='Google Search check in progress';status.className='audit-status pending';message.textContent='This can take a few minutes. Your other results are below';
      try{
       let data=await read(await fetch(endpoint+'/audit/retry-google-search',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({request_id:currentResult.id}),signal:AbortSignal.timeout(100000)}));
       if(data.state==='running')data=await waitForResult(data.request_id);
       if(data.state==='interrupted')throw new Error(data.message);
       render(data.result,data.cached);
-     }catch(error){message.textContent=error.name==='TimeoutError'||error.name==='AbortError'?'The retry is taking longer than expected. Click again to check the existing retry.':error.message||'Google Search is still unavailable. Please try later.';}
+     }catch(error){status.textContent='Google Search has not returned a new result';status.className='audit-status unable';message.textContent=error.name==='TimeoutError'||error.name==='AbortError'?'The retry is taking longer than expected. Click again to check the existing retry.':error.message||'Google Search is still unavailable. Please try later.';}
      finally{running=false;button.disabled=false;retry.disabled=false;retry.textContent='Retry Google Search';}
     });
     section.appendChild(retry);section.appendChild(message);
