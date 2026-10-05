@@ -728,7 +728,7 @@
     document.body.appendChild(chat);
   }
   var chatScript = document.createElement('script');
-  chatScript.src = 'startweb7-contact-chat-v2.js?v=246';
+  chatScript.src = 'startweb7-contact-chat-v2.js?v=247';
   document.body.appendChild(chatScript);
 })();
 
