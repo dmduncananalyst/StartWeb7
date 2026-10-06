@@ -1,0 +1,15 @@
+/* Content width is based on its own container, never the viewport. */
+.sw7-rebuilt.sw7-rebuilt{box-sizing:border-box!important;width:100%!important;min-width:0!important;padding:56px clamp(22px,4%,64px)!important}
+.sw7-rebuilt .sw7-rebuilt-intro{width:100%!important;max-width:960px!important;margin:0 auto 28px!important}
+.sw7-rebuilt .sw7-rebuilt-statement{width:100%!important;max-width:960px!important;margin:0 auto!important;font:400 clamp(20px,1.6vw,25px)/1.6 Arial,sans-serif!important;letter-spacing:normal!important}
+.sw7-rebuilt .sw7-service-details{width:100%;max-width:960px;margin-inline:auto}
+.sw7-rebuilt .sw7-service-detail p{max-width:850px!important;line-height:1.65!important}
+.sw7-plan-explanation{max-width:880px;margin:auto;text-align:left;padding:22px 0}
+.sw7-plan-explanation h2{font:700 clamp(24px,2.5vw,32px)/1.25 Arial,sans-serif!important;margin:0 0 16px!important;color:#102639!important}
+.sw7-plan-explanation p{font:400 20px/1.65 Arial,sans-serif!important;margin:0 0 24px!important;color:#28465f!important;max-width:none!important}
+.sw7-dominance .essentials-tagline{font-size:clamp(26px,3vw,42px)!important;line-height:1.2!important}
+.sw7-dominance .essentials-intro{font-size:19px!important;line-height:1.6!important}
+.sw7-clean-nav .sw7-visual-menu .sw7-visual-art[style*="menu-rocket"]{background-size:contain!important;background-position:center!important;background-repeat:no-repeat!important}
+@media(max-width:820px){.sw7-rebuilt.sw7-rebuilt{padding:36px 22px!important}.sw7-plan-explanation p{font-size:18px!important}.sw7-dominance .competitive-title{font-size:clamp(28px,8vw,42px)!important;white-space:normal!important}}
+
+.sw7-topic-collection :is(.sw7-redesign-section,.sw7-support-coverage,.sw7-specific-cta){padding-inline:clamp(22px,4%,64px)!important;box-sizing:border-box!important;width:100%!important;min-width:0!important}

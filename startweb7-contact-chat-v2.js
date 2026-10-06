@@ -134,6 +134,22 @@
     ],
     "transition": "Don’t stress, let’s work on getting you on a vacation next year."
   },
+  "dominance.html": {
+    "category": "Service",
+    "questions": [
+      "What’s on your mind about your business?",
+      "How are you getting customers right now?"
+    ],
+    "interest": "SEO + AEO Dominance",
+    "choices": [
+      "Referrals",
+      "Paid ads",
+      "Social media",
+      "Repeat customers",
+      "Other"
+    ],
+    "transition": "Don’t stress, let’s work on getting you on a vacation next year."
+  },
   "industries.html": {
     "category": "Industries",
     "questions": [
@@ -633,6 +649,11 @@
     ],
     "competitive.html": [
         "When your competitors keep showing up first.",
+        "",
+        "Get More Customers"
+    ],
+    "dominance.html": [
+        "Build more business with a daily online presence.",
         "",
         "Get More Customers"
     ],
