@@ -1,0 +1,10 @@
+/* Mobile city photos only. Desktop styling remains in city-pages.css. */
+.city-mobile-photo{display:none!important}
+@media(max-width:700px){
+.sw7-city-hero.sw7-city-hero{display:block!important;padding:0!important;min-height:0!important;height:auto!important;max-height:none!important;overflow:visible!important}
+.sw7-city-hero.sw7-city-hero>.city-hero-photo{display:none!important}
+.sw7-city-hero.sw7-city-hero>.city-mobile-photo{display:block!important;position:static!important;inset:auto!important;width:100%!important;max-width:100%!important;height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:auto!important;object-fit:contain!important;object-position:center!important;transform:none!important;clip-path:none!important;opacity:1!important;margin:0!important;padding:0!important;border:0!important;z-index:auto!important}
+.sw7-city-hero.sw7-city-hero:after{display:none!important}
+.sw7-city-hero.sw7-city-hero .city-hero-copy{position:static!important;width:100%!important;max-width:none!important;box-sizing:border-box!important;padding:28px 22px 32px!important;background:#07101c!important;text-align:center!important}
+.city-section.city-section .city-coding-photo{display:block!important;position:static!important;width:100%!important;height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:auto!important;object-fit:contain!important;transform:none!important;clip-path:none!important}
+}

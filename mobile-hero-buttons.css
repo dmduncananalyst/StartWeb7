@@ -1,0 +1,12 @@
+/* Only mobile hero button placement. Desktop uses its original markup and styles. */
+.sw7-mobile-below-hero[hidden]{display:none!important}
+@media(max-width:700px){
+ .sw7-mobile-below-hero{display:block;width:100%;box-sizing:border-box;padding:18px 24px 22px;background:#07101c;position:relative;isolation:isolate;color:#fff}
+ .sw7-mobile-below-hero>.sw7-hero-actions{position:static!important;inset:auto!important;transform:none!important;display:flex!important;flex-direction:column!important;align-items:stretch!important;justify-content:center!important;gap:10px!important;width:100%!important;max-width:480px!important;margin:0 auto!important;padding:0!important}
+ .sw7-mobile-below-hero>.sw7-hero-actions>a{width:100%!important;max-width:100%!important;box-sizing:border-box!important}
+ .careers-hero.careers-hero{display:block!important;position:relative!important;min-height:0!important;height:auto!important;padding:0!important;gap:0!important}
+ .careers-hero.careers-hero>.careers-hero-video{display:block!important;position:relative!important;inset:auto!important;width:100%!important;height:auto!important;aspect-ratio:16/9!important;min-height:0!important;max-height:none!important;object-fit:contain!important;z-index:0!important}
+ .careers-hero.careers-hero:after{z-index:1!important;pointer-events:none}
+ .careers-hero.careers-hero>.sw7-page-graphic{position:absolute!important;top:16px!important;left:24px!important;z-index:2!important;margin:0!important}
+ .careers-hero.careers-hero>.careers-title{position:absolute!important;left:24px!important;bottom:16px!important;width:calc(100% - 48px)!important;z-index:2!important;margin:0!important}
+}
