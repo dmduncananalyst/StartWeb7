@@ -1,0 +1,36 @@
+/* Content spacing only on phones. Desktop, hero media and interactive demos retain their existing rules. */
+@media (max-width:700px) {
+  body :is(.city-section,.sw7-new-content,.sw7-new-faq,.sw7-support-coverage,.industry-seo-content,.sw7-aeo,.contact-details,.catering-copy,.intent-section,.openings) {
+    height:auto!important;
+    min-height:0!important;
+    padding-top:32px!important;
+    padding-bottom:32px!important;
+  }
+  body .sw7-redesign-section.sw7-redesign-section.sw7-redesign-section.sw7-redesign-section:not(:is(.hero,.home-hero,.industry-hero,.sw7-new-hero,.sw7-city-hero,.support-hero,.contact-hero,.essentials-hero,.careers-hero,.growth-hero,.faq-hero,.reviews-hero,.article-hero,.resource-hero,.blog-heading,.audit-hero)) {
+    padding-top:32px!important;
+    padding-bottom:32px!important;
+  }
+  body .city-section.city-section {
+    padding-top:28px!important;
+    padding-bottom:28px!important;
+  }
+  body .city-section.city-section .city-section-inner {
+    padding-top:0!important;
+    padding-bottom:0!important;
+    min-height:0!important;
+    height:auto!important;
+  }
+  body .city-section.city-section .city-section-inner > :last-child {
+    margin-bottom:0!important;
+  }
+  body .city-section.city-section .city-coding-photo {
+    margin-top:20px!important;
+    margin-bottom:0!important;
+  }
+  body .city-section.city-section h2 {
+    margin-bottom:18px!important;
+  }
+  body .city-section.city-section p {
+    margin-bottom:16px!important;
+  }
+}

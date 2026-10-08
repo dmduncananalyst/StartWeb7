@@ -933,8 +933,8 @@
     .content-section,.intro,.split-section,.build,.optimized-intro,.benefits,.bottom-line{height:auto!important;min-height:0!important}
     .content-section,.intro{padding-top:58px!important;padding-bottom:58px!important}
     .build{padding-top:54px!important;padding-bottom:58px!important;overflow:hidden!important}
-    [class*="section"],.intro,.build,.optimized-intro,.benefits,.bottom-line,.home-service{min-height:0!important;height:auto!important}
-    [class*="section"],.intro,.build,.home-service{padding-top:48px!important;padding-bottom:48px!important}
+    section[class*="section"],section.intro,section.build,section.optimized-intro,section.benefits,section.bottom-line,section.home-service{min-height:0!important;height:auto!important}
+    section[class*="section"],section.intro,section.build,section.home-service{padding-top:32px!important;padding-bottom:32px!important}
     .analysis-note{display:none!important}
     .sw7-page-index .home-service-label{font-size:clamp(30px,8.5vw,34px)!important;line-height:.95!important;letter-spacing:-.04em!important;white-space:nowrap!important}
     .sw7-page-index .home-service.seo .home-service-label{font-size:clamp(29px,8.25vw,33px)!important;white-space:normal!important}
