@@ -1,9 +1,4 @@
-The following 13 files are intentionally excluded from this website ZIP.
-Delete these same files from the GitHub repository when uploading this update.
-Uploading a ZIP or adding new files alone does not delete older repository files.
-GitHub Pages will return 404 for removed pages after the deployment completes.
-No redirects have been invented, backlink checks and Search Console removals have not been performed.
-Dominance remains because it is an SEO service page.
+Delete these old blog files from your repository when uploading this new copy. Adding files does not remove old repository files. Only the three October 10 SEO blogs remain. Resource articles and service pages are retained.
 
 dressing-up-for-halloween-at-work.html
 work-holiday-party-etiquette.html
@@ -18,3 +13,5 @@ school-shootings.html
 why-budgeting-is-important.html
 the-terrible-twos.html
 good-recipes-to-try-this-holiday-season.html
+opening-a-business-alone-or-with-a-partner.html
+buying-legal-leads-california-oregon-2026.html

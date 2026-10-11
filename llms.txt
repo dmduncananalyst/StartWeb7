@@ -13,5 +13,4 @@
 - [What Is SEO](https://startweb7.com/what-is-seo.html): A plain language explanation of search engine optimization.
 - [What Is AEO](https://startweb7.com/what-is-aeo.html): A plain language explanation of answer engine optimization.
 - [About](https://startweb7.com/about.html): About StartWeb7.
-- [FAQ](https://startweb7.com/faq.html): Answers to common questions.
 - [Contact](https://startweb7.com/contact.html): Phone, email, and business hours.
