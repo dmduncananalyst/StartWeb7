@@ -1,0 +1,20 @@
+The following 13 files are intentionally excluded from this website ZIP.
+Delete these same files from the GitHub repository when uploading this update.
+Uploading a ZIP or adding new files alone does not delete older repository files.
+GitHub Pages will return 404 for removed pages after the deployment completes.
+No redirects have been invented, backlink checks and Search Console removals have not been performed.
+Dominance remains because it is an SEO service page.
+
+dressing-up-for-halloween-at-work.html
+work-holiday-party-etiquette.html
+football-sundays-baby.html
+october-baseball-is-here.html
+grass-fed-beef.html
+best-rated-movies-of-2026.html
+healthy-ways-to-deal-with-stress.html
+world-series-of-poker-2026-main-event-and-circuit.html
+how-to-stay-happily-married.html
+school-shootings.html
+why-budgeting-is-important.html
+the-terrible-twos.html
+good-recipes-to-try-this-holiday-season.html
