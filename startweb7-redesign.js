@@ -7,12 +7,14 @@
     document.querySelectorAll('section,.hero,.hero-inner').forEach(function (section) {
       if (section.matches('.home-hero,.support-hero,.growth-hero,.faq-hero,.search-stage') || section.querySelector('video,.analysis-engine,.support-console,.visibility-stage,.live-action-preview,.journey-demo,.search-stage')) section.setAttribute('data-sw7-preserved', '');
     });
+    if (!document.documentElement.hasAttribute('data-sw7-static-sections')) {
     var tone = 0;
     document.querySelectorAll('section,.article-hero,.resource-hero,.article-wrap,.briefing-hero,.briefing-layout,.global-contact-block').forEach(function (section) {
       if (section.closest(protectedSelector) || section.parentElement.closest('.sw7-redesign-section') || section.hidden || getComputedStyle(section).display === 'none') return;
       section.classList.add('sw7-redesign-section', ['sw7-surface-pearl','sw7-surface-ink','sw7-surface-white'][tone++ % 3]);
     });
 
+    }
     // Service information is always visible; no content-switching tabs.
     document.querySelectorAll('.sw7-topic-collection h2 br').forEach(function(br){
       br.replaceWith(document.createTextNode(' '));

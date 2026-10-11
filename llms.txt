@@ -1,0 +1,17 @@
+# StartWeb7
+
+> Website design and SEO + AEO management for businesses across the United States.
+
+## Key pages
+
+- [Website Design and SEO + AEO](https://startweb7.com/services.html): Website design and ongoing SEO + AEO management.
+- [Essentials](https://startweb7.com/essentials.html): SEO + AEO management.
+- [Competitive](https://startweb7.com/competitive.html): SEO + AEO management.
+- [Dominance](https://startweb7.com/dominance.html): A daily presence means more sales.
+- [Industries](https://startweb7.com/industries.html): Industries supported by StartWeb7.
+- [Nationwide](https://startweb7.com/nationwide.html): Work with businesses throughout the United States.
+- [What Is SEO](https://startweb7.com/what-is-seo.html): A plain language explanation of search engine optimization.
+- [What Is AEO](https://startweb7.com/what-is-aeo.html): A plain language explanation of answer engine optimization.
+- [About](https://startweb7.com/about.html): About StartWeb7.
+- [FAQ](https://startweb7.com/faq.html): Answers to common questions.
+- [Contact](https://startweb7.com/contact.html): Phone, email, and business hours.

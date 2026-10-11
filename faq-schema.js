@@ -1,6 +1,7 @@
 (function(){
   'use strict';
   function addFAQSchema(){
+    if(document.getElementById('sw7-static-faq-schema'))return;
     var entities=[];
     document.querySelectorAll('.faq-item').forEach(function(item){
       var question=item.querySelector('.faq-question');
