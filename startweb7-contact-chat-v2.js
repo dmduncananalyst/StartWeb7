@@ -653,7 +653,7 @@
         "Get More Customers"
     ],
     "dominance.html": [
-        "Build more business with a daily online presence.",
+        "Build recognition for your business across the markets you serve.",
         "",
         "Get More Customers"
     ],
