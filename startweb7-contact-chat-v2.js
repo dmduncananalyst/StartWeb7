@@ -184,24 +184,6 @@
     ],
     "transition": "Don’t stress, let’s work on getting you on a vacation next year."
   },
-  "real-estate-brokerages.html": {
-    "category": "Industry",
-    "questions": [
-      "What’s on your mind about your business?",
-      "How are you getting real estate clients right now?"
-    ],
-    "interest": "Website;SEO + AEO Management",
-    "choices": [
-      "Referrals",
-      "Paid ads",
-      "Social media",
-      "Mojo",
-      "Vulcan7",
-      "Zillow",
-      "Other"
-    ],
-    "transition": "Don’t stress, let’s work on getting you on a vacation next year."
-  },
   "collision-repair.html": {
     "category": "Industry",
     "questions": [
@@ -606,6 +588,8 @@
   }
 };
 
+  Object.assign(configs,{"doctors.html": {"category": "Industry", "questions": ["What’s on your mind about your business?", "How are you getting new patients for your medical practice right now?"], "interest": "Website;SEO + AEO Management", "choices": ["Patient referrals", "Physician referrals", "Paid ads", "Social media", "Insurance directories", "Other"], "transition": "Don’t stress, let’s work on getting you on a vacation next year."}, "dentists.html": {"category": "Industry", "questions": ["What’s on your mind about your business?", "How are you getting new patients for your dental practice right now?"], "interest": "Website;SEO + AEO Management", "choices": ["Patient referrals", "Paid ads", "Social media", "Insurance directories", "Other"], "transition": "Don’t stress, let’s work on getting you on a vacation next year."}, "lawyers.html": {"category": "Industry", "questions": ["What’s on your mind about your business?", "How are you getting new clients for your law firm right now?"], "interest": "Website;SEO + AEO Management", "choices": ["Client referrals", "Attorney referrals", "Paid ads", "Social media", "Legal directories", "Other"], "transition": "Don’t stress, let’s work on getting you on a vacation next year."}, "home-health-care.html": {"category": "Industry", "questions": ["What’s on your mind about your business?", "How are you getting new home health care clients right now?"], "interest": "Website;SEO + AEO Management", "choices": ["Family referrals", "Physician referrals", "Hospital or discharge referrals", "Paid ads", "Social media", "Other"], "transition": "Don’t stress, let’s work on getting you on a vacation next year."}, "assisted-living.html": {"category": "Industry", "questions": ["What’s on your mind about your business?", "How are you getting new residents for your assisted living community right now?"], "interest": "Website;SEO + AEO Management", "choices": ["Family referrals", "Placement agencies", "Professional referrals", "Paid ads", "Social media", "Other"], "transition": "Don’t stress, let’s work on getting you on a vacation next year."}});
+
   var pageKey=(window.location.pathname.split('/').pop()||'index.html').toLowerCase();
   // The customer button on Careers uses the customer conversation, not a job application.
   var chatPageKey=pageKey==='careers.html'?'index.html':pageKey;
@@ -665,17 +649,12 @@
     "real-estate-agents.html": [
         "Be an option before they choose an agent.",
         "",
-        "Get More Real Estate Clients"
-    ],
-    "real-estate-brokerages.html": [
-        "A stronger online presence for every agent.",
-        "",
-        "Grow My Brokerage"
+        "Get More Customers"
     ],
     "collision-repair.html": [
         "Be the shop drivers find after an accident.",
         "",
-        "Get More Repair Jobs"
+        "Get More Repairs"
     ],
     "pool-construction.html": [
         "Be There When the Planning Starts",
@@ -798,6 +777,8 @@
         "Attract Customers Beyond Ads"
     ]
 };
+  Object.assign(specificInvitations,{"doctors.html": ["", "", "Get More Patients"], "dentists.html": ["", "", "Get More Patients"], "lawyers.html": ["", "", "Get More Customers"], "home-health-care.html": ["", "", "Get More Home Care Clients"], "assisted-living.html": ["", "", "Reach More Future Residents"]});
+
   var invitation=specificInvitations[chatPageKey]||specificInvitations['index.html'];
   var display={headline:invitation[0],body:invitation[1],button:invitation[2]};
   var openButton=document.getElementById('openHomeChat');

@@ -63,3 +63,7 @@
 .audit-result-card .audit-query p{margin:0;font-size:16px;line-height:1.5;overflow-wrap:anywhere;color:#10263c}
 .audit-result-card .audit-status{max-width:100%;box-sizing:border-box;white-space:normal;overflow-wrap:anywhere;line-height:1.5}
 .audit-result-card .audit-status.pending{background:#e8f3ff;color:#164b80}
+
+/* Matching white calls to action with the same dark hover and keyboard focus. */
+.sw7-specific-cta .sw7-bottom-actions>button,.sw7-specific-cta .sw7-bottom-actions>a{background:#fff!important;border-color:#fff!important;color:#0068cf!important}
+.sw7-specific-cta .sw7-bottom-actions>button:hover,.sw7-specific-cta .sw7-bottom-actions>a:hover,.sw7-specific-cta .sw7-bottom-actions>button:focus-visible,.sw7-specific-cta .sw7-bottom-actions>a:focus-visible{background:#020d17!important;border-color:#020d17!important;color:#0068cf!important}
