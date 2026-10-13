@@ -1,4 +1,4 @@
-Delete these old blog files from your repository when uploading this new copy. Adding files does not remove old repository files. Only the three October 10 SEO blogs remain. Resource articles and service pages are retained.
+Keep all eight current blog posts, including the restored partner and legal leads articles, and retain their sitemap URLs. The files listed below are older removed posts.
 
 dressing-up-for-halloween-at-work.html
 work-holiday-party-etiquette.html
@@ -13,5 +13,3 @@ school-shootings.html
 why-budgeting-is-important.html
 the-terrible-twos.html
 good-recipes-to-try-this-holiday-season.html
-opening-a-business-alone-or-with-a-partner.html
-buying-legal-leads-california-oregon-2026.html

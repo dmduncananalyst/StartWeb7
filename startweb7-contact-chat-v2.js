@@ -599,12 +599,12 @@
     "index.html": [
         "",
         "",
-        "Get More Customers"
+        "Grow Your Business"
     ],
     "about.html": [
         "Website design. SEO + AEO. StartWeb7.",
         "",
-        "Get More Customers"
+        "Grow Your Business"
     ],
     "services.html": [
         "A website, ongoing SEO, or both.",
@@ -634,12 +634,12 @@
     "competitive.html": [
         "When your competitors keep showing up first.",
         "",
-        "Get More Customers"
+        "Grow Your Business"
     ],
     "dominance.html": [
         "Build recognition for your business across the markets you serve.",
         "",
-        "Get More Customers"
+        "Grow Your Business"
     ],
     "industries.html": [
         "Websites and SEO + AEO for your industry.",
@@ -649,7 +649,7 @@
     "real-estate-agents.html": [
         "Be an option before they choose an agent.",
         "",
-        "Get More Customers"
+        "Grow Your Business"
     ],
     "collision-repair.html": [
         "Be the shop drivers find after an accident.",
@@ -694,7 +694,7 @@
     "resources.html": [
         "More calls. More bookings. More sales.",
         "",
-        "Get More Customers"
+        "Grow Your Business"
     ],
     "reviews.html": [
         "Real businesses. Websites you can see for yourself.",
@@ -709,12 +709,12 @@
     "contact.html": [
         "Website design and ongoing SEO + AEO.",
         "",
-        "Get More Customers"
+        "Grow Your Business"
     ],
     "careers.html": [
         "Design. Development. SEO + AEO.",
         "",
-        "Join the Team"
+        "Contractor Jobs"
     ],
     "aeo-ai-search.html": [
         "People ask ChatGPT and Claude which businesses to choose.",
@@ -777,10 +777,12 @@
         "Attract Customers Beyond Ads"
     ]
 };
-  Object.assign(specificInvitations,{"doctors.html": ["", "", "Get More Patients"], "dentists.html": ["", "", "Get More Patients"], "lawyers.html": ["", "", "Get More Customers"], "home-health-care.html": ["", "", "Get More Home Care Clients"], "assisted-living.html": ["", "", "Reach More Future Residents"]});
+  Object.assign(specificInvitations,{"doctors.html": ["", "", "Get More Patients"], "dentists.html": ["", "", "Get More Patients"], "lawyers.html": ["", "", "Grow Your Business"], "home-health-care.html": ["", "", "Get More Home Care Clients"], "assisted-living.html": ["", "", "Reach More Future Residents"]});
 
   var invitation=specificInvitations[chatPageKey]||specificInvitations['index.html'];
   var display={headline:invitation[0],body:invitation[1],button:invitation[2]};
+  var industryButtonLabels={"catering.html": "Get More Bookings", "doctors.html": "Get More Patients", "dentists.html": "Get More Patients", "lawyers.html": "Get More Cases", "collision-repair.html": "Get More Repairs", "real-estate-agents.html": "Get More Clients", "pool-construction.html": "Get More Projects", "general-contractors.html": "Get More Projects", "commercial-cleaning.html": "Get More Clients", "security-services.html": "Get More Clients", "home-health-care.html": "Get More Patients", "assisted-living.html": "Get More Residents"};
+  if(industryButtonLabels[pageKey])display.button=industryButtonLabels[pageKey];
   var openButton=document.getElementById('openHomeChat');
   var section=document.getElementById('homeContactChat');
   var messages=document.getElementById('homeChatMessages');
@@ -790,26 +792,13 @@
   var reset=document.getElementById('resetHomeChat');
   var close=document.getElementById('closeHomeChat');
   if(!openButton||!section||!messages||!choices||!composer||!input||!reset||!close)return;
+  if(industryButtonLabels[pageKey])openButton.textContent=industryButtonLabels[pageKey];
 
   var style=document.createElement('style');
   style.textContent='.sw7-lead-source-cta{display:none!important}.sw7-specific-cta{background:#07101c;color:#fff;padding:88px 6vw;text-align:center;border-top:1px solid #233a50}.sw7-specific-cta-inner{width:min(820px,100%);margin:auto}.sw7-specific-cta h2{margin:0 auto 18px;max-width:820px;font-size:clamp(38px,5vw,68px);line-height:.95;letter-spacing:-.045em}.sw7-specific-cta-copy{max-width:680px;margin:0 auto 30px;color:#c9d5e2;font-size:clamp(16px,1.5vw,20px);line-height:1.55}.sw7-specific-cta button{border:2px solid #0784ff;background:#0784ff;color:#fff;padding:18px 27px;font:900 13px/1.25 inherit;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;max-width:100%}.sw7-specific-cta button:hover,.sw7-specific-cta button:focus-visible{background:#00b887;border-color:#00b887}@media(max-width:700px){.sw7-specific-cta{padding:62px 22px}.sw7-specific-cta h2{font-size:38px}.sw7-specific-cta-copy{font-size:16px}.sw7-specific-cta button{width:100%;padding:17px 14px}}';
   document.head.appendChild(style);
 
-  function addCTA(){
-    if(document.querySelector('.blog-prose,.blog-posts'))return;
-    if(pageKey==='instant-audit.html'||pageKey==='careers.html'||document.querySelector('.sw7-specific-cta'))return;
-    var existing=document.querySelector('.resource-cta,.locked-build,.section.build,.content-section.build,.closing-fit,.closing');
-    var block=existing||document.createElement('section');
-    block.className='sw7-specific-cta';
-    block.setAttribute('aria-labelledby','sw7SpecificCtaTitle');
-    block.innerHTML='<div class="sw7-specific-cta-inner"><h2 id="sw7SpecificCtaTitle">'+display.headline.replace(/\.\s*$/, '')+'</h2><div class="sw7-bottom-actions"><button type="button" data-open-home-chat>'+display.button+'</button>'+(pageKey==='instant-audit.html'?'':'<a href="instant-audit.html" class="sw7-bottom-audit">Get Your Instant Audit</a>')+'</div></div>';
-    if(!display.headline){block.querySelector('#sw7SpecificCtaTitle').remove();block.removeAttribute('aria-labelledby');}
-    block.querySelectorAll('.sw7-bottom-actions > button, .sw7-bottom-actions > a').forEach(function(action){ action.style.setProperty('color', '#0068cf', 'important'); });
-    if(!existing){
-      var target=document.querySelector('.global-contact-block, .rights-footer, footer');
-      if(target&&target.parentNode)target.parentNode.insertBefore(block,target);else document.body.appendChild(block);
-    }
-  }
+  function addCTA(){ /* Closing actions removed; footer provides contact links. */ }
 
   function updateLegacyCTAs(){
     var generic=/^(form fill|book an appointment|start a conversation|talk to startweb7|request|contact us|bring leads to you|build your lead source|get more clients)/i;
@@ -1025,7 +1014,7 @@
   document.addEventListener('click',function(event){
     var trigger=event.target.closest&&event.target.closest('a,button,[data-open-home-chat]');
     if(!trigger||trigger===openButton)return;
-    var isCustomerButton=/^get more customers$/i.test(trigger.textContent.replace(/\s+/g,' ').trim());
+    var isCustomerButton=/^Grow Your Business$/i.test(trigger.textContent.replace(/\s+/g,' ').trim());
     if(!trigger.hasAttribute('data-open-home-chat')&&!isCustomerButton)return;
     event.preventDefault();
     openChat();
