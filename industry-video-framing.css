@@ -1,0 +1,36 @@
+/* Framing corrections scoped to these three existing industry heroes.
+   Cover deliberately crops on portrait screens; never stretch or letterbox footage. */
+html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body:is(.pool-page,.contractor-page,.collision-video-page) .industry-hero .industry-video {
+  position:absolute!important;inset:0!important;
+  width:100%!important;height:100%!important;
+  max-width:none!important;max-height:none!important;
+  margin:0!important;padding:0!important;border:0!important;
+  aspect-ratio:auto!important;overflow:hidden!important;
+}
+html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body:is(.pool-page,.contractor-page,.collision-video-page) .industry-video video {
+  position:absolute!important;inset:0!important;display:block;
+  width:100%!important;height:100%!important;
+  max-width:none!important;max-height:none!important;
+  object-fit:cover!important;
+}
+html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body.pool-page .industry-video video {object-position:50% 72%!important}
+html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body.contractor-page .industry-video video {object-position:50% 28%!important}
+html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body.collision-video-page .industry-video video {object-position:42% 50%!important}
+@media(min-width:821px){
+  /* Match the wide source where space permits, retaining room for existing copy. */
+  html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body:is(.pool-page,.contractor-page) .industry-hero {
+    height:max(740px,calc((100vw - 15px)*9/16))!important;
+  }
+}
+@media(max-width:820px){
+  html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body:is(.pool-page,.contractor-page,.collision-video-page) .industry-hero {
+    display:flex!important;align-items:center;box-sizing:border-box;
+  }
+  /* Restore the existing desktop readability overlay over full-bleed mobile video. */
+  body:is(.pool-page,.contractor-page,.collision-video-page) .industry-hero:after {display:block}
+  body:is(.pool-page,.contractor-page,.collision-video-page) .video-caption {display:none}
+  html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body.pool-page .industry-video video {object-position:57% 72%!important}
+  html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body.contractor-page .industry-video video {object-position:49% 28%!important}
+  html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body.collision-video-page .industry-video video {object-position:60% 50%!important}
+}
+
