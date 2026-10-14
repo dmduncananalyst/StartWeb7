@@ -1,0 +1,24 @@
+/* Desktop hero videos fill their complete sections without letterbox strips. */
+@media(min-width:821px){
+html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body :is(.hero,.careers-hero,.sw7-new-hero,.industry-hero):has(video){
+ box-sizing:border-box!important;
+ position:relative!important;
+ min-height:0!important;
+ height:calc(100svh - var(--sw7-header-height,86px))!important;
+ overflow:hidden!important;
+}
+html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body :is(.hero,.careers-hero,.sw7-new-hero,.industry-hero) :is(.industry-video,.catering-hero-video){
+ position:absolute!important;inset:0!important;
+ width:100%!important;height:100%!important;
+ max-width:none!important;max-height:none!important;
+ margin:0!important;padding:0!important;border:0!important;overflow:hidden!important;
+}
+html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body :is(.hero,.careers-hero,.sw7-new-hero,.industry-hero) video{
+ position:absolute!important;inset:0!important;
+ display:block!important;width:100%!important;height:100%!important;
+ max-width:none!important;max-height:none!important;
+ margin:0!important;padding:0!important;border:0!important;outline:0!important;
+ object-fit:cover!important;object-position:center!important;
+}
+html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body .industry-video:after{box-shadow:none!important;border:0!important}
+}

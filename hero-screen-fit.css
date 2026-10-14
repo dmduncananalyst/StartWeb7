@@ -1,0 +1,27 @@
+/* Keep the existing hero artwork and typography within its available screen. */
+html[data-sw7-fit-page]{--sw7-header-height:86px}
+html[data-sw7-fit-page][data-sw7-fit-page] body :is(.home-hero,.essentials-hero,.support-hero,.hero-inner,.hero-map,.visibility-stage,.search-stage){box-sizing:border-box!important;min-width:0!important;max-width:100%!important}
+html[data-sw7-fit-page][data-sw7-fit-page] body :is(.hero-inner,.home-hero,.essentials-hero,.support-hero)>*{min-width:0!important}
+html[data-sw7-fit-page][data-sw7-fit-page] body :is(.hero,.careers-hero,.sw7-new-hero):has(>video){box-sizing:border-box!important;min-height:0!important}
+html[data-sw7-fit-page="landing-page"] body .hero,
+html[data-sw7-fit-page="business-website"] body .hero,
+html[data-sw7-fit-page="careers"] body .careers-hero,
+html[data-sw7-fit-page][data-sw7-fit-page] body :is(.sw7-commercial-hero,.sw7-security-hero,.sw7-nationwide-hero){height:calc(100svh - var(--sw7-header-height))!important;min-height:0!important}
+html[data-sw7-fit-page][data-sw7-fit-page] body :is(.hero,.careers-hero,.sw7-new-hero,.real-estate-hero,.industry-video,.catering-hero-video,.sw7-industry-video-section) video,
+html[data-sw7-fit-page][data-sw7-fit-page] body video:is(.heroVideo,.hero-video,.careers-hero-video,.real-estate-hero-video,.sw7-assisted-video){max-width:100%!important;max-height:calc(100svh - var(--sw7-header-height))!important;object-fit:contain!important;object-position:center!important}
+html[data-sw7-fit-page][data-sw7-fit-page] body :is(.industry-video,.sw7-industry-video-section){box-sizing:border-box!important;min-height:0!important;max-height:calc(100svh - var(--sw7-header-height))!important}
+html[data-sw7-fit-page="real-estate-agents"] body .real-estate-hero{box-sizing:border-box!important;min-height:0!important;height:calc(100svh - var(--sw7-header-height))!important}
+html[data-sw7-fit-page="real-estate-agents"] body .real-estate-hero-copy{box-sizing:border-box!important;max-width:100%!important;padding-block:clamp(24px,5svh,64px)!important}
+html[data-sw7-fit-page][data-sw7-fit-page] body .visibility-stage{min-height:0!important;padding-block:16px!important;overflow:visible!important}
+html[data-sw7-fit-page][data-sw7-fit-page] body .sw7-la-map{box-sizing:border-box!important;width:min(100%,570px)!important;max-width:100%!important;min-width:0!important;aspect-ratio:685/474!important}
+html[data-sw7-fit-page][data-sw7-fit-page] body .sw7-la-map>img{object-fit:contain!important}
+html[data-sw7-fit-page][data-sw7-fit-page] body :is(.analysis-engine,.support-console,.sw7-calendar,.competitive-board,.sw7-small-search,.sw7-search-example){box-sizing:border-box!important;max-width:100%!important;min-width:0!important}
+html[data-sw7-fit-page][data-sw7-fit-page] body .sw7-small-search{min-height:0!important}
+html[data-sw7-fit-page][data-sw7-fit-page] body :is(.home-hero,.essentials-hero,.support-hero){min-height:calc(100svh - var(--sw7-header-height))!important;padding-block:clamp(24px,5svh,64px)!important}
+@media(max-width:820px){
+html[data-sw7-fit-page][data-sw7-fit-page] body :is(.home-hero,.essentials-hero,.support-hero){gap:24px!important;padding-block:24px!important}
+html[data-sw7-fit-page][data-sw7-fit-page] body .hero-inner{width:100%!important;gap:24px!important}
+html[data-sw7-fit-page][data-sw7-fit-page] body .search-stage{min-height:0!important}
+html[data-sw7-fit-page="real-estate-agents"] body .real-estate-hero{height:auto!important}
+html[data-sw7-fit-page][data-sw7-fit-page] body .sw7-new-hero.sw7-nationwide-hero{height:auto!important}
+}
