@@ -16,7 +16,7 @@
       return;
     }
     document.querySelectorAll(heroes).forEach(function (hero) {
-      if (hero.closest('.sw7-city-hero') || hero.closest('nav,footer,.sw7-home-chat')) return;
+      if (hero.hasAttribute('data-sw7-actions-inline') || hero.closest('.sw7-city-hero') || hero.closest('nav,footer,.sw7-home-chat')) return;
       var actions = hero.querySelector('.sw7-hero-actions');
       if (!actions || placements.some(function (p) { return p.actions === actions; })) return;
       var marker = document.createComment('Mobile hero button placement');

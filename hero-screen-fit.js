@@ -7,6 +7,7 @@
   queued=false;
   document.querySelectorAll(selectors).forEach(function(el){
    if(el.closest('[hidden]'))return;
+   if(el.matches('.analysis-engine[data-sw7-responsive-analysis]'))return;
    el.style.zoom='1';
    var box=el.getBoundingClientRect(),parent=el.parentElement.getBoundingClientRect();
    if(!box.width||!box.height)return;

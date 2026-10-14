@@ -1,36 +1,51 @@
-/* Framing corrections scoped to these three existing industry heroes.
-   Cover deliberately crops on portrait screens; never stretch or letterbox footage. */
-html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body:is(.pool-page,.contractor-page,.collision-video-page) .industry-hero .industry-video {
-  position:absolute!important;inset:0!important;
-  width:100%!important;height:100%!important;
-  max-width:none!important;max-height:none!important;
-  margin:0!important;padding:0!important;border:0!important;
-  aspect-ratio:auto!important;overflow:hidden!important;
+/* Only the three existing video industry pages load this stylesheet. */
+html[data-sw7-fit-page]{--sw7-industry-header-height:var(--sw7-responsive-header-height,143px)}
+html[data-sw7-fit-page] body.video-industry-page{padding-top:var(--sw7-responsive-header-height,143px)!important}
+html[data-sw7-fit-page] body.video-industry-page .sw7-universal-header.sw7-universal-header{height:var(--sw7-responsive-header-height,143px)!important;align-content:start!important}
+@media(min-width:1641px){
+  html[data-sw7-fit-page]{--sw7-industry-header-height:var(--sw7-responsive-header-height,155px)}
+  html[data-sw7-fit-page] body.video-industry-page{padding-top:var(--sw7-responsive-header-height,155px)!important}
+  html[data-sw7-fit-page] body.video-industry-page .sw7-universal-header.sw7-universal-header{height:var(--sw7-responsive-header-height,155px)!important}
 }
-html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body:is(.pool-page,.contractor-page,.collision-video-page) .industry-video video {
-  position:absolute!important;inset:0!important;display:block;
-  width:100%!important;height:100%!important;
-  max-width:none!important;max-height:none!important;
-  object-fit:cover!important;
+@media(max-width:640px){
+  html[data-sw7-fit-page]{--sw7-industry-header-height:132px}
+  html[data-sw7-fit-page] body.video-industry-page{padding-top:132px!important}
+  html[data-sw7-fit-page] body.video-industry-page .sw7-universal-header.sw7-universal-header{height:86px!important}
 }
-html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body.pool-page .industry-video video {object-position:50% 72%!important}
-html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body.contractor-page .industry-video video {object-position:50% 28%!important}
-html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body.collision-video-page .industry-video video {object-position:42% 50%!important}
-@media(min-width:821px){
-  /* Match the wide source where space permits, retaining room for existing copy. */
-  html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body:is(.pool-page,.contractor-page) .industry-hero {
-    height:max(740px,calc((100vw - 15px)*9/16))!important;
-  }
+html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body.video-industry-page .industry-hero{
+  position:relative!important;display:flex!important;align-items:center!important;box-sizing:border-box!important;
+  height:calc(100dvh - var(--sw7-industry-header-height))!important;min-height:0!important;max-height:none!important;
+  padding-block:clamp(12px,2.8svh,32px)!important;overflow:hidden!important;
 }
+html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body.video-industry-page .industry-video{
+  position:absolute!important;inset:0!important;z-index:0;
+  width:100%!important;height:100%!important;max-width:none!important;max-height:none!important;
+  margin:0!important;padding:0!important;border:0!important;aspect-ratio:auto!important;overflow:hidden!important;box-shadow:none!important;
+}
+html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body.video-industry-page .industry-video video{
+  position:absolute!important;inset:0!important;width:100%!important;height:100%!important;
+  max-width:none!important;max-height:none!important;object-fit:cover!important;
+}
+/* Keep the pool foreground, house roof/ADU and vehicle repair area in view. */
+html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body.pool-page .industry-video video{object-position:52% 100%!important}
+html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body.contractor-page .industry-video video{object-position:58% 30%!important}
+html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body.collision-video-page .industry-video video{object-position:45% 50%!important}
 @media(max-width:820px){
-  html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body:is(.pool-page,.contractor-page,.collision-video-page) .industry-hero {
-    display:flex!important;align-items:center;box-sizing:border-box;
-  }
-  /* Restore the existing desktop readability overlay over full-bleed mobile video. */
-  body:is(.pool-page,.contractor-page,.collision-video-page) .industry-hero:after {display:block}
-  body:is(.pool-page,.contractor-page,.collision-video-page) .video-caption {display:none}
-  html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body.pool-page .industry-video video {object-position:57% 72%!important}
-  html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body.contractor-page .industry-video video {object-position:49% 28%!important}
-  html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body.collision-video-page .industry-video video {object-position:60% 50%!important}
+  body.video-industry-page .industry-hero:after{display:block}
+  body.video-industry-page .video-caption{display:none}
+  html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body.pool-page .industry-video video{object-position:52% 100%!important}
+  html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body.contractor-page .industry-video video{object-position:54% 30%!important}
+  html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body.collision-video-page .industry-video video{object-position:60% 50%!important}
+}
+/* Tight browser windows need less empty spacing, not smaller typography or taller heroes. */
+@media(min-width:641px) and (max-height:760px){
+  html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body.video-industry-page .industry-hero{padding-block:12px!important}
+  body.video-industry-page .industry-hero .sw7-page-graphic{margin-bottom:12px!important}
+  body.video-industry-page .industry-hero p{margin-top:14px!important}
+  body.video-industry-page .industry-hero .sw7-hero-actions{margin-top:14px!important}
 }
 
+/* Preserve readable copy and buttons when a zoomed laptop needs two link rows. */
+@media(min-width:641px) and (max-width:1100px) and (max-height:640px){
+  body.video-industry-page .industry-hero .sw7-page-graphic{width:96px!important;max-height:80px!important}
+}

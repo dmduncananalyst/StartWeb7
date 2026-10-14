@@ -346,12 +346,10 @@
 /* Visual polish for main navigation boxes only; header and dropdown layouts stay intact. */
 @media(min-width:641px){
   .sw7-universal-header .sw7-clean-nav>a,.sw7-universal-header .sw7-clean-nav>.sw7-clean-item{
-    box-sizing:border-box!important;border-top:1px solid #cbd5e1!important;border-bottom:1px solid #cbd5e1!important;border-right:1px solid #cbd5e1!important;background:#f8fafc!important;
+    box-sizing:border-box!important;border-top:1px solid transparent!important;border-bottom:1px solid transparent!important;border-right:1px solid rgba(7,16,28,.18)!important;background-color:#399dff!important;background-image:none!important;box-shadow:none!important;
   }
-  .sw7-universal-header .sw7-clean-nav>a:first-child{border-left:1px solid transparent!important}
-  /* Paint Home's 1px left divider inside the viewport without changing its dimensions. */
-  .sw7-universal-header .sw7-clean-nav>a:first-child::before{content:"";position:absolute;top:-1px;bottom:-1px;left:0;border-left:1px solid #cbd5e1;pointer-events:none}
-  .sw7-universal-header .sw7-clean-nav{border-left:0!important;border-color:#cbd5e1!important}
+  .sw7-universal-header .sw7-clean-nav>a:first-child{border-left:1px solid rgba(7,16,28,.18)!important}
+  .sw7-universal-header .sw7-clean-nav{border-left:0!important;border-color:transparent!important}
   .sw7-universal-header .sw7-clean-nav>a,.sw7-universal-header .sw7-clean-nav>.sw7-clean-item>.sw7-clean-trigger{font-size:14px!important;font-weight:600!important}
   .sw7-universal-header .sw7-clean-nav>.sw7-clean-item>.sw7-clean-trigger{display:flex!important;align-items:center!important;justify-content:center!important;height:100%!important;min-height:0!important}
   .sw7-universal-header .sw7-clean-nav>a:hover,.sw7-universal-header .sw7-clean-nav>a:focus-visible,.sw7-universal-header .sw7-clean-nav>.sw7-clean-item:hover,.sw7-universal-header .sw7-clean-nav>.sw7-clean-item:focus-within{background:#006ff1!important}
@@ -373,4 +371,25 @@
   body{padding-top:144px!important}
   .sw7-universal-header.sw7-universal-header{--sw7-nav-inset:4vw;height:144px!important;padding-inline:4vw!important;grid-template-rows:86px 58px!important}
   .sw7-universal-header .sw7-universal-brand{height:86px!important}
+}
+
+/* Keep readable laptop links and measure dropdown space from each parent. */
+@media(min-width:641px){
+  html{--sw7-responsive-header-height:143px}
+  html[data-sw7-fit-page][data-sw7-fit-page] body{padding-top:var(--sw7-responsive-header-height)!important}
+  html[data-sw7-fit-page] body .sw7-universal-header.sw7-universal-header.sw7-universal-header{height:var(--sw7-responsive-header-height)!important;grid-template-rows:74px auto!important;align-content:start!important}
+  html .sw7-universal-header .sw7-clean-nav .sw7-visual-dropdown>.sw7-clean-menu{position:fixed!important;left:var(--sw7-menu-left,0px)!important;right:auto!important;top:var(--sw7-menu-top,132px)!important;width:var(--sw7-menu-width,160px)!important;max-width:calc(100vw - 16px)!important;max-height:var(--sw7-menu-height,calc(100dvh - var(--sw7-responsive-header-height) - 8px))!important;overscroll-behavior:contain}
+  html .sw7-universal-header .sw7-clean-nav .sw7-visual-dropdown:not(.open)>.sw7-clean-menu{opacity:0!important;visibility:hidden!important;pointer-events:none!important;transform:translateY(8px)!important}
+  html .sw7-universal-header .sw7-clean-nav .sw7-visual-dropdown.open{z-index:2!important}
+  html .sw7-universal-header .sw7-clean-nav .sw7-visual-dropdown.open>.sw7-clean-menu{pointer-events:auto!important}
+}
+@media(min-width:1641px){
+  html{--sw7-responsive-header-height:155px}
+  html[data-sw7-fit-page] body .sw7-universal-header.sw7-universal-header.sw7-universal-header{grid-template-rows:86px auto!important}
+}
+@media(min-width:641px){
+  html .sw7-universal-header .sw7-clean-nav.sw7-clean-nav{height:59px!important;flex-wrap:nowrap!important;overflow-x:auto!important;overflow-y:hidden!important;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  html .sw7-universal-header .sw7-clean-nav.sw7-clean-nav::-webkit-scrollbar{display:none}
+  html .sw7-universal-header .sw7-clean-nav>a,html .sw7-universal-header .sw7-clean-nav>.sw7-clean-item{flex:1 0 auto!important;min-width:max-content!important;padding-inline:clamp(12px,1vw,14px)!important}
+  html .sw7-universal-header .sw7-clean-nav>a,html .sw7-universal-header .sw7-clean-nav>.sw7-clean-item>.sw7-clean-trigger{font-size:14px!important}
 }
