@@ -21,7 +21,7 @@
     });
 
     var edition=document.querySelector('.resource-edition');
-    if(edition){
+    if(edition && !edition.querySelector(':scope > .sw7-article-library')){
       var stories=Array.from(edition.querySelectorAll('.resource-story'));
       var list=document.createElement('div');list.className='sw7-article-library';
       stories.forEach(function(story){

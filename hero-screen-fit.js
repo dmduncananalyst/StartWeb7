@@ -21,8 +21,23 @@
   });
  }
  function schedule(){if(!queued){queued=true;requestAnimationFrame(fit);}}
- if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',fit,{once:true});else fit();
+ // This script loads in the head before the body is parsed. Fit each parsed
+ // demo in the same task that adds it, before the browser can paint it at its
+ // unscaled size. Keep observing through shared navigation and mobile setup.
+ if(document.readyState==='loading'){
+  var startupObserver=new MutationObserver(function(records){
+   if(records.some(function(record){
+    return record.target.nodeName==='STYLE'||Array.from(record.addedNodes).some(function(node){return node.nodeType===1;});
+   }))fit();
+  });
+  startupObserver.observe(document.documentElement,{childList:true,subtree:true});
+  document.addEventListener('DOMContentLoaded',function(){
+   fit();
+   requestAnimationFrame(function(){fit();startupObserver.disconnect();});
+  },{once:true});
+ }else fit();
  window.addEventListener('resize',schedule,{passive:true});
  window.addEventListener('orientationchange',schedule,{passive:true});
- window.addEventListener('pageshow',schedule);
+ // Normal navigation has already been fitted before its first paint.
+ window.addEventListener('pageshow',function(event){if(event.persisted)schedule();});
 })();

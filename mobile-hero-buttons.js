@@ -44,11 +44,16 @@
     update();
     // Shared navigation and layout code can add or rebuild a hero after loading.
     new MutationObserver(function (records) {
-      if (records.some(function (r) { return r.addedNodes.length || r.removedNodes.length; })) schedule();
-    }).observe(document.body, {childList:true, subtree:true});
+      if (records.some(function (r) { return r.addedNodes.length || r.removedNodes.length; })) {
+        // During parsing, place the actions before the next paint. Waiting for
+        // DOMContentLoaded briefly leaves them above the mobile live demo.
+        if (document.readyState === 'loading') update();
+        else schedule();
+      }
+    }).observe(document.documentElement, {childList:true, subtree:true});
     if (mobile.addEventListener) mobile.addEventListener('change', update);
     else mobile.addListener(update);
   }
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, {once:true});
-  else start();
+  start();
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', update, {once:true});
 })();

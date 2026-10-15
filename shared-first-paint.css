@@ -1,4 +1,6 @@
 /* Identical shared navigation rules loaded before initial rendering. */
+/* Preserve page width when the homepage intro temporarily locks scrolling. */
+html{scrollbar-gutter:stable}
 
       body{padding-top:78px!important}
       img[src$="menu-screen.png"]{clip-path:inset(0 0 0 10%)!important}
