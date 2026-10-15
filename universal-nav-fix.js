@@ -1356,3 +1356,5 @@ document.documentElement.classList.remove('sw7-nav-pending');
   html .sw7-universal-header .sw7-clean-nav>a,html .sw7-universal-header .sw7-clean-nav>.sw7-clean-item>.sw7-clean-trigger{font-size:14px!important}
 }
 `;document.head.appendChild(style);})();
+
+(function(){var style=document.createElement('style');style.id='sw7-nav-fit-all-links';style.textContent="\n/* Keep every desktop navigation entry, including Contact, in view. */\n@media(min-width:641px){\n  html .sw7-universal-header .sw7-clean-nav.sw7-clean-nav{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr)) minmax(0,1.55fr) minmax(0,1.2fr) repeat(3,minmax(0,1fr))!important;overflow:visible!important;gap:0!important}\n  html .sw7-universal-header .sw7-clean-nav\u003ea,html .sw7-universal-header .sw7-clean-nav\u003e.sw7-clean-item{min-width:0!important;width:100%!important;padding-inline:3px!important}\n  html .sw7-universal-header .sw7-clean-nav\u003ea,html .sw7-universal-header .sw7-clean-nav\u003e.sw7-clean-item\u003e.sw7-clean-trigger{min-width:0!important;font-size:clamp(11px,1.35vw,14px)!important}\n}";document.head.appendChild(style);})();
