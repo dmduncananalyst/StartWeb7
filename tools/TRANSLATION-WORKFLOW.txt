@@ -1,0 +1,66 @@
+StartWeb7 shared translation connection
+
+tools/translate-home-blog.py reuses the existing DommyDom shared-budget, Google
+provider and Google CLI authentication modules from ../sun-and-sage/scripts.
+Keep that authoring checkout available. No Google configuration, credentials,
+database, service or schema is copied or created.
+
+The existing private connection defaults to:
+  ~/translation-budget/shared-usage.sqlite
+Project binding:
+  project-2e0d7d9d-d482-4fcf-b6d
+DOMMYDOM_SHARED_BUDGET_DB uses the same override as DommyDom and Paper Trail.
+Missing databases are refused. Read-only mode never initializes schema or usage.
+
+Default offline preflight:
+  python tools/translate-home-blog.py
+Offline tests:
+  python tools/test-shared-translation.py
+Only AFTER separate live scope approval and a valid shared-counter preflight:
+  python tools/translate-home-blog.py --mode live --approve-google-calls
+
+The live flag is one-run consent; private automatic approval flags are unchanged.
+Actual uncached Unicode source characters are counted per target language, with
+identical source strings deduplicated per language. The complete candidate batch
+is reserved as site=startweb7 before authentication or translation. The shared
+validator enforces the existing $12 warning and $15 cutoff, current period,
+approved baseline, matching project, and all-sites participation confirmation.
+Failed, partial and uncertain calls keep their full reservation. No automatic
+retry or refund occurs. Unknown/stale inputs fail closed.
+
+Source pages are hard-restricted to index.html and blog.html. New .blog-card
+headings and descriptions are detected from real HTML without tagging or manual
+dictionary updates. Existing text is preserved, including single-sentence
+previews. Write an approved two-sentence description in English before translating
+if the editorial standard requires it. No new description text is invented.
+
+SEO metadata, photographs, URLs, markup, menu labels and control labels used by
+existing scripts stay intact. Saved-copy rendering changes only text nodes in
+eligible editorial headings, paragraphs, list items and publication times.
+Forms, menus, scripts, hidden content and full Blog article pages are excluded.
+Original assets/scripts/styles remain unchanged. Only Home/Blog load the two new
+local scripts. English remains the default and no language menu was inserted.
+
+Saved language views use ?lang=es, fa, hy, zh-CN, ko, tl, te, ru, ar after translations
+are generated. The browser loads only saved local JS; it never calls Google.
+No live translations are currently present, so the initial loader leaves English
+intact. An existing language selector was not found during inspection.
+
+Each successful response is atomically saved to .translation-cache/google-fields.json
+BEFORE the next request. Permanent reviewable releases live under
+assets/translations/releases/<hash>/provider.json and current.js. The current pointer
+and Home/Blog bundle references are updated only after release files are written.
+A permanent release can restore paid translations if the local cache is lost.
+Changed source hashes cannot reuse stale text. A local lock prevents concurrent
+builds of the same checkout. Do not bypass a crashed-build lock without review.
+
+New and changed cards are detected and saved automatically WHEN THE RUNNER RUNS.
+No watcher, scheduler, Git hook, commit, push, deployment or publication was enabled.
+The normal authoring process must invoke this runner when preparing content.
+
+All three local runners now resolve the same existing database and Google project.
+The database's all_jobs_use_counter flag remains false because this task does not
+authorize budget-record changes. Recording the completed participation verification
+still requires owner authorization. Google login validity/permissions and real
+translation quality remain untested until a separately approved live run.
+The counter controls participating workflow requests; it is not a Google billing cap.

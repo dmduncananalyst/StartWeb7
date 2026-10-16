@@ -1,0 +1,78 @@
+{
+  "offline_tests_passed": 12,
+  "connections": {
+    "paper-trail": {
+      "connected": true,
+      "project_matches": true,
+      "shared_database": "C:\\Users\\its old\\translation-budget\\shared-usage.sqlite",
+      "read_only": true,
+      "opening_characters": 500000,
+      "warning_usd": "12",
+      "cutoff_usd": "15",
+      "reservation_count": 0,
+      "live_dispatch_allowed": false,
+      "blocked_reason": "Confirm all shared project translation jobs use this counter before live dispatch",
+      "google_calls": 0
+    },
+    "startweb7": {
+      "connected": true,
+      "project_matches": true,
+      "shared_database": "C:\\Users\\its old\\translation-budget\\shared-usage.sqlite",
+      "opening_characters": 500000,
+      "warning_usd": "12",
+      "cutoff_usd": "15",
+      "reservation_count": 0,
+      "live_dispatch_allowed": false,
+      "read_only": true,
+      "blocked_reason": "Confirm all shared project translation jobs use this counter before live dispatch",
+      "google_calls": 0
+    },
+    "dommydom": {
+      "shared_database": "C:\\Users\\its old\\translation-budget\\shared-usage.sqlite",
+      "project_matches": true,
+      "connected": true
+    }
+  },
+  "all_three_resolve_same_database": true,
+  "project_matches": true,
+  "baseline": 500000,
+  "warning_usd": "12",
+  "cutoff_usd": "15",
+  "reservations": 0,
+  "private_database_and_approvals_unchanged": true,
+  "private_approvals_all_false": true,
+  "original_content_images_scripts_styles_seo_unchanged": true,
+  "only_home_blog_script_references_added": true,
+  "google_calls": 0,
+  "actual_characters_sent": 0,
+  "candidate_characters_total": 35811,
+  "source_fields": 73,
+  "source_pages": [
+    "index.html",
+    "blog.html"
+  ],
+  "blog_cards": 14,
+  "previews_not_two_sentences": [
+    "how-craigslist-kept-its-1990s-look-and-outlived-prettier-rivals.html",
+    "how-qr-codes-became-part-of-everyday-business.html",
+    "how-email-newsletters-became-a-media-business-again.html",
+    "when-tiktok-became-a-search-engine.html",
+    "the-cookie-that-would-not-die.html",
+    "wikipedia-is-feeding-the-ai-era-while-losing-its-readers.html",
+    "why-every-website-looks-the-same-now.html",
+    "why-did-my-google-rankings-drop-overnight.html",
+    "how-to-tell-if-your-seo-company-is-actually-doing-anything.html",
+    "should-i-redesign-my-website-or-just-fix-the-seo.html",
+    "opening-a-business-alone-or-with-a-partner.html"
+  ],
+  "live_dispatch_allowed": false,
+  "blocked_reason": "Confirm all shared project translation jobs use this counter before live dispatch",
+  "browser_case_count": 36,
+  "external_browser_requests_blocked": true,
+  "full_article_browser_check_english": true,
+  "live_authentication_tested": false,
+  "production_google_cache_populated": false,
+  "publishing_trigger_automated": false,
+  "current_local_authoring_connections_verified": true,
+  "first_live_run_requires_participation_record_update_and_explicit_scope_approval": true
+}

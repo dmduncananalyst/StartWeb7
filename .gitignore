@@ -1,0 +1,4 @@
+
+# Private translation checkpoints and locks; permanent releases remain reviewable.
+.translation-cache/
+**/__pycache__/
