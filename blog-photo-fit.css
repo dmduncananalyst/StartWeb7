@@ -4,7 +4,7 @@
 .blog-posts .blog-card>a:first-child:hover>img,.blog-article .blog-article-cover:hover>img{transform:none!important}
 
 /* Match every overview thumbnail to the TikTok card's 3:2 frame. */
-.blog-posts{grid-auto-rows:1fr}
+.blog-posts{grid-auto-rows:auto;align-items:start}
 .blog-posts .blog-card{display:flex;flex-direction:column}
 .blog-posts .blog-card>a:first-child{flex:none;aspect-ratio:3/2!important;overflow:hidden!important}
 .blog-posts .blog-card>a:first-child>img{height:100%!important;aspect-ratio:3/2!important;object-fit:cover!important}
