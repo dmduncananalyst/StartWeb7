@@ -1,0 +1,87 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Local audit verification</title>
+<style>body{font:14px Arial}iframe{display:block;border:0;height:1000px}pre{white-space:pre-wrap}</style>
+<h1>Local audit verification</h1><pre id="results">Running</pre><iframe id="site" title="Website under test"></iframe>
+<script>
+(async function () {
+  const results = document.getElementById('results');
+  const frame = document.getElementById('site');
+  const report = {pages: [], failures: [], errors: [], scripts: [], contactWithoutNav: false};
+  const base = new URL('../', location.href).href;
+  const xml = new DOMParser().parseFromString(await (await fetch(base + 'sitemap.xml')).text(), 'text/xml');
+  const files = Array.from(xml.querySelectorAll('loc'), n => new URL(n.textContent).pathname.slice(1) || 'index.html');
+  const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
+  function assert(ok, message) { if (!ok) report.failures.push(message); }
+  for (const file of ['universal-nav-fix.js','startweb7-contact-chat-v2.js','startweb7-redesign.js','article-contact-form.js']) {
+    try { new Function(await (await fetch(base + file)).text()); report.scripts.push(file + ': parsed'); }
+    catch (e) { report.failures.push(file + ': ' + e.message); }
+  }
+  const navSource = await (await fetch(base + 'universal-nav-fix.js')).text();
+  const homeHref = new Function(navSource.slice(0, navSource.indexOf('// Run after')) + ';return sw7HomeHref;')();
+  for (const [input, expected] of [
+    ['https://startweb7.com/about.html', '/'],
+    ['https://www.startweb7.com/blog.html', '/'],
+    ['http://localhost:5500/StartWeb7/about.html', 'http://localhost:5500/StartWeb7/index.html'],
+    ['http://127.0.0.1:3000/about.html', 'http://127.0.0.1:3000/index.html'],
+    ['https://preview.example/project/blog.html', 'https://preview.example/project/index.html'],
+    ['file:///C:/project/StartWeb7/blog.html', 'file:///C:/project/StartWeb7/index.html']
+  ]) assert(homeHref(input) === expected, 'Homepage URL resolution: ' + input);
+  async function load(file, withoutNav) {
+    let html = await (await fetch(base + file)).text();
+    html = html.replace(/<script[^>]+src="https?:[^>]*><\/script>/g, '')
+      .replace(/<source\b[^>]*>/g, '')
+      .replace(/loading="lazy"/g, 'loading="eager"');
+    if (withoutNav) html = html.replace(/<script[^>]+src="universal-nav-fix\.js[^>]*><\/script>/g, '');
+    const instrumentation = '<base href="' + base + '"><script>window.__auditErrors=[];window.addEventListener("error",function(e){if(e.message)window.__auditErrors.push(e.message)});window.fetch=async function(){throw new Error("External submissions disabled during local audit verification")};<\/script>';
+    html = html.replace(/<head\b[^>]*>/i, '$&' + instrumentation);
+    await new Promise(resolve => { frame.onload = resolve; frame.srcdoc = html; });
+    for (let n = 0; n < 40 && !frame.contentWindow.sw7CustomerChatReady; n++) await pause(50);
+    await pause(100);
+  }
+  for (const file of files) {
+    try {
+      await load(file, false);
+      const doc = frame.contentDocument;
+      const win = frame.contentWindow;
+      const entry = {file, widths: [], chat: false, images: doc.images.length};
+      assert(doc.querySelectorAll('h1').length === 1, file + ': H1 count');
+      assert(doc.querySelectorAll('.sw7-universal-header').length === 1, file + ': header count');
+      const home = doc.querySelector('.sw7-universal-brand');
+      assert(home && home.href === new URL('index.html', base).href, file + ': local logo homepage URL');
+      assert(!doc.querySelector('a[href="/"]'), file + ': local homepage link escapes project directory');
+      assert(!doc.querySelector('a[href="index.html"]'), file + ': duplicate homepage URL');
+      assert(win.sw7CustomerChatReady === true, file + ': chat initialized');
+      assert(doc.querySelectorAll('#homeContactChat').length === 1, file + ': chat count');
+      assert(doc.querySelectorAll('script[src*="startweb7-contact-chat-v2.js"]').length === 1, file + ': chat script count');
+      for (const img of doc.images) {
+        assert(img.complete && img.naturalWidth > 0, file + ': image failed: ' + img.getAttribute('src'));
+        assert(img.alt || img.getAttribute('aria-hidden') === 'true', file + ': undescribed image: ' + img.getAttribute('src'));
+      }
+      for (const width of [1440, 390]) {
+        frame.style.width = width + 'px';
+        await pause(100);
+        const overflow = doc.documentElement.scrollWidth > win.innerWidth + 2;
+        entry.widths.push({width, viewport: win.innerWidth, scrollWidth: doc.documentElement.scrollWidth, overflow});
+        assert(!overflow, file + ': horizontal overflow at ' + width);
+      }
+      const trigger = doc.querySelector('[data-open-home-chat]') || doc.getElementById('openHomeChat');
+      if (trigger) {
+        trigger.click(); await pause(100);
+        entry.chat = !doc.getElementById('homeContactChat').hidden;
+        assert(entry.chat, file + ': chat opens');
+        doc.getElementById('closeHomeChat').click();
+      }
+      for (const error of win.__auditErrors || []) report.errors.push(file + ': ' + error);
+      report.pages.push(entry);
+      results.textContent = JSON.stringify({progress: report.pages.length + '/' + files.length, failures:report.failures}, null, 2);
+    } catch (e) { report.failures.push(file + ': ' + e.message); }
+  }
+  await load('contact.html', true);
+  const contact = frame.contentDocument;
+  contact.getElementById('openHomeChat').click();
+  report.contactWithoutNav = frame.contentWindow.sw7CustomerChatReady === true && !contact.getElementById('homeContactChat').hidden;
+  assert(report.contactWithoutNav, 'Contact chat failed without navigation script');
+  report.completed = true;
+  results.textContent = JSON.stringify(report, null, 2);
+  document.title = report.failures.length || report.errors.length ? 'AUDIT CHECKS FAILED' : 'AUDIT CHECKS PASSED';
+})().catch(error => { document.getElementById('results').textContent = error.stack; document.title = 'AUDIT HARNESS ERROR'; });
+</script></html>

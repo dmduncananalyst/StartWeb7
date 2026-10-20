@@ -1,0 +1,23 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Local layout review</title>
+<style>html,body{margin:0;background:#ddd}iframe{border:0;display:block;margin:0 auto;background:#fff;height:1200px}</style>
+<iframe title="Local website preview" id="preview"></iframe><script>
+(async () => {
+ const params = new URLSearchParams(location.search);
+ const frame = document.getElementById('preview');
+ frame.style.width = (params.get('width') || '1440') + 'px';
+ const base = new URL('../', location.href).href;
+ let html = await (await fetch(base + (params.get('page') || 'contact.html'))).text();
+ html = html.replace(/<head\b[^>]*>/i, '$&<base href="' + base + '">');
+ if (params.has('no-nav')) html = html.replace(/<script[^>]+src="universal-nav-fix\.js[^>]*><\/script>/g, '');
+ frame.onload = () => {
+  if (params.has('chat')) {
+   const timer = setInterval(() => {
+    if (!frame.contentWindow.sw7CustomerChatReady) return;
+    clearInterval(timer);
+    frame.contentDocument.getElementById('openHomeChat').click();
+   }, 50);
+  }
+ };
+ frame.srcdoc = html;
+})().catch(console.error);
+</script></html>
