@@ -1,0 +1,42 @@
+{
+  "checks": [
+    {
+      "width": 1440,
+      "card": {
+        "width": 404,
+        "height": 252.5
+      },
+      "image": [
+        1860,
+        885
+      ],
+      "emailMenu": true
+    },
+    {
+      "width": 768,
+      "card": {
+        "width": 349,
+        "height": 690.890625
+      },
+      "image": [
+        1860,
+        885
+      ],
+      "emailMenu": true
+    },
+    {
+      "width": 390,
+      "card": {
+        "width": 164,
+        "height": 324.65625
+      },
+      "image": [
+        1860,
+        885
+      ],
+      "emailMenu": true
+    }
+  ],
+  "failures": [],
+  "complete": true
+}

@@ -1,0 +1,71 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Paper Trail client verification</title>
+<style>body{margin:0;background:#ddd}iframe{display:block;border:0;height:1000px;margin:auto}pre{white-space:pre-wrap}</style>
+<pre id="result">Running</pre><iframe id="site" title="Homepage preview"></iframe>
+<script>
+(async () => {
+ const query=new URLSearchParams(location.search), frame=document.getElementById('site');
+ const widths=query.has('width')?[Number(query.get('width'))]:[901,920,1100,1200,1440,768,390];
+ const base=new URL('../',location.href).href, report={checks:[],failures:[]};
+ const original=await(await fetch(base+'index.html')).text();
+ const assert=(ok,message)=>{if(!ok)report.failures.push(message)};
+ for(const width of widths){
+  frame.style.width=width+'px';
+  let html=original.replace(/<head\b[^>]*>/i,'$&<base href="'+base+'">')
+   .replace(/<script[^>]+src="https?:[^>]*><\/script>/g,'')
+   .replace(/<source\b[^>]*>/g,'');
+  html=html.replace(/<html\b/, '<html class="sw7-intro-seen"');
+  await new Promise(resolve=>{frame.onload=resolve;frame.srcdoc=html});
+  const doc=frame.contentDocument, win=frame.contentWindow;
+  for(let n=0;n<30&&!win.sw7CustomerChatReady;n++)await new Promise(r=>setTimeout(r,50));
+  const cards=[...doc.querySelectorAll('.work-grid>.work-project')], card=doc.querySelector('.work-paper-trail');
+  assert(cards.length===7,width+': expected six preserved clients plus Paper Trail');
+  assert(cards[6]===card,width+': new client appended last');
+  assert(card.getAttribute('aria-label')==='Paper Trail'&&!card.querySelector('h3'),width+': accessible client name without white overlay title');
+  const image=card.querySelector('img');card.scrollIntoView({block:'center'});image.loading='eager';await image.decode();
+  const style=win.getComputedStyle(image), link=card.querySelector('.work-actions>a');
+  assert(image.naturalWidth===1860&&image.naturalHeight===885,width+': original screenshot dimensions');
+  assert(image.getAttribute('src')==='assets/portfolio/Screenshot%20%2852%29.png',width+': exact screenshot');
+  assert(style.objectFit==='contain'&&style.transform==='none'&&style.filter==='none',width+': proportional uncropped screenshot');
+  assert(link.getAttribute('href')==='https://www.papertrailusa.com'&&link.target==='_blank',width+': website link');
+  const email=card.querySelector('a[href^="mailto:"]');
+  assert(email.getAttribute('href')==='mailto:bookkeeping@papertrailusa.com'&&email.textContent==='bookkeeping@papertrailusa.com',width+': clickable email');
+  link.focus();card.scrollIntoView({block:'center'});
+  await new Promise(r=>setTimeout(r,400));
+  const rect=card.getBoundingClientRect(), peer=cards[0].getBoundingClientRect();
+  assert(Math.abs(rect.width-peer.width)<1&&Math.abs(rect.height-peer.height)<1,width+': matching existing card dimensions');
+  const columns=width>900?3:2;
+  for(let i=columns;i<cards.length;i++)assert(cards[i].getBoundingClientRect().top>=cards[i-columns].getBoundingClientRect().bottom,width+': client rows do not overlap');
+  assert(doc.documentElement.scrollWidth<=win.innerWidth+2,width+': no horizontal overflow');
+  if(width>=901&&width<=1200){
+   for(const client of cards){
+    client.querySelector('.work-actions>a').focus();
+    await new Promise(r=>setTimeout(r,400));
+    const bounds=client.getBoundingClientRect();
+    for(const action of client.querySelectorAll('.work-actions>a,.portfolio-contact-trigger')){
+     const box=action.getBoundingClientRect();
+     assert(box.left>=bounds.left-1&&box.right<=bounds.right+1&&box.bottom<=bounds.bottom+1,width+': client button stays inside card');
+     assert(action.scrollWidth<=action.clientWidth+1,width+': full button label fits');
+    }
+   }
+   link.focus();
+  }
+  const button=card.querySelector('button');button.click();
+  const menu=email.parentElement, menuRect=menu.getBoundingClientRect();
+  assert(win.getComputedStyle(menu).display!=='none',width+': contact menu opens');
+  assert(menuRect.left>=rect.left&&menuRect.right<=rect.right&&menuRect.top>=rect.top&&menuRect.bottom<=rect.bottom,width+': contact menu fits in card');
+  assert(win.sw7CustomerChatReady===true,width+': existing homepage chat initialized');
+  report.checks.push({width,card:{width:rect.width,height:rect.height},image:[image.naturalWidth,image.naturalHeight],emailMenu:true});
+  if(!query.has('menu'))button.click();
+ }
+ report.complete=true;document.getElementById('result').textContent=JSON.stringify(report,null,2);
+ if(query.has('width')){
+  document.getElementById('result').style.display='none';
+  const doc=frame.contentDocument, wall=doc.querySelector('.work-wall'), card=doc.querySelector('.work-paper-trail');
+  // Keep the actual portfolio layout visible without the homepage intro moving the preview.
+  wall.style.cssText='position:fixed;inset:140px 0 0;z-index:9999;overflow:auto;scroll-behavior:auto';
+  wall.style.setProperty('display','block','important');
+  wall.scrollTop=card.getBoundingClientRect().top-wall.getBoundingClientRect().top+wall.scrollTop-24;
+ }
+ document.title=report.failures.length?'PAPER TRAIL CHECKS FAILED':'PAPER TRAIL CHECKS PASSED';
+})().catch(e=>{document.getElementById('result').textContent=e.stack;document.title='PAPER TRAIL CHECK ERROR'});
+</script></html>
