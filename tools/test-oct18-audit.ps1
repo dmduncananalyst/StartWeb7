@@ -5,6 +5,7 @@ function Assert($condition, $message) { if (!$condition) { throw $message } }
 function Attribute($tag, $name) { [Net.WebUtility]::HtmlDecode([regex]::Match($tag, '\b' + [regex]::Escape($name) + '="([^"]*)"').Groups[1].Value) }
 [xml]$sitemap = [IO.File]::ReadAllText((Join-Path $root 'sitemap.xml'))
 $titles=@{}; $descriptions=@{}; $pageCount=0; $imageCount=0; $linkCount=0; $inlineSaved=0
+$approvedBlog = if (Test-Path tools/google-maps-approved-content.json) { Get-Content tools/google-maps-approved-content.json -Raw -Encoding UTF8 | ConvertFrom-Json } else { $null }
 foreach ($entry in $sitemap.urlset.url) {
  $filename=([uri]$entry.loc).AbsolutePath.TrimStart('/'); if (!$filename) {$filename='index.html'}
  $path=Join-Path $root $filename
@@ -15,7 +16,8 @@ foreach ($entry in $sitemap.urlset.url) {
  Assert ($html -notmatch 'href="index.html"|href=\\"index.html\\"') "Duplicate homepage URL in $filename"
  Assert (([regex]::Matches($html,'<h1\b')).Count -eq 1) "H1 count in $filename"
  $title=[Net.WebUtility]::HtmlDecode([regex]::Match($html,'<title>(.*?)</title>').Groups[1].Value)
- Assert ($title.Length -gt 0 -and $title.Length -le 65) "Title length $($title.Length) in $filename"
+ $approvedExactTitle = $approvedBlog -and $filename -eq $approvedBlog.file -and $title -ceq $approvedBlog.title
+ Assert ($title.Length -gt 0 -and ($title.Length -le 65 -or $approvedExactTitle)) "Title length $($title.Length) in $filename"
  Assert (!$titles.ContainsKey($title)) "Duplicate title in $filename"
  $titles[$title]=$true
  $descriptionTag=[regex]::Match($html,'<meta\b[^>]*name="description"[^>]*>').Value

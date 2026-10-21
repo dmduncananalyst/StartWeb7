@@ -1,0 +1,74 @@
+{
+    "description":  "A verified Google Business Profile may still be hard to find. Understand why verification and local search placement are different.",
+    "photo":  "Golden-Hour Poolside Workspace.png",
+    "sources":  [
+                    "1. Google Business Profile Help, Tips to improve your local ranking https://support.google.com/business/answer/7091?hl=en",
+                    "2. Google Business Profile Help, Verify your business https://support.google.com/business/answer/7107242?hl=en"
+                ],
+    "imageSha256":  "247ADCCFE44FC43028A6BDB983F986748B2CBCE6AE2F32E49A366329025FBC39",
+    "date":  "2026-10-20",
+    "sourceUrls":  [
+                       "https://support.google.com/business/answer/7091?hl=en",
+                       "https://support.google.com/business/answer/7107242?hl=en"
+                   ],
+    "title":  "Google Maps Verification Is Complete, but Your Business Is Still Missing",
+    "blocks":  [
+                   {
+                       "text":  "The verification email is not the finish line",
+                       "heading":  true
+                   },
+                   {
+                       "text":  "A business owner finally receives confirmation that Google has verified the company’s Business Profile. The hours are correct, the phone number is connected, and the service area appears on the listing. Yet when the owner searches for the service customers actually need, the business is nowhere near the visible results. It is an especially frustrating experience for companies that depend on local inquiries. A remodeling contractor searches for kitchen renovations nearby and sees competitors. A pool builder searches for swimming pool contractors and finds unfamiliar companies. Verification feels like approval, so the absence feels like rejection. But those two events measure different things. Verification helps establish that a person is authorized to manage the profile. It does not guarantee that Google will recommend the company for every relevant search. [1][2]",
+                       "heading":  false
+                   },
+                   {
+                       "text":  "Why a verified business can remain hard to find",
+                       "heading":  true
+                   },
+                   {
+                       "text":  "Google Maps is not a simple alphabetical directory of verified companies. Local results depend primarily on relevance, distance, and prominence, according to Google’s published guidance. [1] Relevance concerns how closely a business matches the search. Distance concerns the relationship between the business and the searcher or location specified. Prominence concerns how well known the business is, using information from across the web. This means a company can appear for its exact business name but struggle to appear when a customer searches for a broad service. The first person already knows whom to find. The second is asking Google to choose among competing options. Those are different kinds of discovery. The fact that a business appears for one does not promise it will appear for the other.",
+                       "heading":  false
+                   },
+                   {
+                       "text":  "The city on a service area is not a promise of placement",
+                       "heading":  true
+                   },
+                   {
+                       "text":  "Many service businesses travel across large metropolitan areas. Their service areas may accurately include Los Angeles, the San Fernando Valley, and neighboring communities. But a company’s willingness to travel does not mean it will be equally prominent to searchers everywhere. Someone in Pasadena may see a different set of businesses than someone in Woodland Hills. A business owner searching from home may see results unlike those shown to a customer near a project site. Google identifies distance as a key component of local ranking. [1] A single screenshot, even one taken on the same day, cannot establish how often the business is being encountered by all prospective customers.",
+                       "heading":  false
+                   },
+                   {
+                       "text":  "What customers are really searching for",
+                       "heading":  true
+                   },
+                   {
+                       "text":  "A person looking for a major home project does not always search for a company by name. They search for the problem they want solved, the kind of project they want completed, or the service they need in a particular place. The language may be precise, such as custom pool construction, or broad, such as remodeling company near me. A business can genuinely provide the service without presenting that work clearly to someone encountering it for the first time. Google says complete and accurate business information helps its systems understand a business and match it with relevant searches. [1] Clear descriptions of actual services are therefore valuable to both customers and the search experience. Repeating phrases unnaturally is not the same as communicating expertise. People want to know what the company does and whether its work fits their needs.",
+                       "heading":  false
+                   },
+                   {
+                       "text":  "Reputation is not just a number beside a star",
+                       "heading":  true
+                   },
+                   {
+                       "text":  "Reviews can influence how people evaluate businesses, and Google states that review count and positive ratings can contribute to local ranking. [1] But a review score is not a guarantee of a particular map position. For a customer considering a substantial project, confidence often comes from several details together. They want accurate contact information, a credible website, clear descriptions, and evidence that the company understands their type of work. A polished listing that sends visitors to a confusing website can still lose the inquiry. The goal is not to collect attention for its own sake. It is to help an appropriate customer make a confident decision.",
+                       "heading":  false
+                   },
+                   {
+                       "text":  "The difference between being seen and being hired",
+                       "heading":  true
+                   },
+                   {
+                       "text":  "Business owners understandably focus on whether they appear in a map result. But appearing is only one part of a customer journey. A company can attract attention from people outside its service area, people searching for work it does not perform, or people whose budgets and project needs are a poor fit. A large number of impressions may not produce meaningful calls. For a company offering high value services, a qualified project request can matter more than dozens of casual visits. Search performance should ultimately be understood in relation to the customers a business is equipped to serve. Verification makes it possible to manage the listing. It does not remove the need to communicate why a customer should choose the company.",
+                       "heading":  false
+                   },
+                   {
+                       "text":  "A clearer way to understand the problem",
+                       "heading":  true
+                   },
+                   {
+                       "text":  "A missing map result is not proof that Google has penalized a company. Nor does it necessarily mean verification failed. It can reflect competition, location, relevance, or the difference between searching for a name and searching for a service. The important lesson is that the verification milestone and the customer discovery process are separate. The first confirms authority to manage a profile. The second depends on how the business fits a particular search and how credible it appears among alternatives. For local service companies, that distinction can change how they interpret a disappointing search result and how they think about the inquiries that matter to the business.",
+                       "heading":  false
+                   }
+               ],
+    "file":  "google-maps-verification-complete-business-still-missing.html"
+}

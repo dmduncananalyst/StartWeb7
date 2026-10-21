@@ -1,0 +1,2294 @@
+{
+  "pages": [
+    {
+      "file": "index.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 43
+    },
+    {
+      "file": "about.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 9
+    },
+    {
+      "file": "services.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 10
+    },
+    {
+      "file": "landing-page.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 7
+    },
+    {
+      "file": "business-website.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 7
+    },
+    {
+      "file": "seo-optimized-website.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 7
+    },
+    {
+      "file": "industries.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "real-estate-agents.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "collision-repair.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "pool-construction.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "general-contractors.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "catering.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "commercial-cleaning.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "security-services.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "nationwide.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "resources.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 57
+    },
+    {
+      "file": "seo-vs-paid-ads.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "digital-marketing-vs-seo.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "increase-sales.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "sales-during-slow-season.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "aeo-ai-search.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "google-maps-leads.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "google-business-profile-vs-website.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "mojo-vs-vulcan7-real-estate-leads.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "ccc-one-vs-mitchell-collision-repair.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "angi-vs-thumbtack-pool-builders.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 7
+    },
+    {
+      "file": "how-long-does-it-take-to-get-leads-from-angi-commercial-cleaning.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "how-to-get-more-monthly-security-contracts.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "essentials.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "competitive.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "reviews.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 9
+    },
+    {
+      "file": "contact.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 9
+    },
+    {
+      "file": "support.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 9
+    },
+    {
+      "file": "careers.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "home-health-care.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 9
+    },
+    {
+      "file": "what-is-seo.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "what-is-aeo.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "assisted-living.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 9
+    },
+    {
+      "file": "how-to-get-more-assisted-living-residents.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "instant-audit.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "blog.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 25
+    },
+    {
+      "file": "buying-legal-leads-california-oregon-2026.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "dominance.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 9
+    },
+    {
+      "file": "opening-a-business-alone-or-with-a-partner.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "when-can-i-expect-my-first-customer-with-seo.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "los-angeles.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 10
+    },
+    {
+      "file": "burbank.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 10
+    },
+    {
+      "file": "glendale.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 10
+    },
+    {
+      "file": "calabasas.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 10
+    },
+    {
+      "file": "simi-valley.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 10
+    },
+    {
+      "file": "santa-clarita.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 10
+    },
+    {
+      "file": "why-did-my-google-rankings-drop-overnight.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "how-to-tell-if-your-seo-company-is-actually-doing-anything.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "should-i-redesign-my-website-or-just-fix-the-seo.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "resources-seo.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 33
+    },
+    {
+      "file": "resources-ai-search.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 17
+    },
+    {
+      "file": "resources-digital-marketing.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 18
+    },
+    {
+      "file": "resources-paid-ads.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 15
+    },
+    {
+      "file": "resources-websites.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 17
+    },
+    {
+      "file": "should-i-hire-an-agency-a-freelancer-or-do-seo-myself.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "how-do-i-know-if-my-seo-is-working.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "why-does-my-business-not-show-up-on-google-when-i-search-its-name.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "what-questions-should-i-ask-before-hiring-an-seo-agency.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "what-are-red-flags-when-choosing-an-seo-company.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "if-i-leave-my-agency-do-i-keep-my-google-accounts.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "how-long-until-seo-starts-bringing-in-leads.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "my-competitor-shows-up-first-on-google-and-i-don-t-what-are-they-doing-differently.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "i-just-started-my-business-how-do-i-get-google-to-notice-me.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "how-do-i-get-my-business-recommended-by-chatgpt.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "can-i-pay-chatgpt-to-recommend-my-business.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "how-long-does-it-take-to-show-up-in-ai-answers.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "why-does-chatgpt-recommend-my-competitor-but-not-me.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "why-am-i-posting-on-instagram-regularly-but-getting-no-customers.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "do-i-need-professional-photos-to-succeed-on-instagram.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "what-if-my-business-is-service-based-can-instagram-still-work-for-me.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "how-do-i-get-customers-from-social-media-without-paying-for-ads.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "how-do-i-build-an-email-list-for-my-business.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "i-don-t-have-time-to-create-content-is-there-a-faster-way.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "why-are-my-ads-getting-clicks-but-no-customers.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "should-i-boost-posts-or-use-ads-manager.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "why-did-my-ad-account-get-restricted.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "how-do-i-target-the-right-people-with-ads.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "how-do-i-know-if-my-paid-ads-are-working.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "do-i-need-a-website-if-i-have-social-media.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "why-is-my-website-not-bringing-in-customers.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "wix-or-squarespace-vs-hiring-a-professional.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "what-do-i-do-if-someone-says-i-don-t-have-rights-to-a-photo-on-my-website.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "why-is-my-business-not-getting-leads-from-google.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "does-a-website-actually-help-a-business-get-customers.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "can-i-get-leads-from-google-without-running-ads.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "what-is-the-difference-between-seo-and-google-ads.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "how-do-i-show-up-when-someone-searches-for-my-service-near-me.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "can-ai-search-recommend-my-business.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "how-long-does-seo-take-to-work.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "how-do-customers-find-local-businesses-online.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "what-should-a-business-website-include-to-get-more-customers.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "what-makes-someone-choose-one-business-over-another-online.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "why-is-seo-ongoing-instead-of-a-one-time-service.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "can-seo-work-for-a-business-that-serves-more-than-one-city.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "can-seo-work-if-i-do-not-have-a-storefront.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "is-seo-worth-it-for-my-business.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "do-reviews-help-me-get-more-customers-from-google.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "do-i-need-special-ai-code-on-my-website.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "will-seo-still-matter-as-people-use-ai-search.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "lawyers.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 9
+    },
+    {
+      "file": "doctors.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 9
+    },
+    {
+      "file": "dentists.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 9
+    },
+    {
+      "file": "from-ten-blue-links-to-ai-answers.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "the-fake-review-epidemic.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "why-every-website-looks-the-same-now.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "when-tiktok-became-a-search-engine.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "the-cookie-that-would-not-die.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "wikipedia-is-feeding-the-ai-era-while-losing-its-readers.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "how-craigslist-kept-its-1990s-look-and-outlived-prettier-rivals.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "how-qr-codes-became-part-of-everyday-business.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "how-email-newsletters-became-a-media-business-again.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "the-web-had-motion-and-then-flash-was-gone.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 9
+    },
+    {
+      "file": "are-you-a-robot-captcha-taught-machines-to-read.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "the-big-yellow-book-that-ran-local-business.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    },
+    {
+      "file": "google-maps-verification-complete-business-still-missing.html",
+      "widths": [
+        {
+          "width": 1440,
+          "viewport": 1440,
+          "scrollWidth": 1425,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "viewport": 390,
+          "scrollWidth": 375,
+          "overflow": false
+        }
+      ],
+      "chat": true,
+      "images": 8
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "scripts": [
+    "universal-nav-fix.js: parsed",
+    "startweb7-contact-chat-v2.js: parsed",
+    "startweb7-redesign.js: parsed",
+    "article-contact-form.js: parsed"
+  ],
+  "contactWithoutNav": true,
+  "completed": true
+}
