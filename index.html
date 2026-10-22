@@ -419,7 +419,7 @@ html.sw7-intro-active,html.sw7-intro-active body{overflow:hidden}
 .sw7-payment-copy small{padding-right:28px}
 .sw7-payment-copy strong{font-size:clamp(14px,4vw,17px)}
 .sw7-phone-home-indicator{position:absolute;z-index:4;bottom:12px;left:33%;right:33%;height:4px;border-radius:5px;background:#fff}
-@media(max-height:500px){.sw7-phone-shell{width:min(245px,75vw,calc((100dvh - 32px)*.62));aspect-ratio:.62;border-radius:30px}.sw7-phone-camera{width:65px;height:16px}.sw7-phone-status{padding:13px 12px 0;font-size:10px}.sw7-status-icons{gap:4px}.sw7-phone-clock{top:17%}#sw7PhoneDate{font-size:10px}#sw7PhoneTime{font-size:18px}.sw7-payment-card{left:6px;right:6px;padding:9px 7px;gap:6px;top:62%}.sw7-payment-icon{width:28px;border-radius:8px}.sw7-payment-icon:before{left:5px;right:5px;top:8px;height:12px}.sw7-payment-icon:after{left:7px;right:7px;top:12px}.sw7-payment-copy strong{font-size:12px}.sw7-payment-copy small{font-size:8px}.sw7-payment-time{font-size:9px;top:9px;right:7px}}
+@media(max-height:500px){.sw7-phone-shell{width:min(245px,75vw,calc((100dvh - 32px)*.62));aspect-ratio:.62;border-radius:30px}.sw7-phone-status{padding:13px 12px 0;font-size:10px}.sw7-status-icons{gap:4px}.sw7-phone-clock{top:17%}#sw7PhoneDate{font-size:10px}#sw7PhoneTime{font-size:18px}.sw7-payment-card{left:6px;right:6px;padding:9px 7px;gap:6px;top:62%}.sw7-payment-icon{width:28px;border-radius:8px}.sw7-payment-icon:before{left:5px;right:5px;top:8px;height:12px}.sw7-payment-icon:after{left:7px;right:7px;top:12px}.sw7-payment-copy strong{font-size:12px}.sw7-payment-copy small{font-size:8px}.sw7-payment-time{font-size:9px;top:9px;right:7px}}
 @media(max-width:600px){
  .sw7-lead-intro{top:86px}
  .sw7-phone-shell{width:auto;height:min(52dvh,440px,calc(100dvh - 180px));max-width:80vw;aspect-ratio:.49}
@@ -431,6 +431,17 @@ html.sw7-intro-active,html.sw7-intro-active body{overflow:hidden}
  .sw7-lead-intro{top:78px}
  .sw7-phone-shell{width:min(340px,80vw,calc((100dvh - 140px)*.49))}
 }
+/* Scale the original status bar together, leaving room beside the camera. */
+.sw7-lead-intro .sw7-phone-camera{
+  top:calc(10px * var(--sw7-phone-scale,1));
+  width:calc(92px * var(--sw7-phone-scale,1));
+  height:calc(22px * var(--sw7-phone-scale,1));
+}
+.sw7-lead-intro .sw7-phone-status{
+  padding:calc(15px * var(--sw7-phone-scale,1)) calc(14px * var(--sw7-phone-scale,1)) 0;
+  font-size:calc(12px * var(--sw7-phone-scale,1));
+}
+.sw7-lead-intro .sw7-status-icons{zoom:var(--sw7-phone-scale,1);flex-shrink:0;gap:8px}
 @media(prefers-reduced-motion:reduce){.sw7-lead-intro{display:none!important}html.sw7-intro-active,html.sw7-intro-active body{overflow:auto}}
 </style>
 <script>
@@ -560,7 +571,7 @@ body[data-sw7-page="home"] .work-paper-trail .portfolio-email-menu a{overflow-wr
 <div class="work-overlay"><div class="work-actions"><a href="https://www.paradigmjanitorial.net/" rel="noopener" target="_blank">VIEW WEBSITE</a><div class="portfolio-contact-wrap"><button class="portfolio-contact-trigger" type="button">CONTACT CLIENT</button><div class="portfolio-email-menu"><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=kevinjhawkins@aol.com" rel="noopener" target="_blank">Gmail</a><a href="https://outlook.live.com/mail/0/deeplink/compose?to=kevinjhawkins@aol.com" rel="noopener" target="_blank">Outlook</a><button data-copy-email="kevinjhawkins@aol.com" type="button">Copy email</button></div></div></div></div>
 </article>
 <article class="work-project work-paradigm-security">
-<picture class="work-preview work-preview--paradigm-security"><source media="(max-width: 900px)" srcset="assets/portfolio/preview-paradigm-security-phone-current.png"/><img alt="Paradigm Security Services website preview" decoding="async" height="900" loading="lazy" src="assets/portfolio/preview-paradigm-security-desktop-optimized.webp" width="1440"/></picture>
+<picture class="work-preview work-preview--paradigm-security"><source media="(max-width: 900px)" srcset="assets/portfolio/preview-paradigm-security-phone-current.png"/><img alt="Paradigm Security Services website preview" decoding="async" height="812" loading="lazy" src="assets/portfolio/preview-paradigm-security-home-20261021.png" width="1920"/></picture>
 <div class="work-overlay"><div class="work-actions"><a href="https://www.paradigmsecurityservices.com/" rel="noopener" target="_blank">VIEW WEBSITE</a><div class="portfolio-contact-wrap"><button class="portfolio-contact-trigger" type="button">CONTACT CLIENT</button><div class="portfolio-email-menu"><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=kevinjhawkins@aol.com" rel="noopener" target="_blank">Gmail</a><a href="https://outlook.live.com/mail/0/deeplink/compose?to=kevinjhawkins@aol.com" rel="noopener" target="_blank">Outlook</a><button data-copy-email="kevinjhawkins@aol.com" type="button">Copy email</button></div></div></div></div>
 </article>
 <article aria-label="Paper Trail" class="work-project work-paper-trail">
@@ -1190,15 +1201,41 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
   if(alreadySeen){intro.remove();return}
   try{sessionStorage.setItem('sw7PaymentPhoneIntroSeenV1','1')}catch(e){}
   function finish(){
+    window.removeEventListener('resize',fitPhoneIntro);
+    if(introHeaderObserver)introHeaderObserver.disconnect();
     intro.classList.add('is-exiting');
     document.documentElement.classList.remove('sw7-intro-active');
     window.setTimeout(function(){intro.remove()},320);
   }
   if(reduce){intro.remove();return}
+  // Measure the rendered navigation, including its responsive second row.
+  function fitPhoneIntro(){
+    var header=document.querySelector('.sw7-universal-header');
+    var headerBottom=header?Math.max(0,header.getBoundingClientRect().bottom):86;
+    var available=Math.max(0,window.innerHeight-headerBottom);
+    intro.style.top=headerBottom+'px';
+    var phone=intro.querySelector('.sw7-phone-shell');
+    // Fit the complete original phone as one unit, including its notification.
+    var scale=Math.max(0.01,Math.min(1,(available-64)/694,(window.innerWidth-48)/340));
+    phone.style.height='694px';
+    phone.style.width='340px';
+    phone.style.maxWidth='none';
+    phone.style.aspectRatio='.49';
+    phone.style.zoom=String(scale);
+    phone.style.setProperty('--sw7-phone-scale','1');
+  }
+  window.addEventListener('resize',fitPhoneIntro,{passive:true});
+  var introHeaderObserver=null;
   function revealIntro(){
     updatePhoneClock();
     document.documentElement.classList.add('sw7-intro-active');
     intro.style.removeProperty('inset');
+    fitPhoneIntro();
+    var introHeader=document.querySelector('.sw7-universal-header');
+    if(window.ResizeObserver&&introHeader){
+      introHeaderObserver=new ResizeObserver(fitPhoneIntro);
+      introHeaderObserver.observe(introHeader);
+    }
     intro.querySelector('.sw7-payment-scene').style.visibility='visible';
     window.setTimeout(finish,1800);
   }
@@ -1250,6 +1287,7 @@ body[data-sw7-page="home"] .work-grid > .work-project > picture.work-preview--pa
   object-position:center top!important;
 }
 @media(min-width:901px){
+  body[data-sw7-page="home"] .work-grid > .work-project > picture.work-preview--paradigm-security > img{object-fit:contain!important;background:#fff}
   /* Each card is a complete 1440 × 900 desktop viewport, not a crop. */
   body[data-sw7-page="home"] .work-grid{
     display:grid!important;
@@ -1344,67 +1382,34 @@ body[data-sw7-page="home"] .work-grid > .work-project > picture.work-preview--pa
   }
 }
 
-/* Restore the mobile payment notification and keep its card symbol legible. */
-@media(max-width:600px){
-  .sw7-lead-intro .sw7-phone-shell{
-    width:auto;height:min(62dvh,540px,calc(100dvh - 180px));max-width:80vw;aspect-ratio:.49;
-  }
-  .sw7-lead-intro .sw7-payment-card{
-    left:6px;right:6px;grid-template-columns:43px minmax(0,1fr);
-    gap:8px;padding:10px;
-  }
-  .sw7-lead-intro .sw7-payment-icon{
-    width:43px;height:43px;aspect-ratio:auto;border-radius:11px;
-  }
-  .sw7-lead-intro .sw7-payment-icon:before{
-    left:8px;right:8px;top:12px;height:18px;border-width:2px;border-radius:4px;
-  }
-  .sw7-lead-intro .sw7-payment-icon:after{
-    left:10px;right:10px;top:17px;height:3px;
-  }
-  .sw7-lead-intro .sw7-payment-copy strong{font-size:15px;white-space:nowrap}
+/* Keep notification geometry consistent; the complete phone scales to fit. */
+.sw7-lead-intro .sw7-payment-card{
+  box-sizing:border-box;left:14px;right:14px;top:54%;
+  display:grid;grid-template-columns:43px minmax(0,1fr);
+  align-items:center;gap:10px;padding:12px;height:auto;min-height:82px;
 }
-
-/* Payment notification icon: white dollar sign on the green tile. */
 .sw7-lead-intro .sw7-payment-icon{
   display:grid!important;place-items:center!important;
+  width:43px;height:43px;aspect-ratio:1;border-radius:12px;
   color:#fff!important;font:800 29px/1 Arial,Helvetica,sans-serif!important;
 }
 .sw7-lead-intro .sw7-payment-icon:before,
 .sw7-lead-intro .sw7-payment-icon:after{content:none!important;display:none!important}
-@media(max-width:600px){
-  .sw7-lead-intro .sw7-payment-icon{font-size:29px!important}
-}
-
-/* Keep the notification message inside the card at every preview width. */
+.sw7-lead-intro .sw7-payment-copy{min-width:0;max-width:100%;height:auto}
 .sw7-lead-intro .sw7-payment-labels{
   display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;
   gap:3px 6px;margin-bottom:4px;
 }
 .sw7-lead-intro .sw7-payment-copy small{
-  margin:0;padding:0;font-size:8px;letter-spacing:.04em;
+  margin:0;padding:0;font:800 9px/1.2 Arial,Helvetica,sans-serif;letter-spacing:.04em;
 }
 .sw7-lead-intro .sw7-payment-labels .sw7-payment-time{
-  position:static;font-size:8px;line-height:1;white-space:nowrap;
+  position:static;font:600 9px/1.2 Arial,Helvetica,sans-serif;white-space:nowrap;
 }
 .sw7-lead-intro .sw7-payment-copy strong{
-  font-size:13px;line-height:1.15;white-space:normal;
-}
-/* Fit the complete payment message inside the phone notification. */
-@media(max-width:600px){
-  .sw7-lead-intro .sw7-payment-card{
-    left:5px;right:5px;grid-template-columns:40px minmax(0,1fr);
-    gap:8px;padding:8px;box-sizing:border-box;
-  }
-  .sw7-lead-intro .sw7-payment-icon{
-    width:40px;height:40px;aspect-ratio:auto;
-    font-size:27px!important;
-  }
-  .sw7-lead-intro .sw7-payment-copy strong{
-    font-size:clamp(11px,3.1vw,12px);
-    line-height:1.15;letter-spacing:-.035em;white-space:normal;
-  }
-  .sw7-lead-intro .sw7-payment-time{top:9px;right:9px;font-size:10px}
+  display:block;width:auto;max-width:100%;height:auto;margin:0;
+  font:800 17px/1.2 Arial,Helvetica,sans-serif;letter-spacing:-.015em;
+  white-space:normal;overflow:visible;overflow-wrap:anywhere;
 }
 </style>
 </body>
