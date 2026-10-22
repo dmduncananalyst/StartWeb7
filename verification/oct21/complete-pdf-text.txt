@@ -1,0 +1,379 @@
+StartWeb7 | October 21, 2026
+
+Approved Blog Photo Assignments
+
+Developer instructions: Match each attached photograph to the exact blog title listed below. Use the same
+assigned photo on its blog preview card and as the featured image on the full article page. Preserve the
+original filenames. No photos are embedded in this PDF.
+
+
+
+The AOL Greeting That Made the Internet Feel Personal
+
+Approved image filename: Dial-Up Dreams in a Cozy Bedroom.png
+
+Placement: Blog archive preview card and full blog featured image.
+
+
+
+The Day Digital Design Let Go of Leather and Wood
+
+Approved image filename: Skeuomorphic to Modern iPhone Evolution.png
+
+Placement: Blog archive preview card and full blog featured image.
+
+
+
+Before the Feed, the Comment Section Was the Conversation
+
+Approved image filename: Nostalgic LA Sunset Blog Desk.png
+
+Placement: Blog archive preview card and full blog featured image.
+
+
+
+The complete revised blogs and source references follow on the next pages, unchanged.
+
+The AOL Greeting That Made the Internet Feel Personal
+
+
+October 21, 2026
+
+SEO description: How a $200 living room recording and a screeching dial-up modem turned AOL into the front door of the
+internet for a generation of Americans.
+
+For a long stretch of the 1990s, going online did not start with a tap or a click. It started with waiting.
+Someone in the house had to be off the phone, the modem had to dial, and then came a short burst of
+beeps, hisses, and static that sounded like a robot trying to sing through a kazoo. If the connection held, a
+friendly male voice would greet you with two simple words, Welcome, and then, if you were lucky, three
+more that could change the mood of an entire room. You have got mail. That greeting belonged to America
+Online, known everywhere as AOL, and for millions of people it was not a sound effect. It was the internet
+itself announcing that it had arrived in their home. Long before push notifications, unread badges, and lock
+screens crowded with alerts, that one cheerful sentence carried all the excitement of modern messaging in
+a single moment. Someone, somewhere, had thought of you, written to you, and sent that message across
+a network you could barely picture, and it was waiting.
+
+A Voice Recorded on a Cassette in a Living Room
+
+The most famous voice of the early internet was never recorded in a famous studio. In 1989, Steve Case,
+the chief executive of Quantum Computer Services, wanted to add a human voice to the company Quantum
+Link online service. Quantum would later become America Online. Karen Edwards, who worked as a
+customer service representative, overheard the conversation and suggested her husband, Elwood
+Edwards, a professional broadcaster with years of work in radio and television. Edwards sat down in his
+living room with a cassette recorder and recorded a short set of phrases, Welcome, You have got mail, File
+is done, and Goodbye, along with a few related lines that followed later. He was paid 200 dollars for the
+session. There was no way to know in that room, with that modest equipment, that the recording would be
+heard hundreds of millions of times, or that Edwards later estimated it was being heard more than 35 million
+times a day at its height. That origin story matters because it captures the scale of what followed. The
+internet that most Americans first met grew out of ordinary rooms and small decisions that turned out to be
+enormous. A broadcaster helping out through his wife, a cassette tape, and a company trying to sound less
+like a machine added up to a voice that made the unfamiliar experience of checking an electronic inbox feel
+personal. Edwards died on November 5, 2024, one day before his 75th birthday, and the obituaries that
+followed read less like notices for a voice actor and more like farewells to an era.
+
+The Ritual of Getting Online
+
+Part of the power of that greeting was that getting online used to be an event. Dial-up tied up the household
+telephone line, so a session online meant no calls in or out. Families negotiated time the way they
+negotiated the television remote. Teenagers learned to listen for a parent picking up an extension, because
+that small click could end the connection, and parents learned that a busy signal all evening meant
+someone was deep in a chat room. Speed shaped everything. Dial-up topped out at 56 kilobits per second,
+a fraction of what a modern phone connection handles without anyone noticing. A photograph could appear
+slowly, line by line, slowly revealing itself from the top down. Downloading a song was a commitment.
+
+Leaving the computer alone while a file crept toward completion became a normal part of life, and the File is
+done announcement that Edwards also recorded carried its own small celebration. Because connecting
+took effort, being connected felt deliberate. People planned sessions. They checked email, visited a handful
+of favorite places, posted in a forum, and signed off so the phone would be free again. The Goodbye that
+Edwards recorded at the end of a session was not just politeness. It marked a real leaving, a return to the
+offline house, the ringing phone, and the rest of the evening.
+
+A Walled Garden That Felt Like a Town
+AOL did more than provide a connection. It provided a place. Once inside, members found email, chat
+rooms organized by interest, instant messaging through AIM, news, games, and guided areas that sorted
+the sprawling web into something a newcomer could walk through without a map. Critics later called it a
+walled garden, and the description was fair, but for a first time user in 1995 or 1998, a garden with paths
+was far less frightening than an open wilderness. Screen names became part of that culture. People chose
+handles that hid their legal names and announced their humor, their hobbies, or their teenage sense of
+drama. The anonymity was imperfect and sometimes rowdy, but it also gave shy people a way to speak,
+gave far flung hobbyists a way to find each other, and gave families in different states a cheap, cheerful way
+to stay in daily contact that letters and long distance calls never quite matched. The company spread
+through one of the most visible marketing efforts of the decade, a flood of free trial disks and later CDs that
+arrived in mailboxes, magazines, and cereal boxes. At its peak around 2000, AOL counted about 25 million
+subscribers, and by some accounts more than 26 million, and it carried a huge share of the consumer
+internet traffic in the United States. For a time, asking whether someone was online often meant asking
+whether they were on AOL. The phrase reached its pop culture peak in 1998, when the film You Have Got
+Mail, starring Tom Hanks and Meg Ryan, built a romantic comedy around two rival booksellers falling for
+each other through anonymous AOL messages. The movie works as a time capsule today, with its
+bookstore wars and its modem sounds, but it also shows how completely the service had entered everyday
+language. A notification sound had become a movie title that needed no explanation.
+
+The Long Fade and the Final Goodbye
+
+Broadband changed the bargain. Cable and DSL connections stayed on all day, freed the phone line, and
+made the old ritual of dialing, waiting, and signing off feel like a chore from another life. The walled garden
+also mattered less as the open web grew easier to navigate and search engines guided people directly to
+what they wanted. AOL merged with Time Warner in 2000 in a deal that became a symbol of the dot com
+boom and its excesses, and the company passed through several owners in the years that followed,
+including Verizon, before landing with Apollo Global Management in 2021 as part of Yahoo. AIM shut down
+in 2017, closing the instant messaging service that had shaped how a generation typed, abbreviated, and
+set away messages like diary entries. Dial-up, remarkably, hung on far longer. As recently as 2023, Census
+estimates counted about 163,000 households in the United States still relying on dial-up, many in places
+where faster service remained unavailable or unaffordable. Nostalgia was only part of the story. For those
+households, the modem handshake was not a memory, it was still the only road in. On September 30, 2025,
+AOL discontinued its dial-up service for good, retiring the AOL Dialer software and the AOL Shield browser
+along with it, after more than three decades. The company described the move as a routine product
+evaluation, which is a quiet way to close a loud chapter. The screech that once filled living rooms will now
+
+survive mainly in recordings, museum pieces, and the muscle memory of anyone who ever held their breath
+waiting for a connection to catch.
+
+Why That Voice Still Echoes
+
+It is tempting to treat the whole era as a joke about slow speeds and free CDs turned into coasters, and
+plenty of those jokes are affectionate and earned. Yet something real was learned in those years, and it was
+learned through sound and ritual as much as through technology. AOL taught people to expect a message
+to be waiting, to feel a small lift at an alert, to build an identity around a screen name, and to think of a
+network as a social place rather than a technical one. Modern notifications reflect some of the same design
+principles: signaling attention, rewarding anticipation, and making a digital action feel immediate. The
+banners, pings, and badges that compete for attention today are descendants of a friendlier, slower
+announcement that arrived only after a household negotiation and a modem song. The difference is that the
+old greeting felt like news from a person, while many new alerts feel like demands from a system. That
+contrast may be why the clip still circulates whenever the early internet is remembered. People are not only
+nostalgic for a voice. They are nostalgic for a time when hearing from the online world felt rare enough to
+celebrate, and simple enough to understand, three words at a time.
+
+Sources and references
+
+https://www.krps.org/2024-11-08/elwood-edwards-the-voice-behind-aols-famous-youve-got-mail-alert-has-died-at-74
+
+https://www.mentalfloss.com/technology/computers/aol-shutting-down-dial-up-internet
+
+https://acousticmd.com/aol-ends-dial-up-internet-service-after-more-than-three-decades/
+
+The Day Digital Design Let Go of Leather and Wood
+
+
+October 21, 2026
+
+SEO description: How leather stitching, wooden shelves and yellow legal pads gave way to flat color in 2013, and why
+designers still argue about what was lost.
+
+Open an early iPhone in your memory and the screen feels like a desk viewed from above. The Notes app
+is a yellow legal pad with ruled lines. The calendar looks like a page torn from a paper planner. A bookshelf
+made of polished wood holds your digital books, a stitched leather border frames your contacts, and a green
+felt table waits inside a games app as if a tiny casino had been folded into the phone. Nothing on that
+screen admits that it is made of light. Everything insists that it is made of something else. That style had a
+name that most users never heard until it was already disappearing, skeuomorphism, a long word for a
+simple idea. A digital object keeps the look of an older physical object so that people recognize what it is for.
+A trash can means delete because offices had trash cans. A floppy disk means save because saving once
+meant writing to a floppy disk. A notepad means notes because paper came first. Then, in a single update in
+2013, Apple scraped the leather, the felt, and the wood grain off its phones, and the icons stopped
+pretending.
+
+Why the First Phones Dressed Up as Desks
+The disguise was not foolishness. When the first iPhone launched in 2007, the touchscreen was the strange
+part. Most people had pressed physical buttons all their lives, and a smooth sheet of glass gave no hint
+about where to push or what would happen next. Making a button look raised, shiny, and pressable
+answered a question that new users had not yet learned to ask out loud. Making a calendar resemble a
+calendar meant no manual was required for the first lesson. Apple leaned into that comfort with unusual
+enthusiasm. Steve Jobs favored the approach, and Scott Forstall, the senior vice president in charge of iOS
+software, became its most visible champion inside the company. Textures grew richer with each release. By
+the time iOS 6 and OS X Mountain Lion arrived around 2012, commentators were pointing at stitched
+leather, linen backgrounds, and wooden shelves as evidence that the imitation had become a habit, and in
+some corners a joke. The software on a milled aluminum device of remarkable restraint was decorated like
+a station wagon from another decade. Other designers followed, as designers tended to follow Apple.
+Materials that had no reason to exist on a screen, glass reflections on icons for apps that contained no
+glass, pages that curled for readers who had never asked for curling pages, spread across phones and
+websites. A metaphor that began as a courtesy to beginners hardened into a fashion, and fashion, once
+everyone wears it, starts to look like a uniform.
+
+The Shakeup That Cleared the Desk
+The turn came from a change in people before it came as a change in pixels. Forstall left Apple in the
+management shakeup of late 2012, following the troubled launch of Apple Maps and long reported clashes
+with other executives. Design chief Jony Ive, who had shaped the hardware and favored spare, industrial
+minimalism, took responsibility for the human interface work as well, uniting how the device looked with how
+its software behaved. At the Worldwide Developers Conference on June 10, 2013, Apple unveiled iOS 7,
+and the audience saw the most sweeping visual redesign the iPhone had ever received. The wood, felt, and
+
+leather were gone. Icons were redrawn as flat shapes in bright color, type thinned down, buttons lost their
+heavy shading and became simple text or fine outlines, and translucent layers floated over content with a
+soft blur, giving depth through stacking rather than through fake materials. Ive said at the time that people
+had become comfortable touching glass and no longer needed the physical world referenced so literally, a
+remark that Apple Insider and others have returned to often in retellings of the period. Reaction split
+immediately. Admirers called the new look clean, modern, and honest, a screen that finally admitted it was a
+screen. Critics called the early version of iOS 7 harsh, unfinished, and confusing, pointing at thin type that
+was hard to read and icons that looked, to some eyes, like they had been drawn for children. Forbes
+declared the death of skeuomorphism, and across the industry the obituary doubled as a starting gun.
+Google moved toward its own Material Design language in 2014, Microsoft had already bet on flat tiles with
+Windows Phone and Windows 8, and app makers everywhere flattened their icons, palettes, and buttons in
+the months that followed.
+
+What Flat Design Gave, and What It Quietly Took
+
+The case for flat design was never only about taste. Simpler visual elements could be easier to adapt
+across screen sizes that multiplied every year, and calmer to look at on devices people now consulted
+hundreds of times a day. A leather texture that charmed on one phone size could look muddy on another. A
+simple shape held up. As phones became the main computer for most of the world, that kind of adaptability
+stopped being a preference and started being infrastructure. Something was traded away in the exchange,
+and the argument about that trade has never really ended. Critics of pure flatness noticed that when every
+button loses its shading and every surface loses its shadow, people can have trouble telling what can be
+tapped from what is merely decoration. Designers began smuggling depth back in, a soft shadow here, a
+raised card there, until the flat era quietly admitted that human eyes like clues. Later styles with names like
+neumorphism tried, with mixed success, to push soft, extruded shapes back onto the screen, proof that the
+pendulum had energy in both directions. There is also the matter of memory. The old icons carried a shared
+visual vocabulary built over a century of desks, offices, and kitchens. A generation that has never mailed a
+film roll or wound a cassette still recognizes the envelopes, cameras, and reels those icons borrowed, yet
+the borrowing grows stranger every year. The floppy disk survives as the universal symbol for saving files
+among people who have never held one, which suggests that a skeuomorph, once learned, can outlive the
+object it copied by decades. Flat design did not erase that inheritance. It froze parts of it in place, simplified
+into glyphs whose origins grow more mysterious with each new class of first graders handed a tablet.
+
+The Pendulum Never Really Stopped
+
+Look closely at a current phone and the great war of 2013 reads less like a victory than like a truce. Icons
+are flat in outline but shaded with gentle gradients. Cards float with real shadows. Apples recent design
+languages play with translucency and light in ways that would have surprised the strictest flat era purists,
+while stopping well short of stitching digital leather onto anything. The materials are imaginary now, glass
+and glow rather than wood and felt, but they are materials all the same. Screens keep inventing substances
+because people keep reading substance as meaning. That may be the real story underneath the style fight.
+Skeuomorphism belonged to a moment when the digital world needed a passport from the physical one.
+Flat design belonged to the moment after, when the digital world felt established enough to travel on its own
+papers. Neither moment ended the human habit of asking an unfamiliar thing to resemble a familiar one.
+
+The habit only changed its costume, from a wooden bookshelf to a floating pane of frosted glass, and it will
+change again when the next unfamiliar surface, perhaps one worn on the face or projected into a room,
+needs to teach strangers where to look and what to touch. The icons on a home screen look modest, but
+they record that whole negotiation in miniature. A yellow pad became a white rectangle with lines, then lines
+alone, each step trusting the user a little more and explaining itself a little less. Whether that trust reads as
+progress or as loss depends on where a person started. Someone who learned touchscreens through
+stitched leather remembers a kindness in it. Someone who arrived later sees only clutter that mercifully
+cleared. Both are looking at the same small squares, and both, in their own way, are right.
+
+Sources and references
+
+https://appleinsider.com/articles/22/08/23/what-apple-learned-from-skeuomorphism-and-why-it-still-matters?ref=blog.goosechase.
+com
+
+https://www.fastcompany.com/3016339/c_fit
+
+https://www.dezeen.com/2013/06/10/new-apple-ios-software-flat-design-jonathan-ive-wwdc/amp/
+
+https://techcrunch.com/2013/04/29/apples-jony-ive-said-to-be-bringing-the-flat-design-fad-to-ios-7-with-visual-overhaul/
+
+Before the Feed, the Comment Section Was the
+Conversation
+
+
+October 21, 2026
+
+SEO description: Long before feeds and followers, readers argued, joked and built reputations under articles. A look at the
+rise, fall and quiet return of comments.
+
+Scroll to the bottom of an old blog post that still allows replies and you can feel a familiar atmosphere in an
+unfamiliar place. Strangers are performing for each other. Regulars greet each other by username.
+Someone has arrived with a correction, someone else with a grudge, and a third person has written a reply
+longer and better sourced than the article above it. Likes, follows, pile ons, running jokes, reputations built
+one post at a time, all of it is there, humming along years before most of those readers had ever heard the
+phrase social media. Comment sections were among the places where the public web practiced large scale
+social conversation. Letters to the editor had always existed, but they moved at the speed of print, passed
+through an editors hands, and appeared days later, trimmed and tamed. A comment appeared in minutes,
+under your chosen name, in front of everyone. For readers who had grown up consuming media in silence,
+that small text box at the bottom of a page was a genuinely new civic experience, a chance to answer back
+in public and be answered in return.
+
+From Guest Books to the Bottom of Every Page
+The habits formed early. Personal sites in the 1990s kept guest books where visitors signed their names
+and left a line of praise or mischief. Forums and message boards gathered people around shared
+obsessions, from car repair to obscure bands, and taught the grammar that comment sections inherited,
+threaded replies, quoted passages, moderators with quiet power, and regulars whose posting history
+functioned as a biography. When blogs took off in the early 2000s, they carried that culture into publishing
+itself. A post was understood to be the start of a conversation, not the end of one, and a blogger with a lively
+comment thread had something no print columnist could buy, a room that stayed full after the author left it.
+News organizations arrived more cautiously and then all at once. Commenting promised engagement,
+return visits, and pages that kept growing after publication, and in an era when publishers were anxious
+about losing readers to the open web, a busy thread looked like loyalty made visible. Readers corrected
+errors, added local knowledge no reporter could have gathered alone, and sometimes argued a story into a
+better shape in public. Journalists who dove into their own threads, as Washington Post writer Chris Cillizza
+did on his political blog The Fix beginning in 2006, found devoted communities waiting there, at least at first.
+The same openness carried the seeds of the sections reputation. Anonymity, or the lighter shield of a
+pseudonym, lowered the cost of cruelty. Threads on hard stories attracted insults, conspiracy theories, and
+organized provocation. Research began to suggest that the damage was not confined to hurt feelings. A
+widely cited study led by Dominique Brossard and Dietram Scheufele at the University of Wisconsin
+Madison found that uncivil comments under a balanced article about nanotechnology polarized readers and
+shifted how they judged the risks described in the article itself. The conversation below the line, as British
+journalists came to call it, could quietly rewrite the story above it.
+
+The Years When Publishers Walked Away
+
+Popular Science made the break impossible to ignore. On September 24, 2013, the magazine announced
+that it would no longer accept comments on new articles, declaring plainly that comments can be bad for
+science. Online editor Suzanne LaBarre pointed to trolls and spambots, and to research showing that a
+fractious minority could skew a readers perception of solid reporting. A publication devoted to evidence had
+concluded that the evidence about its own comment section pointed in one direction, and it closed the door.
+Popular Science was early, but it was not alone for long. In a concentrated season of retreat, Reuters,
+Recode, Mic, The Week, and the Chicago Sun Times all shut or sharply reduced their comment sections in
+and around 2014, and many editors gave the same pair of reasons. Moderation consumed staff time and
+money that shrinking newsrooms believed belonged in reporting, and the conversation, they argued, had
+already moved. Readers were discussing stories on Facebook and Twitter, platforms that promised larger
+audiences and, at the time, an appealing story about someone else handling the ugliest parts of the job.
+NPR joined the departures on August 17, 2016, ending comments on its site after eight years and
+explaining that a tiny fraction of its audience produced the overwhelming bulk of its comments, with
+discussion thriving instead across its many social accounts. Gannett later closed comments across most of
+its local publications, describing sections that quickly devolve when left unmonitored. By one scholarly count
+cited in research on United States newspapers, at least 68 outlets closed comment sections between 2008
+and the early 2020s. A feature that had once been sold as the democratic future of media had become, in
+the language of managers, a reputational hazard and a cost center.
+
+What Was Lost in the Move to the Feed
+
+Handing the conversation to social platforms solved a staffing problem and created a subtler one. On a
+publishers own site, a comment lives beside the work it answers, and the community that forms there
+belongs, in some meaningful sense, to that publication and its readers. In a feed, the discussion scatters. It
+is sorted by systems built to reward heat, detached from the article within hours, and addressed to followers
+rather than to fellow readers who arrived by the same road. Writers kept the insults, since feeds supplied
+plenty, and lost the regulars, the corrections desk that never slept, and the quiet reader who only ever spoke
+in that one room. Former defenders of the sections have been candid about the trade. Comment threads, at
+their best, taught writers things, surfaced errors that editors missed, and gave a publication a public that
+talked back in its own accent rather than in the flattened tone of a platform. At their worst, they mirrored
+everything people dislike about feeds, the baiting, the monologues, the handful of voices dominating every
+subject. The honest history holds both. The comment section was not a golden age ruined by a few bad
+actors. It was the original laboratory where the internet learned, in public, how hard it is for strangers to talk
+well at scale, and every social platform since has rerun those experiments with bigger budgets and similar
+results. The closures also revealed something about how media companies understood their readers. A
+comment section treats the audience as participants in a shared place. A feed treats the audience as
+distribution. Walking away from the first in favor of the second made a certain business sense in the middle
+of the 2010s, when social traffic looked endless, but it rested on rented ground, and publishers learned in
+later years how quickly a platform can change its terms, its algorithm, or its appetite for news.
+
+The Quiet Return, Behind a Paywall
+The most interesting recent chapter is not a restoration but a reinvention. In late 2024, The Washington Post
+relaunched commenting for subscribers with promises of meaningful, high quality discourse. Wired
+
+presented a new commenting experience as part of its subscription offering, a place where readers could
+connect with writers. The Financial Times has invested in automated moderation that nudges discussions
+toward substance and draws in readers who rarely comment. In this new model, the comment section is no
+longer a free town square bolted onto the bottom of an article. It is a members room, part of what a
+subscription buys, moderated with better tools and, crucially, with a business reason to keep it civil and
+alive. That shift would have puzzled the bloggers of 2004, for whom openness was the entire point. Yet it
+also concedes what the closure era tried to deny, that readers value talking where they read, and that a well
+kept conversation is worth paying to maintain. The technology of moderation has changed too. Automated
+systems that once strained to catch crude profanity now sort tone, flag bad faith patterns, and surface
+strong comments that human moderators might never have reached in time. Whether the members room
+version can recover the democratic messiness that made the original sections matter is an open argument,
+and it is a fitting one. The comment section began as the webs first experiment in giving readers a
+microphone, grew into a burden publishers were relieved to surrender, and returned as a product feature
+once its absence started costing loyalty. Through every phase, the underlying desire never moved. People
+finish reading something that moved them, angered them, or taught them something, and they want to say
+so to other people who just read the same words. Platforms rise and collapse around that desire. The small
+text box at the bottom of the page was simply the first place it found a home.
+
+Sources and references
+
+https://www.popsci.com/science/article/2013-09/why-were-shutting-our-comments/?wzjL2ZI1WFMKBxMK_01
+
+https://www.poynter.org/tech-tools/2016/npr-joins-tide-of-publishers-getting-rid-of-comments/
+
+https://digiday.com/media/4-publishers-killed-comment-sections-2014/
+
+https://newpublic.substack.com/p/why-newsrooms-are-taking-comments

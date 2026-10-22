@@ -1,0 +1,52 @@
+[
+  {
+    "url": "https://www.krps.org/2024-11-08/elwood-edwards-the-voice-behind-aols-famous-youve-got-mail-alert-has-died-at-74",
+    "status": 200,
+    "destination": "https://www.krps.org/2024-11-08/elwood-edwards-the-voice-behind-aols-famous-youve-got-mail-alert-has-died-at-74"
+  },
+  {
+    "url": "https://www.mentalfloss.com/technology/computers/aol-shutting-down-dial-up-internet",
+    "status": 200,
+    "destination": "https://www.mentalfloss.com/technology/computers/aol-shutting-down-dial-up-internet"
+  },
+  {
+    "url": "https://acousticmd.com/aol-ends-dial-up-internet-service-after-more-than-three-decades/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://appleinsider.com/articles/22/08/23/what-apple-learned-from-skeuomorphism-and-why-it-still-matters?ref=blog.goosechase.com",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.fastcompany.com/3016339/c_fit",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.dezeen.com/2013/06/10/new-apple-ios-software-flat-design-jonathan-ive-wwdc/amp/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://techcrunch.com/2013/04/29/apples-jony-ive-said-to-be-bringing-the-flat-design-fad-to-ios-7-with-visual-overhaul/",
+    "status": 200,
+    "destination": "https://techcrunch.com/2013/04/29/apples-jony-ive-said-to-be-bringing-the-flat-design-fad-to-ios-7-with-visual-overhaul/"
+  },
+  {
+    "url": "https://www.popsci.com/science/article/2013-09/why-were-shutting-our-comments/?wzjL2ZI1WFMKBxMK_01",
+    "status": 200,
+    "destination": "https://www.popsci.com/science/article/2013-09/why-were-shutting-our-comments/?wzjL2ZI1WFMKBxMK_01"
+  },
+  {
+    "url": "https://www.poynter.org/tech-tools/2016/npr-joins-tide-of-publishers-getting-rid-of-comments/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://digiday.com/media/4-publishers-killed-comment-sections-2014/",
+    "status": 200,
+    "destination": "https://digiday.com/media/4-publishers-killed-comment-sections-2014/"
+  },
+  {
+    "url": "https://newpublic.substack.com/p/why-newsrooms-are-taking-comments",
+    "status": 200,
+    "destination": "https://newpublic.substack.com/p/why-newsrooms-are-taking-comments"
+  }
+]

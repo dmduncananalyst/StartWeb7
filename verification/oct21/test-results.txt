@@ -1,0 +1,10 @@
+PASS 390px: the-aol-greeting-that-made-the-internet-feel-personal.html, exact paragraphs and headings, SEO, sources, local links, featured image, no horizontal overflow
+PASS 390px: the-day-digital-design-let-go-of-leather-and-wood.html, exact paragraphs and headings, SEO, sources, local links, featured image, no horizontal overflow
+PASS 390px: before-the-feed-the-comment-section-was-the-conversation.html, exact paragraphs and headings, SEO, sources, local links, featured image, no horizontal overflow
+PASS 768px: the-aol-greeting-that-made-the-internet-feel-personal.html, exact paragraphs and headings, SEO, sources, local links, featured image, no horizontal overflow
+PASS 768px: the-day-digital-design-let-go-of-leather-and-wood.html, exact paragraphs and headings, SEO, sources, local links, featured image, no horizontal overflow
+PASS 768px: before-the-feed-the-comment-section-was-the-conversation.html, exact paragraphs and headings, SEO, sources, local links, featured image, no horizontal overflow
+PASS 1440px: the-aol-greeting-that-made-the-internet-feel-personal.html, exact paragraphs and headings, SEO, sources, local links, featured image, no horizontal overflow
+PASS 1440px: the-day-digital-design-let-go-of-leather-and-wood.html, exact paragraphs and headings, SEO, sources, local links, featured image, no horizontal overflow
+PASS 1440px: before-the-feed-the-comment-section-was-the-conversation.html, exact paragraphs and headings, SEO, sources, local links, featured image, no horizontal overflow
+PASS: three byte-identical original images, unique archive cards and sitemap URLs; browser external requests blocked, no analytics or paid services called.

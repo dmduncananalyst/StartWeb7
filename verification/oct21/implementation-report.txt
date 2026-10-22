@@ -1,0 +1,26 @@
+October 21 approved blogs, local implementation report
+
+All 10 PDF pages and all three attached images reviewed before implementation.
+Three English articles dated October 21, 2026 implemented with complete supplied prose, original paragraph boundaries, all headings, and all source URLs. Article titles serve as SEO titles because no separate SEO titles were supplied. PDF page breaks and wrapped URLs were joined.
+
+The AOL Greeting That Made the Internet Feel Personal
+Local page: the-aol-greeting-that-made-the-internet-feel-personal.html
+Photo: assets/blog/Dial-Up Dreams in a Cozy Bedroom.png
+
+The Day Digital Design Let Go of Leather and Wood
+Local page: the-day-digital-design-let-go-of-leather-and-wood.html
+Photo: assets/blog/Skeuomorphic to Modern iPhone Evolution.png
+
+Before the Feed, the Comment Section Was the Conversation
+Local page: before-the-feed-the-comment-section-was-the-conversation.html
+Photo: assets/blog/Nostalgic LA Sunset Blog Desk.png
+
+No missing or unapproved photos. Original filenames and image bytes preserved. Each photo appears on its own archive card and article. Preview images fill the existing card frames using object-fit:cover, with no strips. Original image files and full article featured images are preserved.
+
+SEO: approved descriptions, article title tags, canonical URLs, social metadata, descriptive alt text, one H1 with H2 sections, BlogPosting JSON-LD, contextual internal links. Archive cards and archive JSON-LD updated. sitemap.xml includes each article once and updates the archive date. Existing template, navigation and shared integrations retained. Translation workflow inspected; no translations or paid services invoked.
+
+Validation: browser checks at 390, 768 and 1440 pixels, exact article sections against extracted PDF, source hrefs, local resources, metadata, schema, card navigation, image loading and proportions, no horizontal overflow. SHA-256 checks confirm original image copies. XML sitemap parsed. Screenshots and detailed results are in this directory.
+
+External source availability: 6 URLs responded HTTP 200. Five returned HTTP 403: Acoustic MD, AppleInsider, Fast Company, Dezeen and Poynter. These approved URLs remain unchanged and clickable. HTTP 403 prevents confirming their content availability through the automated checker; it does not establish that the links are broken. See source-link-results.json.
+
+All work remains local. No commit, push, publish, deployment, translation request, or live website modification occurred. Browser testing blocked external requests so analytics and integrations were not invoked; external integrations were not end-to-end tested.
