@@ -26,3 +26,22 @@
 /debug.log
 /test-results/
 /playwright-report/
+
+# Local browser testing, authentication snapshots, and disposable build output.
+/.local-test-output/
+/.test-build/
+/blob-report/
+/playwright/.auth/
+/.auth/
+**/chrome-profile*/
+**/chromium-profile*/
+**/puppeteer-profile*/
+*.pyc
+*.pyo
+/npm-debug.log*
+.env
+.env.*
+!.env.example
+!.env.template
+/credentials.json
+/service-account*.json
