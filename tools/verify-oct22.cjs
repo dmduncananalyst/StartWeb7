@@ -5,7 +5,7 @@ class LocalWebSocket {
  send(s){const data=Buffer.from(s),mask=require('crypto').randomBytes(4);let head;if(data.length<126){head=Buffer.from([129,128|data.length]);}else if(data.length<65536){head=Buffer.alloc(4);head[0]=129;head[1]=254;head.writeUInt16BE(data.length,2);}else{head=Buffer.alloc(10);head[0]=129;head[1]=255;head.writeBigUInt64BE(BigInt(data.length),2);}const body=Buffer.from(data);for(let i=0;i<body.length;i++)body[i]^=mask[i%4];this.socket.write(Buffer.concat([head,mask,body]));}
  close(){this.socket.destroy();}
 }
-const chrome=spawn('C:/Program Files/Google/Chrome/Application/chrome.exe',['--headless=new','--disable-gpu','--no-sandbox','--no-first-run','--no-default-browser-check','--remote-debugging-port=0','--user-data-dir='+path.join(out,'chrome-profile-'+Date.now()),'about:blank'],{windowsHide:true});
+const chrome=spawn('C:/Program Files/Google/Chrome/Application/chrome.exe',['--headless=new','--disable-gpu','--no-sandbox','--no-first-run','--no-default-browser-check','--remote-debugging-port=0','--user-data-dir='+fs.mkdtempSync(path.join(require('os').tmpdir(),'StartWeb7-chrome-profile-')),'about:blank'],{windowsHide:true});
 let logs='';chrome.stderr.on('data',d=>logs+=d.toString());
 const delay=n=>new Promise(r=>setTimeout(r,n));
 let ws,id=0;const pending=new Map();
