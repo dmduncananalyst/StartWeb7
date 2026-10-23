@@ -1,0 +1,157 @@
+[
+  {
+    "file": "index.html",
+    "width": 390,
+    "title": "Website Design, SEO + AEO Services | StartWeb7",
+    "h1": [
+      "SEARCHCLICKLEADCUSTOMER"
+    ],
+    "meta": "Website design and SEO + AEO management built to help businesses turn searches into clicks, leads, and customers.",
+    "canonical": "https://startweb7.com/",
+    "blocks": [],
+    "overflow": false,
+    "bodyWidth": 390,
+    "images": [
+      {
+        "src": "assets/industries/interior-design-card.webp",
+        "ok": true
+      },
+      {
+        "src": "assets/industries/interior-design-card.webp",
+        "ok": true
+      }
+    ],
+    "cards": [
+      {
+        "text": "Interior Design\n\nA distinctive online presence for studios creating remarkable residential and commercial spaces.\n\nView More",
+        "w": 327.59375,
+        "h": 218.390625
+      }
+    ],
+    "nav": true,
+    "chat": true,
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://startweb7.com/#organization",
+            "name": "StartWeb7",
+            "url": "https://startweb7.com/",
+            "email": "desirae@startweb7.com",
+            "telephone": "+1-818-934-0444",
+            "areaServed": "US",
+            "logo": "https://startweb7.com/startweb7-logo.png"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://startweb7.com/#website",
+            "url": "https://startweb7.com/",
+            "name": "StartWeb7",
+            "publisher": {
+              "@id": "https://startweb7.com/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://startweb7.com/#page",
+            "url": "https://startweb7.com/",
+            "name": "Website Design, SEO + AEO Services | StartWeb7",
+            "description": "Website design and SEO + AEO management built to help businesses turn searches into clicks, leads, and customers.",
+            "isPartOf": {
+              "@id": "https://startweb7.com/#website"
+            },
+            "about": {
+              "@id": "https://startweb7.com/#organization"
+            },
+            "provider": {
+              "@id": "https://startweb7.com/#organization"
+            },
+            "areaServed": "US"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Why is my business not getting leads from Google?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Your business may not be appearing for the searches customers use, or your website may not give visitors a clear reason and way to contact you."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does a website actually help a business get customers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. A well-built website explains what you offer, builds trust, answers questions, and gives customers a clear way to contact you."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I get leads from Google without running ads?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. SEO focuses on building your ability to appear in relevant unpaid search results over time."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between SEO and Google Ads?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Google Ads are paid placements. SEO improves your ability to appear in relevant unpaid search results."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is AEO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AEO means making your website easier for search engines and AI tools to understand when people ask service-related questions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I show up when someone searches for my service near me?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Your website and business information need to clearly show what you offer, where you serve, and why your business is relevant to that search."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can AI search recommend my business?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AI search can surface businesses it considers relevant when your services, location, and information are clear and helpful."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does SEO take to work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SEO builds over time. Early improvements can happen in the first few months, while stronger momentum develops as the work continues."
+            }
+          }
+        ]
+      }
+    ],
+    "hero": {
+      "x": 16,
+      "y": 118,
+      "width": 358,
+      "height": 168.4375,
+      "top": 118,
+      "right": 374,
+      "bottom": 286.4375,
+      "left": 16
+    }
+  }
+]

@@ -1,0 +1,552 @@
+[
+  {
+    "width": 300,
+    "height": 598,
+    "paper": {
+      "card": {
+        "x": 20,
+        "y": 3650.140625,
+        "width": 126.5,
+        "height": 147.1875,
+        "top": 3650.140625,
+        "right": 146.5,
+        "bottom": 3797.328125,
+        "left": 20
+      },
+      "picture": {
+        "x": 20,
+        "y": 3650.140625,
+        "width": 126.5,
+        "height": 60.1875,
+        "top": 3650.140625,
+        "right": 146.5,
+        "bottom": 3710.328125,
+        "left": 20
+      },
+      "image": {
+        "x": 20,
+        "y": 3650.140625,
+        "width": 126.5,
+        "height": 60.1875,
+        "top": 3650.140625,
+        "right": 146.5,
+        "bottom": 3710.328125,
+        "left": 20
+      },
+      "overlay": {
+        "x": 20,
+        "y": 3710.328125,
+        "width": 126.5,
+        "height": 87,
+        "top": 3710.328125,
+        "right": 146.5,
+        "bottom": 3797.328125,
+        "left": 20
+      },
+      "native": [
+        1860,
+        885
+      ]
+    },
+    "frames": [
+      {
+        "file": "catering.html",
+        "frame": {
+          "x": 15,
+          "y": 568.75,
+          "width": 270,
+          "height": 151.875,
+          "top": 568.75,
+          "right": 285,
+          "bottom": 720.625,
+          "left": 15
+        },
+        "media": {
+          "x": 15,
+          "y": 568.75,
+          "width": 270,
+          "height": 151.875,
+          "top": 568.75,
+          "right": 285,
+          "bottom": 720.625,
+          "left": 15
+        },
+        "native": [
+          1280,
+          720
+        ],
+        "ready": 4,
+        "src": "file:///C:/Users/Owner/OneDrive/Documents/GitHub/StartWeb7/assets/catering-hero-landscape.mp4?v=wide-frame-20261022"
+      },
+      {
+        "file": "landing-page.html",
+        "frame": {
+          "x": 15,
+          "y": 525.5,
+          "width": 270,
+          "height": 151.875,
+          "top": 525.5,
+          "right": 285,
+          "bottom": 677.375,
+          "left": 15
+        },
+        "media": {
+          "x": 15,
+          "y": 525.5,
+          "width": 270,
+          "height": 151.875,
+          "top": 525.5,
+          "right": 285,
+          "bottom": 677.375,
+          "left": 15
+        },
+        "native": [
+          1280,
+          720
+        ],
+        "ready": 4,
+        "src": "file:///C:/Users/Owner/OneDrive/Documents/GitHub/StartWeb7/assets/landing-page-hero-video.mp4"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "paper": {
+      "card": {
+        "x": 20,
+        "y": 3881.078125,
+        "width": 171.5,
+        "height": 160.59375,
+        "top": 3881.078125,
+        "right": 191.5,
+        "bottom": 4041.671875,
+        "left": 20
+      },
+      "picture": {
+        "x": 20,
+        "y": 3881.078125,
+        "width": 171.5,
+        "height": 81.59375,
+        "top": 3881.078125,
+        "right": 191.5,
+        "bottom": 3962.671875,
+        "left": 20
+      },
+      "image": {
+        "x": 20,
+        "y": 3881.078125,
+        "width": 171.5,
+        "height": 81.59375,
+        "top": 3881.078125,
+        "right": 191.5,
+        "bottom": 3962.671875,
+        "left": 20
+      },
+      "overlay": {
+        "x": 20,
+        "y": 3962.671875,
+        "width": 171.5,
+        "height": 79,
+        "top": 3962.671875,
+        "right": 191.5,
+        "bottom": 4041.671875,
+        "left": 20
+      },
+      "native": [
+        1860,
+        885
+      ]
+    },
+    "frames": [
+      {
+        "file": "catering.html",
+        "frame": {
+          "x": 19.5,
+          "y": 568.75,
+          "width": 351,
+          "height": 197.4375,
+          "top": 568.75,
+          "right": 370.5,
+          "bottom": 766.1875,
+          "left": 19.5
+        },
+        "media": {
+          "x": 19.5,
+          "y": 568.75,
+          "width": 351,
+          "height": 197.4375,
+          "top": 568.75,
+          "right": 370.5,
+          "bottom": 766.1875,
+          "left": 19.5
+        },
+        "native": [
+          1280,
+          720
+        ],
+        "ready": 4,
+        "src": "file:///C:/Users/Owner/OneDrive/Documents/GitHub/StartWeb7/assets/catering-hero-landscape.mp4?v=wide-frame-20261022"
+      },
+      {
+        "file": "landing-page.html",
+        "frame": {
+          "x": 19.5,
+          "y": 495.5,
+          "width": 351,
+          "height": 197.4375,
+          "top": 495.5,
+          "right": 370.5,
+          "bottom": 692.9375,
+          "left": 19.5
+        },
+        "media": {
+          "x": 19.5,
+          "y": 495.5,
+          "width": 351,
+          "height": 197.4375,
+          "top": 495.5,
+          "right": 370.5,
+          "bottom": 692.9375,
+          "left": 19.5
+        },
+        "native": [
+          1280,
+          720
+        ],
+        "ready": 4,
+        "src": "file:///C:/Users/Owner/OneDrive/Documents/GitHub/StartWeb7/assets/landing-page-hero-video.mp4"
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "paper": {
+      "card": {
+        "x": 24,
+        "y": 5257.59375,
+        "width": 356.5,
+        "height": 248.625,
+        "top": 5257.59375,
+        "right": 380.5,
+        "bottom": 5506.21875,
+        "left": 24
+      },
+      "picture": {
+        "x": 24,
+        "y": 5257.59375,
+        "width": 356.5,
+        "height": 169.625,
+        "top": 5257.59375,
+        "right": 380.5,
+        "bottom": 5427.21875,
+        "left": 24
+      },
+      "image": {
+        "x": 24,
+        "y": 5257.59375,
+        "width": 356.5,
+        "height": 169.625,
+        "top": 5257.59375,
+        "right": 380.5,
+        "bottom": 5427.21875,
+        "left": 24
+      },
+      "overlay": {
+        "x": 24,
+        "y": 5427.21875,
+        "width": 356.5,
+        "height": 79,
+        "top": 5427.21875,
+        "right": 380.5,
+        "bottom": 5506.21875,
+        "left": 24
+      },
+      "native": [
+        1860,
+        885
+      ]
+    },
+    "frames": [
+      {
+        "file": "catering.html",
+        "frame": {
+          "x": 38.390625,
+          "y": 515.75,
+          "width": 691.21875,
+          "height": 388.796875,
+          "top": 515.75,
+          "right": 729.609375,
+          "bottom": 904.546875,
+          "left": 38.390625
+        },
+        "media": {
+          "x": 38.390625,
+          "y": 515.75,
+          "width": 691.21875,
+          "height": 388.796875,
+          "top": 515.75,
+          "right": 729.609375,
+          "bottom": 904.546875,
+          "left": 38.390625
+        },
+        "native": [
+          1280,
+          720
+        ],
+        "ready": 4,
+        "src": "file:///C:/Users/Owner/OneDrive/Documents/GitHub/StartWeb7/assets/catering-hero-landscape.mp4?v=wide-frame-20261022"
+      },
+      {
+        "file": "landing-page.html",
+        "frame": {
+          "x": 38.390625,
+          "y": 418.5,
+          "width": 691.21875,
+          "height": 388.796875,
+          "top": 418.5,
+          "right": 729.609375,
+          "bottom": 807.296875,
+          "left": 38.390625
+        },
+        "media": {
+          "x": 38.390625,
+          "y": 418.5,
+          "width": 691.21875,
+          "height": 388.796875,
+          "top": 418.5,
+          "right": 729.609375,
+          "bottom": 807.296875,
+          "left": 38.390625
+        },
+        "native": [
+          1280,
+          720
+        ],
+        "ready": 4,
+        "src": "file:///C:/Users/Owner/OneDrive/Documents/GitHub/StartWeb7/assets/landing-page-hero-video.mp4"
+      }
+    ]
+  },
+  {
+    "width": 1207,
+    "height": 531,
+    "paper": {
+      "card": {
+        "x": 24,
+        "y": 2744.59375,
+        "width": 372,
+        "height": 191,
+        "top": 2744.59375,
+        "right": 396,
+        "bottom": 2935.59375,
+        "left": 24
+      },
+      "picture": {
+        "x": 24,
+        "y": 2744.59375,
+        "width": 372,
+        "height": 177,
+        "top": 2744.59375,
+        "right": 396,
+        "bottom": 2921.59375,
+        "left": 24
+      },
+      "image": {
+        "x": 24,
+        "y": 2744.59375,
+        "width": 372,
+        "height": 177,
+        "top": 2744.59375,
+        "right": 396,
+        "bottom": 2921.59375,
+        "left": 24
+      },
+      "overlay": {
+        "x": 24,
+        "y": 2921.59375,
+        "width": 372,
+        "height": 14,
+        "top": 2921.59375,
+        "right": 396,
+        "bottom": 2935.59375,
+        "left": 24
+      },
+      "native": [
+        1860,
+        885
+      ]
+    },
+    "frames": [
+      {
+        "file": "catering.html",
+        "frame": {
+          "x": 554.921875,
+          "y": 171.546875,
+          "width": 589.40625,
+          "height": 331.53125,
+          "top": 171.546875,
+          "right": 1144.328125,
+          "bottom": 503.078125,
+          "left": 554.921875
+        },
+        "media": {
+          "x": 554.921875,
+          "y": 171.546875,
+          "width": 589.40625,
+          "height": 331.53125,
+          "top": 171.546875,
+          "right": 1144.328125,
+          "bottom": 503.078125,
+          "left": 554.921875
+        },
+        "native": [
+          1280,
+          720
+        ],
+        "ready": 4,
+        "src": "file:///C:/Users/Owner/OneDrive/Documents/GitHub/StartWeb7/assets/catering-hero-landscape.mp4?v=wide-frame-20261022"
+      },
+      {
+        "file": "landing-page.html",
+        "frame": {
+          "x": 554.921875,
+          "y": 171.234375,
+          "width": 589.40625,
+          "height": 331.53125,
+          "top": 171.234375,
+          "right": 1144.328125,
+          "bottom": 502.765625,
+          "left": 554.921875
+        },
+        "media": {
+          "x": 554.921875,
+          "y": 171.234375,
+          "width": 589.40625,
+          "height": 331.53125,
+          "top": 171.234375,
+          "right": 1144.328125,
+          "bottom": 502.765625,
+          "left": 554.921875
+        },
+        "native": [
+          1280,
+          720
+        ],
+        "ready": 4,
+        "src": "file:///C:/Users/Owner/OneDrive/Documents/GitHub/StartWeb7/assets/landing-page-hero-video.mp4"
+      }
+    ]
+  },
+  {
+    "width": 1810,
+    "height": 796,
+    "paper": {
+      "card": {
+        "x": 277.5,
+        "y": 3096.421875,
+        "width": 404,
+        "height": 206.21875,
+        "top": 3096.421875,
+        "right": 681.5,
+        "bottom": 3302.640625,
+        "left": 277.5
+      },
+      "picture": {
+        "x": 277.5,
+        "y": 3096.421875,
+        "width": 404,
+        "height": 192.21875,
+        "top": 3096.421875,
+        "right": 681.5,
+        "bottom": 3288.640625,
+        "left": 277.5
+      },
+      "image": {
+        "x": 277.5,
+        "y": 3096.421875,
+        "width": 404,
+        "height": 192.21875,
+        "top": 3096.421875,
+        "right": 681.5,
+        "bottom": 3288.640625,
+        "left": 277.5
+      },
+      "overlay": {
+        "x": 277.5,
+        "y": 3288.640625,
+        "width": 404,
+        "height": 14,
+        "top": 3288.640625,
+        "right": 681.5,
+        "bottom": 3302.640625,
+        "left": 277.5
+      },
+      "native": [
+        1860,
+        885
+      ]
+    },
+    "frames": [
+      {
+        "file": "catering.html",
+        "frame": {
+          "x": 834.640625,
+          "y": 225.59375,
+          "width": 888.5625,
+          "height": 499.8125,
+          "top": 225.59375,
+          "right": 1723.203125,
+          "bottom": 725.40625,
+          "left": 834.640625
+        },
+        "media": {
+          "x": 834.640625,
+          "y": 225.59375,
+          "width": 888.5625,
+          "height": 499.8125,
+          "top": 225.59375,
+          "right": 1723.203125,
+          "bottom": 725.40625,
+          "left": 834.640625
+        },
+        "native": [
+          1280,
+          720
+        ],
+        "ready": 4,
+        "src": "file:///C:/Users/Owner/OneDrive/Documents/GitHub/StartWeb7/assets/catering-hero-landscape.mp4?v=wide-frame-20261022"
+      },
+      {
+        "file": "landing-page.html",
+        "frame": {
+          "x": 834.640625,
+          "y": 225.59375,
+          "width": 888.5625,
+          "height": 499.8125,
+          "top": 225.59375,
+          "right": 1723.203125,
+          "bottom": 725.40625,
+          "left": 834.640625
+        },
+        "media": {
+          "x": 834.640625,
+          "y": 225.59375,
+          "width": 888.5625,
+          "height": 499.8125,
+          "top": 225.59375,
+          "right": 1723.203125,
+          "bottom": 725.40625,
+          "left": 834.640625
+        },
+        "native": [
+          1280,
+          720
+        ],
+        "ready": 4,
+        "src": "file:///C:/Users/Owner/OneDrive/Documents/GitHub/StartWeb7/assets/landing-page-hero-video.mp4"
+      }
+    ]
+  }
+]

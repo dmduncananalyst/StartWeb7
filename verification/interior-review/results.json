@@ -1,0 +1,155 @@
+[
+  {
+    "file": "index.html",
+    "width": 390,
+    "overflow": false,
+    "cardText": "INTERIOR DESIGN\nView More",
+    "cardParagraphs": 0,
+    "cardSize": {
+      "w": 327.59375,
+      "h": 218.390625,
+      "pw": 327.59375,
+      "ph": 218.390625
+    },
+    "gap": 30,
+    "buttons": [
+      "Grow Your Business"
+    ],
+    "photo": "assets/industries/interior-design-card-v2.webp",
+    "navIcon": "--sw7-menu-art:url('assets/industries/interior-design-icon-v2.png')"
+  },
+  {
+    "file": "industries.html",
+    "width": 390,
+    "overflow": false,
+    "cardText": "INTERIOR DESIGN\nVIEW INDUSTRY",
+    "cardParagraphs": 0,
+    "cardSize": {
+      "w": 350,
+      "h": 260,
+      "pw": 350,
+      "ph": 260
+    },
+    "gap": null,
+    "buttons": [
+      "Grow Your Business"
+    ],
+    "photo": "url('assets/industries/interior-design-directory-v2.webp')",
+    "navIcon": "--sw7-menu-art:url('assets/industries/interior-design-icon-v2.png')"
+  },
+  {
+    "file": "interior-design.html",
+    "width": 390,
+    "overflow": false,
+    "cardSize": null,
+    "gap": null,
+    "buttons": [
+      "Get More Clients",
+      "Get More Clients"
+    ],
+    "photo": "assets/industries/interior-design-feature-v2.webp",
+    "navIcon": "--sw7-menu-art:url('assets/industries/interior-design-icon-v2.png')"
+  },
+  {
+    "file": "index.html",
+    "width": 768,
+    "overflow": false,
+    "cardText": "INTERIOR DESIGN\nView More",
+    "cardParagraphs": 0,
+    "cardSize": {
+      "w": 225,
+      "h": 150,
+      "pw": 225,
+      "ph": 150
+    },
+    "gap": 30,
+    "buttons": [
+      "Grow Your Business"
+    ],
+    "photo": "assets/industries/interior-design-card-v2.webp",
+    "navIcon": "--sw7-menu-art:url('assets/industries/interior-design-icon-v2.png')"
+  },
+  {
+    "file": "industries.html",
+    "width": 768,
+    "overflow": false,
+    "cardText": "INTERIOR DESIGN\nVIEW INDUSTRY",
+    "cardParagraphs": 0,
+    "cardSize": {
+      "w": 343.5,
+      "h": 330,
+      "pw": 343.5,
+      "ph": 330
+    },
+    "gap": null,
+    "buttons": [
+      "Grow Your Business"
+    ],
+    "photo": "url('assets/industries/interior-design-directory-v2.webp')",
+    "navIcon": "--sw7-menu-art:url('assets/industries/interior-design-icon-v2.png')"
+  },
+  {
+    "file": "interior-design.html",
+    "width": 768,
+    "overflow": false,
+    "cardSize": null,
+    "gap": null,
+    "buttons": [
+      "Get More Clients",
+      "Get More Clients"
+    ],
+    "photo": "assets/industries/interior-design-feature-v2.webp",
+    "navIcon": "--sw7-menu-art:url('assets/industries/interior-design-icon-v2.png')"
+  },
+  {
+    "file": "index.html",
+    "width": 1920,
+    "overflow": false,
+    "cardText": "INTERIOR DESIGN\nView More",
+    "cardParagraphs": 0,
+    "cardSize": {
+      "w": 298.75,
+      "h": 199.15625,
+      "pw": 298.75,
+      "ph": 199.15625
+    },
+    "gap": 30,
+    "buttons": [
+      "Grow Your Business"
+    ],
+    "photo": "assets/industries/interior-design-card-v2.webp",
+    "navIcon": "--sw7-menu-art:url('assets/industries/interior-design-icon-v2.png')"
+  },
+  {
+    "file": "industries.html",
+    "width": 1920,
+    "overflow": false,
+    "cardText": "INTERIOR DESIGN\nVIEW INDUSTRY",
+    "cardParagraphs": 0,
+    "cardSize": {
+      "w": 401.328125,
+      "h": 330,
+      "pw": 401.34375,
+      "ph": 330
+    },
+    "gap": null,
+    "buttons": [
+      "Grow Your Business"
+    ],
+    "photo": "url('assets/industries/interior-design-directory-v2.webp')",
+    "navIcon": "--sw7-menu-art:url('assets/industries/interior-design-icon-v2.png')"
+  },
+  {
+    "file": "interior-design.html",
+    "width": 1920,
+    "overflow": false,
+    "cardSize": null,
+    "gap": null,
+    "buttons": [
+      "Get More Clients",
+      "Get More Clients"
+    ],
+    "photo": "assets/industries/interior-design-feature-v2.webp",
+    "navIcon": "--sw7-menu-art:url('assets/industries/interior-design-icon-v2.png')"
+  }
+]

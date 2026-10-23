@@ -1,0 +1,2170 @@
+[
+  {
+    "file": "real-estate-agents.html",
+    "width": 1810,
+    "height": 796,
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 641,
+      "top": 155,
+      "right": 1795,
+      "bottom": 796,
+      "left": 0
+    },
+    "title": "REAL ESTATE",
+    "h1Count": 1,
+    "parts": [
+      {
+        "tag": "IMG",
+        "text": "",
+        "box": {
+          "x": 71.796875,
+          "y": 328.5625,
+          "width": 86,
+          "height": 66,
+          "top": 328.5625,
+          "right": 157.796875,
+          "bottom": 394.5625,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "H1",
+        "text": "REAL ESTATE",
+        "box": {
+          "x": 71.796875,
+          "y": 414.5625,
+          "width": 382.875,
+          "height": 56.6875,
+          "top": 414.5625,
+          "right": 454.671875,
+          "bottom": 471.25,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "P",
+        "text": "Bring buyers and sellers to your real estate services through Google and AI discovery.",
+        "box": {
+          "x": 71.796875,
+          "y": 491.25,
+          "width": 632.3125,
+          "height": 60,
+          "top": 491.25,
+          "right": 704.109375,
+          "bottom": 551.25,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "A",
+        "text": "Get More Clients",
+        "box": {
+          "x": 71.796875,
+          "y": 575.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 575.25,
+          "right": 381.953125,
+          "bottom": 622.4375,
+          "left": 71.796875
+        },
+        "display": "flex"
+      },
+      {
+        "tag": "A",
+        "text": "Get Your Instant Audit",
+        "box": {
+          "x": 393.953125,
+          "y": 575.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 575.25,
+          "right": 704.109375,
+          "bottom": 622.4375,
+          "left": 393.953125
+        },
+        "display": "flex"
+      }
+    ],
+    "visual": {
+      "x": 756.109375,
+      "y": 179,
+      "width": 967.078125,
+      "height": 593,
+      "top": 179,
+      "right": 1723.1875,
+      "bottom": 772,
+      "left": 756.109375
+    },
+    "media": {
+      "box": {
+        "x": 756.109375,
+        "y": 203.515625,
+        "width": 967.078125,
+        "height": 543.96875,
+        "top": 203.515625,
+        "right": 1723.1875,
+        "bottom": 747.484375,
+        "left": 756.109375
+      },
+      "fit": "contain",
+      "w": 1920,
+      "h": 1080
+    },
+    "demo": null,
+    "overflow": false,
+    "actions": 2,
+    "below": 0
+  },
+  {
+    "file": "collision-repair.html",
+    "width": 1810,
+    "height": 796,
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 641,
+      "top": 155,
+      "right": 1795,
+      "bottom": 796,
+      "left": 0
+    },
+    "title": "COLLISION REPAIR",
+    "h1Count": 1,
+    "parts": [
+      {
+        "tag": "IMG",
+        "text": "",
+        "box": {
+          "x": 71.796875,
+          "y": 328.5625,
+          "width": 86,
+          "height": 66,
+          "top": 328.5625,
+          "right": 157.796875,
+          "bottom": 394.5625,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "H1",
+        "text": "COLLISION REPAIR",
+        "box": {
+          "x": 71.796875,
+          "y": 414.5625,
+          "width": 533.890625,
+          "height": 56.6875,
+          "top": 414.5625,
+          "right": 605.6875,
+          "bottom": 471.25,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "P",
+        "text": "Bring your body shop leads from drivers looking for collision repairs and estimates.",
+        "box": {
+          "x": 71.796875,
+          "y": 491.25,
+          "width": 632.3125,
+          "height": 60,
+          "top": 491.25,
+          "right": 704.109375,
+          "bottom": 551.25,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "A",
+        "text": "Get More Repairs",
+        "box": {
+          "x": 71.796875,
+          "y": 575.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 575.25,
+          "right": 381.953125,
+          "bottom": 622.4375,
+          "left": 71.796875
+        },
+        "display": "flex"
+      },
+      {
+        "tag": "A",
+        "text": "Get Your Instant Audit",
+        "box": {
+          "x": 393.953125,
+          "y": 575.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 575.25,
+          "right": 704.109375,
+          "bottom": 622.4375,
+          "left": 393.953125
+        },
+        "display": "flex"
+      }
+    ],
+    "visual": {
+      "x": 756.109375,
+      "y": 179,
+      "width": 967.078125,
+      "height": 593,
+      "top": 179,
+      "right": 1723.1875,
+      "bottom": 772,
+      "left": 756.109375
+    },
+    "media": {
+      "box": {
+        "x": 756.109375,
+        "y": 248.84375,
+        "width": 967.078125,
+        "height": 453.3125,
+        "top": 248.84375,
+        "right": 1723.1875,
+        "bottom": 702.15625,
+        "left": 756.109375
+      },
+      "fit": "contain",
+      "w": 1920,
+      "h": 900
+    },
+    "demo": null,
+    "overflow": false,
+    "actions": 2,
+    "below": 0
+  },
+  {
+    "file": "pool-construction.html",
+    "width": 1810,
+    "height": 796,
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 641,
+      "top": 155,
+      "right": 1795,
+      "bottom": 796,
+      "left": 0
+    },
+    "title": "POOL CONSTRUCTION",
+    "h1Count": 1,
+    "parts": [
+      {
+        "tag": "IMG",
+        "text": "",
+        "box": {
+          "x": 71.796875,
+          "y": 300.21875,
+          "width": 86,
+          "height": 66,
+          "top": 300.21875,
+          "right": 157.796875,
+          "bottom": 366.21875,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "H1",
+        "text": "POOL CONSTRUCTION",
+        "box": {
+          "x": 71.796875,
+          "y": 386.21875,
+          "width": 632.3125,
+          "height": 113.375,
+          "top": 386.21875,
+          "right": 704.109375,
+          "bottom": 499.59375,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "P",
+        "text": "Bring your pool company leads for new construction, renovations and the projects you offer.",
+        "box": {
+          "x": 71.796875,
+          "y": 519.59375,
+          "width": 632.3125,
+          "height": 60,
+          "top": 519.59375,
+          "right": 704.109375,
+          "bottom": 579.59375,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "A",
+        "text": "Get More Projects",
+        "box": {
+          "x": 71.796875,
+          "y": 603.59375,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 603.59375,
+          "right": 381.953125,
+          "bottom": 650.78125,
+          "left": 71.796875
+        },
+        "display": "flex"
+      },
+      {
+        "tag": "A",
+        "text": "Get Your Instant Audit",
+        "box": {
+          "x": 393.953125,
+          "y": 603.59375,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 603.59375,
+          "right": 704.109375,
+          "bottom": 650.78125,
+          "left": 393.953125
+        },
+        "display": "flex"
+      }
+    ],
+    "visual": {
+      "x": 756.109375,
+      "y": 179,
+      "width": 967.078125,
+      "height": 593,
+      "top": 179,
+      "right": 1723.1875,
+      "bottom": 772,
+      "left": 756.109375
+    },
+    "media": {
+      "box": {
+        "x": 756.109375,
+        "y": 203.515625,
+        "width": 967.078125,
+        "height": 543.96875,
+        "top": 203.515625,
+        "right": 1723.1875,
+        "bottom": 747.484375,
+        "left": 756.109375
+      },
+      "fit": "contain",
+      "w": 1280,
+      "h": 720
+    },
+    "demo": null,
+    "overflow": false,
+    "actions": 2,
+    "below": 0
+  },
+  {
+    "file": "general-contractors.html",
+    "width": 1810,
+    "height": 796,
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 641,
+      "top": 155,
+      "right": 1795,
+      "bottom": 796,
+      "left": 0
+    },
+    "title": "GENERAL CONTRACTORS",
+    "h1Count": 1,
+    "parts": [
+      {
+        "tag": "IMG",
+        "text": "",
+        "box": {
+          "x": 71.796875,
+          "y": 300.21875,
+          "width": 86,
+          "height": 66,
+          "top": 300.21875,
+          "right": 157.796875,
+          "bottom": 366.21875,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "H1",
+        "text": "GENERAL CONTRACTORS",
+        "box": {
+          "x": 71.796875,
+          "y": 386.21875,
+          "width": 632.3125,
+          "height": 113.375,
+          "top": 386.21875,
+          "right": 704.109375,
+          "bottom": 499.59375,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "P",
+        "text": "Bring your contracting business leads for construction, renovation and the projects you want to build.",
+        "box": {
+          "x": 71.796875,
+          "y": 519.59375,
+          "width": 632.3125,
+          "height": 60,
+          "top": 519.59375,
+          "right": 704.109375,
+          "bottom": 579.59375,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "A",
+        "text": "Get More Projects",
+        "box": {
+          "x": 71.796875,
+          "y": 603.59375,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 603.59375,
+          "right": 381.953125,
+          "bottom": 650.78125,
+          "left": 71.796875
+        },
+        "display": "flex"
+      },
+      {
+        "tag": "A",
+        "text": "Get Your Instant Audit",
+        "box": {
+          "x": 393.953125,
+          "y": 603.59375,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 603.59375,
+          "right": 704.109375,
+          "bottom": 650.78125,
+          "left": 393.953125
+        },
+        "display": "flex"
+      }
+    ],
+    "visual": {
+      "x": 756.109375,
+      "y": 179,
+      "width": 967.078125,
+      "height": 593,
+      "top": 179,
+      "right": 1723.1875,
+      "bottom": 772,
+      "left": 756.109375
+    },
+    "media": {
+      "box": {
+        "x": 756.109375,
+        "y": 203.515625,
+        "width": 967.078125,
+        "height": 543.96875,
+        "top": 203.515625,
+        "right": 1723.1875,
+        "bottom": 747.484375,
+        "left": 756.109375
+      },
+      "fit": "contain",
+      "w": 1280,
+      "h": 720
+    },
+    "demo": null,
+    "overflow": false,
+    "actions": 2,
+    "below": 0
+  },
+  {
+    "file": "catering.html",
+    "width": 1810,
+    "height": 796,
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 641,
+      "top": 155,
+      "right": 1795,
+      "bottom": 796,
+      "left": 0
+    },
+    "title": "CATERING",
+    "h1Count": 1,
+    "parts": [
+      {
+        "tag": "IMG",
+        "text": "",
+        "box": {
+          "x": 71.796875,
+          "y": 328.5625,
+          "width": 86,
+          "height": 66,
+          "top": 328.5625,
+          "right": 157.796875,
+          "bottom": 394.5625,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "H1",
+        "text": "CATERING",
+        "box": {
+          "x": 71.796875,
+          "y": 414.5625,
+          "width": 294,
+          "height": 56.6875,
+          "top": 414.5625,
+          "right": 365.796875,
+          "bottom": 471.25,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "P",
+        "text": "Bring your catering company leads for the events and service styles you provide.",
+        "box": {
+          "x": 71.796875,
+          "y": 491.25,
+          "width": 632.3125,
+          "height": 60,
+          "top": 491.25,
+          "right": 704.109375,
+          "bottom": 551.25,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "A",
+        "text": "Get More Bookings",
+        "box": {
+          "x": 71.796875,
+          "y": 575.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 575.25,
+          "right": 381.953125,
+          "bottom": 622.4375,
+          "left": 71.796875
+        },
+        "display": "flex"
+      },
+      {
+        "tag": "A",
+        "text": "Get Your Instant Audit",
+        "box": {
+          "x": 393.953125,
+          "y": 575.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 575.25,
+          "right": 704.109375,
+          "bottom": 622.4375,
+          "left": 393.953125
+        },
+        "display": "flex"
+      }
+    ],
+    "visual": {
+      "x": 756.109375,
+      "y": 179,
+      "width": 967.078125,
+      "height": 593,
+      "top": 179,
+      "right": 1723.1875,
+      "bottom": 772,
+      "left": 756.109375
+    },
+    "media": {
+      "box": {
+        "x": 1072.859375,
+        "y": 179,
+        "width": 333.5625,
+        "height": 593,
+        "top": 179,
+        "right": 1406.421875,
+        "bottom": 772,
+        "left": 1072.859375
+      },
+      "fit": "contain",
+      "w": 1080,
+      "h": 1920
+    },
+    "demo": null,
+    "overflow": false,
+    "actions": 2,
+    "below": 0
+  },
+  {
+    "file": "security-services.html",
+    "width": 1810,
+    "height": 796,
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 641,
+      "top": 155,
+      "right": 1795,
+      "bottom": 796,
+      "left": 0
+    },
+    "title": "SECURITY SERVICES",
+    "h1Count": 1,
+    "parts": [
+      {
+        "tag": "IMG",
+        "text": "",
+        "box": {
+          "x": 71.796875,
+          "y": 328.5625,
+          "width": 86,
+          "height": 66,
+          "top": 328.5625,
+          "right": 157.796875,
+          "bottom": 394.5625,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "H1",
+        "text": "SECURITY SERVICES",
+        "box": {
+          "x": 71.796875,
+          "y": 414.5625,
+          "width": 592.375,
+          "height": 56.6875,
+          "top": 414.5625,
+          "right": 664.171875,
+          "bottom": 471.25,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "P",
+        "text": "Bring your security company leads for the coverage and contracts you provide.",
+        "box": {
+          "x": 71.796875,
+          "y": 491.25,
+          "width": 632.3125,
+          "height": 60,
+          "top": 491.25,
+          "right": 704.109375,
+          "bottom": 551.25,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "A",
+        "text": "Get More Clients",
+        "box": {
+          "x": 71.796875,
+          "y": 575.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 575.25,
+          "right": 381.953125,
+          "bottom": 622.4375,
+          "left": 71.796875
+        },
+        "display": "flex"
+      },
+      {
+        "tag": "A",
+        "text": "Get Your Instant Audit",
+        "box": {
+          "x": 393.953125,
+          "y": 575.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 575.25,
+          "right": 704.109375,
+          "bottom": 622.4375,
+          "left": 393.953125
+        },
+        "display": "flex"
+      }
+    ],
+    "visual": {
+      "x": 756.109375,
+      "y": 179,
+      "width": 967.078125,
+      "height": 593,
+      "top": 179,
+      "right": 1723.1875,
+      "bottom": 772,
+      "left": 756.109375
+    },
+    "media": {
+      "box": {
+        "x": 756.109375,
+        "y": 203.515625,
+        "width": 967.078125,
+        "height": 543.96875,
+        "top": 203.515625,
+        "right": 1723.1875,
+        "bottom": 747.484375,
+        "left": 756.109375
+      },
+      "fit": "contain",
+      "w": 1920,
+      "h": 1080
+    },
+    "demo": null,
+    "overflow": false,
+    "actions": 2,
+    "below": 0
+  },
+  {
+    "file": "home-health-care.html",
+    "width": 1810,
+    "height": 796,
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 641,
+      "top": 155,
+      "right": 1795,
+      "bottom": 796,
+      "left": 0
+    },
+    "title": "HOME HEALTH CARE",
+    "h1Count": 1,
+    "parts": [
+      {
+        "tag": "IMG",
+        "text": "",
+        "box": {
+          "x": 71.796875,
+          "y": 328.5625,
+          "width": 86,
+          "height": 66,
+          "top": 328.5625,
+          "right": 157.796875,
+          "bottom": 394.5625,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "H1",
+        "text": "HOME HEALTH CARE",
+        "box": {
+          "x": 71.796875,
+          "y": 414.5625,
+          "width": 589.640625,
+          "height": 56.6875,
+          "top": 414.5625,
+          "right": 661.4375,
+          "bottom": 471.25,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "P",
+        "text": "Help patients, families and referral contacts discover the home health services your agency provides.",
+        "box": {
+          "x": 71.796875,
+          "y": 491.25,
+          "width": 632.3125,
+          "height": 60,
+          "top": 491.25,
+          "right": 704.109375,
+          "bottom": 551.25,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "A",
+        "text": "Get More Patients",
+        "box": {
+          "x": 71.796875,
+          "y": 575.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 575.25,
+          "right": 381.953125,
+          "bottom": 622.4375,
+          "left": 71.796875
+        },
+        "display": "flex"
+      },
+      {
+        "tag": "A",
+        "text": "Get Your Instant Audit",
+        "box": {
+          "x": 393.953125,
+          "y": 575.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 575.25,
+          "right": 704.109375,
+          "bottom": 622.4375,
+          "left": 393.953125
+        },
+        "display": "flex"
+      }
+    ],
+    "visual": {
+      "x": 756.109375,
+      "y": 179,
+      "width": 967.078125,
+      "height": 593,
+      "top": 179,
+      "right": 1723.1875,
+      "bottom": 772,
+      "left": 756.109375
+    },
+    "media": {
+      "box": {
+        "x": 794.890625,
+        "y": 179,
+        "width": 889.5,
+        "height": 593,
+        "top": 179,
+        "right": 1684.390625,
+        "bottom": 772,
+        "left": 794.890625
+      },
+      "fit": "contain",
+      "w": 1536,
+      "h": 1024
+    },
+    "demo": null,
+    "overflow": false,
+    "actions": 2,
+    "below": 0
+  },
+  {
+    "file": "assisted-living.html",
+    "width": 1810,
+    "height": 796,
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 641,
+      "top": 155,
+      "right": 1795,
+      "bottom": 796,
+      "left": 0
+    },
+    "title": "ASSISTED LIVING",
+    "h1Count": 1,
+    "parts": [
+      {
+        "tag": "IMG",
+        "text": "",
+        "box": {
+          "x": 71.796875,
+          "y": 328.5625,
+          "width": 86,
+          "height": 66,
+          "top": 328.5625,
+          "right": 157.796875,
+          "bottom": 394.5625,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "H1",
+        "text": "ASSISTED LIVING",
+        "box": {
+          "x": 71.796875,
+          "y": 414.5625,
+          "width": 495.640625,
+          "height": 56.6875,
+          "top": 414.5625,
+          "right": 567.4375,
+          "bottom": 471.25,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "P",
+        "text": "Help more families discover your assisted living community and reach your team about a visit.",
+        "box": {
+          "x": 71.796875,
+          "y": 491.25,
+          "width": 632.3125,
+          "height": 60,
+          "top": 491.25,
+          "right": 704.109375,
+          "bottom": 551.25,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "A",
+        "text": "Get More Residents",
+        "box": {
+          "x": 71.796875,
+          "y": 575.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 575.25,
+          "right": 381.953125,
+          "bottom": 622.4375,
+          "left": 71.796875
+        },
+        "display": "flex"
+      },
+      {
+        "tag": "A",
+        "text": "Get Your Instant Audit",
+        "box": {
+          "x": 393.953125,
+          "y": 575.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 575.25,
+          "right": 704.109375,
+          "bottom": 622.4375,
+          "left": 393.953125
+        },
+        "display": "flex"
+      }
+    ],
+    "visual": {
+      "x": 756.109375,
+      "y": 179,
+      "width": 967.078125,
+      "height": 593,
+      "top": 179,
+      "right": 1723.1875,
+      "bottom": 772,
+      "left": 756.109375
+    },
+    "media": {
+      "box": {
+        "x": 756.109375,
+        "y": 203.515625,
+        "width": 967.078125,
+        "height": 543.96875,
+        "top": 203.515625,
+        "right": 1723.1875,
+        "bottom": 747.484375,
+        "left": 756.109375
+      },
+      "fit": "contain",
+      "w": 1920,
+      "h": 1080
+    },
+    "demo": null,
+    "overflow": false,
+    "actions": 2,
+    "below": 0
+  },
+  {
+    "file": "lawyers.html",
+    "width": 1810,
+    "height": 796,
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 641,
+      "top": 155,
+      "right": 1795,
+      "bottom": 796,
+      "left": 0
+    },
+    "title": "LAWYERS",
+    "h1Count": 1,
+    "parts": [
+      {
+        "tag": "IMG",
+        "text": "",
+        "box": {
+          "x": 71.796875,
+          "y": 328.5625,
+          "width": 86,
+          "height": 66,
+          "top": 328.5625,
+          "right": 157.796875,
+          "bottom": 394.5625,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "H1",
+        "text": "LAWYERS",
+        "box": {
+          "x": 71.796875,
+          "y": 414.5625,
+          "width": 279.328125,
+          "height": 56.6875,
+          "top": 414.5625,
+          "right": 351.125,
+          "bottom": 471.25,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "P",
+        "text": "SEO + AEO to bring your law firm leads from people looking for legal help.",
+        "box": {
+          "x": 71.796875,
+          "y": 491.25,
+          "width": 632.3125,
+          "height": 60,
+          "top": 491.25,
+          "right": 704.109375,
+          "bottom": 551.25,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "A",
+        "text": "Get More Cases",
+        "box": {
+          "x": 71.796875,
+          "y": 575.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 575.25,
+          "right": 381.953125,
+          "bottom": 622.4375,
+          "left": 71.796875
+        },
+        "display": "flex"
+      },
+      {
+        "tag": "A",
+        "text": "Get Your Instant Audit",
+        "box": {
+          "x": 393.953125,
+          "y": 575.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 575.25,
+          "right": 704.109375,
+          "bottom": 622.4375,
+          "left": 393.953125
+        },
+        "display": "flex"
+      }
+    ],
+    "visual": {
+      "x": 756.109375,
+      "y": 179,
+      "width": 967.078125,
+      "height": 593,
+      "top": 179,
+      "right": 1723.1875,
+      "bottom": 772,
+      "left": 756.109375
+    },
+    "media": {
+      "box": {
+        "x": 794.890625,
+        "y": 179,
+        "width": 889.5,
+        "height": 593,
+        "top": 179,
+        "right": 1684.390625,
+        "bottom": 772,
+        "left": 794.890625
+      },
+      "fit": "contain",
+      "w": 1536,
+      "h": 1024
+    },
+    "demo": null,
+    "overflow": false,
+    "actions": 2,
+    "below": 0
+  },
+  {
+    "file": "doctors.html",
+    "width": 1810,
+    "height": 796,
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 641,
+      "top": 155,
+      "right": 1795,
+      "bottom": 796,
+      "left": 0
+    },
+    "title": "DOCTORS",
+    "h1Count": 1,
+    "parts": [
+      {
+        "tag": "IMG",
+        "text": "",
+        "box": {
+          "x": 71.796875,
+          "y": 328.5625,
+          "width": 86,
+          "height": 66,
+          "top": 328.5625,
+          "right": 157.796875,
+          "bottom": 394.5625,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "H1",
+        "text": "DOCTORS",
+        "box": {
+          "x": 71.796875,
+          "y": 414.5625,
+          "width": 277.015625,
+          "height": 56.6875,
+          "top": 414.5625,
+          "right": 348.8125,
+          "bottom": 471.25,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "P",
+        "text": "Bring your medical practice leads from people looking for the care you provide.",
+        "box": {
+          "x": 71.796875,
+          "y": 491.25,
+          "width": 632.3125,
+          "height": 60,
+          "top": 491.25,
+          "right": 704.109375,
+          "bottom": 551.25,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "A",
+        "text": "Get More Patients",
+        "box": {
+          "x": 71.796875,
+          "y": 575.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 575.25,
+          "right": 381.953125,
+          "bottom": 622.4375,
+          "left": 71.796875
+        },
+        "display": "flex"
+      },
+      {
+        "tag": "A",
+        "text": "Get Your Instant Audit",
+        "box": {
+          "x": 393.953125,
+          "y": 575.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 575.25,
+          "right": 704.109375,
+          "bottom": 622.4375,
+          "left": 393.953125
+        },
+        "display": "flex"
+      }
+    ],
+    "visual": {
+      "x": 756.109375,
+      "y": 179,
+      "width": 967.078125,
+      "height": 593,
+      "top": 179,
+      "right": 1723.1875,
+      "bottom": 772,
+      "left": 756.109375
+    },
+    "media": {
+      "box": {
+        "x": 794.890625,
+        "y": 179,
+        "width": 889.5,
+        "height": 593,
+        "top": 179,
+        "right": 1684.390625,
+        "bottom": 772,
+        "left": 794.890625
+      },
+      "fit": "contain",
+      "w": 1536,
+      "h": 1024
+    },
+    "demo": null,
+    "overflow": false,
+    "actions": 2,
+    "below": 0
+  },
+  {
+    "file": "dentists.html",
+    "width": 1810,
+    "height": 796,
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 641,
+      "top": 155,
+      "right": 1795,
+      "bottom": 796,
+      "left": 0
+    },
+    "title": "DENTISTS",
+    "h1Count": 1,
+    "parts": [
+      {
+        "tag": "IMG",
+        "text": "",
+        "box": {
+          "x": 71.796875,
+          "y": 328.5625,
+          "width": 86,
+          "height": 66,
+          "top": 328.5625,
+          "right": 157.796875,
+          "bottom": 394.5625,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "H1",
+        "text": "DENTISTS",
+        "box": {
+          "x": 71.796875,
+          "y": 414.5625,
+          "width": 285.71875,
+          "height": 56.6875,
+          "top": 414.5625,
+          "right": 357.515625,
+          "bottom": 471.25,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "P",
+        "text": "SEO + AEO to bring your dental practice leads for the services you offer.",
+        "box": {
+          "x": 71.796875,
+          "y": 491.25,
+          "width": 632.3125,
+          "height": 60,
+          "top": 491.25,
+          "right": 704.109375,
+          "bottom": 551.25,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "A",
+        "text": "Get More Patients",
+        "box": {
+          "x": 71.796875,
+          "y": 575.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 575.25,
+          "right": 381.953125,
+          "bottom": 622.4375,
+          "left": 71.796875
+        },
+        "display": "flex"
+      },
+      {
+        "tag": "A",
+        "text": "Get Your Instant Audit",
+        "box": {
+          "x": 393.953125,
+          "y": 575.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 575.25,
+          "right": 704.109375,
+          "bottom": 622.4375,
+          "left": 393.953125
+        },
+        "display": "flex"
+      }
+    ],
+    "visual": {
+      "x": 756.109375,
+      "y": 179,
+      "width": 967.078125,
+      "height": 593,
+      "top": 179,
+      "right": 1723.1875,
+      "bottom": 772,
+      "left": 756.109375
+    },
+    "media": {
+      "box": {
+        "x": 794.890625,
+        "y": 179,
+        "width": 889.5,
+        "height": 593,
+        "top": 179,
+        "right": 1684.390625,
+        "bottom": 772,
+        "left": 794.890625
+      },
+      "fit": "contain",
+      "w": 1536,
+      "h": 1024
+    },
+    "demo": null,
+    "overflow": false,
+    "actions": 2,
+    "below": 0
+  },
+  {
+    "file": "interior-design.html",
+    "width": 1810,
+    "height": 796,
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 641,
+      "top": 155,
+      "right": 1795,
+      "bottom": 796,
+      "left": 0
+    },
+    "title": "INTERIOR DESIGN",
+    "h1Count": 1,
+    "parts": [
+      {
+        "tag": "IMG",
+        "text": "",
+        "box": {
+          "x": 71.796875,
+          "y": 313.5625,
+          "width": 86,
+          "height": 66,
+          "top": 313.5625,
+          "right": 157.796875,
+          "bottom": 379.5625,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "H1",
+        "text": "INTERIOR DESIGN",
+        "box": {
+          "x": 71.796875,
+          "y": 399.5625,
+          "width": 510.59375,
+          "height": 56.6875,
+          "top": 399.5625,
+          "right": 582.390625,
+          "bottom": 456.25,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "P",
+        "text": "The work should remain unmistakably yours. The opportunity to discover it should not depend entirely on someone already knowing your name.",
+        "box": {
+          "x": 71.796875,
+          "y": 476.25,
+          "width": 632.3125,
+          "height": 90,
+          "top": 476.25,
+          "right": 704.109375,
+          "bottom": 566.25,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "A",
+        "text": "Get More Clients",
+        "box": {
+          "x": 71.796875,
+          "y": 590.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 590.25,
+          "right": 381.953125,
+          "bottom": 637.4375,
+          "left": 71.796875
+        },
+        "display": "flex"
+      },
+      {
+        "tag": "A",
+        "text": "Get Your Instant Audit",
+        "box": {
+          "x": 393.953125,
+          "y": 590.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 590.25,
+          "right": 704.109375,
+          "bottom": 637.4375,
+          "left": 393.953125
+        },
+        "display": "flex"
+      }
+    ],
+    "visual": {
+      "x": 756.109375,
+      "y": 179,
+      "width": 967.078125,
+      "height": 593,
+      "top": 179,
+      "right": 1723.1875,
+      "bottom": 772,
+      "left": 756.109375
+    },
+    "media": {
+      "box": {
+        "x": 756.109375,
+        "y": 203.359375,
+        "width": 967.078125,
+        "height": 544.265625,
+        "top": 203.359375,
+        "right": 1723.1875,
+        "bottom": 747.625,
+        "left": 756.109375
+      },
+      "fit": "contain",
+      "w": 1672,
+      "h": 941
+    },
+    "demo": null,
+    "overflow": false,
+    "actions": 2,
+    "below": 0
+  },
+  {
+    "file": "landing-page.html",
+    "width": 1810,
+    "height": 796,
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 641,
+      "top": 155,
+      "right": 1795,
+      "bottom": 796,
+      "left": 0
+    },
+    "title": "LANDING PAGE",
+    "h1Count": 1,
+    "parts": [
+      {
+        "tag": "H1",
+        "text": "LANDING PAGE",
+        "box": {
+          "x": 71.796875,
+          "y": 371.5625,
+          "width": 427.5,
+          "height": 56.6875,
+          "top": 371.5625,
+          "right": 499.296875,
+          "bottom": 428.25,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "P",
+        "text": "Present your business, show your services and give customers a way to contact you on one custom page.",
+        "box": {
+          "x": 71.796875,
+          "y": 448.25,
+          "width": 632.3125,
+          "height": 60,
+          "top": 448.25,
+          "right": 704.109375,
+          "bottom": 508.25,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "A",
+        "text": "Grow Your Business",
+        "box": {
+          "x": 71.796875,
+          "y": 532.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 532.25,
+          "right": 381.953125,
+          "bottom": 579.4375,
+          "left": 71.796875
+        },
+        "display": "flex"
+      },
+      {
+        "tag": "A",
+        "text": "Get Your Instant Audit",
+        "box": {
+          "x": 393.953125,
+          "y": 532.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 532.25,
+          "right": 704.109375,
+          "bottom": 579.4375,
+          "left": 393.953125
+        },
+        "display": "flex"
+      }
+    ],
+    "visual": {
+      "x": 756.109375,
+      "y": 179,
+      "width": 967.078125,
+      "height": 593,
+      "top": 179,
+      "right": 1723.1875,
+      "bottom": 772,
+      "left": 756.109375
+    },
+    "media": {
+      "box": {
+        "x": 756.109375,
+        "y": 203.515625,
+        "width": 967.078125,
+        "height": 543.96875,
+        "top": 203.515625,
+        "right": 1723.1875,
+        "bottom": 747.484375,
+        "left": 756.109375
+      },
+      "fit": "contain",
+      "w": 1280,
+      "h": 720
+    },
+    "demo": null,
+    "overflow": false,
+    "actions": 2,
+    "below": 0
+  },
+  {
+    "file": "business-website.html",
+    "width": 1810,
+    "height": 796,
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 641,
+      "top": 155,
+      "right": 1795,
+      "bottom": 796,
+      "left": 0
+    },
+    "title": "BUSINESS WEBSITE",
+    "h1Count": 1,
+    "parts": [
+      {
+        "tag": "H1",
+        "text": "BUSINESS WEBSITE",
+        "box": {
+          "x": 71.796875,
+          "y": 413.5625,
+          "width": 564.03125,
+          "height": 56.6875,
+          "top": 413.5625,
+          "right": 635.828125,
+          "bottom": 470.25,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "A",
+        "text": "Grow Your Business",
+        "box": {
+          "x": 71.796875,
+          "y": 490.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 490.25,
+          "right": 381.953125,
+          "bottom": 537.4375,
+          "left": 71.796875
+        },
+        "display": "flex"
+      },
+      {
+        "tag": "A",
+        "text": "Get Your Instant Audit",
+        "box": {
+          "x": 393.953125,
+          "y": 490.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 490.25,
+          "right": 704.109375,
+          "bottom": 537.4375,
+          "left": 393.953125
+        },
+        "display": "flex"
+      }
+    ],
+    "visual": {
+      "x": 756.109375,
+      "y": 179,
+      "width": 967.078125,
+      "height": 593,
+      "top": 179,
+      "right": 1723.1875,
+      "bottom": 772,
+      "left": 756.109375
+    },
+    "media": {
+      "box": {
+        "x": 756.109375,
+        "y": 203.515625,
+        "width": 967.078125,
+        "height": 543.96875,
+        "top": 203.515625,
+        "right": 1723.1875,
+        "bottom": 747.484375,
+        "left": 756.109375
+      },
+      "fit": "contain",
+      "w": 1280,
+      "h": 720
+    },
+    "demo": null,
+    "overflow": false,
+    "actions": 2,
+    "below": 0
+  },
+  {
+    "file": "essentials.html",
+    "width": 1810,
+    "height": 796,
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 641,
+      "top": 155,
+      "right": 1795,
+      "bottom": 796,
+      "left": 0
+    },
+    "title": "ESSENTIALS",
+    "h1Count": 1,
+    "parts": [
+      {
+        "tag": "IMG",
+        "text": "",
+        "box": {
+          "x": 71.796875,
+          "y": 328.5625,
+          "width": 86,
+          "height": 66,
+          "top": 328.5625,
+          "right": 157.796875,
+          "bottom": 394.5625,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "H1",
+        "text": "ESSENTIALS",
+        "box": {
+          "x": 71.796875,
+          "y": 414.5625,
+          "width": 356.40625,
+          "height": 56.6875,
+          "top": 414.5625,
+          "right": 428.203125,
+          "bottom": 471.25,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "P",
+        "text": "Help potential customers find your business when they search for the services you offer.",
+        "box": {
+          "x": 71.796875,
+          "y": 491.25,
+          "width": 632.3125,
+          "height": 60,
+          "top": 491.25,
+          "right": 704.109375,
+          "bottom": 551.25,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "A",
+        "text": "Grow Your Business",
+        "box": {
+          "x": 71.796875,
+          "y": 575.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 575.25,
+          "right": 381.953125,
+          "bottom": 622.4375,
+          "left": 71.796875
+        },
+        "display": "flex"
+      },
+      {
+        "tag": "A",
+        "text": "Get Your Instant Audit",
+        "box": {
+          "x": 393.953125,
+          "y": 575.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 575.25,
+          "right": 704.109375,
+          "bottom": 622.4375,
+          "left": 393.953125
+        },
+        "display": "flex"
+      }
+    ],
+    "visual": {
+      "x": 756.109375,
+      "y": 179,
+      "width": 967.078125,
+      "height": 593,
+      "top": 179,
+      "right": 1723.1875,
+      "bottom": 772,
+      "left": 756.109375
+    },
+    "media": null,
+    "demo": {
+      "box": {
+        "x": 969.640625,
+        "y": 255.5,
+        "width": 540,
+        "height": 440,
+        "top": 255.5,
+        "right": 1509.640625,
+        "bottom": 695.5,
+        "left": 969.640625
+      },
+      "children": [
+        {
+          "x": 969.640625,
+          "y": 255.5,
+          "width": 540,
+          "height": 18,
+          "top": 255.5,
+          "right": 1509.640625,
+          "bottom": 273.5,
+          "left": 969.640625
+        },
+        {
+          "x": 969.640625,
+          "y": 297.5,
+          "width": 540,
+          "height": 48,
+          "top": 297.5,
+          "right": 1509.640625,
+          "bottom": 345.5,
+          "left": 969.640625
+        },
+        {
+          "x": 969.640625,
+          "y": 367.5,
+          "width": 540,
+          "height": 244,
+          "top": 367.5,
+          "right": 1509.640625,
+          "bottom": 611.5,
+          "left": 969.640625
+        },
+        {
+          "x": 969.640625,
+          "y": 639.12255859375,
+          "width": 540,
+          "height": 34,
+          "top": 639.12255859375,
+          "right": 1509.640625,
+          "bottom": 673.12255859375,
+          "left": 969.640625
+        },
+        {
+          "x": 969.640625,
+          "y": 681.5,
+          "width": 540,
+          "height": 14,
+          "top": 681.5,
+          "right": 1509.640625,
+          "bottom": 695.5,
+          "left": 969.640625
+        }
+      ]
+    },
+    "overflow": false,
+    "actions": 2,
+    "below": 0
+  },
+  {
+    "file": "competitive.html",
+    "width": 1810,
+    "height": 796,
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 641,
+      "top": 155,
+      "right": 1795,
+      "bottom": 796,
+      "left": 0
+    },
+    "title": "COMPETITIVE",
+    "h1Count": 1,
+    "parts": [
+      {
+        "tag": "IMG",
+        "text": "",
+        "box": {
+          "x": 71.796875,
+          "y": 328.5625,
+          "width": 86,
+          "height": 66,
+          "top": 328.5625,
+          "right": 157.796875,
+          "bottom": 394.5625,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "H1",
+        "text": "COMPETITIVE",
+        "box": {
+          "x": 71.796875,
+          "y": 414.5625,
+          "width": 393.21875,
+          "height": 56.6875,
+          "top": 414.5625,
+          "right": 465.015625,
+          "bottom": 471.25,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "P",
+        "text": "Help your business compete for customer inquiries through Google and AI search.",
+        "box": {
+          "x": 71.796875,
+          "y": 491.25,
+          "width": 632.3125,
+          "height": 60,
+          "top": 491.25,
+          "right": 704.109375,
+          "bottom": 551.25,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "A",
+        "text": "Grow Your Business",
+        "box": {
+          "x": 71.796875,
+          "y": 575.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 575.25,
+          "right": 381.953125,
+          "bottom": 622.4375,
+          "left": 71.796875
+        },
+        "display": "flex"
+      },
+      {
+        "tag": "A",
+        "text": "Get Your Instant Audit",
+        "box": {
+          "x": 393.953125,
+          "y": 575.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 575.25,
+          "right": 704.109375,
+          "bottom": 622.4375,
+          "left": 393.953125
+        },
+        "display": "flex"
+      }
+    ],
+    "visual": {
+      "x": 756.109375,
+      "y": 179,
+      "width": 967.078125,
+      "height": 593,
+      "top": 179,
+      "right": 1723.1875,
+      "bottom": 772,
+      "left": 756.109375
+    },
+    "media": null,
+    "demo": {
+      "box": {
+        "x": 954.640625,
+        "y": 270,
+        "width": 570,
+        "height": 411,
+        "top": 270,
+        "right": 1524.640625,
+        "bottom": 681,
+        "left": 954.640625
+      },
+      "children": [
+        {
+          "x": 954.640625,
+          "y": 270,
+          "width": 570,
+          "height": 76,
+          "top": 270,
+          "right": 1524.640625,
+          "bottom": 346,
+          "left": 954.640625
+        },
+        {
+          "x": 954.640625,
+          "y": 346,
+          "width": 570,
+          "height": 297,
+          "top": 346,
+          "right": 1524.640625,
+          "bottom": 643,
+          "left": 954.640625
+        },
+        {
+          "x": 954.640625,
+          "y": 643,
+          "width": 570,
+          "height": 38,
+          "top": 643,
+          "right": 1524.640625,
+          "bottom": 681,
+          "left": 954.640625
+        }
+      ]
+    },
+    "overflow": false,
+    "actions": 2,
+    "below": 0
+  },
+  {
+    "file": "dominance.html",
+    "width": 1810,
+    "height": 796,
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 641,
+      "top": 155,
+      "right": 1795,
+      "bottom": 796,
+      "left": 0
+    },
+    "title": "DOMINANCE",
+    "h1Count": 1,
+    "parts": [
+      {
+        "tag": "IMG",
+        "text": "",
+        "box": {
+          "x": 71.796875,
+          "y": 370.5625,
+          "width": 86,
+          "height": 66,
+          "top": 370.5625,
+          "right": 157.796875,
+          "bottom": 436.5625,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "H1",
+        "text": "DOMINANCE",
+        "box": {
+          "x": 71.796875,
+          "y": 456.5625,
+          "width": 351.96875,
+          "height": 56.6875,
+          "top": 456.5625,
+          "right": 423.765625,
+          "bottom": 513.25,
+          "left": 71.796875
+        },
+        "display": "block"
+      },
+      {
+        "tag": "A",
+        "text": "Grow Your Business",
+        "box": {
+          "x": 71.796875,
+          "y": 533.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 533.25,
+          "right": 381.953125,
+          "bottom": 580.4375,
+          "left": 71.796875
+        },
+        "display": "flex"
+      },
+      {
+        "tag": "A",
+        "text": "Get Your Instant Audit",
+        "box": {
+          "x": 393.953125,
+          "y": 533.25,
+          "width": 310.15625,
+          "height": 47.1875,
+          "top": 533.25,
+          "right": 704.109375,
+          "bottom": 580.4375,
+          "left": 393.953125
+        },
+        "display": "flex"
+      }
+    ],
+    "visual": {
+      "x": 756.109375,
+      "y": 179,
+      "width": 967.078125,
+      "height": 593,
+      "top": 179,
+      "right": 1723.1875,
+      "bottom": 772,
+      "left": 756.109375
+    },
+    "media": null,
+    "demo": {
+      "box": {
+        "x": 897.140625,
+        "y": 238.5,
+        "width": 685,
+        "height": 474,
+        "top": 238.5,
+        "right": 1582.140625,
+        "bottom": 712.5,
+        "left": 897.140625
+      },
+      "children": [
+        {
+          "x": 902.140625,
+          "y": 243.5,
+          "width": 675,
+          "height": 464,
+          "top": 243.5,
+          "right": 1577.140625,
+          "bottom": 707.5,
+          "left": 902.140625
+        },
+        {
+          "x": 1443.9375,
+          "y": 691.5,
+          "width": 130.203125,
+          "height": 14,
+          "top": 691.5,
+          "right": 1574.140625,
+          "bottom": 705.5,
+          "left": 1443.9375
+        },
+        {
+          "x": 1219.44189453125,
+          "y": 517.3363037109375,
+          "width": 121.0068359375,
+          "height": 43.9627685546875,
+          "top": 517.3363037109375,
+          "right": 1340.44873046875,
+          "bottom": 561.299072265625,
+          "left": 1219.44189453125
+        },
+        {
+          "x": 1188.8287353515625,
+          "y": 324.8404541015625,
+          "width": 76.623779296875,
+          "height": 23.07940673828125,
+          "top": 324.8404541015625,
+          "right": 1265.4525146484375,
+          "bottom": 347.91986083984375,
+          "left": 1188.8287353515625
+        },
+        {
+          "x": 948.2468872070312,
+          "y": 596.109375,
+          "width": 100.91253662109375,
+          "height": 22.5,
+          "top": 596.109375,
+          "right": 1049.159423828125,
+          "bottom": 618.609375,
+          "left": 948.2468872070312
+        },
+        {
+          "x": 1467.1937255859375,
+          "y": 396.578125,
+          "width": 78.5811767578125,
+          "height": 22.5,
+          "top": 396.578125,
+          "right": 1545.77490234375,
+          "bottom": 419.078125,
+          "left": 1467.1937255859375
+        }
+      ]
+    },
+    "overflow": false,
+    "actions": 2,
+    "below": 0
+  }
+]

@@ -1,0 +1,58 @@
+/* Readable copy takes precedence over shrinking everything to a fixed height. */
+html body#sw7-readable-layout#sw7-readable-layout :is(.sw7-hero-actions,.sw7-unified-actions,.sw7-feature-actions){display:flex!important;flex-wrap:wrap!important;align-items:center!important;justify-content:center!important;gap:12px!important;height:auto!important;min-height:0!important;grid-auto-rows:auto!important}
+html body#sw7-readable-layout#sw7-readable-layout :is(.sw7-hero-actions,.sw7-unified-actions,.sw7-feature-actions)>:is(a,button){display:flex!important;align-items:center!important;justify-content:center!important;flex:0 1 auto!important;align-self:center!important;box-sizing:border-box!important;width:auto!important;height:auto!important;min-height:44px!important;max-height:none!important;aspect-ratio:auto!important;padding:11px 18px!important;font:700 16px/1.25 Arial,sans-serif!important;white-space:normal!important;text-align:center!important;margin:0!important}
+html body#sw7-readable-layout #sw7-industry-hero{height:auto!important;min-height:var(--industry-visible-height,0px)!important;overflow:visible!important;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr)!important}
+html body#sw7-readable-layout #sw7-industry-hero>.sw7-unified-copy{zoom:1!important;gap:20px!important}
+html body#sw7-readable-layout #sw7-industry-hero .sw7-unified-intro{font:400 22px/1.5 Arial,sans-serif!important;max-width:100%!important}
+html body#sw7-readable-layout #sw7-industry-hero .sw7-unified-intro p{font:inherit!important;line-height:inherit!important;margin:0 0 16px!important}
+html body#sw7-readable-layout #sw7-industry-hero h1{font-size:clamp(38px,4vw,68px)!important;overflow-wrap:anywhere!important}
+html body#sw7-readable-layout #sw7-industry-hero>.sw7-unified-visual{height:auto!important;min-height:0!important}
+html body#sw7-readable-layout #sw7-industry-hero .sw7-unified-media{width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important;aspect-ratio:auto!important}
+html body#sw7-readable-layout #sw7-industry-hero .sw7-live-demo{position:relative!important;inset:auto!important;transform:none!important;zoom:1!important;width:100%!important;max-width:100%!important;box-sizing:border-box!important}
+html body#sw7-readable-layout #sw7-industry-hero .sw7-small-search{width:100%!important;max-width:100%!important;zoom:1!important}
+html body#sw7-readable-layout #sw7-industry-hero .search-body{padding:20px!important;min-height:0!important}
+html body#sw7-readable-layout #sw7-industry-hero :is(.search-logo,.typed,.sw7-example-description,.sw7-example-url){font-size:16px!important;line-height:1.45!important}
+html body#sw7-readable-layout #sw7-industry-hero .sw7-example-title{font-size:20px!important;line-height:1.3!important}
+html body#sw7-readable-layout #sw7-industry-hero .sw7-example-businesses{opacity:1!important;max-height:350px!important}
+html body#sw7-readable-layout #sw7-industry-hero.sw7-about-hero:after{display:none!important}
+html body#sw7-readable-layout .sw7-about-label{font:900 clamp(24px,2.6vw,40px)/1.1 Arial,sans-serif!important;color:#0784ff;text-align:center;width:100%}
+html body#sw7-readable-layout #sw7-home-fit .analysis-top{display:none!important}
+html body#sw7-readable-layout #sw7-home-fit .analysis-engine{zoom:1!important;transform:none!important}
+html body#sw7-readable-layout #sw7-home-fit .home-hero-copy p{font-size:22px!important;line-height:1.5!important}
+html body#sw7-readable-layout .reviews-hero .reviews-hero-line{font-size:clamp(28px,3.4vw,46px)!important;line-height:1.15!important;margin:20px 0!important}
+html body#sw7-readable-layout [data-sw7-screen-hero] :is(p,.hero-copy,.resource-intro){font-size:22px!important;line-height:1.5!important}
+@media(max-width:1050px){
+ html body#sw7-readable-layout#sw7-readable-layout .work-grid>.work-project .work-actions :is(a,.portfolio-contact-trigger){font-size:14px!important;min-height:44px!important;max-height:none!important;height:auto!important;padding:8px!important;line-height:1.25!important}
+ html body#sw7-readable-layout#sw7-readable-layout #sw7-responsive-header .sw7-visual-label{font-size:14px!important;line-height:1.3!important}
+ html body#sw7-readable-layout#sw7-readable-layout :is(.careers-hero,.sw7-nationwide-hero){display:flex!important;flex-direction:column!important;align-items:center!important;height:auto!important;min-height:0!important;overflow:visible!important;gap:24px!important;padding:24px 5vw!important}
+ html body#sw7-readable-layout#sw7-readable-layout :is(.careers-hero,.sw7-nationwide-hero):after{display:none!important}
+ html body#sw7-readable-layout#sw7-readable-layout :is(.careers-hero,.sw7-nationwide-hero)>video{position:relative!important;inset:auto!important;z-index:auto!important;order:2!important;width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important;border-radius:8px!important}
+ html body#sw7-readable-layout#sw7-readable-layout :is(.careers-hero,.sw7-nationwide-hero)>.sw7-hero-actions{order:3!important}
+ html body#sw7-readable-layout#sw7-readable-layout .sw7-nationwide-hero>.sw7-new-hero-copy{position:relative!important;inset:auto!important;width:100%!important;max-width:100%!important;order:1!important;padding:0!important}
+ html body#sw7-readable-layout #sw7-industry-hero{display:flex!important;flex-direction:column!important;padding:24px 5vw!important;gap:24px!important;min-height:0!important}
+ html body#sw7-readable-layout #sw7-industry-hero>.sw7-unified-copy{flex:none!important}
+ html body#sw7-readable-layout #sw7-industry-hero>.sw7-unified-visual{flex:none!important;width:100%!important}
+ html body#sw7-readable-layout #sw7-industry-hero .sw7-unified-intro{font-size:20px!important;line-height:1.5!important}
+ html body#sw7-readable-layout [data-sw7-screen-hero] :is(p,.hero-copy,.resource-intro){font-size:20px!important;line-height:1.5!important}
+ html body#sw7-readable-layout #sw7-home-fit .journey-row{display:grid!important;grid-template-columns:minmax(0,1fr)!important;min-height:0!important;padding:16px 0!important}
+ html body#sw7-readable-layout #sw7-home-fit .journey-label{padding:0 0 12px!important}
+ html body#sw7-readable-layout #sw7-home-fit .journey-label strong{font-size:18px!important;line-height:1.3!important}
+ html body#sw7-readable-layout #sw7-home-fit .journey-label span{font-size:15px!important;line-height:1.3!important}
+ html body#sw7-readable-layout #sw7-home-fit .journey-axis{display:none!important}
+ html body#sw7-readable-layout #sw7-home-fit .journey-stage{display:block!important;font:700 12px/1.3 Arial,sans-serif!important;margin-bottom:10px!important;letter-spacing:0!important}
+ html body#sw7-readable-layout #sw7-home-fit .journey-track{grid-template-columns:repeat(4,minmax(0,1fr))!important;min-height:70px!important}
+ html body#sw7-readable-layout #sw7-home-fit .journey-node{width:40px!important;height:40px!important;box-shadow:none!important}
+ html body#sw7-readable-layout #sw7-home-fit .journey-node b{font-size:16px!important}
+ html body#sw7-readable-layout #sw7-home-fit .journey-node.final{width:44px!important;height:44px!important}
+ html body#sw7-readable-layout #sw7-home-fit .journey-node.final b{font-size:24px!important}
+ html body#sw7-readable-layout #sw7-home-fit .journey-track:before{top:46px!important}
+ html body#sw7-readable-layout #sw7-home-fit .journey-track:after{top:42px!important}
+ html body#sw7-readable-layout #sw7-home-fit .equation-field{padding:8px!important}
+ html body#sw7-readable-layout #sw7-home-fit .analysis-engine{padding:12px!important}
+}
+@media(max-width:360px){
+ html body#sw7-readable-layout #sw7-home-fit .journey-stage{font-size:10px!important}
+ html body#sw7-readable-layout #sw7-home-fit .journey-node{width:34px!important;height:34px!important}
+ html body#sw7-readable-layout #sw7-home-fit .journey-node b{font-size:14px!important}
+ html body#sw7-readable-layout #sw7-home-fit .journey-node.final{width:38px!important;height:38px!important}
+}

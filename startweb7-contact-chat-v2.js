@@ -781,7 +781,7 @@
 
   var invitation=specificInvitations[chatPageKey]||specificInvitations['index.html'];
   var display={headline:invitation[0],body:invitation[1],button:invitation[2]};
-  var industryButtonLabels={"catering.html": "Get More Bookings", "doctors.html": "Get More Patients", "dentists.html": "Get More Patients", "lawyers.html": "Get More Cases", "collision-repair.html": "Get More Repairs", "real-estate-agents.html": "Get More Clients", "pool-construction.html": "Get More Projects", "general-contractors.html": "Get More Projects", "commercial-cleaning.html": "Get More Clients", "security-services.html": "Get More Clients", "home-health-care.html": "Get More Patients", "assisted-living.html": "Get More Residents"};
+  var industryButtonLabels={"interior-design.html": "Get More Clients", "catering.html": "Get More Bookings", "doctors.html": "Get More Patients", "dentists.html": "Get More Patients", "lawyers.html": "Get More Cases", "collision-repair.html": "Get More Repairs", "real-estate-agents.html": "Get More Clients", "pool-construction.html": "Get More Projects", "general-contractors.html": "Get More Projects", "commercial-cleaning.html": "Get More Clients", "security-services.html": "Get More Clients", "home-health-care.html": "Get More Patients", "assisted-living.html": "Get More Residents"};
   if(industryButtonLabels[pageKey])display.button=industryButtonLabels[pageKey];
   var openButton=document.getElementById('openHomeChat');
   var section=document.getElementById('homeContactChat');

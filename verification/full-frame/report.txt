@@ -1,0 +1,44 @@
+Complete-frame hero layout trial | October 22, 2026
+This supersedes the previous background-cover hero layout and audit report.
+
+Completed the owner-approved side-by-side layout for all 13 industry pages and six service pages: Landing Page, Business Website, SEO Optimized Website, Essentials, Competitive and Dominance.
+
+Photos and videos are no longer enlarged into full-bleed backgrounds. The existing text, icon and buttons occupy the left column and the complete original media frame occupies the right column. Narrow screens stack the content and media. Image/video dimensions preserve the source aspect ratio, so the layout does not crop heads, furniture, buildings or video frames. The media element fits its own frame without added black letterbox strips. The surrounding navy area is the hero's existing content background.
+
+The existing calendar, map, search results and other live demos are scaled as complete components. Map attribution and demo captions remain present. Animations and internal interactions are preserved. Existing marketing wording and SEO titles remain unchanged in this revision. No new photos, marketing copy or pages were created.
+
+Commercial Cleaning compatibility repair
+The original commercial-cleaning-hero.mp4 uses HEVC, which the test Chrome browser could not decode. Created assets/commercial-cleaning-hero-h264.mp4 and updated this page to use it. Kept the original file. Converted locally with FFmpeg, H.264, yuv420p, faststart and no audio for this muted hero. The free utility was downloaded after the network permission request, used locally and removed with its temporary archive. No paid service was used.
+
+Validation
+114 layout checks passed: all 19 pages at 390x844, 490x598, 768x900, 1180x780, 1810x796 and 1920x1080.
+Checked complete media aspect ratios against natural image/video dimensions, contain sizing, media and demo bounds, full demo child containment, visible icons/titles/introductions/buttons, one H1, two hero buttons, no separate mobile action panel, no horizontal page overflow and the complete hero fitting below navigation.
+
+38 additional checks passed after resizing the same loaded pages between narrow and wide views. Rechecked containment and opened/closed each page's contact chat without submitting forms.
+
+Static checks passed for existing SEO titles, local links/assets and structured-data syntax on all 19 pages. The previous approved body-copy preservation check also passes for all industry pages. git diff --check passes.
+
+Visually reviewed the full Lawyers photograph, complete Interior Design room, pool video, and calendar at desktop and narrow/mobile sizes. Saved viewport screenshots and detailed JSON results in this directory.
+
+Main implementation files
+industry-hero-unified.css
+industry-hero-unified.js
+The 13 industry HTML files listed in pages.json
+landing-page.html
+business-website.html
+seo-optimized-website.html
+essentials.html
+competitive.html
+dominance.html
+assets/commercial-cleaning-hero-h264.mp4
+tools/test-full-frame.cjs
+tools/check-full-frame.cjs
+
+Evidence
+pages.json: 19-page inventory
+results.json: 114 layout checks
+resize-results.json: 38 resize/contact checks
+static-results.txt: metadata/resource/schema checks
+Viewport screenshots in this directory
+
+Everything remains local. No forms submitted, live account settings changed, paid services triggered, commits, pushes or deployment. Release still awaits owner review and explicit approval.

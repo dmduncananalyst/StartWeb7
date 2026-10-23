@@ -1,0 +1,13 @@
+PASS real-estate-agents.html: one industry-name H1, hero and icon; local links/media and structured data valid; approved longer copy retained where applicable.
+PASS collision-repair.html: one industry-name H1, hero and icon; local links/media and structured data valid; approved longer copy retained where applicable.
+PASS pool-construction.html: one industry-name H1, hero and icon; local links/media and structured data valid; approved longer copy retained where applicable.
+PASS general-contractors.html: one industry-name H1, hero and icon; local links/media and structured data valid; approved longer copy retained where applicable.
+PASS catering.html: one industry-name H1, hero and icon; local links/media and structured data valid; approved longer copy retained where applicable.
+PASS commercial-cleaning.html: one industry-name H1, hero and icon; local links/media and structured data valid; approved longer copy retained where applicable.
+PASS security-services.html: one industry-name H1, hero and icon; local links/media and structured data valid; approved longer copy retained where applicable.
+PASS home-health-care.html: one industry-name H1, hero and icon; local links/media and structured data valid; approved longer copy retained where applicable.
+PASS assisted-living.html: one industry-name H1, hero and icon; local links/media and structured data valid; approved longer copy retained where applicable.
+PASS lawyers.html: one industry-name H1, hero and icon; local links/media and structured data valid; approved longer copy retained where applicable.
+PASS doctors.html: one industry-name H1, hero and icon; local links/media and structured data valid; approved longer copy retained where applicable.
+PASS dentists.html: one industry-name H1, hero and icon; local links/media and structured data valid; approved longer copy retained where applicable.
+PASS interior-design.html: one industry-name H1, hero and icon; local links/media and structured data valid; approved longer copy retained where applicable.

@@ -1,0 +1,1500 @@
+[
+  {
+    "file": "index.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 86,
+      "width": 390,
+      "height": 1150,
+      "top": 86,
+      "right": 390,
+      "bottom": 1236,
+      "left": 0
+    },
+    "copy": [
+      "22px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "about.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 783.328125,
+      "top": 132,
+      "right": 390,
+      "bottom": 915.328125,
+      "left": 0
+    },
+    "copy": [
+      "20px",
+      "20px",
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 19.5,
+      "y": 693.890625,
+      "width": 351,
+      "height": 197.4375,
+      "top": 693.890625,
+      "right": 370.5,
+      "bottom": 891.328125,
+      "left": 19.5,
+      "nativeWidth": 1280,
+      "ready": 4
+    }
+  },
+  {
+    "file": "seo-optimized-website.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 839.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 971.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "pool-construction.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 696.9375,
+      "top": 132,
+      "right": 390,
+      "bottom": 828.9375,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 19.5,
+      "y": 607.5,
+      "width": 351,
+      "height": 197.4375,
+      "top": 607.5,
+      "right": 370.5,
+      "bottom": 804.9375,
+      "left": 19.5,
+      "nativeWidth": 1280,
+      "ready": 4
+    }
+  },
+  {
+    "file": "security-services.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 696.9375,
+      "top": 132,
+      "right": 390,
+      "bottom": 828.9375,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 19.5,
+      "y": 607.5,
+      "width": 351,
+      "height": 197.4375,
+      "top": 607.5,
+      "right": 370.5,
+      "bottom": 804.9375,
+      "left": 19.5,
+      "nativeWidth": 1920,
+      "ready": 4
+    }
+  },
+  {
+    "file": "resources-ai-search.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 406.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 538.5,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "reviews.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 427.8125,
+      "top": 132,
+      "right": 390,
+      "bottom": 559.8125,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "commercial-cleaning.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 696.9375,
+      "top": 132,
+      "right": 390,
+      "bottom": 828.9375,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 19.5,
+      "y": 607.5,
+      "width": 351,
+      "height": 197.4375,
+      "top": 607.5,
+      "right": 370.5,
+      "bottom": 804.9375,
+      "left": 19.5,
+      "nativeWidth": 1920,
+      "ready": 4
+    }
+  },
+  {
+    "file": "careers.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 517.4375,
+      "top": 132,
+      "right": 390,
+      "bottom": 649.4375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 19.5,
+      "y": 280,
+      "width": 351,
+      "height": 197.4375,
+      "top": 280,
+      "right": 370.5,
+      "bottom": 477.4375,
+      "left": 19.5,
+      "nativeWidth": 1920,
+      "ready": 4
+    }
+  },
+  {
+    "file": "nationwide.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 689.859375,
+      "top": 132,
+      "right": 390,
+      "bottom": 821.859375,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 19.5,
+      "y": 600.421875,
+      "width": 351,
+      "height": 197.4375,
+      "top": 600.421875,
+      "right": 370.5,
+      "bottom": 797.859375,
+      "left": 19.5,
+      "nativeWidth": 1280,
+      "ready": 4
+    }
+  },
+  {
+    "file": "index.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 1190.625,
+      "top": 143,
+      "right": 768,
+      "bottom": 1333.625,
+      "left": 0
+    },
+    "copy": [
+      "22px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "about.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 826.6875,
+      "top": 143,
+      "right": 768,
+      "bottom": 969.6875,
+      "left": 0
+    },
+    "copy": [
+      "20px",
+      "20px",
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 38.390625,
+      "y": 556.890625,
+      "width": 691.21875,
+      "height": 388.796875,
+      "top": 556.890625,
+      "right": 729.609375,
+      "bottom": 945.6875,
+      "left": 38.390625,
+      "nativeWidth": 1280,
+      "ready": 4
+    }
+  },
+  {
+    "file": "seo-optimized-website.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 751.5,
+      "top": 143,
+      "right": 768,
+      "bottom": 894.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "pool-construction.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 785.546875,
+      "top": 143,
+      "right": 768,
+      "bottom": 928.546875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 38.390625,
+      "y": 515.75,
+      "width": 691.21875,
+      "height": 388.796875,
+      "top": 515.75,
+      "right": 729.609375,
+      "bottom": 904.546875,
+      "left": 38.390625,
+      "nativeWidth": 1280,
+      "ready": 4
+    }
+  },
+  {
+    "file": "security-services.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 785.546875,
+      "top": 143,
+      "right": 768,
+      "bottom": 928.546875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 38.390625,
+      "y": 515.75,
+      "width": 691.21875,
+      "height": 388.796875,
+      "top": 515.75,
+      "right": 729.609375,
+      "bottom": 904.546875,
+      "left": 38.390625,
+      "nativeWidth": 1920,
+      "ready": 4
+    }
+  },
+  {
+    "file": "resources-ai-search.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 447.6875,
+      "top": 143,
+      "right": 768,
+      "bottom": 590.6875,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "reviews.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 437.359375,
+      "top": 143,
+      "right": 768,
+      "bottom": 580.359375,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "commercial-cleaning.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 785.546875,
+      "top": 143,
+      "right": 768,
+      "bottom": 928.546875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 38.390625,
+      "y": 515.75,
+      "width": 691.21875,
+      "height": 388.796875,
+      "top": 515.75,
+      "right": 729.609375,
+      "bottom": 904.546875,
+      "left": 38.390625,
+      "nativeWidth": 1920,
+      "ready": 4
+    }
+  },
+  {
+    "file": "careers.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 769.109375,
+      "top": 143,
+      "right": 768,
+      "bottom": 912.109375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 38.390625,
+      "y": 351.3125,
+      "width": 691.21875,
+      "height": 388.796875,
+      "top": 351.3125,
+      "right": 729.609375,
+      "bottom": 740.109375,
+      "left": 38.390625,
+      "nativeWidth": 1920,
+      "ready": 4
+    }
+  },
+  {
+    "file": "nationwide.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 882.5,
+      "top": 143,
+      "right": 768,
+      "bottom": 1025.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 38.390625,
+      "y": 612.703125,
+      "width": 691.21875,
+      "height": 388.796875,
+      "top": 612.703125,
+      "right": 729.609375,
+      "bottom": 1001.5,
+      "left": 38.390625,
+      "nativeWidth": 1280,
+      "ready": 4
+    }
+  },
+  {
+    "file": "index.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 749.5625,
+      "top": 143,
+      "right": 1024,
+      "bottom": 892.5625,
+      "left": 0
+    },
+    "copy": [
+      "22px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "about.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 935.21875,
+      "top": 143,
+      "right": 1024,
+      "bottom": 1078.21875,
+      "left": 0
+    },
+    "copy": [
+      "20px",
+      "20px",
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 51.1875,
+      "y": 535.8125,
+      "width": 921.625,
+      "height": 518.40625,
+      "top": 535.8125,
+      "right": 972.8125,
+      "bottom": 1054.21875,
+      "left": 51.1875,
+      "nativeWidth": 1280,
+      "ready": 4
+    }
+  },
+  {
+    "file": "seo-optimized-website.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 727.53125,
+      "top": 143,
+      "right": 1024,
+      "bottom": 870.53125,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "pool-construction.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 888.171875,
+      "top": 143,
+      "right": 1024,
+      "bottom": 1031.171875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 51.1875,
+      "y": 488.765625,
+      "width": 921.625,
+      "height": 518.40625,
+      "top": 488.765625,
+      "right": 972.8125,
+      "bottom": 1007.171875,
+      "left": 51.1875,
+      "nativeWidth": 1280,
+      "ready": 4
+    }
+  },
+  {
+    "file": "security-services.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 888.171875,
+      "top": 143,
+      "right": 1024,
+      "bottom": 1031.171875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 51.1875,
+      "y": 488.765625,
+      "width": 921.625,
+      "height": 518.40625,
+      "top": 488.765625,
+      "right": 972.8125,
+      "bottom": 1007.171875,
+      "left": 51.1875,
+      "nativeWidth": 1920,
+      "ready": 4
+    }
+  },
+  {
+    "file": "resources-ai-search.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 389.6875,
+      "top": 143,
+      "right": 1024,
+      "bottom": 532.6875,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "reviews.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 372.6875,
+      "top": 143,
+      "right": 1024,
+      "bottom": 515.6875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "commercial-cleaning.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 918.171875,
+      "top": 143,
+      "right": 1024,
+      "bottom": 1061.171875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 51.1875,
+      "y": 518.765625,
+      "width": 921.625,
+      "height": 518.40625,
+      "top": 518.765625,
+      "right": 972.8125,
+      "bottom": 1037.171875,
+      "left": 51.1875,
+      "nativeWidth": 1920,
+      "ready": 4
+    }
+  },
+  {
+    "file": "careers.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 849.453125,
+      "top": 143,
+      "right": 1024,
+      "bottom": 992.453125,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 51.1875,
+      "y": 360.046875,
+      "width": 921.625,
+      "height": 518.40625,
+      "top": 360.046875,
+      "right": 972.8125,
+      "bottom": 878.453125,
+      "left": 51.1875,
+      "nativeWidth": 1920,
+      "ready": 4
+    }
+  },
+  {
+    "file": "nationwide.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 1018.984375,
+      "top": 143,
+      "right": 1024,
+      "bottom": 1161.984375,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 51.1875,
+      "y": 619.578125,
+      "width": 921.625,
+      "height": 518.40625,
+      "top": 619.578125,
+      "right": 972.8125,
+      "bottom": 1137.984375,
+      "left": 51.1875,
+      "nativeWidth": 1280,
+      "ready": 4
+    }
+  },
+  {
+    "file": "index.html",
+    "width": 1810,
+    "height": 796,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 641,
+      "top": 155,
+      "right": 1795,
+      "bottom": 796,
+      "left": 0
+    },
+    "copy": [
+      "22px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "about.html",
+    "width": 1810,
+    "height": 796,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 641,
+      "top": 155,
+      "right": 1795,
+      "bottom": 796,
+      "left": 0
+    },
+    "copy": [
+      "22px",
+      "22px",
+      "22px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 834.640625,
+      "y": 225.59375,
+      "width": 888.5625,
+      "height": 499.8125,
+      "top": 225.59375,
+      "right": 1723.203125,
+      "bottom": 725.40625,
+      "left": 834.640625,
+      "nativeWidth": 1280,
+      "ready": 4
+    }
+  },
+  {
+    "file": "seo-optimized-website.html",
+    "width": 1810,
+    "height": 796,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 641,
+      "top": 155,
+      "right": 1795,
+      "bottom": 796,
+      "left": 0
+    },
+    "copy": [
+      "22px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "pool-construction.html",
+    "width": 1810,
+    "height": 796,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 641,
+      "top": 155,
+      "right": 1795,
+      "bottom": 796,
+      "left": 0
+    },
+    "copy": [
+      "22px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 834.640625,
+      "y": 225.59375,
+      "width": 888.5625,
+      "height": 499.8125,
+      "top": 225.59375,
+      "right": 1723.203125,
+      "bottom": 725.40625,
+      "left": 834.640625,
+      "nativeWidth": 1280,
+      "ready": 4
+    }
+  },
+  {
+    "file": "security-services.html",
+    "width": 1810,
+    "height": 796,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 641,
+      "top": 155,
+      "right": 1795,
+      "bottom": 796,
+      "left": 0
+    },
+    "copy": [
+      "22px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 834.640625,
+      "y": 225.59375,
+      "width": 888.5625,
+      "height": 499.8125,
+      "top": 225.59375,
+      "right": 1723.203125,
+      "bottom": 725.40625,
+      "left": 834.640625,
+      "nativeWidth": 1920,
+      "ready": 4
+    }
+  },
+  {
+    "file": "resources-ai-search.html",
+    "width": 1810,
+    "height": 796,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 389.6875,
+      "top": 155,
+      "right": 1795,
+      "bottom": 544.6875,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "reviews.html",
+    "width": 1810,
+    "height": 796,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 408.515625,
+      "top": 155,
+      "right": 1795,
+      "bottom": 563.515625,
+      "left": 0
+    },
+    "copy": [
+      "22px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "commercial-cleaning.html",
+    "width": 1810,
+    "height": 796,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 641,
+      "top": 155,
+      "right": 1795,
+      "bottom": 796,
+      "left": 0
+    },
+    "copy": [
+      "22px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 834.640625,
+      "y": 225.59375,
+      "width": 888.5625,
+      "height": 499.8125,
+      "top": 225.59375,
+      "right": 1723.203125,
+      "bottom": 725.40625,
+      "left": 834.640625,
+      "nativeWidth": 1920,
+      "ready": 4
+    }
+  },
+  {
+    "file": "careers.html",
+    "width": 1810,
+    "height": 796,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 317.1875,
+      "top": 155,
+      "right": 1795,
+      "bottom": 472.1875,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "nationwide.html",
+    "width": 1810,
+    "height": 796,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 607.59375,
+      "top": 155,
+      "right": 1795,
+      "bottom": 762.59375,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      44,
+      44
+    ],
+    "media": null
+  },
+  {
+    "file": "index.html",
+    "width": 300,
+    "height": 598,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 86,
+      "width": 300,
+      "height": 1114.3125,
+      "top": 86,
+      "right": 300,
+      "bottom": 1200.3125,
+      "left": 0
+    },
+    "copy": [
+      "22px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "about.html",
+    "width": 300,
+    "height": 598,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 300,
+      "height": 797.765625,
+      "top": 132,
+      "right": 300,
+      "bottom": 929.765625,
+      "left": 0
+    },
+    "copy": [
+      "20px",
+      "20px",
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 15,
+      "y": 753.890625,
+      "width": 270,
+      "height": 151.875,
+      "top": 753.890625,
+      "right": 285,
+      "bottom": 905.765625,
+      "left": 15,
+      "nativeWidth": 1280,
+      "ready": 4
+    }
+  },
+  {
+    "file": "seo-optimized-website.html",
+    "width": 300,
+    "height": 598,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 300,
+      "height": 908.25,
+      "top": 132,
+      "right": 300,
+      "bottom": 1040.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "pool-construction.html",
+    "width": 300,
+    "height": 598,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 300,
+      "height": 720.125,
+      "top": 132,
+      "right": 300,
+      "bottom": 852.125,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 15,
+      "y": 676.25,
+      "width": 270,
+      "height": 151.875,
+      "top": 676.25,
+      "right": 285,
+      "bottom": 828.125,
+      "left": 15,
+      "nativeWidth": 1280,
+      "ready": 4
+    }
+  },
+  {
+    "file": "security-services.html",
+    "width": 300,
+    "height": 598,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 300,
+      "height": 651.375,
+      "top": 132,
+      "right": 300,
+      "bottom": 783.375,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 15,
+      "y": 607.5,
+      "width": 270,
+      "height": 151.875,
+      "top": 607.5,
+      "right": 285,
+      "bottom": 759.375,
+      "left": 15,
+      "nativeWidth": 1920,
+      "ready": 4
+    }
+  },
+  {
+    "file": "resources-ai-search.html",
+    "width": 300,
+    "height": 598,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 300,
+      "height": 406.5,
+      "top": 132,
+      "right": 300,
+      "bottom": 538.5,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "reviews.html",
+    "width": 300,
+    "height": 598,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 300,
+      "height": 490,
+      "top": 132,
+      "right": 300,
+      "bottom": 622,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "commercial-cleaning.html",
+    "width": 300,
+    "height": 598,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 300,
+      "height": 681.375,
+      "top": 132,
+      "right": 300,
+      "bottom": 813.375,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 15,
+      "y": 637.5,
+      "width": 270,
+      "height": 151.875,
+      "top": 637.5,
+      "right": 285,
+      "bottom": 789.375,
+      "left": 15,
+      "nativeWidth": 1920,
+      "ready": 4
+    }
+  },
+  {
+    "file": "careers.html",
+    "width": 300,
+    "height": 598,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 300,
+      "height": 471.875,
+      "top": 132,
+      "right": 300,
+      "bottom": 603.875,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 15,
+      "y": 280,
+      "width": 270,
+      "height": 151.875,
+      "top": 280,
+      "right": 285,
+      "bottom": 431.875,
+      "left": 15,
+      "nativeWidth": 1920,
+      "ready": 4
+    }
+  },
+  {
+    "file": "nationwide.html",
+    "width": 300,
+    "height": 598,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 300,
+      "height": 633.515625,
+      "top": 132,
+      "right": 300,
+      "bottom": 765.515625,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 15,
+      "y": 589.640625,
+      "width": 270,
+      "height": 151.875,
+      "top": 589.640625,
+      "right": 285,
+      "bottom": 741.515625,
+      "left": 15,
+      "nativeWidth": 1280,
+      "ready": 4
+    }
+  }
+]

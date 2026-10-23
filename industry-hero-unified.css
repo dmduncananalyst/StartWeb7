@@ -1,0 +1,38 @@
+/* Complete media frames alongside existing hero content. */
+html body #sw7-industry-hero.sw7-unified-hero{position:relative!important;isolation:isolate!important;display:grid!important;grid-template-columns:minmax(0,.85fr) minmax(0,1.3fr)!important;align-items:center!important;gap:clamp(24px,3vw,52px)!important;width:100%!important;height:var(--industry-visible-height,650px)!important;min-height:0!important;max-height:none!important;padding:24px 4vw!important;margin:0!important;box-sizing:border-box!important;overflow:hidden!important;background:#071523!important;color:#fff!important}
+html body #sw7-industry-hero:before,html body #sw7-industry-hero:after{display:none!important}
+html body #sw7-industry-hero>.sw7-unified-copy{order:1!important;position:relative!important;z-index:2!important;box-sizing:border-box!important;display:flex!important;flex-direction:column!important;align-items:flex-start!important;gap:20px!important;width:100%!important;min-width:0!important;max-width:none!important;margin:0!important;padding:0!important;color:#fff!important;text-align:left!important;transform:none!important}
+html body #sw7-industry-hero>.sw7-unified-visual{order:2!important;position:relative!important;display:flex!important;align-items:center!important;justify-content:center!important;width:100%!important;height:100%!important;min-width:0!important;min-height:0!important;overflow:visible!important;background:transparent!important}
+html body #sw7-industry-hero .sw7-unified-media{position:relative!important;inset:auto!important;display:block!important;width:var(--frame-width,100%)!important;height:var(--frame-height,auto)!important;max-width:100%!important;max-height:100%!important;object-fit:contain!important;object-position:center!important;border:0!important;border-radius:8px!important;margin:0!important;padding:0!important;opacity:1!important;transform:none!important;filter:none!important}
+html body #sw7-industry-hero .sw7-unified-icon{display:block!important;position:static!important;width:150px!important;height:116px!important;object-fit:contain!important;margin:0 auto!important;opacity:1!important;visibility:visible!important}
+html body #sw7-industry-hero h1{font:900 clamp(40px,4.2vw,76px)/1.02 Arial,Helvetica,sans-serif!important;letter-spacing:-.04em!important;white-space:normal!important;overflow-wrap:normal!important;width:100%!important;max-width:100%!important;text-align:center!important;align-self:center!important;color:#fff!important;margin:0!important;padding:0!important}
+html body #sw7-industry-hero h1 span{display:block!important;color:inherit!important;-webkit-text-stroke:0!important;margin:0!important}
+html body #sw7-industry-hero .sw7-unified-intro{font:400 clamp(16px,1.3vw,20px)/1.5 Arial,Helvetica,sans-serif!important;max-width:640px!important;margin:0 0 4px!important;padding:0!important;color:#fff!important}
+html body #sw7-industry-hero .sw7-unified-actions{position:static!important;display:flex!important;flex-wrap:wrap!important;gap:12px!important;margin:0!important;padding:0!important;width:100%!important;max-width:100%!important;transform:none!important}
+html body #sw7-industry-hero .sw7-unified-actions>a{display:flex!important;flex:1 1 160px!important;align-items:center!important;justify-content:center!important;box-sizing:border-box!important;min-height:46px!important;max-width:100%!important;padding:12px 14px!important;border:2px solid #fff!important;border-radius:5px!important;background:#0784ff!important;color:#fff!important;font:700 16px/1.2 Arial,sans-serif!important;letter-spacing:0!important;text-decoration:none!important;white-space:normal!important;margin:0!important;text-align:center!important}
+html body #sw7-industry-hero .sw7-unified-actions>a:hover{background:#0068d0!important}
+html body #sw7-industry-hero .sw7-unified-actions>a:focus-visible{outline:3px solid #fff;outline-offset:3px}
+html body #sw7-industry-hero .sw7-live-demo{position:absolute!important;left:50%!important;top:50%!important;right:auto!important;bottom:auto!important;max-width:none!important;min-width:0!important;margin:0!important;zoom:1!important;transform:translate(-50%,-50%) scale(var(--demo-scale,1))!important;transform-origin:center!important}
+html body #sw7-industry-hero .sw7-live-demo.sw7-calendar{width:570px!important}
+html body #sw7-industry-hero .sw7-live-demo.sw7-la-map{width:685px!important;aspect-ratio:685/474!important}
+html body #sw7-industry-hero .sw7-live-demo.competitive-board{width:540px!important}
+html body #sw7-industry-hero .sw7-live-demo.search-stage{width:560px!important;height:auto!important;min-height:0!important;padding:0!important;overflow:visible!important}
+html:has(#sw7-industry-hero) .sw7-market-copy{padding-top:48px!important}
+html:has(#sw7-industry-hero) .sw7-market-inner>p{margin-bottom:28px!important;line-height:1.65!important}
+html:has(#sw7-industry-hero) .sw7-market-inner>h2:not(:first-child){margin-top:36px!important;margin-bottom:22px!important}
+html:has(#sw7-industry-hero) .sw7-market-section{padding-top:40px!important;padding-bottom:40px!important;row-gap:12px!important}
+@media(max-width:700px){
+ html body #sw7-industry-hero.sw7-unified-hero{display:flex!important;flex-direction:column!important;align-items:stretch!important;gap:16px!important;padding:16px 5vw!important}
+ html body #sw7-industry-hero>.sw7-unified-copy{flex:0 0 auto!important;gap:12px!important}
+ html body #sw7-industry-hero>.sw7-unified-visual{flex:1 1 0!important;height:auto!important}
+ html body #sw7-industry-hero .sw7-unified-icon{width:120px!important;height:92px!important}
+ html body #sw7-industry-hero h1{font-size:clamp(36px,8vw,52px)!important}
+ html body #sw7-industry-hero .sw7-unified-intro{font-size:15px!important;line-height:1.4!important}
+ html body #sw7-industry-hero .sw7-unified-actions{gap:10px!important}
+ html body #sw7-industry-hero .sw7-unified-actions>a{flex:1 1 calc(50% - 5px)!important;font-size:14px!important;min-height:44px!important;padding:10px!important}
+ html body #sw7-industry-hero .sw7-live-demo{width:var(--demo-mobile-width,350px)!important}
+}
+
+html body #sw7-industry-hero .sw7-live-demo.sw7-proto-industries{width:560px!important;min-height:0!important;height:auto!important;padding:24px!important;box-sizing:border-box!important}
+html body #sw7-industry-hero .sw7-proto-industries .proto-body{height:auto!important;min-height:0!important}
+@media(max-width:700px){html body #sw7-industry-hero .sw7-live-demo.sw7-proto-industries{width:var(--demo-mobile-width,350px)!important;padding:16px!important}}

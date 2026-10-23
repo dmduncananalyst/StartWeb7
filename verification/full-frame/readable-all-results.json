@@ -1,0 +1,8480 @@
+[
+  {
+    "file": "about.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 783.328125,
+      "top": 132,
+      "right": 390,
+      "bottom": 915.328125,
+      "left": 0
+    },
+    "copy": [
+      "20px",
+      "20px",
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 19.5,
+      "y": 693.890625,
+      "width": 351,
+      "height": 197.4375,
+      "top": 693.890625,
+      "right": 370.5,
+      "bottom": 891.328125,
+      "left": 19.5
+    }
+  },
+  {
+    "file": "aeo-ai-search.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 638.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 770.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "angi-vs-thumbtack-pool-builders.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 627,
+      "top": 132,
+      "right": 390,
+      "bottom": 759,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "are-you-a-robot-captcha-taught-machines-to-read.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 199.15625,
+      "top": 132,
+      "right": 390,
+      "bottom": 331.15625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "assisted-living.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 658.1875,
+      "top": 132,
+      "right": 390,
+      "bottom": 790.1875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 19.5,
+      "y": 568.75,
+      "width": 351,
+      "height": 197.4375,
+      "top": 568.75,
+      "right": 370.5,
+      "bottom": 766.1875,
+      "left": 19.5
+    }
+  },
+  {
+    "file": "before-the-feed-the-comment-section-was-the-conversation.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 199.15625,
+      "top": 132,
+      "right": 390,
+      "bottom": 331.15625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "blog.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 84.71875,
+      "top": 132,
+      "right": 390,
+      "bottom": 216.71875,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "burbank.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 658.609375,
+      "top": 132,
+      "right": 390,
+      "bottom": 790.609375,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "business-website.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 470.9375,
+      "top": 132,
+      "right": 390,
+      "bottom": 602.9375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 19.5,
+      "y": 381.5,
+      "width": 351,
+      "height": 197.4375,
+      "top": 381.5,
+      "right": 370.5,
+      "bottom": 578.9375,
+      "left": 19.5
+    }
+  },
+  {
+    "file": "buying-legal-leads-california-oregon-2026.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 235.875,
+      "top": 132,
+      "right": 390,
+      "bottom": 367.875,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "calabasas.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 658.609375,
+      "top": 132,
+      "right": 390,
+      "bottom": 790.609375,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "can-ai-search-recommend-my-business.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 500.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 632.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "can-i-get-leads-from-google-without-running-ads.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 499,
+      "top": 132,
+      "right": 390,
+      "bottom": 631,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "can-i-pay-chatgpt-to-recommend-my-business.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 532,
+      "top": 132,
+      "right": 390,
+      "bottom": 664,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "can-seo-work-for-a-business-that-serves-more-than-one-city.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 469,
+      "top": 132,
+      "right": 390,
+      "bottom": 601,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "can-seo-work-if-i-do-not-have-a-storefront.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 499,
+      "top": 132,
+      "right": 390,
+      "bottom": 631,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "careers.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 517.4375,
+      "top": 132,
+      "right": 390,
+      "bottom": 649.4375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "catering.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 1084.75,
+      "top": 132,
+      "right": 390,
+      "bottom": 1216.75,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 19.5,
+      "y": 568.75,
+      "width": 351,
+      "height": 624,
+      "top": 568.75,
+      "right": 370.5,
+      "bottom": 1192.75,
+      "left": 19.5
+    }
+  },
+  {
+    "file": "ccc-one-vs-mitchell-collision-repair.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 638.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 770.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "collision-repair.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 696.9375,
+      "top": 132,
+      "right": 390,
+      "bottom": 828.9375,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 19.5,
+      "y": 607.5,
+      "width": 351,
+      "height": 197.4375,
+      "top": 607.5,
+      "right": 370.5,
+      "bottom": 804.9375,
+      "left": 19.5
+    }
+  },
+  {
+    "file": "commercial-cleaning.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 696.9375,
+      "top": 132,
+      "right": 390,
+      "bottom": 828.9375,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 19.5,
+      "y": 607.5,
+      "width": 351,
+      "height": 197.4375,
+      "top": 607.5,
+      "right": 370.5,
+      "bottom": 804.9375,
+      "left": 19.5
+    }
+  },
+  {
+    "file": "competitive.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 799.75,
+      "top": 132,
+      "right": 390,
+      "bottom": 931.75,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "contact.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 348.90625,
+      "top": 132,
+      "right": 390,
+      "bottom": 480.90625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "dentists.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 694.75,
+      "top": 132,
+      "right": 390,
+      "bottom": 826.75,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 19.5,
+      "y": 568.75,
+      "width": 351,
+      "height": 234,
+      "top": 568.75,
+      "right": 370.5,
+      "bottom": 802.75,
+      "left": 19.5
+    }
+  },
+  {
+    "file": "digital-marketing-vs-seo.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 577,
+      "top": 132,
+      "right": 390,
+      "bottom": 709,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "do-i-need-a-website-if-i-have-social-media.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 500.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 632.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "do-i-need-professional-photos-to-succeed-on-instagram.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 500.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 632.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "do-i-need-special-ai-code-on-my-website.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 499,
+      "top": 132,
+      "right": 390,
+      "bottom": 631,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "do-reviews-help-me-get-more-customers-from-google.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 499,
+      "top": 132,
+      "right": 390,
+      "bottom": 631,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "doctors.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 664.75,
+      "top": 132,
+      "right": 390,
+      "bottom": 796.75,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 19.5,
+      "y": 538.75,
+      "width": 351,
+      "height": 234,
+      "top": 538.75,
+      "right": 370.5,
+      "bottom": 772.75,
+      "left": 19.5
+    }
+  },
+  {
+    "file": "does-a-website-actually-help-a-business-get-customers.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 469,
+      "top": 132,
+      "right": 390,
+      "bottom": 601,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "dominance.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 589.625,
+      "top": 132,
+      "right": 390,
+      "bottom": 721.625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "essentials.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 914.75,
+      "top": 132,
+      "right": 390,
+      "bottom": 1046.75,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "from-ten-blue-links-to-ai-answers.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 235.875,
+      "top": 132,
+      "right": 390,
+      "bottom": 367.875,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "general-contractors.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 696.9375,
+      "top": 132,
+      "right": 390,
+      "bottom": 828.9375,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 19.5,
+      "y": 607.5,
+      "width": 351,
+      "height": 197.4375,
+      "top": 607.5,
+      "right": 370.5,
+      "bottom": 804.9375,
+      "left": 19.5
+    }
+  },
+  {
+    "file": "glendale.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 658.609375,
+      "top": 132,
+      "right": 390,
+      "bottom": 790.609375,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "google-business-profile-vs-website.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 638.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 770.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "google-maps-leads.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 577,
+      "top": 132,
+      "right": 390,
+      "bottom": 709,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "google-maps-verification-complete-business-still-missing.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 272.59375,
+      "top": 132,
+      "right": 390,
+      "bottom": 404.59375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "home-health-care.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 733.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 865.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 19.5,
+      "y": 607.5,
+      "width": 351,
+      "height": 234,
+      "top": 607.5,
+      "right": 370.5,
+      "bottom": 841.5,
+      "left": 19.5
+    }
+  },
+  {
+    "file": "how-craigslist-kept-its-1990s-look-and-outlived-prettier-rivals.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 199.15625,
+      "top": 132,
+      "right": 390,
+      "bottom": 331.15625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-do-customers-find-local-businesses-online.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 530.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 662.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-do-i-build-an-email-list-for-my-business.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 530.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 662.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-do-i-get-customers-from-social-media-without-paying-for-ads.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 560.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 692.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-do-i-get-my-business-recommended-by-chatgpt.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 530.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 662.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-do-i-know-if-my-paid-ads-are-working.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 530.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 662.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-do-i-know-if-my-seo-is-working.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 530.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 662.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-do-i-show-up-when-someone-searches-for-my-service-near-me.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 499,
+      "top": 132,
+      "right": 390,
+      "bottom": 631,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-do-i-target-the-right-people-with-ads.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 499,
+      "top": 132,
+      "right": 390,
+      "bottom": 631,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-email-newsletters-became-a-media-business-again.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 199.15625,
+      "top": 132,
+      "right": 390,
+      "bottom": 331.15625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-long-does-it-take-to-get-leads-from-angi-commercial-cleaning.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 578.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 710.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "how-long-does-it-take-to-show-up-in-ai-answers.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 499,
+      "top": 132,
+      "right": 390,
+      "bottom": 631,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-long-does-seo-take-to-work.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 499,
+      "top": 132,
+      "right": 390,
+      "bottom": 631,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-long-until-seo-starts-bringing-in-leads.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 469,
+      "top": 132,
+      "right": 390,
+      "bottom": 601,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-qr-codes-became-part-of-everyday-business.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 199.15625,
+      "top": 132,
+      "right": 390,
+      "bottom": 331.15625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-to-get-more-assisted-living-residents.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 637,
+      "top": 132,
+      "right": 390,
+      "bottom": 769,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "how-to-get-more-monthly-security-contracts.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 607,
+      "top": 132,
+      "right": 390,
+      "bottom": 739,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "how-to-tell-if-your-seo-company-is-actually-doing-anything.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 199.15625,
+      "top": 132,
+      "right": 390,
+      "bottom": 331.15625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "i-don-t-have-time-to-create-content-is-there-a-faster-way.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 500.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 632.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "i-just-started-my-business-how-do-i-get-google-to-notice-me.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 499,
+      "top": 132,
+      "right": 390,
+      "bottom": 631,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "if-i-leave-my-agency-do-i-keep-my-google-accounts.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 500.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 632.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "increase-sales.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 668.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 800.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "index.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 86,
+      "width": 390,
+      "height": 1150,
+      "top": 86,
+      "right": 390,
+      "bottom": 1236,
+      "left": 0
+    },
+    "copy": [
+      "22px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "industries.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 799.484375,
+      "top": 132,
+      "right": 390,
+      "bottom": 931.484375,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "instant-audit.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 494.296875,
+      "top": 132,
+      "right": 390,
+      "bottom": 626.296875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "interior-design.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 727.03125,
+      "top": 132,
+      "right": 390,
+      "bottom": 859.03125,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 19.5,
+      "y": 637.5,
+      "width": 351,
+      "height": 197.53125,
+      "top": 637.5,
+      "right": 370.5,
+      "bottom": 835.03125,
+      "left": 19.5
+    }
+  },
+  {
+    "file": "is-seo-worth-it-for-my-business.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 469,
+      "top": 132,
+      "right": 390,
+      "bottom": 601,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "landing-page.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 584.9375,
+      "top": 132,
+      "right": 390,
+      "bottom": 716.9375,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 19.5,
+      "y": 495.5,
+      "width": 351,
+      "height": 197.4375,
+      "top": 495.5,
+      "right": 370.5,
+      "bottom": 692.9375,
+      "left": 19.5
+    }
+  },
+  {
+    "file": "lawyers.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 664.75,
+      "top": 132,
+      "right": 390,
+      "bottom": 796.75,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 19.5,
+      "y": 538.75,
+      "width": 351,
+      "height": 234,
+      "top": 538.75,
+      "right": 370.5,
+      "bottom": 772.75,
+      "left": 19.5
+    }
+  },
+  {
+    "file": "los-angeles.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 658.609375,
+      "top": 132,
+      "right": 390,
+      "bottom": 790.609375,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "mojo-vs-vulcan7-real-estate-leads.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 608.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 740.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "my-competitor-shows-up-first-on-google-and-i-don-t-what-are-they-doing-differently.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 530.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 662.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "nationwide.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 689.859375,
+      "top": 132,
+      "right": 390,
+      "bottom": 821.859375,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "opening-a-business-alone-or-with-a-partner.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 199.15625,
+      "top": 132,
+      "right": 390,
+      "bottom": 331.15625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "pool-construction.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 696.9375,
+      "top": 132,
+      "right": 390,
+      "bottom": 828.9375,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 19.5,
+      "y": 607.5,
+      "width": 351,
+      "height": 197.4375,
+      "top": 607.5,
+      "right": 370.5,
+      "bottom": 804.9375,
+      "left": 19.5
+    }
+  },
+  {
+    "file": "real-estate-agents.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 658.1875,
+      "top": 132,
+      "right": 390,
+      "bottom": 790.1875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 19.5,
+      "y": 568.75,
+      "width": 351,
+      "height": 197.4375,
+      "top": 568.75,
+      "right": 370.5,
+      "bottom": 766.1875,
+      "left": 19.5
+    }
+  },
+  {
+    "file": "resources-ai-search.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 406.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 538.5,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "resources-digital-marketing.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 406.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 538.5,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "resources-paid-ads.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 406.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 538.5,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "resources-seo.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 406.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 538.5,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "resources-websites.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 406.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 538.5,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "resources.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 223.3125,
+      "top": 132,
+      "right": 390,
+      "bottom": 355.3125,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "reviews.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 427.8125,
+      "top": 132,
+      "right": 390,
+      "bottom": 559.8125,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "sales-during-slow-season.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 607,
+      "top": 132,
+      "right": 390,
+      "bottom": 739,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "santa-clarita.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 868.4375,
+      "top": 132,
+      "right": 390,
+      "bottom": 1000.4375,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "security-services.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 696.9375,
+      "top": 132,
+      "right": 390,
+      "bottom": 828.9375,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 19.5,
+      "y": 607.5,
+      "width": 351,
+      "height": 197.4375,
+      "top": 607.5,
+      "right": 370.5,
+      "bottom": 804.9375,
+      "left": 19.5
+    }
+  },
+  {
+    "file": "seo-optimized-website.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 839.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 971.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "seo-vs-paid-ads.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 577,
+      "top": 132,
+      "right": 390,
+      "bottom": 709,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "services.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 169.859375,
+      "top": 132,
+      "right": 390,
+      "bottom": 301.859375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "should-i-boost-posts-or-use-ads-manager.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 500.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 632.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "should-i-hire-an-agency-a-freelancer-or-do-seo-myself.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 560.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 692.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "should-i-redesign-my-website-or-just-fix-the-seo.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 199.15625,
+      "top": 132,
+      "right": 390,
+      "bottom": 331.15625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "simi-valley.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 658.609375,
+      "top": 132,
+      "right": 390,
+      "bottom": 790.609375,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "support.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 607.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 739.6875,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "the-aol-greeting-that-made-the-internet-feel-personal.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 199.15625,
+      "top": 132,
+      "right": 390,
+      "bottom": 331.15625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "the-big-yellow-book-that-ran-local-business.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 199.15625,
+      "top": 132,
+      "right": 390,
+      "bottom": 331.15625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "the-cookie-that-would-not-die.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 235.875,
+      "top": 132,
+      "right": 390,
+      "bottom": 367.875,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "the-day-digital-design-let-go-of-leather-and-wood.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 199.15625,
+      "top": 132,
+      "right": 390,
+      "bottom": 331.15625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "the-fake-review-epidemic.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 235.875,
+      "top": 132,
+      "right": 390,
+      "bottom": 367.875,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "the-web-had-motion-and-then-flash-was-gone.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 199.15625,
+      "top": 132,
+      "right": 390,
+      "bottom": 331.15625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "what-are-red-flags-when-choosing-an-seo-company.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 530.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 662.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "what-do-i-do-if-someone-says-i-don-t-have-rights-to-a-photo-on-my-website.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 499,
+      "top": 132,
+      "right": 390,
+      "bottom": 631,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "what-if-my-business-is-service-based-can-instagram-still-work-for-me.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 499,
+      "top": 132,
+      "right": 390,
+      "bottom": 631,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "what-is-aeo.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 607,
+      "top": 132,
+      "right": 390,
+      "bottom": 739,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "what-is-seo.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 545.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 677.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "what-is-the-difference-between-seo-and-google-ads.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 469,
+      "top": 132,
+      "right": 390,
+      "bottom": 601,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "what-makes-someone-choose-one-business-over-another-online.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 499,
+      "top": 132,
+      "right": 390,
+      "bottom": 631,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "what-questions-should-i-ask-before-hiring-an-seo-agency.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 499,
+      "top": 132,
+      "right": 390,
+      "bottom": 631,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "what-should-a-business-website-include-to-get-more-customers.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 532,
+      "top": 132,
+      "right": 390,
+      "bottom": 664,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "when-can-i-expect-my-first-customer-with-seo.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 500.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 632.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "when-tiktok-became-a-search-engine.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 162.4375,
+      "top": 132,
+      "right": 390,
+      "bottom": 294.4375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-am-i-posting-on-instagram-regularly-but-getting-no-customers.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 530.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 662.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-are-my-ads-getting-clicks-but-no-customers.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 530.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 662.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-did-my-ad-account-get-restricted.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 500.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 632.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-did-my-google-rankings-drop-overnight.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 199.15625,
+      "top": 132,
+      "right": 390,
+      "bottom": 331.15625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-does-chatgpt-recommend-my-competitor-but-not-me.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 530.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 662.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-does-my-business-not-show-up-on-google-when-i-search-its-name.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 529,
+      "top": 132,
+      "right": 390,
+      "bottom": 661,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-every-website-looks-the-same-now.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 162.4375,
+      "top": 132,
+      "right": 390,
+      "bottom": 294.4375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-is-my-business-not-getting-leads-from-google.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 500.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 632.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-is-my-website-not-bringing-in-customers.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 530.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 662.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-is-seo-ongoing-instead-of-a-one-time-service.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 469,
+      "top": 132,
+      "right": 390,
+      "bottom": 601,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "wikipedia-is-feeding-the-ai-era-while-losing-its-readers.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 199.15625,
+      "top": 132,
+      "right": 390,
+      "bottom": 331.15625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "will-seo-still-matter-as-people-use-ai-search.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 499,
+      "top": 132,
+      "right": 390,
+      "bottom": 631,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "wix-or-squarespace-vs-hiring-a-professional.html",
+    "width": 390,
+    "height": 844,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 530.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 662.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "about.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 826.6875,
+      "top": 143,
+      "right": 768,
+      "bottom": 969.6875,
+      "left": 0
+    },
+    "copy": [
+      "20px",
+      "20px",
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 38.390625,
+      "y": 556.890625,
+      "width": 691.21875,
+      "height": 388.796875,
+      "top": 556.890625,
+      "right": 729.609375,
+      "bottom": 945.6875,
+      "left": 38.390625
+    }
+  },
+  {
+    "file": "aeo-ai-search.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 458.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 601.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "angi-vs-thumbtack-pool-builders.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 416.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 559.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "are-you-a-robot-captcha-taught-machines-to-read.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 171.0625,
+      "top": 143,
+      "right": 768,
+      "bottom": 314.0625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "assisted-living.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 785.546875,
+      "top": 143,
+      "right": 768,
+      "bottom": 928.546875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 38.390625,
+      "y": 515.75,
+      "width": 691.21875,
+      "height": 388.796875,
+      "top": 515.75,
+      "right": 729.609375,
+      "bottom": 904.546875,
+      "left": 38.390625
+    }
+  },
+  {
+    "file": "before-the-feed-the-comment-section-was-the-conversation.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 171.0625,
+      "top": 143,
+      "right": 768,
+      "bottom": 314.0625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "blog.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 89.03125,
+      "top": 143,
+      "right": 768,
+      "bottom": 232.03125,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "burbank.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 272.6875,
+      "top": 143,
+      "right": 768,
+      "bottom": 415.6875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "business-website.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 565.546875,
+      "top": 143,
+      "right": 768,
+      "bottom": 708.546875,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 38.390625,
+      "y": 295.75,
+      "width": 691.21875,
+      "height": 388.796875,
+      "top": 295.75,
+      "right": 729.609375,
+      "bottom": 684.546875,
+      "left": 38.390625
+    }
+  },
+  {
+    "file": "buying-legal-leads-california-oregon-2026.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 212.09375,
+      "top": 143,
+      "right": 768,
+      "bottom": 355.09375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "calabasas.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 272.6875,
+      "top": 143,
+      "right": 768,
+      "bottom": 415.6875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "can-ai-search-recommend-my-business.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 382.5,
+      "top": 143,
+      "right": 768,
+      "bottom": 525.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "can-i-get-leads-from-google-without-running-ads.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 350.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 493.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "can-i-pay-chatgpt-to-recommend-my-business.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 382.5,
+      "top": 143,
+      "right": 768,
+      "bottom": 525.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "can-seo-work-for-a-business-that-serves-more-than-one-city.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 350.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 493.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "can-seo-work-if-i-do-not-have-a-storefront.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 350.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 493.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "careers.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 769.109375,
+      "top": 143,
+      "right": 768,
+      "bottom": 912.109375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "catering.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 1625.578125,
+      "top": 143,
+      "right": 768,
+      "bottom": 1768.578125,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 38.390625,
+      "y": 515.75,
+      "width": 691.21875,
+      "height": 1228.828125,
+      "top": 515.75,
+      "right": 729.609375,
+      "bottom": 1744.578125,
+      "left": 38.390625
+    }
+  },
+  {
+    "file": "ccc-one-vs-mitchell-collision-repair.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 490.5,
+      "top": 143,
+      "right": 768,
+      "bottom": 633.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "collision-repair.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 785.546875,
+      "top": 143,
+      "right": 768,
+      "bottom": 928.546875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 38.390625,
+      "y": 515.75,
+      "width": 691.21875,
+      "height": 388.796875,
+      "top": 515.75,
+      "right": 729.609375,
+      "bottom": 904.546875,
+      "left": 38.390625
+    }
+  },
+  {
+    "file": "commercial-cleaning.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 785.546875,
+      "top": 143,
+      "right": 768,
+      "bottom": 928.546875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 38.390625,
+      "y": 515.75,
+      "width": 691.21875,
+      "height": 388.796875,
+      "top": 515.75,
+      "right": 729.609375,
+      "bottom": 904.546875,
+      "left": 38.390625
+    }
+  },
+  {
+    "file": "competitive.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 735.75,
+      "top": 143,
+      "right": 768,
+      "bottom": 878.75,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "contact.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 374.703125,
+      "top": 143,
+      "right": 768,
+      "bottom": 517.703125,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "dentists.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 827.5625,
+      "top": 143,
+      "right": 768,
+      "bottom": 970.5625,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 38.390625,
+      "y": 485.75,
+      "width": 691.21875,
+      "height": 460.8125,
+      "top": 485.75,
+      "right": 729.609375,
+      "bottom": 946.5625,
+      "left": 38.390625
+    }
+  },
+  {
+    "file": "digital-marketing-vs-seo.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 458.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 601.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "do-i-need-a-website-if-i-have-social-media.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 382.5,
+      "top": 143,
+      "right": 768,
+      "bottom": 525.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "do-i-need-professional-photos-to-succeed-on-instagram.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 352.5,
+      "top": 143,
+      "right": 768,
+      "bottom": 495.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "do-i-need-special-ai-code-on-my-website.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 350.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 493.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "do-reviews-help-me-get-more-customers-from-google.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 350.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 493.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "doctors.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 857.5625,
+      "top": 143,
+      "right": 768,
+      "bottom": 1000.5625,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 38.390625,
+      "y": 515.75,
+      "width": 691.21875,
+      "height": 460.8125,
+      "top": 515.75,
+      "right": 729.609375,
+      "bottom": 976.5625,
+      "left": 38.390625
+    }
+  },
+  {
+    "file": "does-a-website-actually-help-a-business-get-customers.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 320.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 463.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "dominance.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 791.046875,
+      "top": 143,
+      "right": 768,
+      "bottom": 934.046875,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "essentials.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 836.75,
+      "top": 143,
+      "right": 768,
+      "bottom": 979.75,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "from-ten-blue-links-to-ai-answers.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 171.0625,
+      "top": 143,
+      "right": 768,
+      "bottom": 314.0625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "general-contractors.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 785.546875,
+      "top": 143,
+      "right": 768,
+      "bottom": 928.546875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 38.390625,
+      "y": 515.75,
+      "width": 691.21875,
+      "height": 388.796875,
+      "top": 515.75,
+      "right": 729.609375,
+      "bottom": 904.546875,
+      "left": 38.390625
+    }
+  },
+  {
+    "file": "glendale.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 272.6875,
+      "top": 143,
+      "right": 768,
+      "bottom": 415.6875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "google-business-profile-vs-website.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 490.5,
+      "top": 143,
+      "right": 768,
+      "bottom": 633.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "google-maps-leads.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 458.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 601.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "google-maps-verification-complete-business-still-missing.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 171.0625,
+      "top": 143,
+      "right": 768,
+      "bottom": 314.0625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "home-health-care.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 857.5625,
+      "top": 143,
+      "right": 768,
+      "bottom": 1000.5625,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 38.390625,
+      "y": 515.75,
+      "width": 691.21875,
+      "height": 460.8125,
+      "top": 515.75,
+      "right": 729.609375,
+      "bottom": 976.5625,
+      "left": 38.390625
+    }
+  },
+  {
+    "file": "how-craigslist-kept-its-1990s-look-and-outlived-prettier-rivals.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 171.0625,
+      "top": 143,
+      "right": 768,
+      "bottom": 314.0625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-do-customers-find-local-businesses-online.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 382.5,
+      "top": 143,
+      "right": 768,
+      "bottom": 525.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-do-i-build-an-email-list-for-my-business.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 382.5,
+      "top": 143,
+      "right": 768,
+      "bottom": 525.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-do-i-get-customers-from-social-media-without-paying-for-ads.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 382.5,
+      "top": 143,
+      "right": 768,
+      "bottom": 525.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-do-i-get-my-business-recommended-by-chatgpt.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 382.5,
+      "top": 143,
+      "right": 768,
+      "bottom": 525.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-do-i-know-if-my-paid-ads-are-working.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 382.5,
+      "top": 143,
+      "right": 768,
+      "bottom": 525.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-do-i-know-if-my-seo-is-working.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 350.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 493.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-do-i-show-up-when-someone-searches-for-my-service-near-me.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 350.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 493.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-do-i-target-the-right-people-with-ads.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 350.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 493.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-email-newsletters-became-a-media-business-again.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 171.0625,
+      "top": 143,
+      "right": 768,
+      "bottom": 314.0625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-long-does-it-take-to-get-leads-from-angi-commercial-cleaning.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 460.5,
+      "top": 143,
+      "right": 768,
+      "bottom": 603.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "how-long-does-it-take-to-show-up-in-ai-answers.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 350.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 493.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-long-does-seo-take-to-work.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 350.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 493.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-long-until-seo-starts-bringing-in-leads.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 350.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 493.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-qr-codes-became-part-of-everyday-business.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 171.0625,
+      "top": 143,
+      "right": 768,
+      "bottom": 314.0625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-to-get-more-assisted-living-residents.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 488.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 631.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "how-to-get-more-monthly-security-contracts.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 458.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 601.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "how-to-tell-if-your-seo-company-is-actually-doing-anything.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 171.0625,
+      "top": 143,
+      "right": 768,
+      "bottom": 314.0625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "i-don-t-have-time-to-create-content-is-there-a-faster-way.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 350.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 493.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "i-just-started-my-business-how-do-i-get-google-to-notice-me.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 350.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 493.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "if-i-leave-my-agency-do-i-keep-my-google-accounts.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 382.5,
+      "top": 143,
+      "right": 768,
+      "bottom": 525.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "increase-sales.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 490.5,
+      "top": 143,
+      "right": 768,
+      "bottom": 633.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "index.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 1190.625,
+      "top": 143,
+      "right": 768,
+      "bottom": 1333.625,
+      "left": 0
+    },
+    "copy": [
+      "22px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "industries.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 682.734375,
+      "top": 143,
+      "right": 768,
+      "bottom": 825.734375,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "instant-audit.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 740,
+      "top": 143,
+      "right": 768,
+      "bottom": 883,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "interior-design.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 785.765625,
+      "top": 143,
+      "right": 768,
+      "bottom": 928.765625,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 38.390625,
+      "y": 515.75,
+      "width": 691.21875,
+      "height": 389.015625,
+      "top": 515.75,
+      "right": 729.609375,
+      "bottom": 904.765625,
+      "left": 38.390625
+    }
+  },
+  {
+    "file": "is-seo-worth-it-for-my-business.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 350.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 493.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "landing-page.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 688.296875,
+      "top": 143,
+      "right": 768,
+      "bottom": 831.296875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 38.390625,
+      "y": 418.5,
+      "width": 691.21875,
+      "height": 388.796875,
+      "top": 418.5,
+      "right": 729.609375,
+      "bottom": 807.296875,
+      "left": 38.390625
+    }
+  },
+  {
+    "file": "lawyers.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 827.5625,
+      "top": 143,
+      "right": 768,
+      "bottom": 970.5625,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 38.390625,
+      "y": 485.75,
+      "width": 691.21875,
+      "height": 460.8125,
+      "top": 485.75,
+      "right": 729.609375,
+      "bottom": 946.5625,
+      "left": 38.390625
+    }
+  },
+  {
+    "file": "los-angeles.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 272.6875,
+      "top": 143,
+      "right": 768,
+      "bottom": 415.6875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "mojo-vs-vulcan7-real-estate-leads.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 458.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 601.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "my-competitor-shows-up-first-on-google-and-i-don-t-what-are-they-doing-differently.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 350.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 493.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "nationwide.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 882.5,
+      "top": 143,
+      "right": 768,
+      "bottom": 1025.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "opening-a-business-alone-or-with-a-partner.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 171.0625,
+      "top": 143,
+      "right": 768,
+      "bottom": 314.0625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "pool-construction.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 785.546875,
+      "top": 143,
+      "right": 768,
+      "bottom": 928.546875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 38.390625,
+      "y": 515.75,
+      "width": 691.21875,
+      "height": 388.796875,
+      "top": 515.75,
+      "right": 729.609375,
+      "bottom": 904.546875,
+      "left": 38.390625
+    }
+  },
+  {
+    "file": "real-estate-agents.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 785.546875,
+      "top": 143,
+      "right": 768,
+      "bottom": 928.546875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 38.390625,
+      "y": 515.75,
+      "width": 691.21875,
+      "height": 388.796875,
+      "top": 515.75,
+      "right": 729.609375,
+      "bottom": 904.546875,
+      "left": 38.390625
+    }
+  },
+  {
+    "file": "resources-ai-search.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 447.6875,
+      "top": 143,
+      "right": 768,
+      "bottom": 590.6875,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "resources-digital-marketing.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 447.6875,
+      "top": 143,
+      "right": 768,
+      "bottom": 590.6875,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "resources-paid-ads.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 447.6875,
+      "top": 143,
+      "right": 768,
+      "bottom": 590.6875,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "resources-seo.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 447.6875,
+      "top": 143,
+      "right": 768,
+      "bottom": 590.6875,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "resources-websites.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 447.6875,
+      "top": 143,
+      "right": 768,
+      "bottom": 590.6875,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "resources.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 225.453125,
+      "top": 143,
+      "right": 768,
+      "bottom": 368.453125,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "reviews.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 437.359375,
+      "top": 143,
+      "right": 768,
+      "bottom": 580.359375,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "sales-during-slow-season.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 458.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 601.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "santa-clarita.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 350.171875,
+      "top": 143,
+      "right": 768,
+      "bottom": 493.171875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "security-services.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 785.546875,
+      "top": 143,
+      "right": 768,
+      "bottom": 928.546875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 38.390625,
+      "y": 515.75,
+      "width": 691.21875,
+      "height": 388.796875,
+      "top": 515.75,
+      "right": 729.609375,
+      "bottom": 904.546875,
+      "left": 38.390625
+    }
+  },
+  {
+    "file": "seo-optimized-website.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 751.5,
+      "top": 143,
+      "right": 768,
+      "bottom": 894.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "seo-vs-paid-ads.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 458.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 601.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "services.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 250.703125,
+      "top": 143,
+      "right": 768,
+      "bottom": 393.703125,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "should-i-boost-posts-or-use-ads-manager.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 382.5,
+      "top": 143,
+      "right": 768,
+      "bottom": 525.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "should-i-hire-an-agency-a-freelancer-or-do-seo-myself.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 382.5,
+      "top": 143,
+      "right": 768,
+      "bottom": 525.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "should-i-redesign-my-website-or-just-fix-the-seo.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 171.0625,
+      "top": 143,
+      "right": 768,
+      "bottom": 314.0625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "simi-valley.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 272.6875,
+      "top": 143,
+      "right": 768,
+      "bottom": 415.6875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "support.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 508.34375,
+      "top": 143,
+      "right": 768,
+      "bottom": 651.34375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "the-aol-greeting-that-made-the-internet-feel-personal.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 171.0625,
+      "top": 143,
+      "right": 768,
+      "bottom": 314.0625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "the-big-yellow-book-that-ran-local-business.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 171.0625,
+      "top": 143,
+      "right": 768,
+      "bottom": 314.0625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "the-cookie-that-would-not-die.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 171.0625,
+      "top": 143,
+      "right": 768,
+      "bottom": 314.0625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "the-day-digital-design-let-go-of-leather-and-wood.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 171.0625,
+      "top": 143,
+      "right": 768,
+      "bottom": 314.0625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "the-fake-review-epidemic.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 171.0625,
+      "top": 143,
+      "right": 768,
+      "bottom": 314.0625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "the-web-had-motion-and-then-flash-was-gone.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 171.0625,
+      "top": 143,
+      "right": 768,
+      "bottom": 314.0625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "what-are-red-flags-when-choosing-an-seo-company.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 382.5,
+      "top": 143,
+      "right": 768,
+      "bottom": 525.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "what-do-i-do-if-someone-says-i-don-t-have-rights-to-a-photo-on-my-website.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 350.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 493.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "what-if-my-business-is-service-based-can-instagram-still-work-for-me.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 350.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 493.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "what-is-aeo.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 458.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 601.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "what-is-seo.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 458.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 601.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "what-is-the-difference-between-seo-and-google-ads.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 350.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 493.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "what-makes-someone-choose-one-business-over-another-online.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 350.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 493.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "what-questions-should-i-ask-before-hiring-an-seo-agency.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 350.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 493.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "what-should-a-business-website-include-to-get-more-customers.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 382.5,
+      "top": 143,
+      "right": 768,
+      "bottom": 525.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "when-can-i-expect-my-first-customer-with-seo.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 382.5,
+      "top": 143,
+      "right": 768,
+      "bottom": 525.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "when-tiktok-became-a-search-engine.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 130.03125,
+      "top": 143,
+      "right": 768,
+      "bottom": 273.03125,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-am-i-posting-on-instagram-regularly-but-getting-no-customers.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 382.5,
+      "top": 143,
+      "right": 768,
+      "bottom": 525.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-are-my-ads-getting-clicks-but-no-customers.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 382.5,
+      "top": 143,
+      "right": 768,
+      "bottom": 525.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-did-my-ad-account-get-restricted.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 350.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 493.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-did-my-google-rankings-drop-overnight.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 171.0625,
+      "top": 143,
+      "right": 768,
+      "bottom": 314.0625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-does-chatgpt-recommend-my-competitor-but-not-me.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 350.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 493.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-does-my-business-not-show-up-on-google-when-i-search-its-name.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 380.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 523.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-every-website-looks-the-same-now.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 130.03125,
+      "top": 143,
+      "right": 768,
+      "bottom": 273.03125,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-is-my-business-not-getting-leads-from-google.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 382.5,
+      "top": 143,
+      "right": 768,
+      "bottom": 525.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-is-my-website-not-bringing-in-customers.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 382.5,
+      "top": 143,
+      "right": 768,
+      "bottom": 525.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-is-seo-ongoing-instead-of-a-one-time-service.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 350.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 493.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "wikipedia-is-feeding-the-ai-era-while-losing-its-readers.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 171.0625,
+      "top": 143,
+      "right": 768,
+      "bottom": 314.0625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "will-seo-still-matter-as-people-use-ai-search.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 350.25,
+      "top": 143,
+      "right": 768,
+      "bottom": 493.25,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "wix-or-squarespace-vs-hiring-a-professional.html",
+    "width": 768,
+    "height": 1024,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 382.5,
+      "top": 143,
+      "right": 768,
+      "bottom": 525.5,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "about.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 935.21875,
+      "top": 143,
+      "right": 1024,
+      "bottom": 1078.21875,
+      "left": 0
+    },
+    "copy": [
+      "20px",
+      "20px",
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 51.1875,
+      "y": 535.8125,
+      "width": 921.625,
+      "height": 518.40625,
+      "top": 535.8125,
+      "right": 972.8125,
+      "bottom": 1054.21875,
+      "left": 51.1875
+    }
+  },
+  {
+    "file": "aeo-ai-search.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 381,
+      "top": 143,
+      "right": 1024,
+      "bottom": 524,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "angi-vs-thumbtack-pool-builders.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 309,
+      "top": 143,
+      "right": 1024,
+      "bottom": 452,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "are-you-a-robot-captcha-taught-machines-to-read.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 192.9375,
+      "top": 143,
+      "right": 1024,
+      "bottom": 335.9375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "assisted-living.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 888.171875,
+      "top": 143,
+      "right": 1024,
+      "bottom": 1031.171875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 51.1875,
+      "y": 488.765625,
+      "width": 921.625,
+      "height": 518.40625,
+      "top": 488.765625,
+      "right": 972.8125,
+      "bottom": 1007.171875,
+      "left": 51.1875
+    }
+  },
+  {
+    "file": "before-the-feed-the-comment-section-was-the-conversation.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 192.9375,
+      "top": 143,
+      "right": 1024,
+      "bottom": 335.9375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "blog.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 99.96875,
+      "top": 143,
+      "right": 1024,
+      "bottom": 242.96875,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "burbank.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 284.015625,
+      "top": 143,
+      "right": 1024,
+      "bottom": 427.015625,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "business-website.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 698.171875,
+      "top": 143,
+      "right": 1024,
+      "bottom": 841.171875,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 51.1875,
+      "y": 298.765625,
+      "width": 921.625,
+      "height": 518.40625,
+      "top": 298.765625,
+      "right": 972.8125,
+      "bottom": 817.171875,
+      "left": 51.1875
+    }
+  },
+  {
+    "file": "buying-legal-leads-california-oregon-2026.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 192.9375,
+      "top": 143,
+      "right": 1024,
+      "bottom": 335.9375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "calabasas.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 284.015625,
+      "top": 143,
+      "right": 1024,
+      "bottom": 427.015625,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "can-ai-search-recommend-my-business.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 374,
+      "top": 143,
+      "right": 1024,
+      "bottom": 517,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "can-i-get-leads-from-google-without-running-ads.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 331,
+      "top": 143,
+      "right": 1024,
+      "bottom": 474,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "can-i-pay-chatgpt-to-recommend-my-business.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 374,
+      "top": 143,
+      "right": 1024,
+      "bottom": 517,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "can-seo-work-for-a-business-that-serves-more-than-one-city.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 331,
+      "top": 143,
+      "right": 1024,
+      "bottom": 474,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "can-seo-work-if-i-do-not-have-a-storefront.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 331,
+      "top": 143,
+      "right": 1024,
+      "bottom": 474,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "careers.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 849.453125,
+      "top": 143,
+      "right": 1024,
+      "bottom": 992.453125,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "catering.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 2008.203125,
+      "top": 143,
+      "right": 1024,
+      "bottom": 2151.203125,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 51.1875,
+      "y": 488.765625,
+      "width": 921.625,
+      "height": 1638.4375,
+      "top": 488.765625,
+      "right": 972.8125,
+      "bottom": 2127.203125,
+      "left": 51.1875
+    }
+  },
+  {
+    "file": "ccc-one-vs-mitchell-collision-repair.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 424,
+      "top": 143,
+      "right": 1024,
+      "bottom": 567,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "collision-repair.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 801.765625,
+      "top": 143,
+      "right": 1024,
+      "bottom": 944.765625,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 51.1875,
+      "y": 488.765625,
+      "width": 921.625,
+      "height": 432,
+      "top": 488.765625,
+      "right": 972.8125,
+      "bottom": 920.765625,
+      "left": 51.1875
+    }
+  },
+  {
+    "file": "commercial-cleaning.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 918.171875,
+      "top": 143,
+      "right": 1024,
+      "bottom": 1061.171875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 51.1875,
+      "y": 518.765625,
+      "width": 921.625,
+      "height": 518.40625,
+      "top": 518.765625,
+      "right": 972.8125,
+      "bottom": 1037.171875,
+      "left": 51.1875
+    }
+  },
+  {
+    "file": "competitive.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 780.765625,
+      "top": 143,
+      "right": 1024,
+      "bottom": 923.765625,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "contact.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 148,
+      "top": 143,
+      "right": 1024,
+      "bottom": 291,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "dentists.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 984.171875,
+      "top": 143,
+      "right": 1024,
+      "bottom": 1127.171875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 51.1875,
+      "y": 488.765625,
+      "width": 921.625,
+      "height": 614.40625,
+      "top": 488.765625,
+      "right": 972.8125,
+      "bottom": 1103.171875,
+      "left": 51.1875
+    }
+  },
+  {
+    "file": "digital-marketing-vs-seo.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 381,
+      "top": 143,
+      "right": 1024,
+      "bottom": 524,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "do-i-need-a-website-if-i-have-social-media.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 374,
+      "top": 143,
+      "right": 1024,
+      "bottom": 517,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "do-i-need-professional-photos-to-succeed-on-instagram.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 374,
+      "top": 143,
+      "right": 1024,
+      "bottom": 517,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "do-i-need-special-ai-code-on-my-website.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 331,
+      "top": 143,
+      "right": 1024,
+      "bottom": 474,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "do-reviews-help-me-get-more-customers-from-google.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 331,
+      "top": 143,
+      "right": 1024,
+      "bottom": 474,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "doctors.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 984.171875,
+      "top": 143,
+      "right": 1024,
+      "bottom": 1127.171875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 51.1875,
+      "y": 488.765625,
+      "width": 921.625,
+      "height": 614.40625,
+      "top": 488.765625,
+      "right": 972.8125,
+      "bottom": 1103.171875,
+      "left": 51.1875
+    }
+  },
+  {
+    "file": "does-a-website-actually-help-a-business-get-customers.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 331,
+      "top": 143,
+      "right": 1024,
+      "bottom": 474,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "dominance.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 953.5,
+      "top": 143,
+      "right": 1024,
+      "bottom": 1096.5,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "essentials.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 809.765625,
+      "top": 143,
+      "right": 1024,
+      "bottom": 952.765625,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "from-ten-blue-links-to-ai-answers.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 192.9375,
+      "top": 143,
+      "right": 1024,
+      "bottom": 335.9375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "general-contractors.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 888.171875,
+      "top": 143,
+      "right": 1024,
+      "bottom": 1031.171875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 51.1875,
+      "y": 488.765625,
+      "width": 921.625,
+      "height": 518.40625,
+      "top": 488.765625,
+      "right": 972.8125,
+      "bottom": 1007.171875,
+      "left": 51.1875
+    }
+  },
+  {
+    "file": "glendale.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 284.015625,
+      "top": 143,
+      "right": 1024,
+      "bottom": 427.015625,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "google-business-profile-vs-website.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 424,
+      "top": 143,
+      "right": 1024,
+      "bottom": 567,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "google-maps-leads.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 381,
+      "top": 143,
+      "right": 1024,
+      "bottom": 524,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "google-maps-verification-complete-business-still-missing.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 192.9375,
+      "top": 143,
+      "right": 1024,
+      "bottom": 335.9375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "home-health-care.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 984.171875,
+      "top": 143,
+      "right": 1024,
+      "bottom": 1127.171875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 51.1875,
+      "y": 488.765625,
+      "width": 921.625,
+      "height": 614.40625,
+      "top": 488.765625,
+      "right": 972.8125,
+      "bottom": 1103.171875,
+      "left": 51.1875
+    }
+  },
+  {
+    "file": "how-craigslist-kept-its-1990s-look-and-outlived-prettier-rivals.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 192.9375,
+      "top": 143,
+      "right": 1024,
+      "bottom": 335.9375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-do-customers-find-local-businesses-online.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 374,
+      "top": 143,
+      "right": 1024,
+      "bottom": 517,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-do-i-build-an-email-list-for-my-business.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 374,
+      "top": 143,
+      "right": 1024,
+      "bottom": 517,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-do-i-get-customers-from-social-media-without-paying-for-ads.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 374,
+      "top": 143,
+      "right": 1024,
+      "bottom": 517,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-do-i-get-my-business-recommended-by-chatgpt.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 374,
+      "top": 143,
+      "right": 1024,
+      "bottom": 517,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-do-i-know-if-my-paid-ads-are-working.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 374,
+      "top": 143,
+      "right": 1024,
+      "bottom": 517,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-do-i-know-if-my-seo-is-working.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 331,
+      "top": 143,
+      "right": 1024,
+      "bottom": 474,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-do-i-show-up-when-someone-searches-for-my-service-near-me.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 331,
+      "top": 143,
+      "right": 1024,
+      "bottom": 474,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-do-i-target-the-right-people-with-ads.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 331,
+      "top": 143,
+      "right": 1024,
+      "bottom": 474,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-email-newsletters-became-a-media-business-again.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 192.9375,
+      "top": 143,
+      "right": 1024,
+      "bottom": 335.9375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-long-does-it-take-to-get-leads-from-angi-commercial-cleaning.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 394,
+      "top": 143,
+      "right": 1024,
+      "bottom": 537,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "how-long-does-it-take-to-show-up-in-ai-answers.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 331,
+      "top": 143,
+      "right": 1024,
+      "bottom": 474,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-long-does-seo-take-to-work.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 331,
+      "top": 143,
+      "right": 1024,
+      "bottom": 474,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-long-until-seo-starts-bringing-in-leads.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 331,
+      "top": 143,
+      "right": 1024,
+      "bottom": 474,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-qr-codes-became-part-of-everyday-business.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 192.9375,
+      "top": 143,
+      "right": 1024,
+      "bottom": 335.9375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "how-to-get-more-assisted-living-residents.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 411,
+      "top": 143,
+      "right": 1024,
+      "bottom": 554,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "how-to-get-more-monthly-security-contracts.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 381,
+      "top": 143,
+      "right": 1024,
+      "bottom": 524,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "how-to-tell-if-your-seo-company-is-actually-doing-anything.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 192.9375,
+      "top": 143,
+      "right": 1024,
+      "bottom": 335.9375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "i-don-t-have-time-to-create-content-is-there-a-faster-way.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 331,
+      "top": 143,
+      "right": 1024,
+      "bottom": 474,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "i-just-started-my-business-how-do-i-get-google-to-notice-me.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 331,
+      "top": 143,
+      "right": 1024,
+      "bottom": 474,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "if-i-leave-my-agency-do-i-keep-my-google-accounts.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 374,
+      "top": 143,
+      "right": 1024,
+      "bottom": 517,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "increase-sales.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 424,
+      "top": 143,
+      "right": 1024,
+      "bottom": 567,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "index.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 749.5625,
+      "top": 143,
+      "right": 1024,
+      "bottom": 892.5625,
+      "left": 0
+    },
+    "copy": [
+      "22px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "industries.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 797.75,
+      "top": 143,
+      "right": 1024,
+      "bottom": 940.75,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "instant-audit.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 430.78125,
+      "top": 143,
+      "right": 1024,
+      "bottom": 573.78125,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "interior-design.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 918.453125,
+      "top": 143,
+      "right": 1024,
+      "bottom": 1061.453125,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 51.1875,
+      "y": 518.765625,
+      "width": 921.625,
+      "height": 518.6875,
+      "top": 518.765625,
+      "right": 972.8125,
+      "bottom": 1037.453125,
+      "left": 51.1875
+    }
+  },
+  {
+    "file": "is-seo-worth-it-for-my-business.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 331,
+      "top": 143,
+      "right": 1024,
+      "bottom": 474,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "landing-page.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 823.9375,
+      "top": 143,
+      "right": 1024,
+      "bottom": 966.9375,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 51.1875,
+      "y": 424.53125,
+      "width": 921.625,
+      "height": 518.40625,
+      "top": 424.53125,
+      "right": 972.8125,
+      "bottom": 942.9375,
+      "left": 51.1875
+    }
+  },
+  {
+    "file": "lawyers.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 984.171875,
+      "top": 143,
+      "right": 1024,
+      "bottom": 1127.171875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 51.1875,
+      "y": 488.765625,
+      "width": 921.625,
+      "height": 614.40625,
+      "top": 488.765625,
+      "right": 972.8125,
+      "bottom": 1103.171875,
+      "left": 51.1875
+    }
+  },
+  {
+    "file": "los-angeles.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 284.015625,
+      "top": 143,
+      "right": 1024,
+      "bottom": 427.015625,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "mojo-vs-vulcan7-real-estate-leads.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 381,
+      "top": 143,
+      "right": 1024,
+      "bottom": 524,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "my-competitor-shows-up-first-on-google-and-i-don-t-what-are-they-doing-differently.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 331,
+      "top": 143,
+      "right": 1024,
+      "bottom": 474,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "nationwide.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 1018.984375,
+      "top": 143,
+      "right": 1024,
+      "bottom": 1161.984375,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "opening-a-business-alone-or-with-a-partner.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 192.9375,
+      "top": 143,
+      "right": 1024,
+      "bottom": 335.9375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "pool-construction.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 888.171875,
+      "top": 143,
+      "right": 1024,
+      "bottom": 1031.171875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 51.1875,
+      "y": 488.765625,
+      "width": 921.625,
+      "height": 518.40625,
+      "top": 488.765625,
+      "right": 972.8125,
+      "bottom": 1007.171875,
+      "left": 51.1875
+    }
+  },
+  {
+    "file": "real-estate-agents.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 888.171875,
+      "top": 143,
+      "right": 1024,
+      "bottom": 1031.171875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 51.1875,
+      "y": 488.765625,
+      "width": 921.625,
+      "height": 518.40625,
+      "top": 488.765625,
+      "right": 972.8125,
+      "bottom": 1007.171875,
+      "left": 51.1875
+    }
+  },
+  {
+    "file": "resources-ai-search.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 389.6875,
+      "top": 143,
+      "right": 1024,
+      "bottom": 532.6875,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "resources-digital-marketing.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 389.6875,
+      "top": 143,
+      "right": 1024,
+      "bottom": 532.6875,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "resources-paid-ads.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 389.6875,
+      "top": 143,
+      "right": 1024,
+      "bottom": 532.6875,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "resources-seo.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 389.6875,
+      "top": 143,
+      "right": 1024,
+      "bottom": 532.6875,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "resources-websites.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 389.6875,
+      "top": 143,
+      "right": 1024,
+      "bottom": 532.6875,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "resources.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 183.265625,
+      "top": 143,
+      "right": 1024,
+      "bottom": 326.265625,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "reviews.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 372.6875,
+      "top": 143,
+      "right": 1024,
+      "bottom": 515.6875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "sales-during-slow-season.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 381,
+      "top": 143,
+      "right": 1024,
+      "bottom": 524,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "santa-clarita.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 373.421875,
+      "top": 143,
+      "right": 1024,
+      "bottom": 516.421875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "security-services.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 888.171875,
+      "top": 143,
+      "right": 1024,
+      "bottom": 1031.171875,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": {
+      "x": 51.1875,
+      "y": 488.765625,
+      "width": 921.625,
+      "height": 518.40625,
+      "top": 488.765625,
+      "right": 972.8125,
+      "bottom": 1007.171875,
+      "left": 51.1875
+    }
+  },
+  {
+    "file": "seo-optimized-website.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 727.53125,
+      "top": 143,
+      "right": 1024,
+      "bottom": 870.53125,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "seo-vs-paid-ads.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 381,
+      "top": 143,
+      "right": 1024,
+      "bottom": 524,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "services.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 177.796875,
+      "top": 143,
+      "right": 1024,
+      "bottom": 320.796875,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "should-i-boost-posts-or-use-ads-manager.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 374,
+      "top": 143,
+      "right": 1024,
+      "bottom": 517,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "should-i-hire-an-agency-a-freelancer-or-do-seo-myself.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 374,
+      "top": 143,
+      "right": 1024,
+      "bottom": 517,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "should-i-redesign-my-website-or-just-fix-the-seo.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 192.9375,
+      "top": 143,
+      "right": 1024,
+      "bottom": 335.9375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "simi-valley.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 284.015625,
+      "top": 143,
+      "right": 1024,
+      "bottom": 427.015625,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "support.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 450.34375,
+      "top": 143,
+      "right": 1024,
+      "bottom": 593.34375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "the-aol-greeting-that-made-the-internet-feel-personal.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 192.9375,
+      "top": 143,
+      "right": 1024,
+      "bottom": 335.9375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "the-big-yellow-book-that-ran-local-business.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 192.9375,
+      "top": 143,
+      "right": 1024,
+      "bottom": 335.9375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "the-cookie-that-would-not-die.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 192.9375,
+      "top": 143,
+      "right": 1024,
+      "bottom": 335.9375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "the-day-digital-design-let-go-of-leather-and-wood.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 192.9375,
+      "top": 143,
+      "right": 1024,
+      "bottom": 335.9375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "the-fake-review-epidemic.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 192.9375,
+      "top": 143,
+      "right": 1024,
+      "bottom": 335.9375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "the-web-had-motion-and-then-flash-was-gone.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 192.9375,
+      "top": 143,
+      "right": 1024,
+      "bottom": 335.9375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "what-are-red-flags-when-choosing-an-seo-company.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 374,
+      "top": 143,
+      "right": 1024,
+      "bottom": 517,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "what-do-i-do-if-someone-says-i-don-t-have-rights-to-a-photo-on-my-website.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 331,
+      "top": 143,
+      "right": 1024,
+      "bottom": 474,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "what-if-my-business-is-service-based-can-instagram-still-work-for-me.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 331,
+      "top": 143,
+      "right": 1024,
+      "bottom": 474,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "what-is-aeo.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 381,
+      "top": 143,
+      "right": 1024,
+      "bottom": 524,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "what-is-seo.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 381,
+      "top": 143,
+      "right": 1024,
+      "bottom": 524,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [
+      46,
+      46
+    ],
+    "media": null
+  },
+  {
+    "file": "what-is-the-difference-between-seo-and-google-ads.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 331,
+      "top": 143,
+      "right": 1024,
+      "bottom": 474,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "what-makes-someone-choose-one-business-over-another-online.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 331,
+      "top": 143,
+      "right": 1024,
+      "bottom": 474,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "what-questions-should-i-ask-before-hiring-an-seo-agency.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 331,
+      "top": 143,
+      "right": 1024,
+      "bottom": 474,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "what-should-a-business-website-include-to-get-more-customers.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 374,
+      "top": 143,
+      "right": 1024,
+      "bottom": 517,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "when-can-i-expect-my-first-customer-with-seo.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 374,
+      "top": 143,
+      "right": 1024,
+      "bottom": 517,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "when-tiktok-became-a-search-engine.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 140.96875,
+      "top": 143,
+      "right": 1024,
+      "bottom": 283.96875,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-am-i-posting-on-instagram-regularly-but-getting-no-customers.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 374,
+      "top": 143,
+      "right": 1024,
+      "bottom": 517,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-are-my-ads-getting-clicks-but-no-customers.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 374,
+      "top": 143,
+      "right": 1024,
+      "bottom": 517,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-did-my-ad-account-get-restricted.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 331,
+      "top": 143,
+      "right": 1024,
+      "bottom": 474,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-did-my-google-rankings-drop-overnight.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 192.9375,
+      "top": 143,
+      "right": 1024,
+      "bottom": 335.9375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-does-chatgpt-recommend-my-competitor-but-not-me.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 331,
+      "top": 143,
+      "right": 1024,
+      "bottom": 474,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-does-my-business-not-show-up-on-google-when-i-search-its-name.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 361,
+      "top": 143,
+      "right": 1024,
+      "bottom": 504,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-every-website-looks-the-same-now.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 140.96875,
+      "top": 143,
+      "right": 1024,
+      "bottom": 283.96875,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-is-my-business-not-getting-leads-from-google.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 374,
+      "top": 143,
+      "right": 1024,
+      "bottom": 517,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-is-my-website-not-bringing-in-customers.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 374,
+      "top": 143,
+      "right": 1024,
+      "bottom": 517,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "why-is-seo-ongoing-instead-of-a-one-time-service.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 331,
+      "top": 143,
+      "right": 1024,
+      "bottom": 474,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "wikipedia-is-feeding-the-ai-era-while-losing-its-readers.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 192.9375,
+      "top": 143,
+      "right": 1024,
+      "bottom": 335.9375,
+      "left": 0
+    },
+    "copy": [],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "will-seo-still-matter-as-people-use-ai-search.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 331,
+      "top": 143,
+      "right": 1024,
+      "bottom": 474,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  },
+  {
+    "file": "wix-or-squarespace-vs-hiring-a-professional.html",
+    "width": 1024,
+    "height": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1024,
+      "height": 374,
+      "top": 143,
+      "right": 1024,
+      "bottom": 517,
+      "left": 0
+    },
+    "copy": [
+      "20px"
+    ],
+    "buttons": [],
+    "media": null
+  }
+]

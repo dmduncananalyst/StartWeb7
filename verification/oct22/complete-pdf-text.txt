@@ -1,0 +1,183 @@
+﻿=== PAGE 1 ===
+STARTWEB7 | REVISED PAGE COPY FOR OWNER REVIEW
+Three distinct page narratives. No public pricing, methods, analysis, campaign processes, proprietary strategy, invented
+reviews, or guaranteed results. This is proposed copy, not authorization to implement.
+Instructions for Codex after owner approval
+Use only the exact approved text assigned to each existing URL. Do not generate additional marketing copy,
+blend paragraphs between pages, publish internal tactics, or alter unrelated pages. Preserve approved calls to
+action, URLs, links, and layout. Prepare changes locally only. Do not commit, push, or deploy. Report changes
+for approval.
+1 | assisted-living.html
+Proposed H1: Help More Families Discover Your Senior Living Community
+Proposed meta description: Website design and ongoing SEO and AEO services for assisted living communities seeking a
+stronger online presence and more opportunities to connect with families.
+Choosing an assisted living community is personal. Families are looking for a place where someone they care
+about can feel comfortable, supported, and at home. The first impression often happens long before a visit,
+when they begin looking online.
+Your community has its own character, people, and approach to daily life. That deserves an online presence
+that reflects the experience you offer, rather than making your community feel interchangeable with every other
+option.
+Make the First Impression Count
+For a family considering care, confidence matters. A welcoming website gives your community a professional
+introduction and a clear way to begin a conversation. Whether someone is exploring options for the first time or
+preparing to schedule a tour, the experience should feel reassuring and straightforward.
+A Stronger Presence When Families Are Looking
+StartWeb7 offers website design and ongoing SEO and AEO management for assisted living and senior living
+businesses. Our services support a professional online presence and opportunities to be discovered by people
+looking for communities like yours.
+Give Families a Reason to Reach Out
+Your team provides the care and hospitality. StartWeb7 provides website and online visibility services that help
+your business present itself professionally. Contact us to discuss your community and the kind of online
+presence you want to build.
+2 | pool-construction.html
+Proposed H1: Put Your Pool Construction Business in Front of Future Projects
+
+=== PAGE 2 ===
+Proposed meta description: Website design and ongoing SEO and AEO services for pool builders, remodelers, and outdoor
+living businesses looking to reach prospective customers.
+A homeowner planning a pool is making a significant investment. They compare companies, imagine the
+finished space, and decide who deserves a conversation about their property. Your business needs to stand
+out as a serious option before that first call happens.
+Whether you build custom pools, renovate existing ones, or create complete outdoor spaces, your work is
+visual, substantial, and personal to every property. Your online presence should reflect the caliber of the
+projects you take on.
+Let the Work Speak for Your Business
+Beautiful finished projects make an impression, but the company behind them matters just as much.
+Homeowners want to feel confident that they are reaching a professional business capable of discussing the
+project they have in mind.
+Beyond Word of Mouth
+Referrals can introduce a pool builder to new customers, but they are not the only way people discover
+contractors. StartWeb7 offers website design and ongoing SEO and AEO management for pool construction
+businesses that want a stronger online presence as homeowners explore their options.
+Build Visibility for the Work You Want
+From new pool construction to remodeling and outdoor living, every company has a different focus. StartWeb7
+works with pool businesses seeking website and visibility services that reflect what they offer. Contact us to
+discuss your business and future growth goals.
+Preserve the existing Angi and Thumbtack comparison link if it remains accurate and relevant. Do not add claims about
+savings, lead counts, or specific marketing tactics.
+3 | santa-clarita.html
+Proposed H1: Website Design and SEO Services for Santa Clarita Businesses
+Proposed meta description: StartWeb7 provides website design and ongoing SEO and AEO management for Santa Clarita
+businesses ready to strengthen their online presence.
+Santa Clarita businesses compete for attention in a market where customers have choices. Whether someone
+needs a local professional, a specialized contractor, or a company serving the wider region, being considered
+starts with making a credible impression.
+A business can do excellent work and still be overlooked online. StartWeb7 helps companies present
+themselves professionally through website design and ongoing SEO and AEO services.
+Your Business Deserves More Than a Generic Website
+A family owned company, a growing service business, and an established commercial provider have different
+audiences and different goals. Your online presence should feel like your business, not a template that could
+belong to anyone.
+
+=== PAGE 3 ===
+Reach Customers Beyond Your Existing Network
+Recommendations matter, but customers also research companies online before deciding whom to contact.
+StartWeb7 provides services for businesses seeking a stronger presence across traditional and AI assisted
+search experiences.
+Local Businesses, Real Ambitions
+Whether your company serves Santa Clarita alone or customers throughout Southern California, StartWeb7
+offers website design and ongoing search visibility services. Meetings are available by appointment. Contact us
+to discuss your business and what you want your online presence to accomplish.
+Do not imply a physical Santa Clarita office. Remove the lengthy city economy overview only after owner approval. Do not
+add city facts merely to fill space.
+Separate technical assignment
+The tracking issue identified by Codex is independent of these copy proposals. Before any code change,
+confirm the intended fix: count a lead only after a successful final HubSpot submission, not after intermediate
+chat replies. Verify HubSpot delivery and GA4 configuration as separate checks. No live form tests or account
+setting changes without permission.
+Review gate
+All three pages above are drafts for owner approval. Codex must not implement them until the owner explicitly
+approves the wording. No prices, internal analysis, SEO execution methods, ranking promises, fabricated
+proof, or additional marketing sections may be introduced.
+
+=== PAGE 4 ===
+STARTWEB7 | INTERIOR DESIGN INDUSTRY ADDITION
+Revised, distinctive content and asset instructions. This replaces the Interior Design appendix in the prior PDF. The
+Assisted Living, Pool Construction, and Santa Clarita drafts remain unchanged. Owner approval required before
+implementation.
+Page identity and placement
+Create interior-design.html using the existing industry page template. The audience is interior design studios
+and independent designers seeking residential and commercial clients. This is not a homeowner decorating
+advice page. Preserve the existing website design, navigation, forms, and established call to action.
+SEO title: Interior Designer Website Design, SEO and AEO | StartWeb7
+Meta description: Website design and ongoing SEO and AEO services for interior designers and design studios showcasing
+residential, hospitality and commercial work.
+H1: Your Work Has a Signature. Your Website Should, Too.
+Complete dedicated page copy
+Some designers are known for rooms that feel effortless. Others create bold interiors that become the
+centerpiece of a home, restaurant, or boutique hotel. The work is different, the clientele is different, and the
+personality behind each studio is different. A prospective client should be able to recognize that distinction from
+the moment they discover your business.
+A design studio is often judged through the details. The curve of a sofa, the warmth of a material, the balance of
+an entire room, or the confidence to leave a space beautifully restrained. Those details shape how people
+remember your work. Your online presence should give that work the same consideration.
+A Portfolio With a Point of View
+A penthouse renovation is not the same assignment as a family home. A boutique restaurant asks something
+different from a private residence. Even when a designer works across several kinds of projects, each finished
+space has its own character and deserves to be seen in context.
+Potential clients are not simply counting photographs. They are looking for a design sensibility that feels right
+for their own space. They want to recognize the kind of work that excites them, whether that means a complete
+residence, a carefully furnished room, or a memorable commercial interior.
+From Admiring the Work to Remembering the Studio
+Beautiful interiors travel. They are shared in conversations, saved for inspiration, and remembered long after
+someone first sees them. Yet admiration for a room does not always mean the viewer remembers the name of
+the designer who created it.
+For an interior design business, recognition matters. A distinct professional presence connects the finished
+work with the studio behind it and gives prospective clients a place to return when a design project becomes a
+real possibility.
+
+=== PAGE 5 ===
+Website Design and Online Visibility for Interior Designers
+StartWeb7 provides website design and ongoing SEO and AEO management for interior designers and design
+studios. These services support the business behind the creative work, helping a studio establish a professional
+online presence and be considered by people exploring design services.
+Whether your portfolio centers on residential interiors, furnishing projects, hospitality spaces, or commercial
+environments, your studio deserves a website that reflects its identity rather than a generic presentation shared
+by every business.
+The work should remain unmistakably yours. The opportunity to discover it should not depend entirely on
+someone already knowing your name.
+Closing call to action
+Let your next client discover the designer behind the space. Contact StartWeb7 to discuss your studio and its
+online presence.
+Exact card copy and locations
+Homepage industry card: Title, Interior Design. Description, A distinctive online presence for studios creating
+remarkable residential and commercial spaces. Link, interior-design.html.
+All Industries card: Title, Interior Design. Description, Website design and search visibility services for interior
+designers and design studios. Link, interior-design.html.
+Do not introduce duplicate industry cards. Follow the sites existing ordering, hover, icon placement, card
+proportions, and mobile layout.
+Two separate photo assets
+Photo 1, homepage and All Industries card: a professionally designed residential interior, with a compelling
+architectural perspective, expressive furnishings, carefully chosen artwork, and an unmistakable design
+aesthetic. Landscape, full resolution. Suggested filename: interior-design-card.webp.
+Photo 2, dedicated industry page: a clearly different commercial interior, such as a sophisticated restaurant or
+boutique hotel lounge with dramatic spatial design and distinctive lighting. Different palette, room, angle, and
+composition from Photo 1. Landscape, full resolution. Suggested filename: interior-design-feature.webp.
+These must be two independently created photographs, not a collage, crop, recolor, or reused room. No text, labels, logos,
+watermarks, or people. Codex must only generate them if its available image tools genuinely support original photo creation.
+Otherwise it must report that the images are pending, without inserting substitute imagery.
+Graphic icon
+Inspect the actual StartWeb7 industry icons and source files. Create an Interior Design icon that follows their
+existing visual style, line weight, dimensions, colors, and file format. Do not use the previously generated icon.
+Do not invent a new visual system. Suggested filename: interior-design-icon.svg only if SVG is the existing
+format.
+Codex implementation and review rules
+
+=== PAGE 6 ===
+Use only the page and card text above, without adding filler, FAQ sections, Quick Answer sections, unrelated
+sales claims, pricing, guarantees, proprietary SEO methods, internal research, or campaign procedures. Do not
+copy headings or body paragraphs from other industry pages. Do not replace existing assets or modify
+unrelated pages.
+Apply existing site conventions for canonical URLs, structured data, one H1, image alt text, internal links, and
+the sitemap. Verify local links and responsive layout. Preserve the separate three page revisions already
+supplied, and do not modify the technical tracking work without specific approval. Keep everything local, do not
+commit, push, or deploy. Provide a list of changed files, photo and icon status, and local test results for owner
+review.
+Editorial verification note: This revision intentionally uses the language of creative identity, portfolio authorship, design
+sensibility, and recognition. It avoids the family reassurance angle of Assisted Living, the contractor project angle of Pool
+Construction, and the local business competition angle of Santa Clarita. A full live site comparison was not independently
+reverified in this generation, so Codex should flag any exact wording overlap it finds rather than silently rewriting approved
+copy.
+
+=== PAGE 7 ===
+

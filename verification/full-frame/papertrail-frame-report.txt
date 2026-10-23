@@ -1,0 +1,11 @@
+PaperTrail and Catering frame correction — October 22, 2026
+PaperTrail: supplied 1860x885 screenshot retained. Card now follows the screenshot height instead of reserving portrait-sized blank space. Existing width and small controls retained.
+Catering and Landing Page use the same explicit 16:9 frame class. Both load playable media and fill the complete frame.
+Five viewport checks passed:
+300px: both frames 270x151.9
+390px: both frames 351x197.4
+768px: both frames 691.2x388.8
+1207px: both frames 589.4x331.5
+1810px: both frames 888.6x499.8
+Raw geometry and playback results: papertrail-frame-results.json.
+Local only; no commit, push or deployment.

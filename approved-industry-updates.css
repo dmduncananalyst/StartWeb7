@@ -1,0 +1,18 @@
+/* Scope the approved long headings and card descriptions to this addition. */
+html[data-sw7-fit-page="assisted-living"] .sw7-assisted-hero h1,
+html[data-sw7-fit-page="interior-design"] .sw7-assisted-hero h1,
+html[data-sw7-fit-page="pool-construction"] .industry-hero h1,
+html[data-sw7-fit-page="santa-clarita"] .sw7-city-hero h1 {
+ font-size:clamp(34px,4.4vw,68px)!important;line-height:1.05!important;letter-spacing:-.045em!important;overflow-wrap:break-word;
+}
+.sw7-approved-body h2{font-size:clamp(25px,3vw,40px);line-height:1.15;margin:1.4em 0 .6em;letter-spacing:-.025em}
+.sw7-approved-body p{margin:0 0 1.25em}
+.sw7-approved-body a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+.sw7-home-industry-card.sw7-interior-card .sw7-home-industry-copy{max-width:100%}
+.sw7-home-industry-card.sw7-interior-card>.sw7-card-complete-photo{object-fit:cover!important}
+/* Keep the website action beside its own copy rather than at the column bottom. */
+.sw7-home-services .home-service.web.home-service.web.home-service.web .home-service-copy>.home-link{margin-top:0!important}
+@media(max-width:700px){
+ html[data-sw7-fit-page] .sw7-approved-intro,html[data-sw7-fit-page="santa-clarita"] .city-hero-description{font-size:16px!important;line-height:1.5!important}
+ html[data-sw7-fit-page="assisted-living"] .sw7-assisted-hero h1,html[data-sw7-fit-page="interior-design"] .sw7-assisted-hero h1,html[data-sw7-fit-page="pool-construction"] .industry-hero h1,html[data-sw7-fit-page="santa-clarita"] .sw7-city-hero h1{font-size:clamp(32px,8.5vw,48px)!important}
+}

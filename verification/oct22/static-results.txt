@@ -1,0 +1,8 @@
+PASS assisted-living.html: approved copy, unique H1/canonical, valid local links, no FAQ; existing SEO titles and script integrations preserved.
+PASS pool-construction.html: approved copy, unique H1/canonical, valid local links, no FAQ; existing SEO titles and script integrations preserved.
+PASS santa-clarita.html: approved copy, unique H1/canonical, valid local links, no FAQ; existing SEO titles and script integrations preserved.
+PASS interior-design.html: approved copy, unique H1/canonical, valid local links, no FAQ; existing SEO titles and script integrations preserved.
+PASS index.html: all 12 existing industry cards preserved in order; one Interior Design card appended.
+PASS industries.html: all 12 existing industry cards preserved in order; one Interior Design card appended.
+PASS sitemap: one Interior Design URL.
+PASS editorial overlap: no exact Interior Design headings or complete paragraphs found in the 12 existing industry pages.

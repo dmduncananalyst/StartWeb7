@@ -1,0 +1,117 @@
+[
+  {
+    "file": "real-estate-agents.html",
+    "title": "REAL ESTATE",
+    "intro": "Bring buyers and sellers to your real estate services through Google and AI discovery.",
+    "icon": "menu-house-optimized.webp",
+    "video": true
+  },
+  {
+    "file": "collision-repair.html",
+    "title": "COLLISION REPAIR",
+    "intro": "Bring your body shop leads from drivers looking for collision repairs and estimates.",
+    "icon": "menu-repair-tool.png",
+    "video": true
+  },
+  {
+    "file": "pool-construction.html",
+    "title": "POOL CONSTRUCTION",
+    "intro": "Bring your pool company leads for new construction, renovations and the projects you offer.",
+    "icon": "menu-pool-full-optimized.webp",
+    "video": true
+  },
+  {
+    "file": "general-contractors.html",
+    "title": "GENERAL CONTRACTORS",
+    "intro": "Bring your contracting business leads for construction, renovation and the projects you want to build.",
+    "icon": "menu-construction-hardhat.webp",
+    "video": true
+  },
+  {
+    "file": "catering.html",
+    "title": "CATERING",
+    "intro": "Bring your catering company leads for the events and service styles you provide.",
+    "icon": "menu-serving-tray.png",
+    "video": true
+  },
+  {
+    "file": "commercial-cleaning.html",
+    "title": "COMMERCIAL CLEANING",
+    "intro": "Bring your cleaning company leads from businesses looking for janitorial service and recurring contracts.",
+    "icon": "menu-cleaning-cart.png",
+    "video": true
+  },
+  {
+    "file": "security-services.html",
+    "title": "SECURITY SERVICES",
+    "intro": "Bring your security company leads for the coverage and contracts you provide.",
+    "icon": "menu-walkie-talkie-optimized.webp",
+    "video": true
+  },
+  {
+    "file": "home-health-care.html",
+    "title": "HOME HEALTH CARE",
+    "intro": "Help patients, families and referral contacts discover the home health services your agency provides.",
+    "icon": "menu-home-health.svg",
+    "video": false
+  },
+  {
+    "file": "assisted-living.html",
+    "title": "ASSISTED LIVING",
+    "intro": "Help more families discover your assisted living community and reach your team about a visit.",
+    "icon": "menu-assisted-living-optimized.webp",
+    "video": false
+  },
+  {
+    "file": "lawyers.html",
+    "title": "LAWYERS",
+    "intro": "SEO + AEO to bring your law firm leads from people looking for legal help.",
+    "icon": "assets/industries/lawyers-icon.webp",
+    "video": false
+  },
+  {
+    "file": "doctors.html",
+    "title": "DOCTORS",
+    "intro": "Bring your medical practice leads from people looking for the care you provide.",
+    "icon": "assets/industries/doctors-icon.webp",
+    "video": false
+  },
+  {
+    "file": "dentists.html",
+    "title": "DENTISTS",
+    "intro": "SEO + AEO to bring your dental practice leads for the services you offer.",
+    "icon": "assets/industries/dentists-icon.webp",
+    "video": false
+  },
+  {
+    "file": "interior-design.html",
+    "title": "INTERIOR DESIGN",
+    "intro": "The work should remain unmistakably yours. The opportunity to discover it should not depend entirely on someone already knowing your name.",
+    "icon": "assets/industries/interior-design-icon-v2.png",
+    "video": false
+  },
+  {
+    "file": "landing-page.html",
+    "title": "LANDING PAGE"
+  },
+  {
+    "file": "business-website.html",
+    "title": "BUSINESS WEBSITE"
+  },
+  {
+    "file": "essentials.html",
+    "title": "ESSENTIALS"
+  },
+  {
+    "file": "competitive.html",
+    "title": "COMPETITIVE"
+  },
+  {
+    "file": "dominance.html",
+    "title": "DOMINANCE"
+  },
+  {
+    "file": "seo-optimized-website.html",
+    "title": "SEO-OPTIMIZEDWEBSITES"
+  }
+]

@@ -1,0 +1,31 @@
+Homepage fit and hero prominence update | October 22, 2026
+Supersedes the previous report's hero typography, icon sizing and short-phone viewport policy.
+
+Completed
+Homepage: bounded the wide-screen hero to the actual space below navigation. The complete live analysis, all four example rows, headline, sentence and both action buttons now fit without scrolling at tested desktop sizes. The existing animation and introductory phone sequence remain intact. Homepage changes are limited to wide screens; its narrow layout remains readable and scrollable.
+
+Across the 19 updated industry/service pages: increased icon size from 86x66 to 150x116 desktop and from 64x48 to 120x92 mobile. Centered icons and title text in their content column. Increased headline sizes to a responsive maximum of 76px desktop and 52px mobile, with a measured adjustment only when needed to fit long words in narrow columns.
+
+Mobile: photos and videos now use the full available content width and preserve their complete original frame. The hero may grow on short screens instead of shrinking images and text to fit one viewport. Live demos reflow to mobile width before sizing, preserving readable text instead of shrinking a desktop component into a small thumbnail.
+
+Validation
+114 complete-frame checks passed across all 19 pages at six viewport sizes. Desktop heroes fit within the first viewport. Mobile media spans at least 88% of the viewport, keeps its original aspect ratio and remains inside its hero. Icons, headings, intro text and buttons remain visible. Live demo children remain contained.
+38 same-page resize/contact checks passed.
+Four additional homepage checks passed at 1810x796, 1180x780, 1920x1080 and 1060x700. Confirmed the full analysis and all rows plus headline, sentence and buttons are below navigation and inside the initial viewport. Screenshots were taken after the existing phone intro finished.
+Visually reviewed the homepage, centered larger pool heading/icon and the larger mobile Dentist image and icon.
+git diff --check passed.
+
+Implementation
+index.html
+homepage-hero-fit.css
+homepage-hero-fit.js
+industry-hero-unified.css
+industry-hero-unified.js
+tools/test-full-frame.cjs
+
+Evidence
+home-results.json and home-*.png
+results.json and page viewport screenshots
+resize-results.json
+
+All changes remain local. No marketing wording changed, forms submitted, paid services used, commits, pushes or deployment.

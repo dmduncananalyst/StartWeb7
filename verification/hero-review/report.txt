@@ -1,0 +1,28 @@
+Local hero review corrections, October 22, 2026
+
+Interior Design
+Replaced the rejected wall-heavy hero with one original wide photograph showing the full furnished hotel lounge, seating groups, tables and bar.
+Asset: assets/industries/interior-design-feature-v3.webp (1672 x 941), with original PNG retained.
+Generated with the built-in image generation tool. Prompt: one realistic wide landscape professional interior photograph, full furnished boutique hotel lounge, slightly elevated architectural perspective, teal and caramel sculptural chairs, central stone table, rug and bar, expressive lights and natural daylight. Avoid blank walls, curtains, wooden fins, partitions, corridors and empty ceilings. No people, text, signage, logos, watermarks or collage.
+Updated the page image, descriptive alt text, preload, social image references and structured-data image. Homepage and All Industries pictures remain distinct and unchanged.
+The complete photo now fits the viewport below the measured shared header, using contain rather than cropping. One hero photo only.
+
+Real Estate
+Restored the existing video as an edge-to-edge background throughout the hero at every tested width, including narrow preview and tablet sizes. Removed the inset-video breakpoint behavior for this page through scoped overrides.
+Added 30 pixels above and 36 pixels below the existing introductory sentence, with additional space inside the hero. The wording is unchanged. Hero height can grow to accommodate its content without clipping.
+
+Implementation
+interior-design.html
+real-estate-agents.html
+hero-review-fixes.css
+hero-review-fit.js (measures actual shared header height for these pages only)
+assets/industries/interior-design-feature-v3.png
+assets/industries/interior-design-feature-v3.webp
+tools/test-hero-review.cjs
+
+Verification
+Ten browser checks passed across 390x844, 768x900, 1180x780, 1810x796 and 1920x1080.
+Verified loaded media, no horizontal overflow, one uncropped Interior Design hero photo fitting below the actual header, Real Estate video matching the full hero dimensions, absolute video positioning with cover, and unclipped paragraph spacing.
+Saved screenshots and results.json in this directory. Visually checked the complete Interior Design room and the restored Real Estate layout at the narrow preview width.
+External website requests were blocked during checks. No form submission, live account changes or tracking changes.
+Everything remains local. Nothing committed, pushed or deployed.

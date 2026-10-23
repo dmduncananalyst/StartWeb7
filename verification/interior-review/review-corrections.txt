@@ -1,0 +1,28 @@
+Local review corrections, October 22, 2026
+This report supersedes the initial report's card descriptions, asset filenames and Interior Design button labels.
+
+Removed both Interior Design card descriptions at the owner's request. The homepage card now shows only INTERIOR DESIGN and View More. The All Industries card shows only INTERIOR DESIGN and VIEW INDUSTRY, matching its existing neighbors. All existing cards remain.
+
+Replaced all rejected pictures with original photographs. The homepage and All Industries now use different rooms; the dedicated page also has its own separate room. No writing, people, logos or watermarks in any photograph.
+Homepage: assets/industries/interior-design-card-v2.webp, 1536 x 1024, bright contemporary residential room.
+All Industries: assets/industries/interior-design-directory-v2.webp, 1536 x 1024, terracotta restaurant interior.
+Dedicated page: assets/industries/interior-design-feature-v2.webp, 1536 x 1024, contemporary hotel reception.
+Original PNG copies retained alongside these WebP files. Previous assets are retained but are no longer referenced by these pages.
+
+Replaced the couch and lamp graphic with a compact architectural doorway and material-swatch icon in blue and silver:
+assets/industries/interior-design-icon-v2.png, 360 x 280, transparent.
+Updated static and shared navigation references.
+
+Changed both prominent Interior Design CTA buttons to Get More Clients. Added this industry to the shared button-label mapping so the page script preserves that label. Contact behavior and tracking logic are unchanged. The approved closing sentence remains unchanged.
+
+Removed the automatic top margin from the homepage's left See Website Options button. It now follows its own paragraph with a 30-pixel gap at tested widths instead of being pushed to the bottom of the adjacent column.
+
+Nine responsive browser checks passed: index.html, industries.html and interior-design.html at 390, 768 and 1920 pixels. Verified no document overflow, new photographs loaded, correct icon references, no card paragraphs, matching neighboring card dimensions, the left button gap, and both Get More Clients labels after scripts load. External page requests blocked; no forms submitted. Results and screenshots are in this directory.
+
+Generated with the built-in image generation tool. Prompt specifications:
+Homepage: bright contemporary residential interior, curved white walls, corner windows, cream sculptural seating, black accents, indoor tree and abstract art, natural daylight. No rustic beams/fireplace, people, writing, labels, logos or watermarks.
+All Industries: sophisticated restaurant, terracotta banquettes, travertine tables, burgundy chairs, arched details and minimalist lighting, editorial photography. No people, writing, signage, labels, logos or watermarks.
+Dedicated page: boutique hotel reception, sculptural oak wall fins, cobalt reception desk, limestone floors, ivory seating, soft daylight. No people, writing, signage, labels, logos or watermarks.
+Icon: compact architectural silver walls and cobalt arched doorway with blue, silver and white material swatches, polished 3D treatment, transparent background. No furniture, couch or lamp; no writing or logos.
+
+Everything remains local. No commits, pushes, deployment or live website changes.

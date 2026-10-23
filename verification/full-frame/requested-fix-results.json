@@ -1,0 +1,302 @@
+[
+  {
+    "file": "index.html",
+    "width": 300,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 86,
+      "width": 300,
+      "height": 1114.3125,
+      "top": 86,
+      "right": 300,
+      "bottom": 1200.3125,
+      "left": 0
+    }
+  },
+  {
+    "file": "about.html",
+    "width": 300,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 300,
+      "height": 820.53125,
+      "top": 132,
+      "right": 300,
+      "bottom": 952.53125,
+      "left": 0
+    }
+  },
+  {
+    "file": "catering.html",
+    "width": 300,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 300,
+      "height": 612.625,
+      "top": 132,
+      "right": 300,
+      "bottom": 744.625,
+      "left": 0
+    }
+  },
+  {
+    "file": "reviews.html",
+    "width": 300,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 300,
+      "height": 490,
+      "top": 132,
+      "right": 300,
+      "bottom": 622,
+      "left": 0
+    }
+  },
+  {
+    "file": "index.html",
+    "width": 390,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 86,
+      "width": 390,
+      "height": 1150,
+      "top": 86,
+      "right": 390,
+      "bottom": 1236,
+      "left": 0
+    }
+  },
+  {
+    "file": "about.html",
+    "width": 390,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 811.15625,
+      "top": 132,
+      "right": 390,
+      "bottom": 943.15625,
+      "left": 0
+    }
+  },
+  {
+    "file": "catering.html",
+    "width": 390,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 658.1875,
+      "top": 132,
+      "right": 390,
+      "bottom": 790.1875,
+      "left": 0
+    }
+  },
+  {
+    "file": "reviews.html",
+    "width": 390,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 427.8125,
+      "top": 132,
+      "right": 390,
+      "bottom": 559.8125,
+      "left": 0
+    }
+  },
+  {
+    "file": "index.html",
+    "width": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 1190.625,
+      "top": 143,
+      "right": 768,
+      "bottom": 1333.625,
+      "left": 0
+    }
+  },
+  {
+    "file": "about.html",
+    "width": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 835.890625,
+      "top": 143,
+      "right": 768,
+      "bottom": 978.890625,
+      "left": 0
+    }
+  },
+  {
+    "file": "catering.html",
+    "width": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 785.546875,
+      "top": 143,
+      "right": 768,
+      "bottom": 928.546875,
+      "left": 0
+    }
+  },
+  {
+    "file": "reviews.html",
+    "width": 768,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 768,
+      "height": 437.359375,
+      "top": 143,
+      "right": 768,
+      "bottom": 580.359375,
+      "left": 0
+    }
+  },
+  {
+    "file": "index.html",
+    "width": 1207,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 388,
+      "top": 143,
+      "right": 1192,
+      "bottom": 531,
+      "left": 0
+    }
+  },
+  {
+    "file": "about.html",
+    "width": 1207,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 612.125,
+      "top": 143,
+      "right": 1192,
+      "bottom": 755.125,
+      "left": 0
+    }
+  },
+  {
+    "file": "catering.html",
+    "width": 1207,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 388.640625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 531.640625,
+      "left": 0
+    }
+  },
+  {
+    "file": "reviews.html",
+    "width": 1207,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 374,
+      "top": 143,
+      "right": 1192,
+      "bottom": 517,
+      "left": 0
+    }
+  },
+  {
+    "file": "index.html",
+    "width": 1810,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 641,
+      "top": 155,
+      "right": 1795,
+      "bottom": 796,
+      "left": 0
+    }
+  },
+  {
+    "file": "about.html",
+    "width": 1810,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 641.390625,
+      "top": 155,
+      "right": 1795,
+      "bottom": 796.390625,
+      "left": 0
+    }
+  },
+  {
+    "file": "catering.html",
+    "width": 1810,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 641,
+      "top": 155,
+      "right": 1795,
+      "bottom": 796,
+      "left": 0
+    }
+  },
+  {
+    "file": "reviews.html",
+    "width": 1810,
+    "issues": [],
+    "hero": {
+      "x": 0,
+      "y": 155,
+      "width": 1795,
+      "height": 408.515625,
+      "top": 155,
+      "right": 1795,
+      "bottom": 563.515625,
+      "left": 0
+    }
+  }
+]

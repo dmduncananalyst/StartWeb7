@@ -1,0 +1,4609 @@
+[
+  {
+    "file": "about.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "SECTION.hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 399,
+      "top": 143,
+      "right": 1192,
+      "bottom": 542,
+      "left": 0
+    },
+    "heading": "WE TAKE ITFURTHER",
+    "issues": [
+      "hero boundary: P ",
+      "hero boundary: A sw7-hero-primary",
+      "hero boundary: A sw7-hero-audit",
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "aeo-ai-search.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 522.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 665.15625,
+      "left": 0
+    },
+    "heading": "Business Recommendations in ChatGPT",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "angi-vs-thumbtack-pool-builders.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 576.21875,
+      "top": 143,
+      "right": 1192,
+      "bottom": 719.21875,
+      "left": 0
+    },
+    "heading": "ANGI VS THUMBTACK VS STARTWEB7",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "are-you-a-robot-captcha-taught-machines-to-read.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 24,
+      "y": 207,
+      "width": 1144,
+      "height": 162,
+      "top": 207,
+      "right": 1168,
+      "bottom": 369,
+      "left": 24
+    },
+    "heading": "Are You a Robot? The Test That Taught Machines to Read",
+    "issues": []
+  },
+  {
+    "file": "assisted-living.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 388,
+      "top": 143,
+      "right": 1192,
+      "bottom": 531,
+      "left": 0
+    },
+    "heading": "ASSISTED LIVING",
+    "issues": []
+  },
+  {
+    "file": "before-the-feed-the-comment-section-was-the-conversation.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 24,
+      "y": 207,
+      "width": 1144,
+      "height": 162,
+      "top": 207,
+      "right": 1168,
+      "bottom": 369,
+      "left": 24
+    },
+    "heading": "Before the Feed, the Comment Section Was the Conversation",
+    "issues": []
+  },
+  {
+    "file": "blog.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "SECTION.blog-heading blog-overview-heading",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 188.5,
+      "top": 143,
+      "right": 1192,
+      "bottom": 331.5,
+      "left": 0
+    },
+    "heading": "Blog",
+    "issues": []
+  },
+  {
+    "file": "burbank.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.city-hero-copy",
+    "hero": {
+      "x": 83.4375,
+      "y": 272.75,
+      "width": 663.375,
+      "height": 185.484375,
+      "top": 272.75,
+      "right": 746.8125,
+      "bottom": 458.234375,
+      "left": 83.4375
+    },
+    "heading": "BURBANK",
+    "issues": []
+  },
+  {
+    "file": "business-website.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 388,
+      "top": 143,
+      "right": 1192,
+      "bottom": 531,
+      "left": 0
+    },
+    "heading": "BUSINESS WEBSITE",
+    "issues": []
+  },
+  {
+    "file": "buying-legal-leads-california-oregon-2026.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 24,
+      "y": 207,
+      "width": 1144,
+      "height": 162,
+      "top": 207,
+      "right": 1168,
+      "bottom": 369,
+      "left": 24
+    },
+    "heading": "Buying Legal Leads in California and Oregon in 2026, What Law Firms Need to Know",
+    "issues": []
+  },
+  {
+    "file": "calabasas.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.city-hero-copy",
+    "hero": {
+      "x": 83.4375,
+      "y": 272.75,
+      "width": 663.375,
+      "height": 185.484375,
+      "top": 272.75,
+      "right": 746.8125,
+      "bottom": 458.234375,
+      "left": 83.4375
+    },
+    "heading": "CALABASAS",
+    "issues": []
+  },
+  {
+    "file": "can-ai-search-recommend-my-business.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Business Recommendations Across AI Search Tools",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "can-i-get-leads-from-google-without-running-ads.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Business Leads From Unpaid Google Results",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "can-i-pay-chatgpt-to-recommend-my-business.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 489.0625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 632.0625,
+      "left": 0
+    },
+    "heading": "ChatGPT Advertising Compared With Business Recommendations",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "can-seo-work-for-a-business-that-serves-more-than-one-city.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "SEO for Businesses Serving Multiple Cities",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "can-seo-work-if-i-do-not-have-a-storefront.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "SEO for Businesses Without a Storefront",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "careers.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "SECTION.careers-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 399,
+      "top": 143,
+      "right": 1192,
+      "bottom": 542,
+      "left": 0
+    },
+    "heading": "CONTRACTOR JOBS",
+    "issues": [
+      "hero boundary: IMG sw7-page-graphic",
+      "hero boundary: A sw7-hero-primary",
+      "hero boundary: A sw7-hero-audit",
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "catering.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 388,
+      "top": 143,
+      "right": 1192,
+      "bottom": 531,
+      "left": 0
+    },
+    "heading": "CATERING",
+    "issues": []
+  },
+  {
+    "file": "ccc-one-vs-mitchell-collision-repair.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 522.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 665.15625,
+      "left": 0
+    },
+    "heading": "Collision Repair Marketing and Customer Decisions",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "collision-repair.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 388,
+      "top": 143,
+      "right": 1192,
+      "bottom": 531,
+      "left": 0
+    },
+    "heading": "COLLISION REPAIR",
+    "issues": []
+  },
+  {
+    "file": "commercial-cleaning.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 388,
+      "top": 143,
+      "right": 1192,
+      "bottom": 531,
+      "left": 0
+    },
+    "heading": "COMMERCIAL CLEANING",
+    "issues": []
+  },
+  {
+    "file": "competitive.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 388,
+      "top": 143,
+      "right": 1192,
+      "bottom": 531,
+      "left": 0
+    },
+    "heading": "COMPETITIVE",
+    "issues": []
+  },
+  {
+    "file": "contact.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "SECTION.sw7-overview-heading",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 144,
+      "top": 143,
+      "right": 1192,
+      "bottom": 287,
+      "left": 0
+    },
+    "heading": "REACH OUT",
+    "issues": []
+  },
+  {
+    "file": "dentists.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 388,
+      "top": 143,
+      "right": 1192,
+      "bottom": 531,
+      "left": 0
+    },
+    "heading": "DENTISTS",
+    "issues": []
+  },
+  {
+    "file": "digital-marketing-vs-seo.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 522.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 665.15625,
+      "left": 0
+    },
+    "heading": "Digital Marketing Compared With SEO",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "do-i-need-a-website-if-i-have-social-media.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Business Websites Compared With Social Media Profiles",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "do-i-need-professional-photos-to-succeed-on-instagram.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 416.40625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 559.40625,
+      "left": 0
+    },
+    "heading": "Photography Quality and Business Trust on Instagram",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "do-i-need-special-ai-code-on-my-website.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Website Requirements for AI Search Visibility",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "do-reviews-help-me-get-more-customers-from-google.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Google Reviews and Customer Confidence",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "doctors.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 388,
+      "top": 143,
+      "right": 1192,
+      "bottom": 531,
+      "left": 0
+    },
+    "heading": "DOCTORS",
+    "issues": []
+  },
+  {
+    "file": "does-a-website-actually-help-a-business-get-customers.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 416.40625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 559.40625,
+      "left": 0
+    },
+    "heading": "The Role of a Website in Customer Decisions",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "dominance.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 388,
+      "top": 143,
+      "right": 1192,
+      "bottom": 531,
+      "left": 0
+    },
+    "heading": "DOMINANCE",
+    "issues": []
+  },
+  {
+    "file": "essentials.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 388,
+      "top": 143,
+      "right": 1192,
+      "bottom": 531,
+      "left": 0
+    },
+    "heading": "ESSENTIALS",
+    "issues": []
+  },
+  {
+    "file": "from-ten-blue-links-to-ai-answers.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 24,
+      "y": 207,
+      "width": 1144,
+      "height": 162,
+      "top": 207,
+      "right": 1168,
+      "bottom": 369,
+      "left": 24
+    },
+    "heading": "From Ten Blue Links to AI responses, How Google Search Has Changed",
+    "issues": []
+  },
+  {
+    "file": "general-contractors.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 388,
+      "top": 143,
+      "right": 1192,
+      "bottom": 531,
+      "left": 0
+    },
+    "heading": "GENERAL CONTRACTORS",
+    "issues": []
+  },
+  {
+    "file": "glendale.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.city-hero-copy",
+    "hero": {
+      "x": 83.4375,
+      "y": 272.75,
+      "width": 663.375,
+      "height": 185.484375,
+      "top": 272.75,
+      "right": 746.8125,
+      "bottom": 458.234375,
+      "left": 83.4375
+    },
+    "heading": "GLENDALE",
+    "issues": []
+  },
+  {
+    "file": "google-business-profile-vs-website.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 522.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 665.15625,
+      "left": 0
+    },
+    "heading": "Google Business Profile Compared With a Website",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "google-maps-leads.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 522.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 665.15625,
+      "left": 0
+    },
+    "heading": "Google Maps Leads and Customer Contact",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "google-maps-verification-complete-business-still-missing.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 24,
+      "y": 207,
+      "width": 1144,
+      "height": 162,
+      "top": 207,
+      "right": 1168,
+      "bottom": 369,
+      "left": 24
+    },
+    "heading": "Google Maps Verification Is Complete, but Your Business Is Still Missing",
+    "issues": []
+  },
+  {
+    "file": "home-health-care.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 388,
+      "top": 143,
+      "right": 1192,
+      "bottom": 531,
+      "left": 0
+    },
+    "heading": "HOME HEALTH CARE",
+    "issues": []
+  },
+  {
+    "file": "how-craigslist-kept-its-1990s-look-and-outlived-prettier-rivals.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 24,
+      "y": 207,
+      "width": 1144,
+      "height": 162,
+      "top": 207,
+      "right": 1168,
+      "bottom": 369,
+      "left": 24
+    },
+    "heading": "How Craigslist Kept Its 1990s Look and Outlived Prettier Rivals",
+    "issues": []
+  },
+  {
+    "file": "how-do-customers-find-local-businesses-online.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "How Customers Discover Local Businesses Online",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "how-do-i-build-an-email-list-for-my-business.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Building a Business Email List With Clear Permission",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "how-do-i-get-customers-from-social-media-without-paying-for-ads.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Customer Discovery Through Organic Social Media",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "how-do-i-get-my-business-recommended-by-chatgpt.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 489.0625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 632.0625,
+      "left": 0
+    },
+    "heading": "Business Discovery and Recommendations Through ChatGPT",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "how-do-i-know-if-my-paid-ads-are-working.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Evaluating Paid Advertising and Business Results",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "how-do-i-know-if-my-seo-is-working.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Evaluating SEO Progress and Business Results",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "how-do-i-show-up-when-someone-searches-for-my-service-near-me.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Local Visibility for Near Me Searches",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "how-do-i-target-the-right-people-with-ads.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Audience Relevance in Paid Advertising",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "how-email-newsletters-became-a-media-business-again.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 24,
+      "y": 207,
+      "width": 1144,
+      "height": 162,
+      "top": 207,
+      "right": 1168,
+      "bottom": 369,
+      "left": 24
+    },
+    "heading": "How Email Newsletters Became a Media Business Again",
+    "issues": []
+  },
+  {
+    "file": "how-long-does-it-take-to-get-leads-from-angi-commercial-cleaning.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 492.40625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 635.40625,
+      "left": 0
+    },
+    "heading": "Angi Leads and Commercial Cleaning Contract Timing",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "how-long-does-it-take-to-show-up-in-ai-answers.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Timing Business Visibility in AI Search",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "how-long-does-seo-take-to-work.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "SEO Timing and the Meaning of Progress",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "how-long-until-seo-starts-bringing-in-leads.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "SEO Lead Timing and Early Customer Activity",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "how-qr-codes-became-part-of-everyday-business.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 24,
+      "y": 207,
+      "width": 1144,
+      "height": 162,
+      "top": 207,
+      "right": 1168,
+      "bottom": 369,
+      "left": 24
+    },
+    "heading": "How QR Codes Became Part of Everyday Business",
+    "issues": []
+  },
+  {
+    "file": "how-to-get-more-assisted-living-residents.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 522.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 665.15625,
+      "left": 0
+    },
+    "heading": "Attracting Residents to an Assisted Living Home",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "how-to-get-more-monthly-security-contracts.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 522.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 665.15625,
+      "left": 0
+    },
+    "heading": "Growing Monthly Security Contracts",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "how-to-tell-if-your-seo-company-is-actually-doing-anything.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 24,
+      "y": 207,
+      "width": 1144,
+      "height": 162,
+      "top": 207,
+      "right": 1168,
+      "bottom": 369,
+      "left": 24
+    },
+    "heading": "How to Tell If Your SEO Company Is Actually Doing Anything",
+    "issues": []
+  },
+  {
+    "file": "i-don-t-have-time-to-create-content-is-there-a-faster-way.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Managing Content Creation With Limited Time",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "i-just-started-my-business-how-do-i-get-google-to-notice-me.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Google Discovery for a New Business",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "if-i-leave-my-agency-do-i-keep-my-google-accounts.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Google Account Ownership When Leaving an Agency",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "increase-sales.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 522.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 665.15625,
+      "left": 0
+    },
+    "heading": "Increasing Business Sales Through Customer Demand",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "index.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.home-hero-copy",
+    "hero": {
+      "x": 47.671875,
+      "y": 173.21875,
+      "width": 425.859375,
+      "height": 335.5625,
+      "top": 173.21875,
+      "right": 473.53125,
+      "bottom": 508.78125,
+      "left": 47.671875
+    },
+    "heading": "SEARCHCLICKLEADCUSTOMER",
+    "issues": []
+  },
+  {
+    "file": "industries.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 388,
+      "top": 143,
+      "right": 1192,
+      "bottom": 531,
+      "left": 0
+    },
+    "heading": "VIEW ALL INDUSTRIES",
+    "issues": []
+  },
+  {
+    "file": "instant-audit.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.sw7-feature-inner audit-hero-grid",
+    "hero": {
+      "x": 24,
+      "y": 199,
+      "width": 1144,
+      "height": 452.09375,
+      "top": 199,
+      "right": 1168,
+      "bottom": 651.09375,
+      "left": 24
+    },
+    "heading": "Instant Audit",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "interior-design.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 388,
+      "top": 143,
+      "right": 1192,
+      "bottom": 531,
+      "left": 0
+    },
+    "heading": "INTERIOR DESIGN",
+    "issues": []
+  },
+  {
+    "file": "is-seo-worth-it-for-my-business.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Evaluating the Business Value of SEO",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "landing-page.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 388,
+      "top": 143,
+      "right": 1192,
+      "bottom": 531,
+      "left": 0
+    },
+    "heading": "LANDING PAGE",
+    "issues": []
+  },
+  {
+    "file": "lawyers.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 388,
+      "top": 143,
+      "right": 1192,
+      "bottom": 531,
+      "left": 0
+    },
+    "heading": "LAWYERS",
+    "issues": []
+  },
+  {
+    "file": "los-angeles.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.city-hero-copy",
+    "hero": {
+      "x": 83.4375,
+      "y": 272.75,
+      "width": 663.375,
+      "height": 185.484375,
+      "top": 272.75,
+      "right": 746.8125,
+      "bottom": 458.234375,
+      "left": 83.4375
+    },
+    "heading": "LOS ANGELES",
+    "issues": []
+  },
+  {
+    "file": "mojo-vs-vulcan7-real-estate-leads.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 522.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 665.15625,
+      "left": 0
+    },
+    "heading": "Real Estate Lead Sources and Customer Intent",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "my-competitor-shows-up-first-on-google-and-i-don-t-what-are-they-doing-differently.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Understanding Competitor Visibility in Google",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "nationwide.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.sw7-new-hero-copy",
+    "hero": {
+      "x": 83.4375,
+      "y": 113.4375,
+      "width": 617.6875,
+      "height": 458.140625,
+      "top": 113.4375,
+      "right": 701.125,
+      "bottom": 571.578125,
+      "left": 83.4375
+    },
+    "heading": "SEO + AEOMANAGEMENT",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "opening-a-business-alone-or-with-a-partner.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 24,
+      "y": 207,
+      "width": 1144,
+      "height": 162,
+      "top": 207,
+      "right": 1168,
+      "bottom": 369,
+      "left": 24
+    },
+    "heading": "Opening A Business Alone Or With A Partner, Pros And Cons",
+    "issues": []
+  },
+  {
+    "file": "pool-construction.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 388,
+      "top": 143,
+      "right": 1192,
+      "bottom": 531,
+      "left": 0
+    },
+    "heading": "POOL CONSTRUCTION",
+    "issues": []
+  },
+  {
+    "file": "real-estate-agents.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 388,
+      "top": 143,
+      "right": 1192,
+      "bottom": 531,
+      "left": 0
+    },
+    "heading": "REAL ESTATE",
+    "issues": []
+  },
+  {
+    "file": "resources-ai-search.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.resource-inner hero-layout",
+    "hero": {
+      "x": 24,
+      "y": 179,
+      "width": 1144,
+      "height": 347.6875,
+      "top": 179,
+      "right": 1168,
+      "bottom": 526.6875,
+      "left": 24
+    },
+    "heading": "AI Search",
+    "issues": []
+  },
+  {
+    "file": "resources-digital-marketing.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.resource-inner hero-layout",
+    "hero": {
+      "x": 24,
+      "y": 179,
+      "width": 1144,
+      "height": 347.6875,
+      "top": 179,
+      "right": 1168,
+      "bottom": 526.6875,
+      "left": 24
+    },
+    "heading": "Digital Marketing",
+    "issues": []
+  },
+  {
+    "file": "resources-paid-ads.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.resource-inner hero-layout",
+    "hero": {
+      "x": 24,
+      "y": 179,
+      "width": 1144,
+      "height": 347.6875,
+      "top": 179,
+      "right": 1168,
+      "bottom": 526.6875,
+      "left": 24
+    },
+    "heading": "Paid Ads",
+    "issues": []
+  },
+  {
+    "file": "resources-seo.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.resource-inner hero-layout",
+    "hero": {
+      "x": 24,
+      "y": 179,
+      "width": 1144,
+      "height": 347.6875,
+      "top": 179,
+      "right": 1168,
+      "bottom": 526.6875,
+      "left": 24
+    },
+    "heading": "SEO",
+    "issues": []
+  },
+  {
+    "file": "resources-websites.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.resource-inner hero-layout",
+    "hero": {
+      "x": 24,
+      "y": 179,
+      "width": 1144,
+      "height": 347.6875,
+      "top": 179,
+      "right": 1168,
+      "bottom": 526.6875,
+      "left": 24
+    },
+    "heading": "Websites",
+    "issues": []
+  },
+  {
+    "file": "resources.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.resource-inner hero-layout",
+    "hero": {
+      "x": 24,
+      "y": 238.359375,
+      "width": 1144,
+      "height": 151.65625,
+      "top": 238.359375,
+      "right": 1168,
+      "bottom": 390.015625,
+      "left": 24
+    },
+    "heading": "Business Growth",
+    "issues": []
+  },
+  {
+    "file": "reviews.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "SECTION.reviews-hero sw7-redesign-section sw7-surface-pearl",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 605.34375,
+      "top": 143,
+      "right": 1192,
+      "bottom": 748.34375,
+      "left": 0
+    },
+    "heading": "REVIEWS",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "sales-during-slow-season.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 522.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 665.15625,
+      "left": 0
+    },
+    "heading": "Maintaining Sales During a Slow Season",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "santa-clarita.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.city-hero-copy",
+    "hero": {
+      "x": 83.4375,
+      "y": 181.5,
+      "width": 690,
+      "height": 367.984375,
+      "top": 181.5,
+      "right": 773.4375,
+      "bottom": 549.484375,
+      "left": 83.4375
+    },
+    "heading": "Website Design and SEO Services for Santa Clarita Businesses",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "security-services.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 388,
+      "top": 143,
+      "right": 1192,
+      "bottom": 531,
+      "left": 0
+    },
+    "heading": "SECURITY SERVICES",
+    "issues": []
+  },
+  {
+    "file": "seo-optimized-website.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "MAIN.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 388,
+      "top": 143,
+      "right": 1192,
+      "bottom": 531,
+      "left": 0
+    },
+    "heading": "SEO-OPTIMIZEDWEBSITES",
+    "issues": []
+  },
+  {
+    "file": "seo-vs-paid-ads.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 522.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 665.15625,
+      "left": 0
+    },
+    "heading": "SEO Compared With Paid Advertising",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "services.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "SECTION.sw7-overview-heading",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 160,
+      "top": 143,
+      "right": 1192,
+      "bottom": 303,
+      "left": 0
+    },
+    "heading": "VIEW ALL SERVICES",
+    "issues": []
+  },
+  {
+    "file": "should-i-boost-posts-or-use-ads-manager.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Boosted Posts Compared With Meta Ads Manager",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "should-i-hire-an-agency-a-freelancer-or-do-seo-myself.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 489.0625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 632.0625,
+      "left": 0
+    },
+    "heading": "Choosing an SEO Agency, Freelancer or Independent Approach",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "should-i-redesign-my-website-or-just-fix-the-seo.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 24,
+      "y": 207,
+      "width": 1144,
+      "height": 162,
+      "top": 207,
+      "right": 1168,
+      "bottom": 369,
+      "left": 24
+    },
+    "heading": "Should I Redesign My Website or Just Fix the SEO?",
+    "issues": []
+  },
+  {
+    "file": "simi-valley.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.city-hero-copy",
+    "hero": {
+      "x": 83.4375,
+      "y": 272.75,
+      "width": 663.375,
+      "height": 185.484375,
+      "top": 272.75,
+      "right": 746.8125,
+      "bottom": 458.234375,
+      "left": 83.4375
+    },
+    "heading": "SIMI VALLEY",
+    "issues": []
+  },
+  {
+    "file": "support.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "BODY.",
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 1192,
+      "height": 3308.578125,
+      "top": 0,
+      "right": 1192,
+      "bottom": 3308.578125,
+      "left": 0
+    },
+    "heading": "24/7 Website Support from StartWeb7",
+    "issues": [
+      "horizontal: IMG ",
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "the-aol-greeting-that-made-the-internet-feel-personal.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 24,
+      "y": 207,
+      "width": 1144,
+      "height": 162,
+      "top": 207,
+      "right": 1168,
+      "bottom": 369,
+      "left": 24
+    },
+    "heading": "The AOL Greeting That Made the Internet Feel Personal",
+    "issues": []
+  },
+  {
+    "file": "the-big-yellow-book-that-ran-local-business.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 24,
+      "y": 207,
+      "width": 1144,
+      "height": 162,
+      "top": 207,
+      "right": 1168,
+      "bottom": 369,
+      "left": 24
+    },
+    "heading": "The Big Yellow Book That Used to Run Local Business",
+    "issues": []
+  },
+  {
+    "file": "the-cookie-that-would-not-die.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 24,
+      "y": 207,
+      "width": 1144,
+      "height": 162,
+      "top": 207,
+      "right": 1168,
+      "bottom": 369,
+      "left": 24
+    },
+    "heading": "The Cookie That Would Not Die, Inside Google’s Five Year Reversal",
+    "issues": []
+  },
+  {
+    "file": "the-day-digital-design-let-go-of-leather-and-wood.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 24,
+      "y": 207,
+      "width": 1144,
+      "height": 162,
+      "top": 207,
+      "right": 1168,
+      "bottom": 369,
+      "left": 24
+    },
+    "heading": "The Day Digital Design Let Go of Leather and Wood",
+    "issues": []
+  },
+  {
+    "file": "the-fake-review-epidemic.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 24,
+      "y": 207,
+      "width": 1144,
+      "height": 162,
+      "top": 207,
+      "right": 1168,
+      "bottom": 369,
+      "left": 24
+    },
+    "heading": "The Fake Review Epidemic, Why Online Trust Is Harder Than Ever",
+    "issues": []
+  },
+  {
+    "file": "the-web-had-motion-and-then-flash-was-gone.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 24,
+      "y": 207,
+      "width": 1144,
+      "height": 162,
+      "top": 207,
+      "right": 1168,
+      "bottom": 369,
+      "left": 24
+    },
+    "heading": "The Web Had Motion and Music, and Then Flash Was Gone",
+    "issues": []
+  },
+  {
+    "file": "what-are-red-flags-when-choosing-an-seo-company.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Warning Signs When Choosing an SEO Company",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "what-do-i-do-if-someone-says-i-don-t-have-rights-to-a-photo-on-my-website.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Handling a Website Photo Rights Concern",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "what-if-my-business-is-service-based-can-instagram-still-work-for-me.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Instagram for Service Businesses",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "what-is-aeo.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 522.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 665.15625,
+      "left": 0
+    },
+    "heading": "AEO and AI Search Visibility",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "what-is-seo.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 522.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 665.15625,
+      "left": 0
+    },
+    "heading": "SEO Fundamentals",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "what-is-the-difference-between-seo-and-google-ads.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "SEO Compared With Google Ads",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "what-makes-someone-choose-one-business-over-another-online.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Factors That Shape Online Business Choices",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "what-questions-should-i-ask-before-hiring-an-seo-agency.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Evaluating an SEO Agency Before Signing",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "what-should-a-business-website-include-to-get-more-customers.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 489.0625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 632.0625,
+      "left": 0
+    },
+    "heading": "Business Website Information That Supports Customer Decisions",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "when-can-i-expect-my-first-customer-with-seo.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "The First Customer From SEO and Why Timing Varies",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "when-tiktok-became-a-search-engine.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 24,
+      "y": 207,
+      "width": 1144,
+      "height": 101.5,
+      "top": 207,
+      "right": 1168,
+      "bottom": 308.5,
+      "left": 24
+    },
+    "heading": "When TikTok Became a Search Engine",
+    "issues": []
+  },
+  {
+    "file": "why-am-i-posting-on-instagram-regularly-but-getting-no-customers.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Instagram Activity Compared With Customer Growth",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "why-are-my-ads-getting-clicks-but-no-customers.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Advertising Clicks Compared With Customer Conversions",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "why-did-my-ad-account-get-restricted.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Understanding Advertising Account Restrictions",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "why-did-my-google-rankings-drop-overnight.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 24,
+      "y": 207,
+      "width": 1144,
+      "height": 162,
+      "top": 207,
+      "right": 1168,
+      "bottom": 369,
+      "left": 24
+    },
+    "heading": "Why Did My Google Rankings Drop Overnight?",
+    "issues": []
+  },
+  {
+    "file": "why-does-chatgpt-recommend-my-competitor-but-not-me.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Understanding Competitor Mentions in ChatGPT",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "why-does-my-business-not-show-up-on-google-when-i-search-its-name.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Business Name Visibility in Google Search",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "why-every-website-looks-the-same-now.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 24,
+      "y": 207,
+      "width": 1144,
+      "height": 101.5,
+      "top": 207,
+      "right": 1168,
+      "bottom": 308.5,
+      "left": 24
+    },
+    "heading": "Why Every Website Looks the Same Now",
+    "issues": []
+  },
+  {
+    "file": "why-is-my-business-not-getting-leads-from-google.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Understanding Missing Business Leads From Google",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "why-is-my-website-not-bringing-in-customers.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Understanding a Website That Is Not Generating Customers",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "why-is-seo-ongoing-instead-of-a-one-time-service.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Why SEO Requires Ongoing Attention",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "wikipedia-is-feeding-the-ai-era-while-losing-its-readers.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 24,
+      "y": 207,
+      "width": 1144,
+      "height": 162,
+      "top": 207,
+      "right": 1168,
+      "bottom": 369,
+      "left": 24
+    },
+    "heading": "Wikipedia Is Feeding the AI Era While Losing Its Readers",
+    "issues": []
+  },
+  {
+    "file": "will-seo-still-matter-as-people-use-ai-search.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "The Continuing Role of SEO in AI Search",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "wix-or-squarespace-vs-hiring-a-professional.html",
+    "width": 1207,
+    "height": 531,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 143,
+      "width": 1192,
+      "height": 446.15625,
+      "top": 143,
+      "right": 1192,
+      "bottom": 589.15625,
+      "left": 0
+    },
+    "heading": "Wix and Squarespace Compared With a Website Professional",
+    "issues": [
+      "hero below fold"
+    ]
+  },
+  {
+    "file": "about.html",
+    "width": 390,
+    "height": 844,
+    "selector": "SECTION.hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 539.265625,
+      "top": 132,
+      "right": 390,
+      "bottom": 671.265625,
+      "left": 0
+    },
+    "heading": "WE TAKE ITFURTHER",
+    "issues": []
+  },
+  {
+    "file": "aeo-ai-search.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 591.03125,
+      "top": 132,
+      "right": 390,
+      "bottom": 723.03125,
+      "left": 0
+    },
+    "heading": "Business Recommendations in ChatGPT",
+    "issues": []
+  },
+  {
+    "file": "angi-vs-thumbtack-pool-builders.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 551.5,
+      "top": 132,
+      "right": 390,
+      "bottom": 683.5,
+      "left": 0
+    },
+    "heading": "ANGI VS THUMBTACK VS STARTWEB7",
+    "issues": []
+  },
+  {
+    "file": "are-you-a-robot-captcha-taught-machines-to-read.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 16,
+      "y": 176,
+      "width": 358,
+      "height": 151.15625,
+      "top": 176,
+      "right": 374,
+      "bottom": 327.15625,
+      "left": 16
+    },
+    "heading": "Are You a Robot? The Test That Taught Machines to Read",
+    "issues": []
+  },
+  {
+    "file": "assisted-living.html",
+    "width": 390,
+    "height": 844,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 712,
+      "top": 132,
+      "right": 390,
+      "bottom": 844,
+      "left": 0
+    },
+    "heading": "ASSISTED LIVING",
+    "issues": []
+  },
+  {
+    "file": "before-the-feed-the-comment-section-was-the-conversation.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 16,
+      "y": 176,
+      "width": 358,
+      "height": 151.15625,
+      "top": 176,
+      "right": 374,
+      "bottom": 327.15625,
+      "left": 16
+    },
+    "heading": "Before the Feed, the Comment Section Was the Conversation",
+    "issues": []
+  },
+  {
+    "file": "blog.html",
+    "width": 390,
+    "height": 844,
+    "selector": "SECTION.blog-heading blog-overview-heading",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 124.71875,
+      "top": 132,
+      "right": 390,
+      "bottom": 256.71875,
+      "left": 0
+    },
+    "heading": "Blog",
+    "issues": []
+  },
+  {
+    "file": "burbank.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.city-hero-copy",
+    "hero": {
+      "x": 0,
+      "y": 392,
+      "width": 390,
+      "height": 314.609375,
+      "top": 392,
+      "right": 390,
+      "bottom": 706.609375,
+      "left": 0
+    },
+    "heading": "BURBANK",
+    "issues": []
+  },
+  {
+    "file": "business-website.html",
+    "width": 390,
+    "height": 844,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 712,
+      "top": 132,
+      "right": 390,
+      "bottom": 844,
+      "left": 0
+    },
+    "heading": "BUSINESS WEBSITE",
+    "issues": []
+  },
+  {
+    "file": "buying-legal-leads-california-oregon-2026.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 16,
+      "y": 176,
+      "width": 358,
+      "height": 187.875,
+      "top": 176,
+      "right": 374,
+      "bottom": 363.875,
+      "left": 16
+    },
+    "heading": "Buying Legal Leads in California and Oregon in 2026, What Law Firms Need to Know",
+    "issues": []
+  },
+  {
+    "file": "calabasas.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.city-hero-copy",
+    "hero": {
+      "x": 0,
+      "y": 392,
+      "width": 390,
+      "height": 314.609375,
+      "top": 392,
+      "right": 390,
+      "bottom": 706.609375,
+      "left": 0
+    },
+    "heading": "CALABASAS",
+    "issues": []
+  },
+  {
+    "file": "can-ai-search-recommend-my-business.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 531.53125,
+      "top": 132,
+      "right": 390,
+      "bottom": 663.53125,
+      "left": 0
+    },
+    "heading": "Business Recommendations Across AI Search Tools",
+    "issues": []
+  },
+  {
+    "file": "can-i-get-leads-from-google-without-running-ads.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 527.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 659.6875,
+      "left": 0
+    },
+    "heading": "Business Leads From Unpaid Google Results",
+    "issues": []
+  },
+  {
+    "file": "can-i-pay-chatgpt-to-recommend-my-business.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 561.28125,
+      "top": 132,
+      "right": 390,
+      "bottom": 693.28125,
+      "left": 0
+    },
+    "heading": "ChatGPT Advertising Compared With Business Recommendations",
+    "issues": []
+  },
+  {
+    "file": "can-seo-work-for-a-business-that-serves-more-than-one-city.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 527.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 659.6875,
+      "left": 0
+    },
+    "heading": "SEO for Businesses Serving Multiple Cities",
+    "issues": []
+  },
+  {
+    "file": "can-seo-work-if-i-do-not-have-a-storefront.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 557.4375,
+      "top": 132,
+      "right": 390,
+      "bottom": 689.4375,
+      "left": 0
+    },
+    "heading": "SEO for Businesses Without a Storefront",
+    "issues": []
+  },
+  {
+    "file": "careers.html",
+    "width": 390,
+    "height": 844,
+    "selector": "SECTION.careers-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 758,
+      "top": 132,
+      "right": 390,
+      "bottom": 890,
+      "left": 0
+    },
+    "heading": "CONTRACTOR JOBS",
+    "issues": []
+  },
+  {
+    "file": "catering.html",
+    "width": 390,
+    "height": 844,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 940.3125,
+      "top": 132,
+      "right": 390,
+      "bottom": 1072.3125,
+      "left": 0
+    },
+    "heading": "CATERING",
+    "issues": []
+  },
+  {
+    "file": "ccc-one-vs-mitchell-collision-repair.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 527.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 659.6875,
+      "left": 0
+    },
+    "heading": "Collision Repair Marketing and Customer Decisions",
+    "issues": []
+  },
+  {
+    "file": "collision-repair.html",
+    "width": 390,
+    "height": 844,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 712,
+      "top": 132,
+      "right": 390,
+      "bottom": 844,
+      "left": 0
+    },
+    "heading": "COLLISION REPAIR",
+    "issues": []
+  },
+  {
+    "file": "commercial-cleaning.html",
+    "width": 390,
+    "height": 844,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 712,
+      "top": 132,
+      "right": 390,
+      "bottom": 844,
+      "left": 0
+    },
+    "heading": "COMMERCIAL CLEANING",
+    "issues": []
+  },
+  {
+    "file": "competitive.html",
+    "width": 390,
+    "height": 844,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 712,
+      "top": 132,
+      "right": 390,
+      "bottom": 844,
+      "left": 0
+    },
+    "heading": "COMPETITIVE",
+    "issues": []
+  },
+  {
+    "file": "contact.html",
+    "width": 390,
+    "height": 844,
+    "selector": "SECTION.sw7-overview-heading",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 368.90625,
+      "top": 132,
+      "right": 390,
+      "bottom": 500.90625,
+      "left": 0
+    },
+    "heading": "REACH OUT",
+    "issues": []
+  },
+  {
+    "file": "dentists.html",
+    "width": 390,
+    "height": 844,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 712,
+      "top": 132,
+      "right": 390,
+      "bottom": 844,
+      "left": 0
+    },
+    "heading": "DENTISTS",
+    "issues": []
+  },
+  {
+    "file": "digital-marketing-vs-seo.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 527.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 659.6875,
+      "left": 0
+    },
+    "heading": "Digital Marketing Compared With SEO",
+    "issues": []
+  },
+  {
+    "file": "do-i-need-a-website-if-i-have-social-media.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 561.28125,
+      "top": 132,
+      "right": 390,
+      "bottom": 693.28125,
+      "left": 0
+    },
+    "heading": "Business Websites Compared With Social Media Profiles",
+    "issues": []
+  },
+  {
+    "file": "do-i-need-professional-photos-to-succeed-on-instagram.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 561.28125,
+      "top": 132,
+      "right": 390,
+      "bottom": 693.28125,
+      "left": 0
+    },
+    "heading": "Photography Quality and Business Trust on Instagram",
+    "issues": []
+  },
+  {
+    "file": "do-i-need-special-ai-code-on-my-website.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 557.4375,
+      "top": 132,
+      "right": 390,
+      "bottom": 689.4375,
+      "left": 0
+    },
+    "heading": "Website Requirements for AI Search Visibility",
+    "issues": []
+  },
+  {
+    "file": "do-reviews-help-me-get-more-customers-from-google.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 527.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 659.6875,
+      "left": 0
+    },
+    "heading": "Google Reviews and Customer Confidence",
+    "issues": []
+  },
+  {
+    "file": "doctors.html",
+    "width": 390,
+    "height": 844,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 712,
+      "top": 132,
+      "right": 390,
+      "bottom": 844,
+      "left": 0
+    },
+    "heading": "DOCTORS",
+    "issues": []
+  },
+  {
+    "file": "does-a-website-actually-help-a-business-get-customers.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 497.9375,
+      "top": 132,
+      "right": 390,
+      "bottom": 629.9375,
+      "left": 0
+    },
+    "heading": "The Role of a Website in Customer Decisions",
+    "issues": []
+  },
+  {
+    "file": "dominance.html",
+    "width": 390,
+    "height": 844,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 712,
+      "top": 132,
+      "right": 390,
+      "bottom": 844,
+      "left": 0
+    },
+    "heading": "DOMINANCE",
+    "issues": []
+  },
+  {
+    "file": "essentials.html",
+    "width": 390,
+    "height": 844,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 712,
+      "top": 132,
+      "right": 390,
+      "bottom": 844,
+      "left": 0
+    },
+    "heading": "ESSENTIALS",
+    "issues": []
+  },
+  {
+    "file": "from-ten-blue-links-to-ai-answers.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 16,
+      "y": 176,
+      "width": 358,
+      "height": 187.875,
+      "top": 176,
+      "right": 374,
+      "bottom": 363.875,
+      "left": 16
+    },
+    "heading": "From Ten Blue Links to AI responses, How Google Search Has Changed",
+    "issues": []
+  },
+  {
+    "file": "general-contractors.html",
+    "width": 390,
+    "height": 844,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 712,
+      "top": 132,
+      "right": 390,
+      "bottom": 844,
+      "left": 0
+    },
+    "heading": "GENERAL CONTRACTORS",
+    "issues": []
+  },
+  {
+    "file": "glendale.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.city-hero-copy",
+    "hero": {
+      "x": 0,
+      "y": 392,
+      "width": 390,
+      "height": 314.609375,
+      "top": 392,
+      "right": 390,
+      "bottom": 706.609375,
+      "left": 0
+    },
+    "heading": "GLENDALE",
+    "issues": []
+  },
+  {
+    "file": "google-business-profile-vs-website.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 527.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 659.6875,
+      "left": 0
+    },
+    "heading": "Google Business Profile Compared With a Website",
+    "issues": []
+  },
+  {
+    "file": "google-maps-leads.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 527.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 659.6875,
+      "left": 0
+    },
+    "heading": "Google Maps Leads and Customer Contact",
+    "issues": []
+  },
+  {
+    "file": "google-maps-verification-complete-business-still-missing.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 16,
+      "y": 176,
+      "width": 358,
+      "height": 224.59375,
+      "top": 176,
+      "right": 374,
+      "bottom": 400.59375,
+      "left": 16
+    },
+    "heading": "Google Maps Verification Is Complete, but Your Business Is Still Missing",
+    "issues": []
+  },
+  {
+    "file": "home-health-care.html",
+    "width": 390,
+    "height": 844,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 712,
+      "top": 132,
+      "right": 390,
+      "bottom": 844,
+      "left": 0
+    },
+    "heading": "HOME HEALTH CARE",
+    "issues": []
+  },
+  {
+    "file": "how-craigslist-kept-its-1990s-look-and-outlived-prettier-rivals.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 16,
+      "y": 176,
+      "width": 358,
+      "height": 151.15625,
+      "top": 176,
+      "right": 374,
+      "bottom": 327.15625,
+      "left": 16
+    },
+    "heading": "How Craigslist Kept Its 1990s Look and Outlived Prettier Rivals",
+    "issues": []
+  },
+  {
+    "file": "how-do-customers-find-local-businesses-online.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 527.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 659.6875,
+      "left": 0
+    },
+    "heading": "How Customers Discover Local Businesses Online",
+    "issues": []
+  },
+  {
+    "file": "how-do-i-build-an-email-list-for-my-business.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 557.4375,
+      "top": 132,
+      "right": 390,
+      "bottom": 689.4375,
+      "left": 0
+    },
+    "heading": "Building a Business Email List With Clear Permission",
+    "issues": []
+  },
+  {
+    "file": "how-do-i-get-customers-from-social-media-without-paying-for-ads.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 591.03125,
+      "top": 132,
+      "right": 390,
+      "bottom": 723.03125,
+      "left": 0
+    },
+    "heading": "Customer Discovery Through Organic Social Media",
+    "issues": []
+  },
+  {
+    "file": "how-do-i-get-my-business-recommended-by-chatgpt.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 591.03125,
+      "top": 132,
+      "right": 390,
+      "bottom": 723.03125,
+      "left": 0
+    },
+    "heading": "Business Discovery and Recommendations Through ChatGPT",
+    "issues": []
+  },
+  {
+    "file": "how-do-i-know-if-my-paid-ads-are-working.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 561.28125,
+      "top": 132,
+      "right": 390,
+      "bottom": 693.28125,
+      "left": 0
+    },
+    "heading": "Evaluating Paid Advertising and Business Results",
+    "issues": []
+  },
+  {
+    "file": "how-do-i-know-if-my-seo-is-working.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 527.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 659.6875,
+      "left": 0
+    },
+    "heading": "Evaluating SEO Progress and Business Results",
+    "issues": []
+  },
+  {
+    "file": "how-do-i-show-up-when-someone-searches-for-my-service-near-me.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 557.4375,
+      "top": 132,
+      "right": 390,
+      "bottom": 689.4375,
+      "left": 0
+    },
+    "heading": "Local Visibility for Near Me Searches",
+    "issues": []
+  },
+  {
+    "file": "how-do-i-target-the-right-people-with-ads.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 527.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 659.6875,
+      "left": 0
+    },
+    "heading": "Audience Relevance in Paid Advertising",
+    "issues": []
+  },
+  {
+    "file": "how-email-newsletters-became-a-media-business-again.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 16,
+      "y": 176,
+      "width": 358,
+      "height": 151.15625,
+      "top": 176,
+      "right": 374,
+      "bottom": 327.15625,
+      "left": 16
+    },
+    "heading": "How Email Newsletters Became a Media Business Again",
+    "issues": []
+  },
+  {
+    "file": "how-long-does-it-take-to-get-leads-from-angi-commercial-cleaning.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 531.53125,
+      "top": 132,
+      "right": 390,
+      "bottom": 663.53125,
+      "left": 0
+    },
+    "heading": "Angi Leads and Commercial Cleaning Contract Timing",
+    "issues": []
+  },
+  {
+    "file": "how-long-does-it-take-to-show-up-in-ai-answers.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 527.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 659.6875,
+      "left": 0
+    },
+    "heading": "Timing Business Visibility in AI Search",
+    "issues": []
+  },
+  {
+    "file": "how-long-does-seo-take-to-work.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 557.4375,
+      "top": 132,
+      "right": 390,
+      "bottom": 689.4375,
+      "left": 0
+    },
+    "heading": "SEO Timing and the Meaning of Progress",
+    "issues": []
+  },
+  {
+    "file": "how-long-until-seo-starts-bringing-in-leads.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 527.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 659.6875,
+      "left": 0
+    },
+    "heading": "SEO Lead Timing and Early Customer Activity",
+    "issues": []
+  },
+  {
+    "file": "how-qr-codes-became-part-of-everyday-business.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 16,
+      "y": 176,
+      "width": 358,
+      "height": 151.15625,
+      "top": 176,
+      "right": 374,
+      "bottom": 327.15625,
+      "left": 16
+    },
+    "heading": "How QR Codes Became Part of Everyday Business",
+    "issues": []
+  },
+  {
+    "file": "how-to-get-more-assisted-living-residents.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 587.1875,
+      "top": 132,
+      "right": 390,
+      "bottom": 719.1875,
+      "left": 0
+    },
+    "heading": "Attracting Residents to an Assisted Living Home",
+    "issues": []
+  },
+  {
+    "file": "how-to-get-more-monthly-security-contracts.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 527.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 659.6875,
+      "left": 0
+    },
+    "heading": "Growing Monthly Security Contracts",
+    "issues": []
+  },
+  {
+    "file": "how-to-tell-if-your-seo-company-is-actually-doing-anything.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 16,
+      "y": 176,
+      "width": 358,
+      "height": 151.15625,
+      "top": 176,
+      "right": 374,
+      "bottom": 327.15625,
+      "left": 16
+    },
+    "heading": "How to Tell If Your SEO Company Is Actually Doing Anything",
+    "issues": []
+  },
+  {
+    "file": "i-don-t-have-time-to-create-content-is-there-a-faster-way.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 527.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 659.6875,
+      "left": 0
+    },
+    "heading": "Managing Content Creation With Limited Time",
+    "issues": []
+  },
+  {
+    "file": "i-just-started-my-business-how-do-i-get-google-to-notice-me.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 527.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 659.6875,
+      "left": 0
+    },
+    "heading": "Google Discovery for a New Business",
+    "issues": []
+  },
+  {
+    "file": "if-i-leave-my-agency-do-i-keep-my-google-accounts.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 561.28125,
+      "top": 132,
+      "right": 390,
+      "bottom": 693.28125,
+      "left": 0
+    },
+    "heading": "Google Account Ownership When Leaving an Agency",
+    "issues": []
+  },
+  {
+    "file": "increase-sales.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 591.03125,
+      "top": 132,
+      "right": 390,
+      "bottom": 723.03125,
+      "left": 0
+    },
+    "heading": "Increasing Business Sales Through Customer Demand",
+    "issues": []
+  },
+  {
+    "file": "index.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.home-hero-copy",
+    "hero": {
+      "x": 16,
+      "y": 118,
+      "width": 358,
+      "height": 341.4375,
+      "top": 118,
+      "right": 374,
+      "bottom": 459.4375,
+      "left": 16
+    },
+    "heading": "SEARCHCLICKLEADCUSTOMER",
+    "issues": []
+  },
+  {
+    "file": "industries.html",
+    "width": 390,
+    "height": 844,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 712,
+      "top": 132,
+      "right": 390,
+      "bottom": 844,
+      "left": 0
+    },
+    "heading": "VIEW ALL INDUSTRIES",
+    "issues": []
+  },
+  {
+    "file": "instant-audit.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.sw7-feature-inner audit-hero-grid",
+    "hero": {
+      "x": 16,
+      "y": 164,
+      "width": 358,
+      "height": 437.296875,
+      "top": 164,
+      "right": 374,
+      "bottom": 601.296875,
+      "left": 16
+    },
+    "heading": "Instant Audit",
+    "issues": []
+  },
+  {
+    "file": "interior-design.html",
+    "width": 390,
+    "height": 844,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 712,
+      "top": 132,
+      "right": 390,
+      "bottom": 844,
+      "left": 0
+    },
+    "heading": "INTERIOR DESIGN",
+    "issues": []
+  },
+  {
+    "file": "is-seo-worth-it-for-my-business.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 527.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 659.6875,
+      "left": 0
+    },
+    "heading": "Evaluating the Business Value of SEO",
+    "issues": []
+  },
+  {
+    "file": "landing-page.html",
+    "width": 390,
+    "height": 844,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 712,
+      "top": 132,
+      "right": 390,
+      "bottom": 844,
+      "left": 0
+    },
+    "heading": "LANDING PAGE",
+    "issues": []
+  },
+  {
+    "file": "lawyers.html",
+    "width": 390,
+    "height": 844,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 712,
+      "top": 132,
+      "right": 390,
+      "bottom": 844,
+      "left": 0
+    },
+    "heading": "LAWYERS",
+    "issues": []
+  },
+  {
+    "file": "los-angeles.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.city-hero-copy",
+    "hero": {
+      "x": 0,
+      "y": 392,
+      "width": 390,
+      "height": 314.609375,
+      "top": 392,
+      "right": 390,
+      "bottom": 706.609375,
+      "left": 0
+    },
+    "heading": "LOS ANGELES",
+    "issues": []
+  },
+  {
+    "file": "mojo-vs-vulcan7-real-estate-leads.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 527.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 659.6875,
+      "left": 0
+    },
+    "heading": "Real Estate Lead Sources and Customer Intent",
+    "issues": []
+  },
+  {
+    "file": "my-competitor-shows-up-first-on-google-and-i-don-t-what-are-they-doing-differently.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 527.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 659.6875,
+      "left": 0
+    },
+    "heading": "Understanding Competitor Visibility in Google",
+    "issues": []
+  },
+  {
+    "file": "nationwide.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.sw7-new-hero-copy",
+    "hero": {
+      "x": 0,
+      "y": 307.5,
+      "width": 390,
+      "height": 320.421875,
+      "top": 307.5,
+      "right": 390,
+      "bottom": 627.921875,
+      "left": 0
+    },
+    "heading": "SEO + AEOMANAGEMENT",
+    "issues": []
+  },
+  {
+    "file": "opening-a-business-alone-or-with-a-partner.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 16,
+      "y": 176,
+      "width": 358,
+      "height": 151.15625,
+      "top": 176,
+      "right": 374,
+      "bottom": 327.15625,
+      "left": 16
+    },
+    "heading": "Opening A Business Alone Or With A Partner, Pros And Cons",
+    "issues": []
+  },
+  {
+    "file": "pool-construction.html",
+    "width": 390,
+    "height": 844,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 712,
+      "top": 132,
+      "right": 390,
+      "bottom": 844,
+      "left": 0
+    },
+    "heading": "POOL CONSTRUCTION",
+    "issues": []
+  },
+  {
+    "file": "real-estate-agents.html",
+    "width": 390,
+    "height": 844,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 712,
+      "top": 132,
+      "right": 390,
+      "bottom": 844,
+      "left": 0
+    },
+    "heading": "REAL ESTATE",
+    "issues": []
+  },
+  {
+    "file": "resources-ai-search.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.resource-inner hero-layout",
+    "hero": {
+      "x": 20,
+      "y": 168,
+      "width": 350,
+      "height": 230.5,
+      "top": 168,
+      "right": 370,
+      "bottom": 398.5,
+      "left": 20
+    },
+    "heading": "AI Search",
+    "issues": []
+  },
+  {
+    "file": "resources-digital-marketing.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.resource-inner hero-layout",
+    "hero": {
+      "x": 20,
+      "y": 168,
+      "width": 350,
+      "height": 230.5,
+      "top": 168,
+      "right": 370,
+      "bottom": 398.5,
+      "left": 20
+    },
+    "heading": "Digital Marketing",
+    "issues": []
+  },
+  {
+    "file": "resources-paid-ads.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.resource-inner hero-layout",
+    "hero": {
+      "x": 20,
+      "y": 168,
+      "width": 350,
+      "height": 230.5,
+      "top": 168,
+      "right": 370,
+      "bottom": 398.5,
+      "left": 20
+    },
+    "heading": "Paid Ads",
+    "issues": []
+  },
+  {
+    "file": "resources-seo.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.resource-inner hero-layout",
+    "hero": {
+      "x": 20,
+      "y": 168,
+      "width": 350,
+      "height": 230.5,
+      "top": 168,
+      "right": 370,
+      "bottom": 398.5,
+      "left": 20
+    },
+    "heading": "SEO",
+    "issues": []
+  },
+  {
+    "file": "resources-websites.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.resource-inner hero-layout",
+    "hero": {
+      "x": 20,
+      "y": 168,
+      "width": 350,
+      "height": 230.5,
+      "top": 168,
+      "right": 370,
+      "bottom": 398.5,
+      "left": 20
+    },
+    "heading": "Websites",
+    "issues": []
+  },
+  {
+    "file": "resources.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.resource-inner hero-layout",
+    "hero": {
+      "x": 20,
+      "y": 174,
+      "width": 350,
+      "height": 45.3125,
+      "top": 174,
+      "right": 370,
+      "bottom": 219.3125,
+      "left": 20
+    },
+    "heading": "Business Growth",
+    "issues": []
+  },
+  {
+    "file": "reviews.html",
+    "width": 390,
+    "height": 844,
+    "selector": "SECTION.reviews-hero sw7-redesign-section sw7-surface-pearl",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 392.71875,
+      "top": 132,
+      "right": 390,
+      "bottom": 524.71875,
+      "left": 0
+    },
+    "heading": "REVIEWS",
+    "issues": []
+  },
+  {
+    "file": "sales-during-slow-season.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 557.4375,
+      "top": 132,
+      "right": 390,
+      "bottom": 689.4375,
+      "left": 0
+    },
+    "heading": "Maintaining Sales During a Slow Season",
+    "issues": []
+  },
+  {
+    "file": "santa-clarita.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.city-hero-copy",
+    "hero": {
+      "x": 0,
+      "y": 392,
+      "width": 390,
+      "height": 464.4375,
+      "top": 392,
+      "right": 390,
+      "bottom": 856.4375,
+      "left": 0
+    },
+    "heading": "Website Design and SEO Services for Santa Clarita Businesses",
+    "issues": []
+  },
+  {
+    "file": "security-services.html",
+    "width": 390,
+    "height": 844,
+    "selector": "SECTION.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 712,
+      "top": 132,
+      "right": 390,
+      "bottom": 844,
+      "left": 0
+    },
+    "heading": "SECURITY SERVICES",
+    "issues": []
+  },
+  {
+    "file": "seo-optimized-website.html",
+    "width": 390,
+    "height": 844,
+    "selector": "MAIN.sw7-unified-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 712,
+      "top": 132,
+      "right": 390,
+      "bottom": 844,
+      "left": 0
+    },
+    "heading": "SEO-OPTIMIZEDWEBSITES",
+    "issues": []
+  },
+  {
+    "file": "seo-vs-paid-ads.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 527.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 659.6875,
+      "left": 0
+    },
+    "heading": "SEO Compared With Paid Advertising",
+    "issues": []
+  },
+  {
+    "file": "services.html",
+    "width": 390,
+    "height": 844,
+    "selector": "SECTION.sw7-overview-heading",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 190,
+      "top": 132,
+      "right": 390,
+      "bottom": 322,
+      "left": 0
+    },
+    "heading": "VIEW ALL SERVICES",
+    "issues": []
+  },
+  {
+    "file": "should-i-boost-posts-or-use-ads-manager.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 527.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 659.6875,
+      "left": 0
+    },
+    "heading": "Boosted Posts Compared With Meta Ads Manager",
+    "issues": []
+  },
+  {
+    "file": "should-i-hire-an-agency-a-freelancer-or-do-seo-myself.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 591.03125,
+      "top": 132,
+      "right": 390,
+      "bottom": 723.03125,
+      "left": 0
+    },
+    "heading": "Choosing an SEO Agency, Freelancer or Independent Approach",
+    "issues": []
+  },
+  {
+    "file": "should-i-redesign-my-website-or-just-fix-the-seo.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 16,
+      "y": 176,
+      "width": 358,
+      "height": 151.15625,
+      "top": 176,
+      "right": 374,
+      "bottom": 327.15625,
+      "left": 16
+    },
+    "heading": "Should I Redesign My Website or Just Fix the SEO?",
+    "issues": []
+  },
+  {
+    "file": "simi-valley.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.city-hero-copy",
+    "hero": {
+      "x": 0,
+      "y": 392,
+      "width": 390,
+      "height": 314.609375,
+      "top": 392,
+      "right": 390,
+      "bottom": 706.609375,
+      "left": 0
+    },
+    "heading": "SIMI VALLEY",
+    "issues": []
+  },
+  {
+    "file": "support.html",
+    "width": 390,
+    "height": 844,
+    "selector": "BODY.",
+    "hero": {
+      "x": 0,
+      "y": 0,
+      "width": 390,
+      "height": 3479.296875,
+      "top": 0,
+      "right": 390,
+      "bottom": 3479.296875,
+      "left": 0
+    },
+    "heading": "24/7 Website Support from StartWeb7",
+    "issues": []
+  },
+  {
+    "file": "the-aol-greeting-that-made-the-internet-feel-personal.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 16,
+      "y": 176,
+      "width": 358,
+      "height": 151.15625,
+      "top": 176,
+      "right": 374,
+      "bottom": 327.15625,
+      "left": 16
+    },
+    "heading": "The AOL Greeting That Made the Internet Feel Personal",
+    "issues": []
+  },
+  {
+    "file": "the-big-yellow-book-that-ran-local-business.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 16,
+      "y": 176,
+      "width": 358,
+      "height": 151.15625,
+      "top": 176,
+      "right": 374,
+      "bottom": 327.15625,
+      "left": 16
+    },
+    "heading": "The Big Yellow Book That Used to Run Local Business",
+    "issues": []
+  },
+  {
+    "file": "the-cookie-that-would-not-die.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 16,
+      "y": 176,
+      "width": 358,
+      "height": 187.875,
+      "top": 176,
+      "right": 374,
+      "bottom": 363.875,
+      "left": 16
+    },
+    "heading": "The Cookie That Would Not Die, Inside Google’s Five Year Reversal",
+    "issues": []
+  },
+  {
+    "file": "the-day-digital-design-let-go-of-leather-and-wood.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 16,
+      "y": 176,
+      "width": 358,
+      "height": 151.15625,
+      "top": 176,
+      "right": 374,
+      "bottom": 327.15625,
+      "left": 16
+    },
+    "heading": "The Day Digital Design Let Go of Leather and Wood",
+    "issues": []
+  },
+  {
+    "file": "the-fake-review-epidemic.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 16,
+      "y": 176,
+      "width": 358,
+      "height": 187.875,
+      "top": 176,
+      "right": 374,
+      "bottom": 363.875,
+      "left": 16
+    },
+    "heading": "The Fake Review Epidemic, Why Online Trust Is Harder Than Ever",
+    "issues": []
+  },
+  {
+    "file": "the-web-had-motion-and-then-flash-was-gone.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 16,
+      "y": 176,
+      "width": 358,
+      "height": 151.15625,
+      "top": 176,
+      "right": 374,
+      "bottom": 327.15625,
+      "left": 16
+    },
+    "heading": "The Web Had Motion and Music, and Then Flash Was Gone",
+    "issues": []
+  },
+  {
+    "file": "what-are-red-flags-when-choosing-an-seo-company.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 591.03125,
+      "top": 132,
+      "right": 390,
+      "bottom": 723.03125,
+      "left": 0
+    },
+    "heading": "Warning Signs When Choosing an SEO Company",
+    "issues": []
+  },
+  {
+    "file": "what-do-i-do-if-someone-says-i-don-t-have-rights-to-a-photo-on-my-website.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 527.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 659.6875,
+      "left": 0
+    },
+    "heading": "Handling a Website Photo Rights Concern",
+    "issues": []
+  },
+  {
+    "file": "what-if-my-business-is-service-based-can-instagram-still-work-for-me.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 527.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 659.6875,
+      "left": 0
+    },
+    "heading": "Instagram for Service Businesses",
+    "issues": []
+  },
+  {
+    "file": "what-is-aeo.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 527.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 659.6875,
+      "left": 0
+    },
+    "heading": "AEO and AI Search Visibility",
+    "issues": []
+  },
+  {
+    "file": "what-is-seo.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 494.09375,
+      "top": 132,
+      "right": 390,
+      "bottom": 626.09375,
+      "left": 0
+    },
+    "heading": "SEO Fundamentals",
+    "issues": []
+  },
+  {
+    "file": "what-is-the-difference-between-seo-and-google-ads.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 527.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 659.6875,
+      "left": 0
+    },
+    "heading": "SEO Compared With Google Ads",
+    "issues": []
+  },
+  {
+    "file": "what-makes-someone-choose-one-business-over-another-online.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 527.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 659.6875,
+      "left": 0
+    },
+    "heading": "Factors That Shape Online Business Choices",
+    "issues": []
+  },
+  {
+    "file": "what-questions-should-i-ask-before-hiring-an-seo-agency.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 527.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 659.6875,
+      "left": 0
+    },
+    "heading": "Evaluating an SEO Agency Before Signing",
+    "issues": []
+  },
+  {
+    "file": "what-should-a-business-website-include-to-get-more-customers.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 561.28125,
+      "top": 132,
+      "right": 390,
+      "bottom": 693.28125,
+      "left": 0
+    },
+    "heading": "Business Website Information That Supports Customer Decisions",
+    "issues": []
+  },
+  {
+    "file": "when-can-i-expect-my-first-customer-with-seo.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 561.28125,
+      "top": 132,
+      "right": 390,
+      "bottom": 693.28125,
+      "left": 0
+    },
+    "heading": "The First Customer From SEO and Why Timing Varies",
+    "issues": []
+  },
+  {
+    "file": "when-tiktok-became-a-search-engine.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 16,
+      "y": 176,
+      "width": 358,
+      "height": 114.4375,
+      "top": 176,
+      "right": 374,
+      "bottom": 290.4375,
+      "left": 16
+    },
+    "heading": "When TikTok Became a Search Engine",
+    "issues": []
+  },
+  {
+    "file": "why-am-i-posting-on-instagram-regularly-but-getting-no-customers.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 561.28125,
+      "top": 132,
+      "right": 390,
+      "bottom": 693.28125,
+      "left": 0
+    },
+    "heading": "Instagram Activity Compared With Customer Growth",
+    "issues": []
+  },
+  {
+    "file": "why-are-my-ads-getting-clicks-but-no-customers.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 591.03125,
+      "top": 132,
+      "right": 390,
+      "bottom": 723.03125,
+      "left": 0
+    },
+    "heading": "Advertising Clicks Compared With Customer Conversions",
+    "issues": []
+  },
+  {
+    "file": "why-did-my-ad-account-get-restricted.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 527.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 659.6875,
+      "left": 0
+    },
+    "heading": "Understanding Advertising Account Restrictions",
+    "issues": []
+  },
+  {
+    "file": "why-did-my-google-rankings-drop-overnight.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 16,
+      "y": 176,
+      "width": 358,
+      "height": 151.15625,
+      "top": 176,
+      "right": 374,
+      "bottom": 327.15625,
+      "left": 16
+    },
+    "heading": "Why Did My Google Rankings Drop Overnight?",
+    "issues": []
+  },
+  {
+    "file": "why-does-chatgpt-recommend-my-competitor-but-not-me.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 527.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 659.6875,
+      "left": 0
+    },
+    "heading": "Understanding Competitor Mentions in ChatGPT",
+    "issues": []
+  },
+  {
+    "file": "why-does-my-business-not-show-up-on-google-when-i-search-its-name.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 557.4375,
+      "top": 132,
+      "right": 390,
+      "bottom": 689.4375,
+      "left": 0
+    },
+    "heading": "Business Name Visibility in Google Search",
+    "issues": []
+  },
+  {
+    "file": "why-every-website-looks-the-same-now.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 16,
+      "y": 176,
+      "width": 358,
+      "height": 114.4375,
+      "top": 176,
+      "right": 374,
+      "bottom": 290.4375,
+      "left": 16
+    },
+    "heading": "Why Every Website Looks the Same Now",
+    "issues": []
+  },
+  {
+    "file": "why-is-my-business-not-getting-leads-from-google.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 561.28125,
+      "top": 132,
+      "right": 390,
+      "bottom": 693.28125,
+      "left": 0
+    },
+    "heading": "Understanding Missing Business Leads From Google",
+    "issues": []
+  },
+  {
+    "file": "why-is-my-website-not-bringing-in-customers.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 561.28125,
+      "top": 132,
+      "right": 390,
+      "bottom": 693.28125,
+      "left": 0
+    },
+    "heading": "Understanding a Website That Is Not Generating Customers",
+    "issues": []
+  },
+  {
+    "file": "why-is-seo-ongoing-instead-of-a-one-time-service.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 527.6875,
+      "top": 132,
+      "right": 390,
+      "bottom": 659.6875,
+      "left": 0
+    },
+    "heading": "Why SEO Requires Ongoing Attention",
+    "issues": []
+  },
+  {
+    "file": "wikipedia-is-feeding-the-ai-era-while-losing-its-readers.html",
+    "width": 390,
+    "height": 844,
+    "selector": "DIV.sw7-feature-inner",
+    "hero": {
+      "x": 16,
+      "y": 176,
+      "width": 358,
+      "height": 151.15625,
+      "top": 176,
+      "right": 374,
+      "bottom": 327.15625,
+      "left": 16
+    },
+    "heading": "Wikipedia Is Feeding the AI Era While Losing Its Readers",
+    "issues": []
+  },
+  {
+    "file": "will-seo-still-matter-as-people-use-ai-search.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 557.4375,
+      "top": 132,
+      "right": 390,
+      "bottom": 689.4375,
+      "left": 0
+    },
+    "heading": "The Continuing Role of SEO in AI Search",
+    "issues": []
+  },
+  {
+    "file": "wix-or-squarespace-vs-hiring-a-professional.html",
+    "width": 390,
+    "height": 844,
+    "selector": "HEADER.article-hero sw7-redesign-section sw7-surface-pearl sw7-resource-article-hero",
+    "hero": {
+      "x": 0,
+      "y": 132,
+      "width": 390,
+      "height": 591.03125,
+      "top": 132,
+      "right": 390,
+      "bottom": 723.03125,
+      "left": 0
+    },
+    "heading": "Wix and Squarespace Compared With a Website Professional",
+    "issues": []
+  }
+]

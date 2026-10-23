@@ -1,0 +1,1172 @@
+[
+  {
+    "file": "interior-design.html",
+    "width": 390,
+    "title": "Interior Designer Website Design, SEO and AEO | StartWeb7",
+    "h1": [
+      "Your Work Has a Signature. Your Website Should, Too."
+    ],
+    "meta": "Website design and ongoing SEO and AEO services for interior designers and design studios showcasing residential, hospitality and commercial work.",
+    "canonical": "https://startweb7.com/interior-design.html",
+    "blocks": [
+      "Some designers are known for rooms that feel effortless. Others create bold interiors that become the centerpiece of a home, restaurant, or boutique hotel. The work is different, the clientele is different, and the personality behind each studio is different. A prospective client should be able to recognize that distinction from the moment they discover your business.",
+      "A design studio is often judged through the details. The curve of a sofa, the warmth of a material, the balance of an entire room, or the confidence to leave a space beautifully restrained. Those details shape how people remember your work. Your online presence should give that work the same consideration.",
+      "A Portfolio With a Point of View",
+      "A penthouse renovation is not the same assignment as a family home. A boutique restaurant asks something different from a private residence. Even when a designer works across several kinds of projects, each finished space has its own character and deserves to be seen in context.",
+      "Potential clients are not simply counting photographs. They are looking for a design sensibility that feels right for their own space. They want to recognize the kind of work that excites them, whether that means a complete residence, a carefully furnished room, or a memorable commercial interior.",
+      "From Admiring the Work to Remembering the Studio",
+      "Beautiful interiors travel. They are shared in conversations, saved for inspiration, and remembered long after someone first sees them. Yet admiration for a room does not always mean the viewer remembers the name of the designer who created it.",
+      "For an interior design business, recognition matters. A distinct professional presence connects the finished work with the studio behind it and gives prospective clients a place to return when a design project becomes a real possibility.",
+      "Website Design and Online Visibility for Interior Designers",
+      "StartWeb7 provides website design and ongoing SEO and AEO management for interior designers and design studios. These services support the business behind the creative work, helping a studio establish a professional online presence and be considered by people exploring design services.",
+      "Whether your portfolio centers on residential interiors, furnishing projects, hospitality spaces, or commercial environments, your studio deserves a website that reflects its identity rather than a generic presentation shared by every business.",
+      "The work should remain unmistakably yours. The opportunity to discover it should not depend entirely on someone already knowing your name.",
+      "Let your next client discover the designer behind the space. Contact StartWeb7 to discuss your studio and its online presence."
+    ],
+    "overflow": false,
+    "bodyWidth": 390,
+    "images": [
+      {
+        "src": "assets/industries/interior-design-feature.webp",
+        "ok": true
+      },
+      {
+        "src": "assets/industries/interior-design-icon.png",
+        "ok": true
+      }
+    ],
+    "cards": [],
+    "nav": true,
+    "chat": true,
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Interior Designer Website Design, SEO and AEO | StartWeb7",
+        "serviceType": [
+          "Website Design",
+          "SEO Management",
+          "AEO Management"
+        ],
+        "provider": {
+          "@type": "Organization",
+          "name": "StartWeb7",
+          "url": "https://startweb7.com/"
+        },
+        "url": "https://startweb7.com/interior-design.html",
+        "description": "Website design and ongoing SEO and AEO services for interior designers and design studios showcasing residential, hospitality and commercial work.",
+        "image": "https://startweb7.com/assets/industries/interior-design-feature.webp"
+      }
+    ],
+    "hero": {
+      "x": 23.390625,
+      "y": 428,
+      "width": 343.21875,
+      "height": 104.4375,
+      "top": 428,
+      "right": 366.609375,
+      "bottom": 532.4375,
+      "left": 23.390625
+    },
+    "chatOpened": {
+      "display": "flex",
+      "hidden": false,
+      "cls": "sw7-home-chat is-open"
+    }
+  },
+  {
+    "file": "index.html",
+    "width": 390,
+    "title": "Website Design, SEO + AEO Services | StartWeb7",
+    "h1": [
+      "SEARCHCLICKLEADCUSTOMER"
+    ],
+    "meta": "Website design and SEO + AEO management built to help businesses turn searches into clicks, leads, and customers.",
+    "canonical": "https://startweb7.com/",
+    "blocks": [],
+    "overflow": false,
+    "bodyWidth": 390,
+    "images": [
+      {
+        "src": "assets/industries/interior-design-card.webp",
+        "ok": true
+      },
+      {
+        "src": "assets/industries/interior-design-card.webp",
+        "ok": true
+      }
+    ],
+    "cards": [
+      {
+        "text": "Interior Design\n\nA distinctive online presence for studios creating remarkable residential and commercial spaces.\n\nView More",
+        "w": 327.59375,
+        "h": 218.390625
+      }
+    ],
+    "nav": true,
+    "chat": true,
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://startweb7.com/#organization",
+            "name": "StartWeb7",
+            "url": "https://startweb7.com/",
+            "email": "desirae@startweb7.com",
+            "telephone": "+1-818-934-0444",
+            "areaServed": "US",
+            "logo": "https://startweb7.com/startweb7-logo.png"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://startweb7.com/#website",
+            "url": "https://startweb7.com/",
+            "name": "StartWeb7",
+            "publisher": {
+              "@id": "https://startweb7.com/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://startweb7.com/#page",
+            "url": "https://startweb7.com/",
+            "name": "Website Design, SEO + AEO Services | StartWeb7",
+            "description": "Website design and SEO + AEO management built to help businesses turn searches into clicks, leads, and customers.",
+            "isPartOf": {
+              "@id": "https://startweb7.com/#website"
+            },
+            "about": {
+              "@id": "https://startweb7.com/#organization"
+            },
+            "provider": {
+              "@id": "https://startweb7.com/#organization"
+            },
+            "areaServed": "US"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Why is my business not getting leads from Google?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Your business may not be appearing for the searches customers use, or your website may not give visitors a clear reason and way to contact you."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does a website actually help a business get customers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. A well-built website explains what you offer, builds trust, answers questions, and gives customers a clear way to contact you."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I get leads from Google without running ads?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. SEO focuses on building your ability to appear in relevant unpaid search results over time."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between SEO and Google Ads?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Google Ads are paid placements. SEO improves your ability to appear in relevant unpaid search results."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is AEO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AEO means making your website easier for search engines and AI tools to understand when people ask service-related questions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I show up when someone searches for my service near me?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Your website and business information need to clearly show what you offer, where you serve, and why your business is relevant to that search."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can AI search recommend my business?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AI search can surface businesses it considers relevant when your services, location, and information are clear and helpful."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does SEO take to work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SEO builds over time. Early improvements can happen in the first few months, while stronger momentum develops as the work continues."
+            }
+          }
+        ]
+      }
+    ],
+    "hero": {
+      "x": 16,
+      "y": 118,
+      "width": 358,
+      "height": 168.4375,
+      "top": 118,
+      "right": 374,
+      "bottom": 286.4375,
+      "left": 16
+    }
+  },
+  {
+    "file": "industries.html",
+    "width": 390,
+    "title": "View All Industries | StartWeb7",
+    "h1": [
+      "VIEW ALLINDUSTRIES"
+    ],
+    "meta": "Explore website design and SEO + AEO management for real estate, assisted living, home health care, security, commercial cleaning, construction, and more.",
+    "canonical": "https://startweb7.com/industries.html",
+    "blocks": [],
+    "overflow": false,
+    "bodyWidth": 390,
+    "images": [],
+    "cards": [
+      {
+        "text": "Interior Design\n\nWebsite design and search visibility services for interior designers and design studios.\n\nVIEW INDUSTRY",
+        "w": 350,
+        "h": 260
+      }
+    ],
+    "nav": true,
+    "chat": true,
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Industries | Website Design, SEO + AEO | StartWeb7",
+        "description": "Explore website design and SEO + AEO management for real estate, assisted living, home health care, security, commercial cleaning, construction, and more.",
+        "url": "https://startweb7.com/industries.html",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "StartWeb7",
+          "url": "https://startweb7.com/"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": []
+      }
+    ],
+    "hero": {
+      "x": 27.296875,
+      "y": 358,
+      "width": 335.40625,
+      "height": 80.328125,
+      "top": 358,
+      "right": 362.703125,
+      "bottom": 438.328125,
+      "left": 27.296875
+    }
+  },
+  {
+    "file": "about.html",
+    "width": 390,
+    "title": "About StartWeb7 | Website Design and SEO + AEO",
+    "h1": [
+      "WE TAKE ITFURTHER"
+    ],
+    "meta": "Learn how StartWeb7 helps businesses grow with conversion-focused website design and ongoing SEO + AEO management.",
+    "canonical": "https://startweb7.com/about.html",
+    "blocks": [],
+    "overflow": false,
+    "bodyWidth": 390,
+    "images": [],
+    "cards": [],
+    "nav": true,
+    "chat": true,
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://startweb7.com/#organization",
+            "name": "StartWeb7",
+            "url": "https://startweb7.com/",
+            "email": "desirae@startweb7.com",
+            "telephone": "+1-818-934-0444",
+            "areaServed": "US",
+            "logo": "https://startweb7.com/startweb7-logo.png"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://startweb7.com/#website",
+            "url": "https://startweb7.com/",
+            "name": "StartWeb7",
+            "publisher": {
+              "@id": "https://startweb7.com/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://startweb7.com/about.html#page",
+            "url": "https://startweb7.com/about.html",
+            "name": "About StartWeb7 | Website Design and SEO + AEO",
+            "description": "Learn how StartWeb7 helps businesses grow with conversion-focused website design and ongoing SEO + AEO management.",
+            "isPartOf": {
+              "@id": "https://startweb7.com/#website"
+            },
+            "about": {
+              "@id": "https://startweb7.com/#organization"
+            },
+            "provider": {
+              "@id": "https://startweb7.com/#organization"
+            },
+            "areaServed": "US"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is StartWeb7 built to do?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "StartWeb7 combines website development with SEO + AEO so your website can support real business growth."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does the website matter after launch?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A website should do more than look good. It should make your services clear and give potential customers an easy way to respond."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What makes StartWeb7 different?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We connect the website build with the search strategy instead of treating them as two unrelated projects."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where does StartWeb7 work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We serve businesses across the United States and work with clients remotely."
+            }
+          }
+        ]
+      }
+    ],
+    "hero": {
+      "x": 27.296875,
+      "y": 306,
+      "width": 335.40625,
+      "height": 93.28125,
+      "top": 306,
+      "right": 362.703125,
+      "bottom": 399.28125,
+      "left": 27.296875
+    }
+  },
+  {
+    "file": "interior-design.html",
+    "width": 768,
+    "title": "Interior Designer Website Design, SEO and AEO | StartWeb7",
+    "h1": [
+      "Your Work Has a Signature. Your Website Should, Too."
+    ],
+    "meta": "Website design and ongoing SEO and AEO services for interior designers and design studios showcasing residential, hospitality and commercial work.",
+    "canonical": "https://startweb7.com/interior-design.html",
+    "blocks": [
+      "Some designers are known for rooms that feel effortless. Others create bold interiors that become the centerpiece of a home, restaurant, or boutique hotel. The work is different, the clientele is different, and the personality behind each studio is different. A prospective client should be able to recognize that distinction from the moment they discover your business.",
+      "A design studio is often judged through the details. The curve of a sofa, the warmth of a material, the balance of an entire room, or the confidence to leave a space beautifully restrained. Those details shape how people remember your work. Your online presence should give that work the same consideration.",
+      "A Portfolio With a Point of View",
+      "A penthouse renovation is not the same assignment as a family home. A boutique restaurant asks something different from a private residence. Even when a designer works across several kinds of projects, each finished space has its own character and deserves to be seen in context.",
+      "Potential clients are not simply counting photographs. They are looking for a design sensibility that feels right for their own space. They want to recognize the kind of work that excites them, whether that means a complete residence, a carefully furnished room, or a memorable commercial interior.",
+      "From Admiring the Work to Remembering the Studio",
+      "Beautiful interiors travel. They are shared in conversations, saved for inspiration, and remembered long after someone first sees them. Yet admiration for a room does not always mean the viewer remembers the name of the designer who created it.",
+      "For an interior design business, recognition matters. A distinct professional presence connects the finished work with the studio behind it and gives prospective clients a place to return when a design project becomes a real possibility.",
+      "Website Design and Online Visibility for Interior Designers",
+      "StartWeb7 provides website design and ongoing SEO and AEO management for interior designers and design studios. These services support the business behind the creative work, helping a studio establish a professional online presence and be considered by people exploring design services.",
+      "Whether your portfolio centers on residential interiors, furnishing projects, hospitality spaces, or commercial environments, your studio deserves a website that reflects its identity rather than a generic presentation shared by every business.",
+      "The work should remain unmistakably yours. The opportunity to discover it should not depend entirely on someone already knowing your name.",
+      "Let your next client discover the designer behind the space. Contact StartWeb7 to discuss your studio and its online presence."
+    ],
+    "overflow": false,
+    "bodyWidth": 753,
+    "images": [
+      {
+        "src": "assets/industries/interior-design-feature.webp",
+        "ok": true
+      },
+      {
+        "src": "assets/industries/interior-design-icon.png",
+        "ok": true
+      }
+    ],
+    "cards": [],
+    "nav": true,
+    "chat": true,
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Interior Designer Website Design, SEO and AEO | StartWeb7",
+        "serviceType": [
+          "Website Design",
+          "SEO Management",
+          "AEO Management"
+        ],
+        "provider": {
+          "@type": "Organization",
+          "name": "StartWeb7",
+          "url": "https://startweb7.com/"
+        },
+        "url": "https://startweb7.com/interior-design.html",
+        "description": "Website design and ongoing SEO and AEO services for interior designers and design studios showcasing residential, hospitality and commercial work.",
+        "image": "https://startweb7.com/assets/industries/interior-design-feature.webp"
+      }
+    ],
+    "hero": {
+      "x": 45.171875,
+      "y": 681,
+      "width": 662.65625,
+      "height": 71.375,
+      "top": 681,
+      "right": 707.828125,
+      "bottom": 752.375,
+      "left": 45.171875
+    },
+    "chatOpened": {
+      "display": "grid",
+      "hidden": false,
+      "cls": "sw7-home-chat is-open"
+    }
+  },
+  {
+    "file": "index.html",
+    "width": 768,
+    "title": "Website Design, SEO + AEO Services | StartWeb7",
+    "h1": [
+      "SEARCHCLICKLEADCUSTOMER"
+    ],
+    "meta": "Website design and SEO + AEO management built to help businesses turn searches into clicks, leads, and customers.",
+    "canonical": "https://startweb7.com/",
+    "blocks": [],
+    "overflow": false,
+    "bodyWidth": 753,
+    "images": [
+      {
+        "src": "assets/industries/interior-design-card.webp",
+        "ok": true
+      },
+      {
+        "src": "assets/industries/interior-design-card.webp",
+        "ok": true
+      }
+    ],
+    "cards": [
+      {
+        "text": "Interior Design\n\nA distinctive online presence for studios creating remarkable residential and commercial spaces.\n\nView More",
+        "w": 225,
+        "h": 150
+      }
+    ],
+    "nav": true,
+    "chat": true,
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://startweb7.com/#organization",
+            "name": "StartWeb7",
+            "url": "https://startweb7.com/",
+            "email": "desirae@startweb7.com",
+            "telephone": "+1-818-934-0444",
+            "areaServed": "US",
+            "logo": "https://startweb7.com/startweb7-logo.png"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://startweb7.com/#website",
+            "url": "https://startweb7.com/",
+            "name": "StartWeb7",
+            "publisher": {
+              "@id": "https://startweb7.com/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://startweb7.com/#page",
+            "url": "https://startweb7.com/",
+            "name": "Website Design, SEO + AEO Services | StartWeb7",
+            "description": "Website design and SEO + AEO management built to help businesses turn searches into clicks, leads, and customers.",
+            "isPartOf": {
+              "@id": "https://startweb7.com/#website"
+            },
+            "about": {
+              "@id": "https://startweb7.com/#organization"
+            },
+            "provider": {
+              "@id": "https://startweb7.com/#organization"
+            },
+            "areaServed": "US"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Why is my business not getting leads from Google?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Your business may not be appearing for the searches customers use, or your website may not give visitors a clear reason and way to contact you."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does a website actually help a business get customers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. A well-built website explains what you offer, builds trust, answers questions, and gives customers a clear way to contact you."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I get leads from Google without running ads?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. SEO focuses on building your ability to appear in relevant unpaid search results over time."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between SEO and Google Ads?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Google Ads are paid placements. SEO improves your ability to appear in relevant unpaid search results."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is AEO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AEO means making your website easier for search engines and AI tools to understand when people ask service-related questions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I show up when someone searches for my service near me?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Your website and business information need to clearly show what you offer, where you serve, and why your business is relevant to that search."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can AI search recommend my business?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AI search can surface businesses it considers relevant when your services, location, and information are clear and helpful."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does SEO take to work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SEO builds over time. Early improvements can happen in the first few months, while stronger momentum develops as the work continues."
+            }
+          }
+        ]
+      }
+    ],
+    "hero": {
+      "x": 30.109375,
+      "y": 175,
+      "width": 692.78125,
+      "height": 202,
+      "top": 175,
+      "right": 722.890625,
+      "bottom": 377,
+      "left": 30.109375
+    }
+  },
+  {
+    "file": "industries.html",
+    "width": 768,
+    "title": "View All Industries | StartWeb7",
+    "h1": [
+      "VIEW ALLINDUSTRIES"
+    ],
+    "meta": "Explore website design and SEO + AEO management for real estate, assisted living, home health care, security, commercial cleaning, construction, and more.",
+    "canonical": "https://startweb7.com/industries.html",
+    "blocks": [],
+    "overflow": false,
+    "bodyWidth": 753,
+    "images": [],
+    "cards": [
+      {
+        "text": "Interior Design\n\nWebsite design and search visibility services for interior designers and design studios.\n\nVIEW INDUSTRY",
+        "w": 343.5,
+        "h": 330
+      }
+    ],
+    "nav": true,
+    "chat": true,
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Industries | Website Design, SEO + AEO | StartWeb7",
+        "description": "Explore website design and SEO + AEO management for real estate, assisted living, home health care, security, commercial cleaning, construction, and more.",
+        "url": "https://startweb7.com/industries.html",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "StartWeb7",
+          "url": "https://startweb7.com/"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": []
+      }
+    ],
+    "hero": {
+      "x": 52.703125,
+      "y": 369,
+      "width": 647.59375,
+      "height": 102.59375,
+      "top": 369,
+      "right": 700.296875,
+      "bottom": 471.59375,
+      "left": 52.703125
+    }
+  },
+  {
+    "file": "about.html",
+    "width": 768,
+    "title": "About StartWeb7 | Website Design and SEO + AEO",
+    "h1": [
+      "WE TAKE ITFURTHER"
+    ],
+    "meta": "Learn how StartWeb7 helps businesses grow with conversion-focused website design and ongoing SEO + AEO management.",
+    "canonical": "https://startweb7.com/about.html",
+    "blocks": [],
+    "overflow": false,
+    "bodyWidth": 753,
+    "images": [],
+    "cards": [],
+    "nav": true,
+    "chat": true,
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://startweb7.com/#organization",
+            "name": "StartWeb7",
+            "url": "https://startweb7.com/",
+            "email": "desirae@startweb7.com",
+            "telephone": "+1-818-934-0444",
+            "areaServed": "US",
+            "logo": "https://startweb7.com/startweb7-logo.png"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://startweb7.com/#website",
+            "url": "https://startweb7.com/",
+            "name": "StartWeb7",
+            "publisher": {
+              "@id": "https://startweb7.com/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://startweb7.com/about.html#page",
+            "url": "https://startweb7.com/about.html",
+            "name": "About StartWeb7 | Website Design and SEO + AEO",
+            "description": "Learn how StartWeb7 helps businesses grow with conversion-focused website design and ongoing SEO + AEO management.",
+            "isPartOf": {
+              "@id": "https://startweb7.com/#website"
+            },
+            "about": {
+              "@id": "https://startweb7.com/#organization"
+            },
+            "provider": {
+              "@id": "https://startweb7.com/#organization"
+            },
+            "areaServed": "US"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is StartWeb7 built to do?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "StartWeb7 combines website development with SEO + AEO so your website can support real business growth."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does the website matter after launch?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A website should do more than look good. It should make your services clear and give potential customers an easy way to respond."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What makes StartWeb7 different?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We connect the website build with the search strategy instead of treating them as two unrelated projects."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where does StartWeb7 work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We serve businesses across the United States and work with clients remotely."
+            }
+          }
+        ]
+      }
+    ],
+    "hero": {
+      "x": 52.703125,
+      "y": 336.421875,
+      "width": 647.59375,
+      "height": 103.03125,
+      "top": 336.421875,
+      "right": 700.296875,
+      "bottom": 439.453125,
+      "left": 52.703125
+    }
+  },
+  {
+    "file": "interior-design.html",
+    "width": 1440,
+    "title": "Interior Designer Website Design, SEO and AEO | StartWeb7",
+    "h1": [
+      "Your Work Has a Signature. Your Website Should, Too."
+    ],
+    "meta": "Website design and ongoing SEO and AEO services for interior designers and design studios showcasing residential, hospitality and commercial work.",
+    "canonical": "https://startweb7.com/interior-design.html",
+    "blocks": [
+      "Some designers are known for rooms that feel effortless. Others create bold interiors that become the centerpiece of a home, restaurant, or boutique hotel. The work is different, the clientele is different, and the personality behind each studio is different. A prospective client should be able to recognize that distinction from the moment they discover your business.",
+      "A design studio is often judged through the details. The curve of a sofa, the warmth of a material, the balance of an entire room, or the confidence to leave a space beautifully restrained. Those details shape how people remember your work. Your online presence should give that work the same consideration.",
+      "A Portfolio With a Point of View",
+      "A penthouse renovation is not the same assignment as a family home. A boutique restaurant asks something different from a private residence. Even when a designer works across several kinds of projects, each finished space has its own character and deserves to be seen in context.",
+      "Potential clients are not simply counting photographs. They are looking for a design sensibility that feels right for their own space. They want to recognize the kind of work that excites them, whether that means a complete residence, a carefully furnished room, or a memorable commercial interior.",
+      "From Admiring the Work to Remembering the Studio",
+      "Beautiful interiors travel. They are shared in conversations, saved for inspiration, and remembered long after someone first sees them. Yet admiration for a room does not always mean the viewer remembers the name of the designer who created it.",
+      "For an interior design business, recognition matters. A distinct professional presence connects the finished work with the studio behind it and gives prospective clients a place to return when a design project becomes a real possibility.",
+      "Website Design and Online Visibility for Interior Designers",
+      "StartWeb7 provides website design and ongoing SEO and AEO management for interior designers and design studios. These services support the business behind the creative work, helping a studio establish a professional online presence and be considered by people exploring design services.",
+      "Whether your portfolio centers on residential interiors, furnishing projects, hospitality spaces, or commercial environments, your studio deserves a website that reflects its identity rather than a generic presentation shared by every business.",
+      "The work should remain unmistakably yours. The opportunity to discover it should not depend entirely on someone already knowing your name.",
+      "Let your next client discover the designer behind the space. Contact StartWeb7 to discuss your studio and its online presence."
+    ],
+    "overflow": false,
+    "bodyWidth": 1425,
+    "images": [
+      {
+        "src": "assets/industries/interior-design-feature.webp",
+        "ok": true
+      },
+      {
+        "src": "assets/industries/interior-design-icon.png",
+        "ok": true
+      }
+    ],
+    "cards": [],
+    "nav": true,
+    "chat": true,
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Interior Designer Website Design, SEO and AEO | StartWeb7",
+        "serviceType": [
+          "Website Design",
+          "SEO Management",
+          "AEO Management"
+        ],
+        "provider": {
+          "@type": "Organization",
+          "name": "StartWeb7",
+          "url": "https://startweb7.com/"
+        },
+        "url": "https://startweb7.com/interior-design.html",
+        "description": "Website design and ongoing SEO and AEO services for interior designers and design studios showcasing residential, hospitality and commercial work.",
+        "image": "https://startweb7.com/assets/industries/interior-design-feature.webp"
+      }
+    ],
+    "hero": {
+      "x": 85.5,
+      "y": 1129,
+      "width": 1254,
+      "height": 131.65625,
+      "top": 1129,
+      "right": 1339.5,
+      "bottom": 1260.65625,
+      "left": 85.5
+    },
+    "chatOpened": {
+      "display": "grid",
+      "hidden": false,
+      "cls": "sw7-home-chat is-open"
+    }
+  },
+  {
+    "file": "index.html",
+    "width": 1440,
+    "title": "Website Design, SEO + AEO Services | StartWeb7",
+    "h1": [
+      "SEARCHCLICKLEADCUSTOMER"
+    ],
+    "meta": "Website design and SEO + AEO management built to help businesses turn searches into clicks, leads, and customers.",
+    "canonical": "https://startweb7.com/",
+    "blocks": [],
+    "overflow": false,
+    "bodyWidth": 1425,
+    "images": [
+      {
+        "src": "assets/industries/interior-design-card.webp",
+        "ok": true
+      },
+      {
+        "src": "assets/industries/interior-design-card.webp",
+        "ok": true
+      }
+    ],
+    "cards": [
+      {
+        "text": "Interior Design\n\nA distinctive online presence for studios creating remarkable residential and commercial spaces.\n\nView More",
+        "w": 298.75,
+        "h": 199.15625
+      }
+    ],
+    "nav": true,
+    "chat": true,
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://startweb7.com/#organization",
+            "name": "StartWeb7",
+            "url": "https://startweb7.com/",
+            "email": "desirae@startweb7.com",
+            "telephone": "+1-818-934-0444",
+            "areaServed": "US",
+            "logo": "https://startweb7.com/startweb7-logo.png"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://startweb7.com/#website",
+            "url": "https://startweb7.com/",
+            "name": "StartWeb7",
+            "publisher": {
+              "@id": "https://startweb7.com/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://startweb7.com/#page",
+            "url": "https://startweb7.com/",
+            "name": "Website Design, SEO + AEO Services | StartWeb7",
+            "description": "Website design and SEO + AEO management built to help businesses turn searches into clicks, leads, and customers.",
+            "isPartOf": {
+              "@id": "https://startweb7.com/#website"
+            },
+            "about": {
+              "@id": "https://startweb7.com/#organization"
+            },
+            "provider": {
+              "@id": "https://startweb7.com/#organization"
+            },
+            "areaServed": "US"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Why is my business not getting leads from Google?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Your business may not be appearing for the searches customers use, or your website may not give visitors a clear reason and way to contact you."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does a website actually help a business get customers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. A well-built website explains what you offer, builds trust, answers questions, and gives customers a clear way to contact you."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I get leads from Google without running ads?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. SEO focuses on building your ability to appear in relevant unpaid search results over time."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between SEO and Google Ads?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Google Ads are paid placements. SEO improves your ability to appear in relevant unpaid search results."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is AEO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AEO means making your website easier for search engines and AI tools to understand when people ask service-related questions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I show up when someone searches for my service near me?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Your website and business information need to clearly show what you offer, where you serve, and why your business is relevant to that search."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can AI search recommend my business?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AI search can surface businesses it considers relevant when your services, location, and information are clear and helpful."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does SEO take to work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SEO builds over time. Early improvements can happen in the first few months, while stronger momentum develops as the work continues."
+            }
+          }
+        ]
+      }
+    ],
+    "hero": {
+      "x": 57,
+      "y": 377.5625,
+      "width": 532.9375,
+      "height": 254.875,
+      "top": 377.5625,
+      "right": 589.9375,
+      "bottom": 632.4375,
+      "left": 57
+    }
+  },
+  {
+    "file": "industries.html",
+    "width": 1440,
+    "title": "View All Industries | StartWeb7",
+    "h1": [
+      "VIEW ALLINDUSTRIES"
+    ],
+    "meta": "Explore website design and SEO + AEO management for real estate, assisted living, home health care, security, commercial cleaning, construction, and more.",
+    "canonical": "https://startweb7.com/industries.html",
+    "blocks": [],
+    "overflow": false,
+    "bodyWidth": 1425,
+    "images": [],
+    "cards": [
+      {
+        "text": "Interior Design\n\nWebsite design and search visibility services for interior designers and design studios.\n\nVIEW INDUSTRY",
+        "w": 401.328125,
+        "h": 330
+      }
+    ],
+    "nav": true,
+    "chat": true,
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Industries | Website Design, SEO + AEO | StartWeb7",
+        "description": "Explore website design and SEO + AEO management for real estate, assisted living, home health care, security, commercial cleaning, construction, and more.",
+        "url": "https://startweb7.com/industries.html",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "StartWeb7",
+          "url": "https://startweb7.com/"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": []
+      }
+    ],
+    "hero": {
+      "x": 85.5,
+      "y": 520.546875,
+      "width": 634.203125,
+      "height": 168.25,
+      "top": 520.546875,
+      "right": 719.703125,
+      "bottom": 688.796875,
+      "left": 85.5
+    }
+  },
+  {
+    "file": "about.html",
+    "width": 1440,
+    "title": "About StartWeb7 | Website Design and SEO + AEO",
+    "h1": [
+      "WE TAKE ITFURTHER"
+    ],
+    "meta": "Learn how StartWeb7 helps businesses grow with conversion-focused website design and ongoing SEO + AEO management.",
+    "canonical": "https://startweb7.com/about.html",
+    "blocks": [],
+    "overflow": false,
+    "bodyWidth": 1425,
+    "images": [],
+    "cards": [],
+    "nav": true,
+    "chat": true,
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://startweb7.com/#organization",
+            "name": "StartWeb7",
+            "url": "https://startweb7.com/",
+            "email": "desirae@startweb7.com",
+            "telephone": "+1-818-934-0444",
+            "areaServed": "US",
+            "logo": "https://startweb7.com/startweb7-logo.png"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://startweb7.com/#website",
+            "url": "https://startweb7.com/",
+            "name": "StartWeb7",
+            "publisher": {
+              "@id": "https://startweb7.com/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://startweb7.com/about.html#page",
+            "url": "https://startweb7.com/about.html",
+            "name": "About StartWeb7 | Website Design and SEO + AEO",
+            "description": "Learn how StartWeb7 helps businesses grow with conversion-focused website design and ongoing SEO + AEO management.",
+            "isPartOf": {
+              "@id": "https://startweb7.com/#website"
+            },
+            "about": {
+              "@id": "https://startweb7.com/#organization"
+            },
+            "provider": {
+              "@id": "https://startweb7.com/#organization"
+            },
+            "areaServed": "US"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is StartWeb7 built to do?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "StartWeb7 combines website development with SEO + AEO so your website can support real business growth."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does the website matter after launch?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A website should do more than look good. It should make your services clear and give potential customers an easy way to respond."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What makes StartWeb7 different?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We connect the website build with the search strategy instead of treating them as two unrelated projects."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where does StartWeb7 work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We serve businesses across the United States and work with clients remotely."
+            }
+          }
+        ]
+      }
+    ],
+    "hero": {
+      "x": 85.5,
+      "y": 529.90625,
+      "width": 541.5,
+      "height": 163.5625,
+      "top": 529.90625,
+      "right": 627,
+      "bottom": 693.46875,
+      "left": 85.5
+    }
+  }
+]

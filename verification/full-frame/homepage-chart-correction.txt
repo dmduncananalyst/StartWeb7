@@ -1,0 +1,13 @@
+Homepage chart correction | October 22, 2026
+
+Corrected the zoom-based sizing that could make the analysis chart shrink excessively and stretch beyond its column in short or zoomed desktop views.
+
+The chart now stays at native zoom 1 and width 100% of its assigned column. Its row heights and spacing adapt directly to the height available below navigation. Short views use readable compact circles, labels and padding. The headline adjusts by font size rather than whole-component zoom. All example rows, all four stages and both action buttons remain visible.
+
+Only homepage-hero-fit.css, homepage-hero-fit.js and the homepage test branch in tools/test-full-frame.cjs changed. Industry pages and marketing copy are unchanged in this correction.
+
+Passed five viewport sizes: 1207x531 (effective 150% zoom of the supplied wide screenshot), 1810x796, 1180x780, 1920x1080 and 1060x700. Also repeated these sizes on the same loaded page, returning to 1207x531, to verify sizing does not compound during resizing.
+Checks include both horizontal and vertical bounds for the chart, every journey circle, all rows, column headings, main heading, sentence and action buttons. No horizontal page overflow. Visually checked the 1207x531 screenshot.
+
+Evidence: home-results.json and home-*.png in this directory.
+Everything remains local. Nothing committed, pushed or deployed.

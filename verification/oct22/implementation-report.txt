@@ -1,0 +1,70 @@
+UPDATE: Later owner review corrections supersede card descriptions, pictures, icon and CTA labels. See ../interior-review/review-corrections.txt.
+
+StartWeb7 local implementation report | October 22, 2026
+
+Completed
+Read the entire six-page supplied PDF before page implementation. The user's explicit request authorized its earlier draft copy. Kept the separate tracking assignment out of scope.
+
+Updated assisted-living.html, pool-construction.html and santa-clarita.html with the exact approved headings and paragraphs. Updated description, Open Graph, Twitter and Service descriptions. Preserved their existing SEO titles because the PDF did not supply replacement titles. Retained the pool comparison link, existing CTA controls, page media, navigation and integration scripts. Replaced the Santa Clarita city economy material with its approved narrative, without implying a local office.
+
+Created interior-design.html with the approved SEO title, description, H1, three section headings, all supplied paragraphs and closing CTA. Used the existing industry layout, branding, typography, navigation and contact chat. Added a contextual services link without changing its wording.
+
+Added one Interior Design card to index.html and industries.html, using each location's exact supplied description. All 12 existing industry cards remain in their existing order. Appended Interior Design to shared industry navigation, including its graphic icon.
+
+Created two independent original photographs with the built-in image generation tool:
+assets/industries/interior-design-card.webp | 1672 x 941
+assets/industries/interior-design-feature.webp | 1536 x 1024
+Original full-resolution PNG copies are retained alongside both WebP files.
+Card photograph: residential interior with architectural perspective, expressive furnishings and artwork.
+Feature photograph: a different commercial hotel lounge with dramatic lighting, emerald seating and dark stone.
+Both were visually inspected. No people, writing, logos, watermarks or collages.
+
+Created assets/industries/interior-design-icon.png | 360 x 280, transparent.
+Inspected menu-house.png, menu-serving-tray.png and menu-home-health.svg. Matched the site's glossy blue and silver industry graphic treatment and the serving tray PNG's dimensions and format. Added the icon to industry navigation and the new page's existing graphic slot. The homepage and All Industries photo cards do not use separate graphic icons in the existing design.
+
+SEO/AEO
+Interior Design has one H1, sequential H2 sections, a unique canonical URL, approved SEO/social metadata, descriptive photograph alt text, Service structured data, relevant internal links and one sitemap.xml entry. No new FAQ or Quick Answer section was added. Removed the empty FAQ schema from Santa Clarita while updating that page. No prices, invented results, testimonials or guarantees were introduced.
+
+Verification
+18 Chrome responsive checks passed: four content pages plus homepage and All Industries at 390, 768 and 1440 pixels. Approved paragraph and heading text matches the PDF extraction after whitespace normalization. One H1 and canonical on each content page; correct metadata and valid Service JSON. No horizontal document overflow. New image assets decode correctly. Desktop and mobile screenshots are saved here.
+
+12 additional checks passed for the final Interior Design page, homepage, All Industries and an unchanged About page across the same widths. New industry cards match neighboring card width and height and navigate to interior-design.html. The Interior Design contact CTA opens the existing chat at all three widths. Shared navigation also exposes Interior Design on an unchanged page.
+
+Static checks passed for local links, retained existing page titles and script integrations, all 12 original industry cards, the unique sitemap entry and valid structured data. No exact Interior Design section headings or complete body paragraphs were found in the other 12 industry pages. git diff --check passed.
+
+External http/https page requests were blocked during browser checks. No forms were submitted, and HubSpot delivery, GA4 account settings and live integrations were not exercised. Tracking and contact integration code remain unchanged.
+
+Implementation files
+assisted-living.html
+pool-construction.html
+santa-clarita.html
+interior-design.html
+index.html
+industries.html
+universal-nav-fix.js
+approved-industry-updates.css
+sitemap.xml
+assets/industries/interior-design-card.png
+assets/industries/interior-design-card.webp
+assets/industries/interior-design-feature.png
+assets/industries/interior-design-feature.webp
+assets/industries/interior-design-icon.png
+
+Supporting verification files
+tools/read-approved-pdf.ps1
+tools/check-oct22-content.cjs
+tools/verify-oct22.cjs
+verification/oct22/complete-pdf-text.txt
+verification/oct22/approved-content.json
+verification/oct22/static-results.txt
+verification/oct22/browser-results.json
+verification/oct22/final-browser-results.json
+verification/oct22/card-browser-results.json
+Screenshots in verification/oct22.
+
+Image generation prompt specifications
+Built-in tool, card: an original photorealistic landscape residential interior, compelling architectural perspective, expressive sculptural furnishings, carefully chosen artwork, warm daylight, cream plaster, walnut and rust upholstery, sharp realistic materials. No people, text, labels, logos or watermarks.
+Built-in tool, feature: an original landscape boutique hotel lounge, dramatic double-height space and sculptural lighting, emerald velvet seating, dark stone and bronze, evening palette, diagonal view toward an illuminated bar. A different room, palette and composition. No people, text, labels, logos or watermarks.
+Built-in tool, icon: glossy realistic isolated blue designer armchair and polished chrome floor lamp, electric blue highlights and navy shadow edges, matching the site's blue/silver industry graphic style, transparent background, 360 by 280 proportions. No text, logos, people or watermark.
+
+No implementation blockers remain. Everything is local. Nothing was committed, pushed, published or deployed. No live website or account settings were modified. Release remains pending the owner's review and explicit approval.

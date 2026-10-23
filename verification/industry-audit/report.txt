@@ -1,0 +1,42 @@
+Complete industry hero audit | October 22, 2026
+This supersedes earlier hero layout reports.
+
+Audited and corrected all 13 industry pages:
+Real Estate, Collision Repair, Pool Construction, General Contractors, Catering, Commercial Cleaning, Security Services, Home Health Care, Assisted Living, Lawyers, Doctors, Dentists and Interior Design.
+
+Result
+Each page has one hero with its existing photograph or video filling the background, its graphic icon visible, a title containing only the industry name, a short existing introduction and both existing CTA buttons inside the hero. No letterbox side strips or separate mobile action panel. The section fits below the shared header and mobile Back bar. Background media uses cover to fill the available area without distortion or black strips; responsive cropping is expected.
+
+Replaced conflicting legacy hero wrappers with a dedicated, isolated hero structure. Shared navigation, contact integration, footer actions, page metadata and unrelated content remain in place. The fitting script measures the hero's actual position below navigation, responds to resizing and scales the content only when required to keep it inside the available height.
+
+Pool Construction and Assisted Living use their original short hero introductions. Their longer approved introductions and former H1 wording remain in the body. Interior Design uses its existing approved short paragraph in the hero, with its longer opening and former heading retained in the body. No new marketing prose was written. All supplied approved paragraphs remain present.
+
+Assisted Living's existing video now fills its hero instead of appearing as a separate media section beneath a photo hero. Existing media assets are retained. No new image generation was needed for this audit.
+
+Added consistent space between the hero introduction and buttons, between hero and body, between body paragraphs and subsequent headings, and inside industry editorial sections.
+
+Validation
+78 layout checks passed: all 13 pages at 390x844, 490x598, 768x900, 1180x780, 1810x796 and 1920x1080.
+Checked that the hero ends within the initial viewport, every icon/title/intro/button is visible and contained horizontally and vertically, media fills the hero, icons and photos load, videos select their sources, there are exactly two hero actions and one H1, and no horizontal document overflow or separate mobile action panel occurs.
+
+39 additional checks passed while resizing the same loaded pages between 490x598, 1180x780 and 390x844. Rechecked hero containment and opened/closed the existing contact chat from each page at each size without submitting forms.
+
+Static checks passed for all local links and media sources, structured-data syntax, single H1 and hero/icon, and preservation of every supplied approved paragraph and former approved heading in the body where applicable.
+Visually reviewed representative mobile, short narrow preview and desktop screenshots, including Pool Construction, Commercial Cleaning, Collision Repair and Interior Design.
+
+Evidence
+pages.json: industry inventory
+results.json: 78 layout results
+resize-results.json: 39 resize and chat results
+static-results.txt: content/link/schema checks
+78 viewport screenshots in this directory
+
+Implementation
+All 13 industry HTML pages
+industry-hero-unified.css
+industry-hero-unified.js
+tools/test-all-industry-heroes.cjs
+tools/check-industry-audit.cjs
+
+Limits and release status
+External website requests were blocked during browser tests. No form submissions, live HubSpot/GA4 account changes or tracking changes. Everything remains local. Nothing was committed, pushed, published or deployed. Owner review and explicit release approval are still required.

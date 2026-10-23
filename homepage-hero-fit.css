@@ -1,0 +1,20 @@
+@media(min-width:1051px){
+ html body #sw7-home-fit.home-hero{box-sizing:border-box!important;display:grid!important;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr)!important;align-items:center!important;min-height:0!important;height:var(--home-visible-height,650px)!important;padding:20px 4vw!important;gap:32px!important;overflow:hidden!important}
+ html body #sw7-home-fit .home-flow{font-size:var(--home-title-size,clamp(44px,4.2vw,76px))!important;line-height:.9!important}
+ html body #sw7-home-fit .home-hero-copy{min-width:0!important}
+ html body #sw7-home-fit .analysis-engine{zoom:1!important;transform:none!important;width:100%!important;max-width:100%!important;min-width:0!important}
+ html body #sw7-home-fit[data-home-compact] .analysis-engine{padding:12px!important}
+ html body #sw7-home-fit[data-home-compact] .equation-field{padding:12px!important}
+ html body #sw7-home-fit[data-home-compact] .analysis-top{font-size:10px!important;margin-bottom:12px!important}
+ html body #sw7-home-fit[data-home-compact] .journey-label{padding:6px 8px 6px 0!important}
+ html body #sw7-home-fit[data-home-compact] .journey-label strong{font-size:12px!important}
+ html body #sw7-home-fit[data-home-compact] .journey-label span{font-size:10px!important;margin-top:4px!important}
+ html body #sw7-home-fit[data-home-compact] .journey-axis{font-size:10px!important;padding-bottom:10px!important}
+ html body #sw7-home-fit[data-home-compact] .journey-node{width:42px!important;height:42px!important}
+ html body #sw7-home-fit[data-home-compact] .journey-node b{font-size:14px!important}
+ html body #sw7-home-fit[data-home-compact] .journey-node.final{width:48px!important;height:48px!important}
+ html body #sw7-home-fit[data-home-compact] .journey-node.final b{font-size:23px!important}
+ html body #sw7-home-fit[data-home-compact] .home-hero-copy p{margin-top:16px!important}
+ html body #sw7-home-fit[data-home-compact] .home-hero-copy .sw7-hero-actions{margin-top:16px!important}
+ html body #sw7-home-fit[data-home-compact] .home-hero-copy .sw7-hero-actions>a{padding:10px 16px!important;min-height:42px!important}
+}

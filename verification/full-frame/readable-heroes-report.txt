@@ -1,0 +1,12 @@
+Readable mobile and iPad heroes — October 22, 2026
+This report supersedes the earlier geometry-only hero audit.
+124 pages x 3 viewports (390x844, 768x1024, 1024x768): 372 checks passed, zero failures.
+10 focused pages x 5 viewports, including desktop and narrow phone: 50 checks passed, zero failures.
+Checks include visible/nonzero hero selection, hero copy at least 20 CSS pixels, CTA heights 44–80 pixels, complete media aspect ratio, useful media width, no text/media overlap, all four homepage examples visible, and removal of the analysis heading.
+Focused videos loaded with readyState 4 and no playback error.
+About uses separate text and video panels. Unified hero copy uses 22px desktop and 20px phone/tablet text without zoom reduction. Buttons use 16px text and normal content-based heights.
+All original homepage examples restored; the single-example rotating behavior removed. Search Opportunity Analysis / Example headers removed. SEO heading is SEO OPTIMIZED WEBSITES.
+Short screens may scroll to preserve readable text and full media instead of shrinking content.
+Raw reports: readable-all-results.json and readable-results.json. Hero previews: readable-*.png.
+Industry structure/approved copy checks passed for all 13 industry pages.
+All changes local; no commit, push or deployment.

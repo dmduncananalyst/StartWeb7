@@ -1,0 +1,9 @@
+Local opening-hero audit, October 22, 2026
+124 pages x 4 viewport sizes = 496 checks; zero reported hero boundary or text clipping failures.
+Viewports: 1207x531, 1810x796, 390x844, 260x530.
+Desktop heroes checked against available window space below navigation.
+Phone heroes checked for content containment and horizontal clipping; short phone layouts may grow vertically to preserve readability.
+Additional verification: 38 resize/contact-chat checks across 19 industry and service pages passed. Final targeted checks across 10 page layouts and all four sizes passed.
+Fixed legacy fixed-height conflicts, About layout, Contractor Jobs heading wrapping, Support demo sizing, and mobile actions previously moved outside heroes.
+Raw results: site-hero-audit.json and site-hero-target-audit.json.
+No commit, push or deployment.

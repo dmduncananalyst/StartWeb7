@@ -1,0 +1,9 @@
+Requested corrections — October 22, 2026
+Scope: visible View More actions, original compact portfolio sizes with smaller controls, About hierarchy/video size, Catering framing, mobile menu wrapping, Reviews map removal, larger mobile brand and slogan.
+20 page/viewport checks passed at 300x598, 390x844, 768x1024, 1207x531 and 1810x796. Mobile Industries menu interaction and word-wrapping checks passed.
+Portfolio: restored two columns and original 393:778 card ratio. Controls are 30–38px tall.
+About: ABOUT STARTWEB7 is the sole H1 and dominant title. WE TAKE IT FURTHER uses the introduction's font size. Video has more desktop space and full viewport width on phones.
+Catering: original catering-events.mp4 retained. Existing footage normalized into assets/catering-hero-landscape.mp4 with a matching poster. Landscape shots have embedded black padding removed; the portrait shot remains complete over a blurred background. Source duration 11.537s; output duration 11.532s. Playback and sampled frames at 1s, 8s, and 10.5s passed.
+Reviews: removed unrelated Support, coverage, Contact/map and contact-detail sections. Reviews content and shared footer retained.
+Raw results: requested-fix-results.json. Screenshots: requested-*.png.
+Local only. No commit, push, deployment or paid service.
