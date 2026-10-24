@@ -1300,3 +1300,17 @@ document.documentElement.classList.remove('sw7-nav-pending');
 /* Corrections specifically requested for cards, About, Catering and mobile branding. */
 (function(){var l=document.createElement("link");l.rel="stylesheet";l.href="requested-corrections.css?v=papertrail-wide-frame-20261022";document.head.appendChild(l);})();
 (function(){var s=document.createElement('script');s.src='mobile-title-fit.js';document.body.appendChild(s);})();
+
+/* Keep the homepage chat and shared footer intact while adding business hours. */
+(function () {
+  document.querySelectorAll('.global-contact-block .contact-options').forEach(function (options) {
+    if (options.querySelector('.hours-option')) return;
+    var hours = document.createElement('div');
+    hours.className = 'contact-option hours-option';
+    hours.innerHTML = '<span class="contact-label">HOURS</span><strong>Mon–Fri: 6:30 a.m. – 5:00 p.m. PST<br/>Sat–Sun: Closed</strong>';
+    options.appendChild(hours);
+  });
+  var style = document.createElement('style');
+  style.textContent = '#sw7-readable-layout .global-contact-block .contact-options{grid-template-columns:repeat(4,minmax(0,1fr))!important}.global-contact-block .hours-option{align-items:center!important;text-align:center!important;gap:20px!important}.global-contact-block .hours-option strong{font-size:16px!important;line-height:1.5!important;min-height:48px!important;padding:0!important}.global-contact-block .social-links,.global-contact-block .sw7-global-social-links{flex-wrap:wrap}.global-contact-block .contact-option{overflow-wrap:anywhere}@media(max-width:1000px){#sw7-readable-layout .global-contact-block .contact-options{grid-template-columns:repeat(2,minmax(0,1fr))!important}}@media(max-width:700px){#sw7-readable-layout .global-contact-block .contact-options{grid-template-columns:1fr!important}}';
+  document.head.appendChild(style);
+})();
