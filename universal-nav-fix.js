@@ -1314,3 +1314,27 @@ document.documentElement.classList.remove('sw7-nav-pending');
   style.textContent = '#sw7-readable-layout .global-contact-block .contact-options{grid-template-columns:minmax(0,.85fr) minmax(0,1.1fr) minmax(0,1.25fr) minmax(250px,1.3fr)!important;column-gap:20px!important}.global-contact-block .hours-option{align-items:center!important;text-align:center!important;gap:20px!important}.global-contact-block .hours-option strong{display:block!important;width:100%!important;text-align:center!important;font-size:16px!important;line-height:1.5!important;min-height:48px!important;padding:0!important}.global-contact-block .hours-option .contact-label{text-align:center!important}.global-contact-block .hours-weekday,.global-contact-block .hours-weekend{display:block}.global-contact-block .hours-zone{white-space:nowrap}@media(min-width:1001px){.global-contact-block .hours-weekday{white-space:nowrap}}.global-contact-block .social-links,.global-contact-block .sw7-global-social-links{flex-wrap:wrap}.global-contact-block .contact-option{overflow-wrap:anywhere}@media(max-width:1000px){#sw7-readable-layout .global-contact-block .contact-options{grid-template-columns:repeat(2,minmax(0,1fr))!important}}@media(max-width:700px){#sw7-readable-layout .global-contact-block .contact-options{grid-template-columns:1fr!important}}';
   document.head.appendChild(style);
 })();
+
+/* Keep the closing actions together immediately before the contact footer. */
+(function () {
+  var footer=document.querySelector('.global-contact-block');
+  if(!footer)return;
+  var strip=document.querySelector('.sw7-bottom-cta-pair');
+  if(!strip){
+    strip=document.createElement('section');
+    strip.className='sw7-bottom-cta-pair';
+    strip.setAttribute('aria-label','Contact StartWeb7');
+    strip.setAttribute('data-sw7-preserved','');
+    strip.innerHTML='<div class="sw7-hero-actions" data-sw7-preserved><a class="sw7-hero-primary" data-open-home-chat aria-controls="homeContactChat" href="#homeContactChat">Grow Your Business</a><a class="sw7-hero-audit" href="instant-audit.html">Get Your Instant Audit</a></div>';
+    footer.parentNode.insertBefore(strip,footer);
+  }
+  var actions=strip.querySelector('.sw7-hero-actions');
+  if(!actions||actions.querySelector('.sw7-meeting-link'))return;
+  var meeting=document.createElement('a');
+  meeting.className='sw7-meeting-link';
+  meeting.href='https://calendar.app.google/3TVqRjQGKvP5ckgk8';
+  meeting.target='_blank';
+  meeting.rel='noopener noreferrer';
+  meeting.textContent='Schedule a Meeting';
+  actions.appendChild(meeting);
+})();

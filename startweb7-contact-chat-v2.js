@@ -792,6 +792,9 @@
   var reset=document.getElementById('resetHomeChat');
   var close=document.getElementById('closeHomeChat');
   if(!openButton||!section||!messages||!choices||!composer||!input||!reset||!close)return;
+  // A modal must escape isolated footer/section stacking contexts. Reuse its
+  // existing nodes so prompts, control listeners, and submission logic stay intact.
+  if(section.parentElement!==document.body)document.body.appendChild(section);
   if(industryButtonLabels[pageKey])openButton.textContent=industryButtonLabels[pageKey];
 
   var style=document.createElement('style');
