@@ -1330,11 +1330,17 @@ document.documentElement.classList.remove('sw7-nav-pending');
   }
   var actions=strip.querySelector('.sw7-hero-actions');
   if(!actions||actions.querySelector('.sw7-meeting-link'))return;
-  var meeting=document.createElement('a');
-  meeting.className='sw7-meeting-link';
-  meeting.href='https://calendar.app.google/3TVqRjQGKvP5ckgk8';
-  meeting.target='_blank';
-  meeting.rel='noopener noreferrer';
-  meeting.textContent='Schedule a Meeting';
-  actions.appendChild(meeting);
+  var meetings=[
+    {label:'Schedule a Zoom Meeting',url:'https://calendar.app.google/3TVqRjQGKvP5ckgk8'},
+    {label:'Schedule an In-Person Meeting in LA',url:'https://calendar.app.google/NHw9Z33erixmF2Te7'}
+  ];
+  meetings.forEach(function(option){
+    var meeting=document.createElement('a');
+    meeting.className='sw7-meeting-link';
+    meeting.href=option.url;
+    meeting.target='_blank';
+    meeting.rel='noopener noreferrer';
+    meeting.textContent=option.label;
+    actions.appendChild(meeting);
+  });
 })();

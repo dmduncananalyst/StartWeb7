@@ -38,7 +38,7 @@ h2 span,h3 span,h4 span,h5 span,h6 span,h2 em,h3 em{color:inherit!important}
 
 /* The closing area contains the shared contact, audit, and meeting actions. */
 .sw7-bottom-cta-pair{display:block!important;box-sizing:border-box;width:100%;padding:40px 24px;background:#000!important}
-.sw7-bottom-cta-pair>.sw7-hero-actions{justify-content:center!important;width:100%;max-width:840px;margin:0 auto!important}
+.sw7-bottom-cta-pair>.sw7-hero-actions{justify-content:center!important;width:100%;max-width:1160px;margin:0 auto!important}
 .sw7-bottom-cta-pair:before,.sw7-bottom-cta-pair:after{display:none!important}
 @media(max-width:820px){.sw7-bottom-cta-pair{padding:30px 22px}}
 
