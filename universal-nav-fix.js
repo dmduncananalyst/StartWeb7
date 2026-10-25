@@ -876,9 +876,15 @@ Promise.resolve().then(function () {
 
 /* Final visual-menu and footer pass, placed last so it also wins on mobile. */
 (function () {
-  const footer = document.querySelector('.rights-footer');
+  let footer = document.querySelector('.rights-footer');
+  if (!footer) {
+    footer = document.createElement('div');
+    footer.className = 'rights-footer';
+    const contactFooter = document.querySelector('.global-contact-block');
+    if (contactFooter) contactFooter.insertAdjacentElement('afterend', footer);
+  }
   if (footer) {
-    footer.innerHTML = '<nav class="sw7-footer-links" aria-label="Footer"><a href="services.html">Services</a><a href="industries.html">Industries</a><a href="resources.html">Business Growth</a><a href="instant-audit.html">Instant Audit</a><a href="blog.html">Blog</a><a href="reviews.html">Reviews</a><a href="contact.html">Contact</a><a href="support.html">24/7 Support</a></nav><span class="sw7-footer-legal"><span>© 2026 StartWeb7.</span><span class="sw7-footer-rights">All Rights Reserved.</span></span>';
+    footer.innerHTML = '<nav class="sw7-footer-links" aria-label="Footer"><a href="services.html">Services</a><a href="industries.html">Industries</a><a href="/nationwide.html">Locations</a><a href="resources.html">Business Growth</a><a href="instant-audit.html">Instant Audit</a><a href="blog.html">Blog</a><a href="reviews.html">Reviews</a><a href="contact.html">Contact</a><a href="support.html">24/7 Support</a></nav><span class="sw7-footer-legal"><span>© 2026 StartWeb7.</span><span class="sw7-footer-rights">All Rights Reserved.</span></span>';
   }
   const style = document.createElement('style');
   style.textContent = `
