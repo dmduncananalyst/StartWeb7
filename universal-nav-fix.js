@@ -1332,7 +1332,7 @@ document.documentElement.classList.remove('sw7-nav-pending');
   if(!actions||actions.querySelector('.sw7-meeting-link'))return;
   var meetings=[
     {label:'Schedule a Zoom Meeting',url:'https://calendar.app.google/3TVqRjQGKvP5ckgk8'},
-    {label:'Schedule an In-Person Meeting in LA',url:'https://calendar.app.google/NHw9Z33erixmF2Te7'}
+    {label:'Schedule an In-Person Meeting in Los Angeles',url:'https://calendar.app.google/NHw9Z33erixmF2Te7'}
   ];
   meetings.forEach(function(option){
     var meeting=document.createElement('a');
