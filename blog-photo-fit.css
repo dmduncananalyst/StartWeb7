@@ -1,12 +1,12 @@
 /* Preserve full-size article covers independently of overview thumbnails. */
-.blog-article .blog-article-cover{height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:auto!important;overflow:visible!important}
-.blog-article .blog-article-cover>img{position:static!important;display:block!important;width:100%!important;max-width:100%!important;height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:auto!important;object-fit:contain!important;object-position:center!important;transform:none!important;clip-path:none!important;margin:0!important}
+.blog-article .blog-article-cover{height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:var(--image-intrinsic-ratio,auto)!important;overflow:visible!important}
+.blog-article .blog-article-cover>img{position:static!important;display:block!important;width:100%!important;max-width:100%!important;height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:var(--image-intrinsic-ratio,auto)!important;object-fit:contain!important;object-position:center!important;transform:none!important;clip-path:none!important;margin:0!important}
 .blog-article .blog-article-cover:hover>img{transform:none!important}
 
 /* Match every overview thumbnail to the TikTok card's 3:2 frame. */
 .blog-posts{grid-auto-rows:1fr;align-items:stretch}
 .blog-posts .blog-card{display:flex;flex-direction:column}
 .blog-posts .blog-card>a:first-child{display:block;position:relative;flex:none;height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:3/2!important;overflow:hidden!important}
-.blog-posts .blog-card>a:first-child>img{position:absolute!important;inset:0;display:block;width:100%!important;height:100%!important;min-height:0!important;max-height:none!important;aspect-ratio:auto!important;object-fit:cover!important;object-position:center!important;border-radius:0;transform:none!important;clip-path:none!important;margin:0!important}
+.blog-posts .blog-card>a:first-child>img{position:absolute!important;inset:0;display:block;width:100%!important;height:100%!important;min-height:0!important;max-height:none!important;aspect-ratio:var(--image-intrinsic-ratio,auto)!important;object-fit:cover!important;object-position:center!important;border-radius:0;transform:none!important;clip-path:none!important;margin:0!important}
 .blog-posts .blog-card-copy{display:flex;flex:1;flex-direction:column}
 .blog-posts .blog-read-more{margin-top:auto;align-self:flex-start}

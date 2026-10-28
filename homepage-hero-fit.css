@@ -1,5 +1,5 @@
 @media(min-width:1051px){
- html body #sw7-home-fit.home-hero{box-sizing:border-box!important;display:grid!important;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr)!important;align-items:center!important;min-height:0!important;height:var(--home-visible-height,650px)!important;padding:20px 4vw!important;gap:32px!important;overflow:hidden!important}
+ html body #sw7-home-fit.home-hero{box-sizing:border-box!important;display:grid!important;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr)!important;align-items:center!important;min-height:0!important;height:var(--home-visible-height,calc(100svh - var(--sw7-responsive-header-height,143px)))!important;padding:20px 4vw!important;gap:32px!important;overflow:hidden!important}
  html body #sw7-home-fit .home-flow{font-size:var(--home-title-size,clamp(44px,4.2vw,76px))!important;line-height:.9!important}
  html body #sw7-home-fit .home-hero-copy{min-width:0!important}
  html body #sw7-home-fit .analysis-engine{zoom:1!important;transform:none!important;width:100%!important;max-width:100%!important;min-width:0!important}

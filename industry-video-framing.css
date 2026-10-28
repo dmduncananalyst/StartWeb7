@@ -20,7 +20,7 @@ html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page]
 html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body.video-industry-page .industry-video{
   position:absolute!important;inset:0!important;z-index:0;
   width:100%!important;height:100%!important;max-width:none!important;max-height:none!important;
-  margin:0!important;padding:0!important;border:0!important;aspect-ratio:auto!important;overflow:hidden!important;box-shadow:none!important;
+  margin:0!important;padding:0!important;border:0!important;aspect-ratio:var(--image-intrinsic-ratio,auto)!important;overflow:hidden!important;box-shadow:none!important;
 }
 html[data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page][data-sw7-fit-page] body.video-industry-page .industry-video video{
   position:absolute!important;inset:0!important;width:100%!important;height:100%!important;

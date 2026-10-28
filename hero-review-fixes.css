@@ -1,7 +1,7 @@
 /* Page-specific corrections for complete interior photography and full-hero video. */
 html[data-sw7-fit-page="interior-design"][data-sw7-fit-page] body .sw7-photo-hero.sw7-photo-hero>.sw7-full-hero-photo{
  width:100%!important;height:auto!important;max-height:calc(100svh - var(--sw7-review-header-height,186px))!important;
- object-fit:contain!important;object-position:center!important;aspect-ratio:auto!important;background:#07101c;
+ object-fit:contain!important;object-position:center!important;aspect-ratio:var(--image-intrinsic-ratio,auto)!important;background:#07101c;
 }
 html[data-sw7-fit-page="real-estate-agents"][data-sw7-fit-page][data-sw7-fit-page] body .industry-hero.real-estate-hero{
  position:relative!important;display:flex!important;align-items:center!important;box-sizing:border-box!important;

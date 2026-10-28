@@ -386,3 +386,6 @@ html{scrollbar-gutter:stable}
   html .sw7-universal-header .sw7-clean-nav>a,html .sw7-universal-header .sw7-clean-nav>.sw7-clean-item{min-width:0!important;width:100%!important;padding-inline:3px!important}
   html .sw7-universal-header .sw7-clean-nav>a,html .sw7-universal-header .sw7-clean-nav>.sw7-clean-item>.sw7-clean-trigger{min-width:0!important;font-size:clamp(11px,1.35vw,14px)!important}
 }
+
+/* Match the existing intro fit before asynchronous startup. */
+html[data-sw7-fit-page="index"] .sw7-lead-intro{top:var(--sw7-responsive-header-height,86px)!important}

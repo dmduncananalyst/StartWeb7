@@ -2,7 +2,7 @@
 /* Industry hero image height follows the whole image, never a cropped viewport. */
 .sw7-photo-hero.sw7-photo-hero{position:relative!important;display:block!important;min-height:0!important;height:auto!important;padding:0!important;overflow:visible!important;background:#fff!important}
 .sw7-photo-hero.sw7-photo-hero:after,.sw7-photo-hero.sw7-photo-hero:before{display:none!important}
-.sw7-photo-hero.sw7-photo-hero>.sw7-full-hero-photo{position:relative!important;inset:auto!important;display:block!important;width:100%!important;height:auto!important;max-width:none!important;max-height:none!important;aspect-ratio:auto!important;object-fit:contain!important;transform:none!important;clip-path:none!important;opacity:1!important}
+.sw7-photo-hero.sw7-photo-hero>.sw7-full-hero-photo{position:relative!important;inset:auto!important;display:block!important;width:100%!important;height:auto!important;max-width:none!important;max-height:none!important;aspect-ratio:var(--image-intrinsic-ratio,auto)!important;object-fit:contain!important;transform:none!important;clip-path:none!important;opacity:1!important}
 .sw7-photo-hero.sw7-photo-hero>:is(.real-estate-hero-copy,.sw7-new-hero-copy){position:relative!important;margin:0!important;padding:36px clamp(22px,6vw,90px)!important;max-width:none!important;box-sizing:border-box!important;background:#fff!important;color:#07101c!important;text-shadow:none!important}
 .sw7-photo-hero :is(h1,p,.eyebrow){color:#07101c!important;text-shadow:none!important}
 .sw7-photo-hero h1{white-space:normal!important}
