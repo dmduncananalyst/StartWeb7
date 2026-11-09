@@ -99,7 +99,10 @@ class Integration(unittest.TestCase):
 
     def test_only_approved_pages_and_editorial_copy_enter_source(self):
         source,cards=runner.sources(self.root)
-        self.assertEqual(set(source),set(runner.PAGES));self.assertEqual(len(cards),14)
+        self.assertEqual(set(source),set(runner.PAGES))
+        # The current approved archive contains 28 cards; retain exact-count coverage.
+        self.assertEqual(len(cards),28)
+        self.assertEqual(len({card['article'] for card in cards}),28)
         self.assertNotIn(self.article,source)
         text='<html><body><nav><p>MENU ONLY</p></nav><h2><a href="keep.html">TITLE COPY</a></h2><p>BODY COPY</p><a>CONTROL</a><form><p>FORM ONLY</p></form><script>API SECRET</script></body></html>'
         parsed=runner.Parser();parsed.feed(text)

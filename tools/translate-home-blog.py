@@ -14,7 +14,33 @@ if not (SHARED / 'translation_pipeline/budget.py').is_file():
 sys.path.insert(0, str(SHARED))
 from translation_pipeline.budget import ExistingBudget
 from translation_pipeline.connection import private_path, access_token
-from translation_pipeline.pipeline import Parser, Node, LOCALES, atomic, encoded, digest, google_translate, budget_warning
+from translation_pipeline.pipeline import Parser as SharedParser, Node as SharedNode
+from translation_pipeline.pipeline import LOCALES, atomic, encoded, digest, google_translate, budget_warning
+
+
+class Node(SharedNode):
+    """Retain the ancestry and class-token API expected by this authoring tool."""
+    def __init__(self, tag='', attrs=None, parent=None):
+        super().__init__(tag, attrs)
+        self.parent = parent
+
+    def has(self, class_name):
+        return class_name in self.attrs.get('class', '').split()
+
+
+class Parser(SharedParser):
+    """Adapt shared parsing locally without changing other websites' dependencies."""
+    def __init__(self):
+        super().__init__()
+        self.root = Node()
+        self.stack = [self.root]
+
+    def handle_starttag(self, tag, attrs):
+        node = Node(tag, attrs, self.stack[-1])
+        self.stack[-1].children.append(node)
+        if tag not in {'area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr'}:
+            self.stack.append(node)
+
 
 PROJECT = 'project-2e0d7d9d-d482-4fcf-b6d'
 PAGES = ('index.html', 'blog.html')
