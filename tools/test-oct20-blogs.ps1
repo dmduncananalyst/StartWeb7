@@ -27,11 +27,37 @@ foreach ($record in $records) {
  }
  Write-Output "PASS: $($record.file), complete text, sources, metadata, archive card, sitemap, and local resources"
 }
-foreach ($name in @('Flash Blocked, Website Still Waiting.png','Retro Flash Welcome Workspace.png','Yellow Pages Meets Modern Local Search.png')) {
- $original = Get-FileHash -LiteralPath (Join-Path 'C:\Users\Owner\OneDrive\Desktop' $name)
+# Verified against the original assets in commit b1d668d9aaa548a3247c152cb6c57ca9e061ed3d.
+# Exact source hashes keep this check portable without an author's Desktop copies.
+$originalHashes = @{
+ 'Flash Blocked, Website Still Waiting.png' = 'aef2dc62a8f09fe7fa8961a589f2158fa68490d40383da8bf5c40d5ab7c80772'
+ 'Retro Flash Welcome Workspace.png' = 'aacd51c3a3072f3199e84d4a2bafa37d62b655853be39a2f7f663a57b4be52be'
+ 'Yellow Pages Meets Modern Local Search.png' = 'dc5cc4ebad5eedbec9c4d0d91d0288e9e2466c443c3c9c6cfa4105bcb3dd1ee2'
+}
+foreach ($name in $originalHashes.Keys) {
  $copy = Get-FileHash -LiteralPath (Join-Path $root "assets/blog/$name")
- Assert ($original.Hash -eq $copy.Hash) "Image changed: $name"
+ Assert ($originalHashes[$name] -eq $copy.Hash) "Image changed: $name"
 }
 $blogSchema = [regex]::Match($archive, '<script type="application/ld\+json">(.*?)</script>', 'Singleline').Groups[1].Value | ConvertFrom-Json
-Assert ($blogSchema.blogPost.Count -eq 17) 'Archive structured data count mismatch'
-Write-Output 'PASS: all three original image files are byte identical; archive structured data has 17 articles.'
+# Compare the complete current archive rather than freezing the October 20 count.
+$archiveCards = @([regex]::Matches($archive, '(?s)<article\b[^>]*class="[^"]*\bblog-card\b[^"]*"[^>]*>.*?</article>'))
+$archiveUrls = @($archiveCards | ForEach-Object {
+ $href = [regex]::Match($_.Value, '<a\b[^>]*href="([^"]+)"').Groups[1].Value
+ Assert ($href -and (Test-Path -LiteralPath (Join-Path $root $href))) 'Archive article target missing'
+ 'https://startweb7.com/' + $href
+})
+$schemaUrls = @($blogSchema.blogPost | ForEach-Object { $_.url })
+Assert ($archiveUrls.Count -ge $records.Count) 'Approved archive cards missing'
+# Preserve every article in the original October 20 schema while permitting later posts.
+$originalArchive = git show 'b1d668d9aaa548a3247c152cb6c57ca9e061ed3d:blog.html'
+Assert ($LASTEXITCODE -eq 0) 'Original archive snapshot unavailable'
+$originalSchema = [regex]::Match(($originalArchive -join "`n"), '<script type="application/ld\+json">(.*?)</script>', 'Singleline').Groups[1].Value | ConvertFrom-Json
+Assert ($originalSchema.blogPost.Count -eq 17) 'Original archive baseline mismatch'
+foreach ($article in $originalSchema.blogPost) {
+ Assert ($schemaUrls -contains $article.url) "Original archive schema article missing: $($article.url)"
+}
+Assert (@($schemaUrls | Select-Object -Unique).Count -eq $schemaUrls.Count) 'Duplicate archive structured data'
+foreach ($url in $schemaUrls) {
+ Assert ($archiveUrls -contains $url) "Structured data article missing from archive: $url"
+}
+Write-Output "PASS: all three original image files match verified source hashes; 17 original schema articles retained; all $($schemaUrls.Count) schema entries match real archive cards."

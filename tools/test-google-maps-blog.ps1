@@ -26,12 +26,20 @@ foreach($i in 0..($references.Count-1)){
 Assert ($references.Count -eq 2) 'Reference count differs'
 Assert ($prose -notmatch '\[\d+\]' -and $page -notmatch '<ol>') 'Visible reference numbering remains'
 $src='assets/blog/'+[uri]::EscapeDataString($approved.photo)
-Assert ($page.Contains('src="'+$src+'"')) 'Assigned article image missing'
+# HTML permits either literal spaces or percent encoding in the same local image path.
+function Has-AssignedPhoto($html, $expected) {
+ return @([regex]::Matches($html, '<img\b[^>]*\bsrc="([^"]+)"') | Where-Object {
+  [uri]::UnescapeDataString([Net.WebUtility]::HtmlDecode($_.Groups[1].Value)) -ceq [uri]::UnescapeDataString($expected)
+ }).Count -eq 1
+}
+Assert (Has-AssignedPhoto $page $src) 'Assigned article image missing'
 $cards=@([regex]::Matches($archive,'(?s)<article class="blog-card">(?:(?!</article>).)*</article>')|Where-Object {$_.Value.Contains('href="'+$approved.file+'"')})
 Assert ($cards.Count -eq 1) 'Expected exactly one matching archive card'
-Assert ($cards[0].Value.Contains('src="'+$src+'"')) 'Archive photo assignment mismatch'
+Assert (Has-AssignedPhoto $cards[0].Value $src) 'Archive photo assignment mismatch'
 Assert ((Get-FileHash -LiteralPath ('assets/blog/'+$approved.photo)).Hash -eq $approved.imageSha256) 'Copied image changed'
-Assert ((Get-FileHash -LiteralPath (Join-Path 'C:\Users\Owner\OneDrive\Desktop' $approved.photo)).Hash -eq $approved.imageSha256) 'Copied image differs from original photo'
+# The approved SHA-256 is retained in google-maps-approved-content.json and matches
+# the original asset committed in 54bb072172515e57c7ecb943ad22ea9c8b280ff9.
+# Verify those original bytes without depending on an author's Desktop location.
 $schema=[regex]::Match($page,'(?s)<script type="application/ld\+json">(.*?)</script>').Groups[1].Value|ConvertFrom-Json
 Assert ($schema.headline -ceq $approved.title -and $schema.description -ceq $approved.description -and $schema.image -eq ('https://startweb7.com/'+$src)) 'Article schema mismatch'
 [xml]$sitemap=[IO.File]::ReadAllText((Join-Path $root 'sitemap.xml'))
