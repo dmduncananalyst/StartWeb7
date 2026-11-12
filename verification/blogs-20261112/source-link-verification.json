@@ -1,0 +1,66 @@
+[
+  {
+    "article": 1,
+    "title": "Medill Spiegel Research Center, star ratings and review content",
+    "url": "https://spiegel.medill.northwestern.edu/star-ratings-and-review-content/",
+    "status": 200,
+    "final_url": "https://spiegel.medill.northwestern.edu/star-ratings-and-review-content/"
+  },
+  {
+    "article": 1,
+    "title": "BrightLocal, Local Consumer Review Survey 2026",
+    "url": "https://www.brightlocal.com/research/local-consumer-review-survey/",
+    "status": 200,
+    "final_url": "https://www.brightlocal.com/research/local-consumer-review-survey/"
+  },
+  {
+    "article": 1,
+    "title": "Google, 2024 review and Business Profile enforcement",
+    "url": "https://blog.google/products-and-platforms/products/maps/google-business-profiles-ai-fake-reviews/",
+    "status": 200,
+    "final_url": "https://blog.google/products-and-platforms/products/maps/google-business-profiles-ai-fake-reviews/"
+  },
+  {
+    "article": 1,
+    "title": "Federal Trade Commission, Consumer Reviews and Testimonials Rule",
+    "url": "https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers",
+    "status": 403,
+    "final_url": "https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers",
+    "additional_verification": "FTC page read through web tool, effective date October 21, 2024 verified."
+  },
+  {
+    "article": 2,
+    "title": "BrightLocal, consumer search behavior and decision speed",
+    "url": "https://www.brightlocal.com/research/consumer-search-behavior-speed/",
+    "status": 200,
+    "final_url": "https://www.brightlocal.com/research/consumer-search-behavior-speed/"
+  },
+  {
+    "article": 2,
+    "title": "BrightLocal, channels and mobile local searches",
+    "url": "https://www.brightlocal.com/research/consumer-search-behavior-channels/",
+    "status": 200,
+    "final_url": "https://www.brightlocal.com/research/consumer-search-behavior-channels/"
+  },
+  {
+    "article": 2,
+    "title": "Google Business Profile Help, local ranking factors",
+    "url": "https://support.google.com/business/answer/7091",
+    "status": 200,
+    "final_url": "https://support.google.com/business/answer/7091"
+  },
+  {
+    "article": 3,
+    "title": "BrightLocal, Local Consumer Review Survey 2026 and AI recommendations",
+    "url": "https://www.brightlocal.com/research/local-consumer-review-survey/",
+    "status": 200,
+    "final_url": "https://www.brightlocal.com/research/local-consumer-review-survey/"
+  },
+  {
+    "article": 3,
+    "title": "Google Business Profile Help, relevance and accurate business information",
+    "url": "https://support.google.com/business/answer/7091",
+    "status": 200,
+    "final_url": "https://support.google.com/business/answer/7091"
+  }
+]

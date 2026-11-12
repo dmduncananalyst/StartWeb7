@@ -1,0 +1,26 @@
+[
+  {
+    "number": 1,
+    "repo": "StartWeb7",
+    "name": "article-01",
+    "source": "C:\\Users\\Owner\\.codex\\generated_images\\01a1d07c-ff9c-7db0-abd1-f36faa930f0e\\exec-de6ad90b-708b-460a-9eb7-0a8d2c0cd673.png",
+    "prompt": "Create one original professional photorealistic landscape editorial blog photograph, wide 3:2 framing. A Black woman who owns a small professional services business and a Mexican male colleague review recent customer feedback together at a tidy real office desk, warm natural window light, candid serious thoughtful expressions, credible everyday business setting, a laptop angled away so no screen text is visible and no fabricated ratings are shown. Relevant to an article on genuine recent business reviews and customer trust. Natural anatomy and realistic hands, no logos, no watermark, no captions or text. Save the generated image for integration into the StartWeb7 repository.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "number": 2,
+    "repo": "StartWeb7",
+    "name": "article-02",
+    "source": "C:\\Users\\Owner\\.codex\\generated_images\\01a1d07c-ff9c-7db0-abd1-f36faa930f0e\\exec-cb051dd6-199c-4f9e-8d73-a1f078d89a5d.png",
+    "prompt": "Photorealistic professional editorial landscape photograph 3:2. A Mexican woman customer stands safely on the sidewalk outside an established Los Angeles neighborhood storefront on a busy street, looking thoughtfully at her smartphone held at a natural angle with screen hidden. Recognizable physical storefront visibility but no legible company names. Warm natural late afternoon light, credible modern local business situation. No logos, no invented text, no watermark, realistic anatomy and hands. Original distinct scene about a business people drive past but cannot find online.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "number": 3,
+    "repo": "StartWeb7",
+    "name": "article-03",
+    "source": "C:\\Users\\Owner\\.codex\\generated_images\\01a1d07c-ff9c-7db0-abd1-f36faa930f0e\\exec-26f68488-3408-48de-af3a-03e14e4819e9.png",
+    "prompt": "Photorealistic professional editorial landscape photograph 3:2. A Middle Eastern woman business owner and Asian male colleague review printed service planning documents in a mature, successful small professional services office, behind them a visible workspace and organized shelves suggest business growth. Laptop screen turned away with no screen content visible. Reflective serious expressions, natural daylight, credible real workplace. Distinct original image about a growing business whose website is outdated. No logos, watermark, legible text or distorted hands.",
+    "tool": "built-in image_gen"
+  }
+]

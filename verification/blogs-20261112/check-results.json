@@ -1,0 +1,19 @@
+{
+  "security_selftest": "PASS, 26 blocked and 27 allowed synthetic path cases, unchanged hook",
+  "source_policy": "PASS, 12 checks",
+  "public_integrity": "PASS, 148 approved routes",
+  "launch_audit": "PASS, 148 pages, 1240 images and 11552 local references; unique metadata, canonicals, JSON schemas and preserved prior content",
+  "title_exception_scope": "PASS, exactly three approved route and complete title pairs accepted; altered titles and unrelated routes rejected; 65 character limit otherwise retained",
+  "translation_safety": "PASS, 12 offline integration tests and 36 saved-language browser cases",
+  "provider_preflight": "Not applicable to this English-only release. The optional translate-home-blog.py tool requires the private shared ledger only when invoked for translation. No repository workflow or security policy requires translation dispatch/accounting for publishing static English article files.",
+  "paid_translation_calls": 0,
+  "browser": true,
+  "publication": "English-only publication authorized; proceed only after applicable launch audit, source, public integrity, offline safety tests, browser checks and unchanged staged-file hook pass.",
+  "translation_scope_evidence": [
+    "AGENTS.md requires existing security hooks and approved changes; no shared-ledger prerequisite for static English releases.",
+    "No .github/workflows release workflow invokes translate-home-blog.py.",
+    "Existing tools/test-google-maps-blog.ps1 explicitly checks that assets/translations/current.js retains its inactive locales:{} setup.",
+    "Owner clarified on November 12 that these three articles are English-only and authorized correction of any incorrectly applied translation gate."
+  ],
+  "translation_accounting_protections": "Unchanged: no translation tool, shared module, private database, financial record, credential, approval flag or accounting rule was edited to publish English articles."
+}

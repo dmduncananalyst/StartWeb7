@@ -1,0 +1,159 @@
+{
+  "repository": "StartWeb7",
+  "article_viewport_cases": [
+    {
+      "page": "why-genuine-recent-business-reviews-matter-more-than-a-perfect-score.html",
+      "viewport": "desktop",
+      "width": 1440,
+      "status": 200,
+      "h1_matches": true,
+      "overflow": false,
+      "photo_loaded": true,
+      "photo_dimensions": [
+        1536,
+        1024
+      ],
+      "header": true,
+      "footer": false,
+      "javascript_errors": []
+    },
+    {
+      "page": "business-everyone-drives-past-nobody-finds-online.html",
+      "viewport": "desktop",
+      "width": 1440,
+      "status": 200,
+      "h1_matches": true,
+      "overflow": false,
+      "photo_loaded": true,
+      "photo_dimensions": [
+        1536,
+        1024
+      ],
+      "header": true,
+      "footer": false,
+      "javascript_errors": []
+    },
+    {
+      "page": "business-grew-up-website-still-describes-company-you-used-to-be.html",
+      "viewport": "desktop",
+      "width": 1440,
+      "status": 200,
+      "h1_matches": true,
+      "overflow": false,
+      "photo_loaded": true,
+      "photo_dimensions": [
+        1536,
+        1024
+      ],
+      "header": true,
+      "footer": false,
+      "javascript_errors": []
+    },
+    {
+      "page": "why-genuine-recent-business-reviews-matter-more-than-a-perfect-score.html",
+      "viewport": "tablet",
+      "width": 820,
+      "status": 200,
+      "h1_matches": true,
+      "overflow": false,
+      "photo_loaded": true,
+      "photo_dimensions": [
+        1536,
+        1024
+      ],
+      "header": true,
+      "footer": false,
+      "javascript_errors": []
+    },
+    {
+      "page": "business-everyone-drives-past-nobody-finds-online.html",
+      "viewport": "tablet",
+      "width": 820,
+      "status": 200,
+      "h1_matches": true,
+      "overflow": false,
+      "photo_loaded": true,
+      "photo_dimensions": [
+        1536,
+        1024
+      ],
+      "header": true,
+      "footer": false,
+      "javascript_errors": []
+    },
+    {
+      "page": "business-grew-up-website-still-describes-company-you-used-to-be.html",
+      "viewport": "tablet",
+      "width": 820,
+      "status": 200,
+      "h1_matches": true,
+      "overflow": false,
+      "photo_loaded": true,
+      "photo_dimensions": [
+        1536,
+        1024
+      ],
+      "header": true,
+      "footer": false,
+      "javascript_errors": []
+    },
+    {
+      "page": "why-genuine-recent-business-reviews-matter-more-than-a-perfect-score.html",
+      "viewport": "mobile",
+      "width": 390,
+      "status": 200,
+      "h1_matches": true,
+      "overflow": false,
+      "photo_loaded": true,
+      "photo_dimensions": [
+        1536,
+        1024
+      ],
+      "header": true,
+      "footer": false,
+      "javascript_errors": []
+    },
+    {
+      "page": "business-everyone-drives-past-nobody-finds-online.html",
+      "viewport": "mobile",
+      "width": 390,
+      "status": 200,
+      "h1_matches": true,
+      "overflow": false,
+      "photo_loaded": true,
+      "photo_dimensions": [
+        1536,
+        1024
+      ],
+      "header": true,
+      "footer": false,
+      "javascript_errors": []
+    },
+    {
+      "page": "business-grew-up-website-still-describes-company-you-used-to-be.html",
+      "viewport": "mobile",
+      "width": 390,
+      "status": 200,
+      "h1_matches": true,
+      "overflow": false,
+      "photo_loaded": true,
+      "photo_dimensions": [
+        1536,
+        1024
+      ],
+      "header": true,
+      "footer": false,
+      "javascript_errors": []
+    }
+  ],
+  "index_viewports": [
+    "desktop",
+    "tablet",
+    "mobile"
+  ],
+  "errors": [],
+  "screenshots": "C:\\Users\\Owner\\AppData\\Local\\Temp\\StartWeb7-blogs-20261112-bv5rbz9v",
+  "external_requests": "blocked using existing offline convention",
+  "forms_submitted": 0,
+  "live_production": false
+}

@@ -6,6 +6,13 @@ function Attribute($tag, $name) { [Net.WebUtility]::HtmlDecode([regex]::Match($t
 [xml]$sitemap = [IO.File]::ReadAllText((Join-Path $root 'sitemap.xml'))
 $titles=@{}; $descriptions=@{}; $pageCount=0; $imageCount=0; $linkCount=0; $inlineSaved=0
 $approvedBlog = if (Test-Path tools/google-maps-approved-content.json) { Get-Content tools/google-maps-approved-content.json -Raw -Encoding UTF8 | ConvertFrom-Json } else { $null }
+# Owner-authorized exact-title exceptions for the November 12 approved PDF only.
+# Both the route and complete title must match. The general limit remains 65.
+$approvedNovemberTitles=@(
+ @{file='why-genuine-recent-business-reviews-matter-more-than-a-perfect-score.html';title='Why Genuine, Recent Business Reviews Matter More Than a Perfect Score | StartWeb7'},
+ @{file='business-everyone-drives-past-nobody-finds-online.html';title='The Business Everyone Drives Past and Nobody Finds Online | StartWeb7'},
+ @{file='business-grew-up-website-still-describes-company-you-used-to-be.html';title='Your Business Grew Up. Your Website Still Describes the Company You Used To Be. | StartWeb7'}
+)
 foreach ($entry in $sitemap.urlset.url) {
  $filename=([uri]$entry.loc).AbsolutePath.TrimStart('/'); if (!$filename) {$filename='index.html'}
  $path=Join-Path $root $filename
@@ -17,7 +24,8 @@ foreach ($entry in $sitemap.urlset.url) {
  Assert (([regex]::Matches($html,'<h1\b')).Count -eq 1) "H1 count in $filename"
  $title=[Net.WebUtility]::HtmlDecode([regex]::Match($html,'<title>(.*?)</title>').Groups[1].Value)
  $approvedExactTitle = $approvedBlog -and $filename -eq $approvedBlog.file -and $title -ceq $approvedBlog.title
- Assert ($title.Length -gt 0 -and ($title.Length -le 65 -or $approvedExactTitle)) "Title length $($title.Length) in $filename"
+ $approvedNovemberTitle = @($approvedNovemberTitles | Where-Object {$_.file -ceq $filename -and $_.title -ceq $title}).Count -eq 1
+ Assert ($title.Length -gt 0 -and ($title.Length -le 65 -or $approvedExactTitle -or $approvedNovemberTitle)) "Title length $($title.Length) in $filename"
  Assert (!$titles.ContainsKey($title)) "Duplicate title in $filename"
  $titles[$title]=$true
  $descriptionTag=[regex]::Match($html,'<meta\b[^>]*name="description"[^>]*>').Value

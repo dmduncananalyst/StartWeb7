@@ -1,0 +1,37 @@
+{
+  "repository": "StartWeb7",
+  "articles": [
+    {
+      "url": "https://startweb7.com/why-genuine-recent-business-reviews-matter-more-than-a-perfect-score.html",
+      "approved_text_exact": true,
+      "pdf_text_exact": true,
+      "authorized_numerical_corrections": false,
+      "body_characters": 9493,
+      "meta_characters": 146,
+      "image_bytes": 283303,
+      "missing_references": []
+    },
+    {
+      "url": "https://startweb7.com/business-everyone-drives-past-nobody-finds-online.html",
+      "approved_text_exact": true,
+      "pdf_text_exact": true,
+      "authorized_numerical_corrections": false,
+      "body_characters": 8308,
+      "meta_characters": 153,
+      "image_bytes": 324538,
+      "missing_references": []
+    },
+    {
+      "url": "https://startweb7.com/business-grew-up-website-still-describes-company-you-used-to-be.html",
+      "approved_text_exact": true,
+      "pdf_text_exact": true,
+      "authorized_numerical_corrections": false,
+      "body_characters": 8956,
+      "meta_characters": 155,
+      "image_bytes": 229876,
+      "missing_references": []
+    }
+  ],
+  "errors": [],
+  "publication": "not yet performed"
+}
