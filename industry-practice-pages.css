@@ -11,7 +11,8 @@
   gap: 24px;
 }
 .sw7-practice-card {
-  display: block;
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
   border: 1px solid #ccd6e0;
   color: #082a4a;
@@ -19,14 +20,47 @@
   text-decoration: none;
 }
 .sw7-practice-card img { display: block; width: 100%; height: auto; aspect-ratio: 3/2; object-fit: cover; }
-.sw7-practice-card div { padding: 16px 18px; }
+.sw7-practice-card > div {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 16px 18px;
+}
 .sw7-practice-card h3 { margin: 0; }
-.sw7-practice-card p { margin: .6rem 0 0; }
-.sw7-practice-card:hover h3 { text-decoration: underline; }
+.sw7-practice-card p { margin: 0; }
+.sw7-practice-view {
+  display: inline-block;
+  margin-block-start: auto;
+  padding-block-start: 4px;
+  color: #0069b8;
+  font: 700 14px/1.4 Arial, sans-serif;
+  text-decoration: underline;
+  text-underline-offset: .2em;
+}
+.sw7-practice-card:is(:hover, :focus-visible) .sw7-practice-view { color: #082a4a; }
 .sw7-practice-card:focus-visible, .sw7-practice-cta:focus-visible { outline: 3px solid #1265a7; outline-offset: 3px; }
 .sw7-practice-breadcrumb { padding: 12px max(22px, calc((100% - 1120px) / 2)); color: #082a4a; background: #f4f7fb; }
 .sw7-practice-page .sw7-unified-copy h1 { font-size: clamp(35px, 5vw, 75px) !important; overflow-wrap: anywhere; }
-.sw7-practice-page .sw7-market-section h2 { margin: 0 0 .75rem; color: #082a4a; font: 800 clamp(22px, 2.2vw, 30px)/1.2 Arial, sans-serif; }
+/* These H2s are editorial section headings. Match the shared industry H3
+   treatment while retaining H2 semantics directly beneath the hero H1. */
+.sw7-practice-page .sw7-market-copy .sw7-market-inner > :is(.sw7-market-section, .sw7-practice-list) > h2 {
+  max-width: 350px !important;
+  margin: 0 !important;
+  font: 800 clamp(22px, 2.4vw, 30px)/1.18 Arial, sans-serif !important;
+  letter-spacing: -.02em !important;
+}
+.sw7-practice-page .sw7-market-copy .sw7-market-inner > .sw7-practice-list > h2 {
+  max-width: 100% !important;
+  margin-block-end: 24px !important;
+}
+@media (max-width: 700px) {
+  .sw7-practice-page .sw7-market-copy .sw7-market-inner > .sw7-market-section > h2 {
+    max-width: 100% !important;
+    margin-block-end: 16px !important;
+  }
+}
 .sw7-practice-page .sw7-market-copy .sw7-practice-list { padding-inline: 0; }
-.sw7-practice-cta { display: inline-block; padding: .8rem 1.15rem; background: #082a4a; color: #fff; text-decoration: none; }
+.sw7-practice-cta { display: inline-block; padding: .8rem 1.15rem; font: 700 16px/1.25 Arial, sans-serif; background: #082a4a; color: #fff; text-decoration: none; }
 .sw7-practice-cta:hover { background: #154675; color: #fff; }
