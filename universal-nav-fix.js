@@ -1355,7 +1355,7 @@ document.documentElement.classList.remove('sw7-nav-pending');
     if (options.querySelector('.hours-option')) return;
     var hours = document.createElement('div');
     hours.className = 'contact-option hours-option';
-    hours.innerHTML = '<span class="contact-label">HOURS</span><strong><span class="hours-weekday">Mon–Fri: 6:30 am – 5 <span class="hours-zone">pm PST</span></span><span class="hours-weekend">Sat–Sun: Closed</span></strong>';
+    hours.innerHTML = '<span class="contact-label">HOURS</span><strong><span class="hours-weekday">Monday-Friday, 6:30am-5pm PST</span><span class="hours-weekend">Sat–Sun: Closed</span></strong>';
     options.appendChild(hours);
   });
   var style = document.createElement('style');
