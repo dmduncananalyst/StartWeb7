@@ -61,6 +61,7 @@ Promise.resolve().then(function () {
     brand.appendChild(brandCopy);
     const nav = document.createElement('nav');
     nav.className = 'sw7-clean-nav';
+    nav.id = 'sw7-main-navigation';
     nav.setAttribute('aria-label', 'Main navigation');
     nav.innerHTML = "<a href=\"/\">Home</a><a href=\"about.html\">About</a><div class=\"sw7-clean-item sw7-services-item\"><a class=\"sw7-clean-trigger\" href=\"#\" role=\"button\" aria-expanded=\"false\">Services</a><div class=\"sw7-clean-menu\"><a href=\"services.html\">VIEW ALL SERVICES</a><a href=\"landing-page.html\">LANDING PAGE</a><a href=\"business-website.html\">BUSINESS WEBSITE</a><a href=\"seo-optimized-website.html\">SEO OPTIMIZED WEBSITE</a><a href=\"local-seo-services.html\">LOCAL SEO SERVICES</a><a href=\"essentials.html\">SEO + AEO ESSENTIALS</a><a href=\"competitive.html\">SEO + AEO COMPETITIVE</a><a href=\"dominance.html\">SEO + AEO DOMINANCE</a></div></div><div class=\"sw7-clean-item sw7-industries-item\"><a class=\"sw7-clean-trigger\" href=\"#\" role=\"button\" aria-expanded=\"false\">Industry</a><div class=\"sw7-clean-menu\"><a href=\"industries.html\">VIEW ALL INDUSTRIES</a><a href=\"real-estate-agents.html\">REAL ESTATE</a><a href=\"collision-repair.html\">COLLISION REPAIR</a><a href=\"pool-construction.html\">POOL CONSTRUCTION</a><a href=\"general-contractors.html\">GENERAL CONTRACTORS</a><a href=\"electricians.html\">ELECTRICIANS</a><a href=\"roofing-companies.html\">ROOFING COMPANIES</a><a href=\"/industries/restaurants/\">RESTAURANTS</a><a href=\"commercial-cleaning.html\">COMMERCIAL CLEANING</a><a href=\"security-services.html\">SECURITY SERVICES</a><a href=\"home-health-care.html\">HOME HEALTH CARE</a><a href=\"assisted-living.html\">ASSISTED LIVING</a><a href=\"lawyers.html\">LAWYERS</a><a href=\"doctors.html\">MEDICAL PRACTICES</a><a href=\"dentists.html\">DENTAL OFFICES</a><a href=\"accounting-firms.html\">ACCOUNTING FIRMS</a><a href=\"dermatology-practices.html\">DERMATOLOGY PRACTICES</a><a href=\"financial-advisors.html\">FINANCIAL ADVISORS</a><a href=\"insurance-agencies.html\">INSURANCE AGENCIES</a><a href=\"plastic-surgery-practices.html\">PLASTIC SURGERY PRACTICES</a><a href=\"veterinary.html\">VETERINARY</a><a href=\"interior-design.html\">INTERIOR DESIGN</a></div></div><a href=\"pricing.html\">Pricing</a><div class=\"sw7-clean-item sw7-visual-dropdown sw7-resources-dropdown\"><a class=\"sw7-clean-trigger\" href=\"#\" role=\"button\" aria-expanded=\"false\">Business Growth</a><div class=\"sw7-clean-menu sw7-visual-menu sw7-resources-visual-menu\"><div class=\"sw7-visual-grid\"><a class=\"sw7-visual-tile\" href=\"resources-seo.html\"><span class=\"sw7-visual-art\"><img class=\"sw7-menu-category-icon\" src=\"assets/resources/seo.webp\" alt=\"\" aria-hidden=\"true\" aria-hidden=\"true\" width=\"120\" height=\"110\" loading=\"lazy\" decoding=\"async\"/></span><span class=\"sw7-visual-label\">SEO</span></a><a class=\"sw7-visual-tile\" href=\"resources-ai-search.html\"><span class=\"sw7-visual-art\"><img class=\"sw7-menu-category-icon\" src=\"assets/resources/ai-search.webp\" alt=\"\" aria-hidden=\"true\" aria-hidden=\"true\" width=\"120\" height=\"110\" loading=\"lazy\" decoding=\"async\"/></span><span class=\"sw7-visual-label\">AI SEARCH</span></a><a class=\"sw7-visual-tile\" href=\"resources-digital-marketing.html\"><span class=\"sw7-visual-art\"><img class=\"sw7-menu-category-icon\" src=\"assets/resources/digital-marketing.webp\" alt=\"\" aria-hidden=\"true\" aria-hidden=\"true\" width=\"120\" height=\"110\" loading=\"lazy\" decoding=\"async\"/></span><span class=\"sw7-visual-label\">DIGITAL MARKETING</span></a><a class=\"sw7-visual-tile\" href=\"resources-paid-ads.html\"><span class=\"sw7-visual-art\"><img class=\"sw7-menu-category-icon\" src=\"assets/resources/paid-ads.webp\" alt=\"\" aria-hidden=\"true\" aria-hidden=\"true\" width=\"120\" height=\"110\" loading=\"lazy\" decoding=\"async\"/></span><span class=\"sw7-visual-label\">PAID ADS</span></a><a class=\"sw7-visual-tile\" href=\"resources-websites.html\"><span class=\"sw7-visual-art\"><img class=\"sw7-menu-category-icon\" src=\"assets/resources/websites.webp\" alt=\"\" aria-hidden=\"true\" aria-hidden=\"true\" width=\"120\" height=\"110\" loading=\"lazy\" decoding=\"async\"/></span><span class=\"sw7-visual-label\">WEBSITES</span></a></div></div></div><a href=\"instant-audit.html\">Instant Audit</a><a href=\"blog.html\">Blog</a><a href=\"reviews.html\">Reviews</a><div class=\"sw7-clean-item sw7-contact-item\"><a class=\"sw7-clean-trigger\" href=\"#\" role=\"button\" aria-expanded=\"false\">Contact</a><div class=\"sw7-clean-menu\"><a href=\"contact.html\">REACH OUT</a><a href=\"nationwide.html\">NATIONWIDE</a><a href=\"support.html\">24/7 SUPPORT</a><a href=\"careers.html\">CONTRACTOR JOBS</a></div></div>";
     const mobileScrollTrack = document.createElement('div');
@@ -73,6 +74,7 @@ Promise.resolve().then(function () {
     compactMenuButton.className = 'sw7-compact-toggle';
     compactMenuButton.type = 'button';
     compactMenuButton.setAttribute('aria-label', 'Open menu');
+    compactMenuButton.setAttribute('aria-controls', nav.id);
     compactMenuButton.setAttribute('aria-expanded', 'false');
     compactMenuButton.innerHTML = '<span></span><span></span><span></span>';
     const compactMenuOverlay = document.createElement('button');
@@ -219,7 +221,6 @@ Promise.resolve().then(function () {
         .sw7-compact-overlay{display:block!important}
         .sw7-clean-nav{position:fixed!important;z-index:2147483003!important;top:0!important;right:0!important;bottom:auto!important;left:auto!important;box-sizing:border-box!important;width:min(350px,90vw)!important;height:100vh!important;height:100dvh!important;max-height:100dvh!important;margin:0!important;padding:82px 28px 24px 18px!important;display:block!important;overflow-x:hidden!important;overflow-y:scroll!important;-webkit-overflow-scrolling:touch!important;overscroll-behavior-y:contain!important;touch-action:pan-y!important;scrollbar-gutter:stable!important;scrollbar-width:thin!important;scrollbar-color:#7f8790 #e1e5e9!important;background:#fff!important;box-shadow:-24px 0 60px rgba(7,16,28,.2)!important;border:0!important;transform:translateX(105%)!important}
         .sw7-clean-nav::-webkit-scrollbar{width:7px!important}.sw7-clean-nav::-webkit-scrollbar-track{background:#e8edf3!important}.sw7-clean-nav::-webkit-scrollbar-thumb{background:#0784ff!important;border-radius:8px!important}
-        .sw7-clean-nav::after{content:""!important;display:block!important;width:100%!important;height:calc(100dvh - 150px)!important;min-height:420px!important;pointer-events:none!important}
         .sw7-mobile-scroll-track{display:none!important;position:fixed!important;z-index:2147483640!important;top:86px!important;right:4px!important;bottom:10px!important;width:10px!important;border-radius:10px!important;background:#d7dde5!important;opacity:1!important;visibility:visible!important;pointer-events:auto!important;touch-action:none!important}
         .sw7-universal-header.compact-open .sw7-mobile-scroll-track{display:block!important}
         .sw7-universal-header.compact-open::after{content:none!important;display:none!important}
@@ -297,12 +298,23 @@ Promise.resolve().then(function () {
     `;
     sw7AppendPreparedStyle(mobileBackStyle);
     function setCompactMenu(open) {
+      const wasOpen = header.classList.contains('compact-open');
       header.classList.toggle('compact-open', open);
       document.body.classList.toggle('sw7-compact-menu-open', open);
+      document.documentElement.classList.toggle('sw7-compact-menu-open', open);
       compactMenuButton.setAttribute('aria-expanded', open ? 'true' : 'false');
       compactMenuButton.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
-      if (!open) header.querySelectorAll('.open').forEach(function (item) { item.classList.remove('open'); });
-      if (!open) sessionStore.removeItem('sw7CompactMenuState');
+      if (!open) {
+        nav.querySelectorAll('.open').forEach(function (item) { item.classList.remove('open'); });
+        sessionStore.removeItem('sw7CompactMenuState');
+      }
+      if (!open && wasOpen) {
+        nav.querySelectorAll('[aria-expanded="true"]').forEach(function (trigger) {
+          trigger.setAttribute('aria-expanded', 'false');
+        });
+        nav.scrollTop = 0;
+        if (getComputedStyle(compactMenuButton).display !== 'none') compactMenuButton.focus({ preventScroll: true });
+      }
       window.requestAnimationFrame(updateMobileScrollThumb);
     }
     function saveCompactMenuState(link) {
@@ -340,6 +352,7 @@ Promise.resolve().then(function () {
           const item = state.itemName ? header.querySelector('.sw7-' + state.itemName + '-item') : null;
           if (item) {
             item.classList.add('open');
+            item.querySelector('.sw7-clean-trigger').setAttribute('aria-expanded', 'true');
             const subsections = item.querySelectorAll(':scope > .sw7-clean-menu > .sw7-clean-sub');
             if (state.subsectionIndex >= 0 && subsections[state.subsectionIndex]) subsections[state.subsectionIndex].classList.add('open');
           }
@@ -440,7 +453,7 @@ Promise.resolve().then(function () {
         }, 350);
       });
     }
-    function closeOpenMenus() { if (!restoringCompactMenu) header.querySelectorAll('.open').forEach(function (item) { item.classList.remove('open'); }); }
+    function closeOpenMenus() { if (!restoringCompactMenu && !header.classList.contains('compact-open')) header.querySelectorAll('.open').forEach(function (item) { item.classList.remove('open'); }); }
     document.addEventListener('click', closeOpenMenus);
     window.addEventListener('scroll', closeOpenMenus, { passive: true });
     document.addEventListener('keydown', function (event) { if (event.key === 'Escape') setCompactMenu(false); });
@@ -981,21 +994,39 @@ Promise.resolve().then(function () {
   sw7AppendPreparedStyle(style);
 })();
 
-/* Mobile visual menus are one full navy surface, not a navy card inside a white drawer. */
+/* The drawer scrolls as a unit, with each visual menu directly beneath its trigger. */
 (function () {
   const style = document.createElement('style');
   style.textContent = `
     @media(max-width:640px){
-      /* When Services, Industries, or Contact is expanded, the drawer's
-         unused lower area becomes navy.  The regular navigation rows remain
-         their original white, only the visual dropdown is the navy panel. */
-      .sw7-universal-header.compact-open .sw7-clean-nav:has(.sw7-visual-dropdown.open){
-        padding:82px 0 0!important;
-        background:#07101c!important;
-        scrollbar-color:#7f8790 #07101c!important;
+      #sw7-main-navigation.sw7-clean-nav{
+        display:block!important;
+        height:100vh!important;
+        height:100dvh!important;
+        padding:0!important;
+        background:#fff!important;
+        border-top:82px solid #fff!important;
+        overflow-x:hidden!important;
+        overflow-y:auto!important;
+        overflow-anchor:none;
+        overscroll-behavior:contain;
+        touch-action:pan-y;
       }
-      .sw7-universal-header.compact-open .sw7-clean-nav:has(.sw7-visual-dropdown.open)::-webkit-scrollbar-track{
-        background:#07101c!important;
+      #sw7-main-navigation.sw7-clean-nav::after{
+        content:none!important;
+      }
+      #sw7-main-navigation.sw7-clean-nav>.sw7-clean-item{
+        display:block!important;
+        height:auto!important;
+      }
+      #sw7-main-navigation.sw7-clean-nav>.sw7-visual-dropdown>.sw7-clean-menu{
+        position:static!important;
+        height:auto!important;
+        max-height:none!important;
+        overflow:visible!important;
+      }
+      #sw7-main-navigation.sw7-clean-nav>.sw7-visual-dropdown:not(.open)>.sw7-clean-menu{
+        display:none!important;
       }
       .sw7-universal-header.compact-open .sw7-clean-nav:has(.sw7-visual-dropdown.open)>a,
       .sw7-universal-header.compact-open .sw7-clean-nav:has(.sw7-visual-dropdown.open)>.sw7-clean-item{
@@ -1108,7 +1139,17 @@ if (!document.querySelector('script[data-sw7-redesign]')) {
   trigger.addEventListener('click',event=>{
    event.preventDefault();event.stopImmediatePropagation();clearTimeout(timer);
    const opens=trigger.getAttribute('aria-expanded')!=='true';closeAll();setOpen(item,opens);
-   if(opens)menu.scrollTop=0;
+   if(!opens)return;
+   menu.scrollTop=0;
+   if(matchMedia('(max-width:640px)').matches){
+    const drawer=nav.getBoundingClientRect();
+    const top=drawer.top+nav.clientTop;
+    const triggerTop=trigger.getBoundingClientRect().top;
+    const firstTile=menu.querySelector('.sw7-visual-tile');
+    if(triggerTop<top||firstTile.getBoundingClientRect().bottom>drawer.bottom){
+     nav.scrollTop+=triggerTop-top;
+    }
+   }
   },true);
   trigger.addEventListener('keydown',event=>{
    if(event.key===' '){event.preventDefault();trigger.click();}
@@ -1116,7 +1157,7 @@ if (!document.querySelector('script[data-sw7-redesign]')) {
   });
   item.addEventListener('mouseenter',()=>{if(desktop()&&!hoverBlocked){clearTimeout(timer);closeAll();setOpen(item,true);}});
   item.addEventListener('mouseleave',()=>{if(desktop())timer=setTimeout(()=>setOpen(item,false),220);});
-  item.addEventListener('focusout',event=>{if(!item.contains(event.relatedTarget))setOpen(item,false);});
+  item.addEventListener('focusout',event=>{if(matchMedia('(min-width:641px)').matches&&!item.contains(event.relatedTarget))setOpen(item,false);});
   menu.addEventListener('click',event=>event.stopPropagation());
   // Keep wheel scrolling inside Industries, including at either end of its list.
   if(menu.classList.contains('sw7-industries-visual-menu')){
@@ -1131,7 +1172,7 @@ if (!document.querySelector('script[data-sw7-redesign]')) {
   }
  });
  // A resize must not open a menu under a stationary pointer.
- window.addEventListener('resize',()=>{hoverBlocked=true;closeAll();},{passive:true});
+ window.addEventListener('resize',()=>{hoverBlocked=true;if(matchMedia('(min-width:641px)').matches)closeAll();},{passive:true});
  nav.addEventListener('scroll',()=>{if(!matchMedia('(min-width:641px)').matches)return;hoverBlocked=true;const edge=nav.getBoundingClientRect();items.forEach(item=>{if(!item.classList.contains('open'))return;const box=item.getBoundingClientRect();if(box.right<=edge.left||box.left>=edge.right)setOpen(item,false);else place(item);});},{passive:true});
  document.addEventListener('pointermove',event=>{
   const moved=!lastPointer||event.clientX!==lastPointer.x||event.clientY!==lastPointer.y;
@@ -1142,7 +1183,7 @@ if (!document.querySelector('script[data-sw7-redesign]')) {
   if(item&&nav.contains(item)&&desktop()){closeAll();setOpen(item,true);}
  },{passive:true});
  document.addEventListener('click',event=>{if(!nav.contains(event.target))closeAll();});
- document.addEventListener('keydown',event=>{if(event.key==='Escape'){
+ document.addEventListener('keydown',event=>{if(event.key==='Escape'&&matchMedia('(min-width:641px)').matches){
   const current=items.find(item=>item.querySelector('.sw7-clean-trigger').getAttribute('aria-expanded')==='true');
   closeAll();if(current)current.querySelector('.sw7-clean-trigger').focus();
  }});
