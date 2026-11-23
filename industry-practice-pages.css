@@ -40,7 +40,7 @@
   text-underline-offset: .2em;
 }
 .sw7-practice-card:is(:hover, :focus-visible) .sw7-practice-view { color: #082a4a; }
-.sw7-practice-card:focus-visible, .sw7-practice-cta:focus-visible { outline: 3px solid #1265a7; outline-offset: 3px; }
+.sw7-practice-card:focus-visible { outline: 3px solid #1265a7; outline-offset: 3px; }
 .sw7-practice-breadcrumb { padding: 12px max(22px, calc((100% - 1120px) / 2)); color: #082a4a; background: #f4f7fb; }
 .sw7-practice-page .sw7-unified-copy h1 { font-size: clamp(35px, 5vw, 75px) !important; overflow-wrap: anywhere; }
 /* These H2s are editorial section headings. Match the shared industry H3
@@ -62,5 +62,3 @@
   }
 }
 .sw7-practice-page .sw7-market-copy .sw7-practice-list { padding-inline: 0; }
-.sw7-practice-cta { display: inline-block; padding: .8rem 1.15rem; font: 700 16px/1.25 Arial, sans-serif; background: #082a4a; color: #fff; text-decoration: none; }
-.sw7-practice-cta:hover { background: #154675; color: #fff; }
