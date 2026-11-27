@@ -358,13 +358,13 @@ body{margin:0;background:#f4f3ef;color:#111;font-family:Arial,Helvetica,sans-ser
 .ca-dot::after{content:'';position:absolute;inset:-12px;border:2px solid #0784ff;border-radius:50%;animation:caPulse 2s infinite}
 .ca-label{padding:9px 12px;background:#07101c;color:#fff;font-size:12px;letter-spacing:.13em;font-weight:900;white-space:nowrap}
 @keyframes caPulse{0%{transform:scale(.7);opacity:1}100%{transform:scale(1.45);opacity:0}}
-.contact-details{padding:100px max(6vw,calc((100vw - 1280px)/2));background:#fff}
+.contact-details{padding:clamp(24px,4vw,54px) max(6vw,calc((100vw - 1280px)/2)) 100px;background:#fff}
 .detail-section{display:grid;grid-template-columns:.8fr 1.2fr;gap:8vw;padding:72px 0;border-top:1px solid #bbb7af;align-items:start}
 .detail-section:last-child{border-bottom:0}
 .detail-section h2{margin:0;font-size:clamp(45px,5.5vw,78px);line-height:.9;letter-spacing:-.06em;font-weight:900;color:#17191d}
-.hours{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 50px}
-.hours div{display:flex;justify-content:space-between;gap:25px;padding:13px 0;border-bottom:1px solid #ddd9d1;font-size:17px}
-.hours strong{font-weight:900}.hours span{color:#081420!important}
+.business-hours-section{padding-block:clamp(24px,3vw,42px)}
+.hours{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px 20px;max-width:24rem;width:100%;margin:0;font-size:17px;font-weight:400;line-height:1.5;color:#081420}
+.hours dd{margin:0;text-align:right}
 .detail-copy{max-width:680px;margin:0;font-size:22px;line-height:1.55;color:#4f5358}
 .careers-link{display:inline-block;margin-top:28px;color:#0784ff;font-size:14px;letter-spacing:.13em;font-weight:900;text-decoration:none;border-bottom:2px solid #0784ff;padding-bottom:6px}
 .open-roles-label{margin-bottom:24px;font-size:14px;letter-spacing:.17em;font-weight:900;color:#68635c}
@@ -372,7 +372,7 @@ body{margin:0;background:#f4f3ef;color:#111;font-family:Arial,Helvetica,sans-ser
 .career-role:last-child{border-bottom:1px solid #d7d3cb}
 .career-role strong{font-size:clamp(22px,2vw,31px);line-height:1.05;font-weight:900;color:#081420!important}
 .career-role .careers-link{margin:0;white-space:nowrap}
-@media(max-width:820px){.contact-hero{min-height:72vh;padding:125px 7vw 70px;grid-template-columns:1fr;gap:65px}.contact-kicker{font-size:clamp(80px,25vw,125px)}.contact-hero h1{font-size:clamp(40px,13vw,62px)}.contact-map-section,.contact-details{padding-left:7vw;padding-right:7vw}.map-heading,.detail-section{display:block}.map-heading p{margin-top:24px}.us-map-stage{padding:15px 0}.ca-marker{left:7%;top:46%;gap:7px}.ca-label{font-size:9px;padding:7px}.detail-section h2{margin-bottom:32px}.hours{grid-template-columns:1fr}.career-role{grid-template-columns:1fr;gap:14px}.career-role .careers-link{justify-self:start}}
+@media(max-width:820px){.contact-hero{min-height:72vh;padding:125px 7vw 70px;grid-template-columns:1fr;gap:65px}.contact-kicker{font-size:clamp(80px,25vw,125px)}.contact-hero h1{font-size:clamp(40px,13vw,62px)}.contact-map-section,.contact-details{padding-left:7vw;padding-right:7vw}.map-heading,.detail-section{display:block}.map-heading p{margin-top:24px}.us-map-stage{padding:15px 0}.ca-marker{left:7%;top:46%;gap:7px}.ca-label{font-size:9px;padding:7px}.detail-section h2{margin-bottom:32px}.career-role{grid-template-columns:1fr;gap:14px}.career-role .careers-link{justify-self:start}}
 </style>
 <link href="mobile-corrections.css" rel="stylesheet">
 <style data-loading-source="true" id="sw7-aeo-carousel-style">
@@ -828,11 +828,11 @@ body[data-sw7-page="contact"] .sw7-mobile-careers .careers-link{justify-self:cen
 </div>
 </section>
 <section class="contact-details sw7-redesign-section sw7-surface-pearl">
-<div class="detail-section"><h2>CONTACT US</h2><div class="hours">
-<div><span>Monday-Friday, 6:30am-5pm PST</span></div>
-<div><strong>SAT</strong><span>Closed</span></div>
-<div><strong>SUN</strong><span>Closed</span></div>
-</div></div>
+<div class="detail-section business-hours-section"><h2>CONTACT US</h2><dl class="hours">
+<dt>Monday-Friday</dt><dd>6:30am-5pm PST</dd>
+<dt>Saturday</dt><dd>Closed</dd>
+<dt>Sunday</dt><dd>Closed</dd>
+</dl></div>
 <div class="detail-section"><h2>24/7 SUPPORT</h2><p class="detail-copy" style="text-align:center!important;align-self:center!important;justify-self:stretch!important;margin:0!important">Contacting us outside those hours? A 24/7 support line is available as an add-on.</p></div>
 <div class="detail-section sw7-mobile-careers"><h2>CONTRACTOR JOBS</h2><div>
 <div class="open-roles-label">OPEN ROLES</div>
@@ -1233,7 +1233,7 @@ input,select,textarea,button{max-width:100%!important}
 .sw7-page-contact .contact-details{padding:28px 7vw!important}
 .sw7-page-contact .detail-section{min-height:0!important;height:auto!important;padding:28px 0!important;gap:16px!important}
 .sw7-page-contact .detail-section h2{margin:0 0 20px!important;font-size:clamp(34px,11vw,44px)!important;line-height:.92!important}
-.sw7-page-contact .hours{gap:0!important}.sw7-page-contact .hours div{padding:10px 0!important;font-size:15px!important}
+.sw7-page-contact .hours{font-size:15px}
 .sw7-page-contact .detail-copy{font-size:16px!important;line-height:1.5!important}
 .sw7-page-contact .open-roles-label{margin-bottom:12px!important}.sw7-page-contact .career-role{padding:18px 0!important;gap:10px!important}.sw7-page-contact .career-role strong{font-size:22px!important}
 .sw7-page-contact .global-contact-block{padding:36px 7vw 44px!important}.sw7-page-contact .contact-options{gap:26px!important}
