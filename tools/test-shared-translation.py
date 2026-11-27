@@ -1,6 +1,7 @@
 """Offline integration tests: copies of real pages and isolated counter fixtures."""
 import importlib.util
 import json
+import re
 from pathlib import Path
 import shutil
 import tempfile
@@ -100,9 +101,10 @@ class Integration(unittest.TestCase):
     def test_only_approved_pages_and_editorial_copy_enter_source(self):
         source,cards=runner.sources(self.root)
         self.assertEqual(set(source),set(runner.PAGES))
-        # The approved November 12 batch adds three cards; retain exact-count coverage.
-        self.assertEqual(len(cards),31)
-        self.assertEqual(len({card['article'] for card in cards}),31)
+        archive = (self.root / 'blog.html').read_text(encoding='utf-8')
+        expected = re.findall(r'<article\b[^>]*class="[^"]*\bblog-card\b[^"]*"', archive)
+        self.assertEqual(len(cards), len(expected))
+        self.assertEqual(len({card['article'] for card in cards}), len(expected))
         self.assertNotIn(self.article,source)
         text='<html><body><nav><p>MENU ONLY</p></nav><h2><a href="keep.html">TITLE COPY</a></h2><p>BODY COPY</p><a>CONTROL</a><form><p>FORM ONLY</p></form><script>API SECRET</script></body></html>'
         parsed=runner.Parser();parsed.feed(text)

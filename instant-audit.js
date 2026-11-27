@@ -26,17 +26,15 @@
    const section=element('article',undefined,'audit-result-card');section.appendChild(element('h3',card.label));
    const ai=['google_ai','chatgpt','claude'].includes(card.source);
    const business=result.business_name||result.website||'Your business';
-   if(ai&&result.industry&&result.city){
-    // These are the exact source-specific queries used by this audit version.
-    // Google AI receives a search keyword, ChatGPT and Claude receive a question.
-    const query=typeof card.query==='string'&&card.query.trim()?card.query:
-     card.source==='google_ai'?result.industry+' in '+result.city:
-     'I need a '+result.industry+' in '+result.city+'. Which businesses should I consider?';
+   const query=typeof card.query==='string'?card.query.trim():'';
+   if(ai&&query){
     const context=element('div',undefined,'audit-query');
-    context.appendChild(element('h4',card.source==='google_ai'?'Search checked':'Question asked'));
+    context.appendChild(element('h4','Question asked'));
     context.appendChild(element('p',query));section.appendChild(context);
    }
-   const statuses={found:ai?business+' appeared in this answer':'Found',not_found:ai?business+' was not mentioned in this answer':'Not found in this result',uncertain:ai?'Could not confirm whether '+business+' appeared in this answer':'Could not confirm',unable:'Unable to check this source right now'};
+   const evidence=card.evidence||{};
+   const foundLabel=evidence.recommended?business+' was recommended':evidence.mentioned?business+' was mentioned':evidence.cited?business+'’s website was cited':business+' appeared in this answer';
+   const statuses={found:ai?foundLabel:'Found',not_found:ai?business+' did not appear in this answer':'Not found in this result',informational:'Informational answer',uncertain:ai?'Could not confirm whether '+business+' appeared in this answer':'Could not confirm',unable:'Unable to check this source right now'};
    const status=element('div',statuses[card.status]||statuses.unable,'audit-status '+card.status);
    section.appendChild(status);
    if(card.source==='google_search'&&card.status==='unable'&&result.id){
@@ -59,13 +57,15 @@
    if(card.match){section.appendChild(element('p',card.match.title));if(card.match.url){const p=element('p');p.appendChild(link(card.match.url,card.match.url));section.appendChild(p);}if(card.match.description)section.appendChild(element('p',card.match.description));if(card.match.rating!=null||card.match.reviews!=null)section.appendChild(element('p',[card.match.rating!=null?'Rating: '+card.match.rating:null,card.match.reviews!=null?'Reviews: '+card.match.reviews:null].filter(Boolean).join(', ')));}
    if(card.answer){section.appendChild(element('h4','Returned answer'));section.appendChild(element('div',card.answer,'audit-answer'));}
    list(section,'Referenced sources',card.citations);
-   list(section,ai?'Other businesses returned':card.source==='google_maps'?'Competing listings':'Results appearing above or instead',card.competitors);
+   list(section,ai?(card.evidence?'Other businesses recommended':'Other businesses returned'):card.source==='google_maps'?'Competing listings':'Results appearing above or instead',card.competitors);
    cards.appendChild(section);
   });
   const found=result.cards.filter(c=>c.status==='found').length;
   const unavailable=result.cards.filter(c=>c.status==='unable').length;
-  summary.textContent=unavailable===5?'The five sources could not be checked right now':'Your business appeared in '+found+' of '+(5-unavailable)+' places checked';
-  const date=new Date(result.created_at);metadata.textContent=(cached?'Recent saved audit':'Audit completed')+(Number.isNaN(date.getTime())?'':', '+date.toLocaleString())+(unavailable?', '+unavailable+' source'+(unavailable===1?' was':'s were')+' unavailable':'');
+  const informational=result.cards.filter(c=>c.status==='informational').length;
+  const visibilityChecks=5-unavailable-informational;
+  summary.textContent=unavailable===5?'The five sources could not be checked right now':visibilityChecks?'Your business appeared in '+found+' of '+visibilityChecks+' visibility results':'The available sources returned informational answers';
+  const date=new Date(result.created_at);metadata.textContent=(cached?'Recent saved audit':'Audit completed')+(Number.isNaN(date.getTime())?'':', '+date.toLocaleString())+(unavailable?', '+unavailable+' source'+(unavailable===1?' was':'s were')+' unavailable':'')+(informational?', '+informational+' informational answer'+(informational===1?'':'s'):'');
   ending.textContent=found===5?'Your business appeared in all five places checked':unavailable===5?'The five sources could not be checked right now':'Review the results above and talk with us about your website, SEO + AEO';
   results.hidden=false;progress.hidden=true;
   try{store.set('sw7AuditResult',JSON.stringify({result,cached:true,saved_at:Date.now()}));}catch{}
@@ -83,6 +83,11 @@
  }
  form.addEventListener('submit',async function(event){
   event.preventDefault();if(running||!form.reportValidity())return;
+  if(location.protocol==='file:'){
+   error.textContent='Open Instant Audit on the StartWeb7 website to run an audit.';
+   error.hidden=false;
+   return;
+  }
   running=true;button.disabled=true;button.textContent='Checking Your Business';error.hidden=true;progress.hidden=false;results.hidden=true;form.setAttribute('aria-busy','true');
   const payload={business_name:form.elements.business_name.value.trim(),website:form.elements.website.value.trim(),city:form.elements.city.value.trim(),industry:form.elements.industry.value.trim()};
   try{
@@ -93,7 +98,7 @@
    if(data.state==='interrupted')throw new Error(data.message);
    render(data.result,data.cached);
    summary.focus({preventScroll:true});results.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});
-  }catch(e){progress.hidden=true;error.textContent=e.name==='TimeoutError'||e.name==='AbortError'?'The connection timed out. Your check may still be running, submitting the same details will reuse it.':e.message||'The audit is unavailable right now. Please try again later.';error.hidden=false;}
+  }catch(e){progress.hidden=true;error.textContent=e.name==='TimeoutError'||e.name==='AbortError'?'The connection timed out. Your check may still be running, submitting the same details will reuse it.':e instanceof TypeError?'The audit service could not be reached from this page. Open Instant Audit on StartWeb7 or try again later.':e.message||'The audit is unavailable right now. Please try again later.';error.hidden=false;}
   finally{running=false;button.disabled=false;button.textContent='Run My Instant Audit';form.removeAttribute('aria-busy');}
  });
  // Restore only a completed local result. Refreshing never reruns paid checks.
