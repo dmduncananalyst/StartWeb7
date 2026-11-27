@@ -8,11 +8,8 @@
  const progress=document.getElementById('auditProgress');
  const results=document.getElementById('auditResults');
  const cards=document.getElementById('auditCards');
- const summary=document.getElementById('auditSummary');
- const metadata=document.getElementById('auditMetadata');
  const ending=document.getElementById('auditEnding');
  let running=false;
- let currentResult=null;
  const store={get(key){try{return sessionStorage.getItem(key);}catch{return null;}},set(key,value){try{sessionStorage.setItem(key,value);}catch{}},remove(key){try{sessionStorage.removeItem(key);}catch{}}};
  function element(tag,text,className){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(className)n.className=className;return n;}
  function safeURL(value){try{const u=new URL(value);return /^https?:$/.test(u.protocol)&&!u.username&&!u.password?u.href:null;}catch{return null;}}
@@ -64,11 +61,12 @@
   flush();
   return answer;
  }
- function render(result,cached){
+ function render(result,pending=false){
   if(!result||!Array.isArray(result.cards)||result.cards.length!==5)throw new Error('The audit returned an incomplete response. Please try again later.');
-  currentResult=result;
-  cards.replaceChildren();
+  const updateSearch=cards.firstElementChild?.querySelector('.audit-status.pending');
+  if(!updateSearch)cards.replaceChildren();
   result.cards.forEach(card=>{
+   if(updateSearch&&card.source!=='google_search')return;
    const section=element('article',undefined,'audit-result-card');section.appendChild(element('h3',card.label));
    const ai=['google_ai','chatgpt','claude'].includes(card.source);
    const query=typeof card.query==='string'?card.query.trim():'';
@@ -86,53 +84,60 @@
     section.appendChild(element('h4','Audit Result'));
    }
    section.appendChild(status);
-   if(card.source==='google_search'&&card.status==='unable'&&result.id){
-    const retry=element('button','Retry Google Search','sw7-feature-button audit-retry');retry.type='button';
-    const message=element('p','','audit-retry-message');message.setAttribute('role','status');
-    retry.addEventListener('click',async()=>{
-     if(running)return;running=true;button.disabled=true;retry.disabled=true;retry.textContent='Checking Google Search';status.textContent='Google Search check in progress';status.className='audit-status pending';message.textContent='This can take a few minutes. Your other results are below';
-     try{
-      let data=await read(await fetch(endpoint+'/audit/retry-google-search',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({request_id:currentResult.id}),signal:AbortSignal.timeout(100000)}));
-      if(data.state==='running')data=await waitForResult(data.request_id);
-      if(data.state==='interrupted')throw new Error(data.message);
-      render(data.result,data.cached);
-     }catch(error){status.textContent='Google Search has not returned a new result';status.className='audit-status unable';message.textContent=error.name==='TimeoutError'||error.name==='AbortError'?'The retry is taking longer than expected. Click again to check the existing retry.':error.message||'Google Search is still unavailable. Please try later.';}
-     finally{running=false;button.disabled=false;retry.disabled=false;retry.textContent='Retry Google Search';}
-    });
-    section.appendChild(retry);section.appendChild(message);
+   if(card.source==='google_search'&&pending){
+    status.textContent='Checking Google Search. This may take a few minutes. Your other results are available below.';
+    status.className='audit-status pending';
+    status.setAttribute('role','status');
    }
 
    if(card.position!=null)section.appendChild(element('p',(card.source==='google_maps'?'Map position: ':'Organic position: ')+card.position));
    if(card.match){section.appendChild(element('p',card.match.title));if(card.match.url){const p=element('p');p.appendChild(link(card.match.url,card.match.url));section.appendChild(p);}if(card.match.description)section.appendChild(element('p',card.match.description));if(card.match.rating!=null||card.match.reviews!=null)section.appendChild(element('p',[card.match.rating!=null?'Rating: '+card.match.rating:null,card.match.reviews!=null?'Reviews: '+card.match.reviews:null].filter(Boolean).join(', ')));}
    list(section,'Referenced sources',card.citations);
    list(section,ai?(card.evidence?'Other businesses recommended':'Other businesses returned'):card.source==='google_maps'?'Competing listings':'Results appearing above or instead',card.competitors);
-   cards.appendChild(section);
+   if(updateSearch)cards.firstElementChild.replaceWith(section);
+   else cards.appendChild(section);
   });
-  const found=result.cards.filter(c=>c.status==='found').length;
-  const unavailable=result.cards.filter(c=>c.status==='unable').length;
-  const informational=result.cards.filter(c=>c.status==='informational').length;
-  const visibilityChecks=result.cards.filter(c=>['found','not_found'].includes(c.status)).length;
-  summary.textContent=unavailable===5?'The five sources could not be checked right now':visibilityChecks?'Your business appeared in '+found+' of '+visibilityChecks+' visibility results':'No visibility finding could be confirmed';
-  const date=new Date(result.created_at);metadata.textContent=(cached?'Recent saved audit':'Audit completed')+(Number.isNaN(date.getTime())?'':', '+date.toLocaleString())+(unavailable?', '+unavailable+' source'+(unavailable===1?' was':'s were')+' unavailable':'')+(informational?', '+informational+' informational answer'+(informational===1?'':'s'):'');
-  if(['gazetteer_location','unresolved_location','gazetteer_unavailable'].includes(result.location_status)){
-   metadata.append(document.createTextNode(result.location_status==='gazetteer_location'
-    ?'. Search queries used the requested locality because the provider has no matching location code.'
-    :'. The locality could not be independently confirmed. Search queries used the requested locality as entered.'));
-  }
-  ending.textContent=found===5?'Your business appeared in all five places checked':unavailable===5?'The five sources could not be checked right now':'Review the results above and talk with us about your website, SEO + AEO';
+  ending.textContent='Review the results above and talk with us about your website, SEO + AEO';
   results.hidden=false;progress.hidden=true;
-  try{store.set('sw7AuditResultV2',JSON.stringify({result,cached:true,saved_at:Date.now()}));}catch{}
+  if(!pending)try{store.set('sw7AuditResultV2',JSON.stringify({result,cached:true,saved_at:Date.now()}));}catch{}
  }
  async function read(response){let data;try{data=await response.json();}catch{throw new Error('The audit service could not return results. Please try again later.');}if(!response.ok)throw new Error(data.error||'The audit is unavailable right now.');return data;}
- async function waitForResult(id){
-  const start=Date.now();
-  while(Date.now()-start<900000){
-   await new Promise(resolve=>setTimeout(resolve,5000));
-   const data=await read(await fetch(endpoint+'/audit/status?id='+encodeURIComponent(id),{cache:'no-store',signal:AbortSignal.timeout(12000)}));
-   if(data.state==='complete')return data;
-   if(data.state==='interrupted')throw new Error(data.message);
+ async function finishAudit(data){
+  let partial=null, retried=false, revealed=false;
+  const deadline=Date.now()+600000;
+  let backoff=3000;
+  while(Date.now()<deadline){
+   if(data.result)partial=data.result;
+   if(data.state==='interrupted')break;
+   if(data.state==='complete'&&(!data.google_retry||retried))return data.result;
+   if(partial&&!revealed){
+    render(partial,true);
+    results.scrollIntoView({block:'start'});
+    revealed=true;
+   }
+   if(data.state==='complete'){
+    retried=true;
+    try{
+     data=await read(await fetch(endpoint+'/audit/retry-google-search',{
+      method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({request_id:partial.id}),signal:AbortSignal.timeout(25000)
+     }));
+    }catch{
+     // A lost response may follow an accepted retry. Poll the original job.
+     data={state:'running',request_id:partial.id};
+    }
+    continue;
+   }
+   await new Promise(resolve=>setTimeout(resolve,backoff));
+   try{
+    data=await read(await fetch(endpoint+'/audit/status?id='+encodeURIComponent(data.request_id),
+     {cache:'no-store',signal:AbortSignal.timeout(12000)}));
+   }catch{
+    backoff=Math.min(backoff*2,15000);
+   }
   }
-  throw new Error('Google Search is taking longer than expected. Submit the same details again to check your saved audit, without starting new paid checks.');
+  if(partial)return partial;
+  throw new Error('The audit service did not return results before the check timed out.');
  }
  form.addEventListener('submit',async function(event){
   event.preventDefault();if(running||!form.reportValidity())return;
@@ -142,18 +147,22 @@
    return;
   }
   running=true;button.disabled=true;button.textContent='Checking Your Business';error.hidden=true;progress.hidden=false;results.hidden=true;form.setAttribute('aria-busy','true');
+  cards.replaceChildren();
   const payload={business_name:form.elements.business_name.value.trim(),website:form.elements.website.value.trim(),city:form.elements.city.value.trim(),industry:form.elements.industry.value.trim()};
   try{
    // Exactly one POST. Polling reads an existing reservation, it never buys
    // another audit. No submit, click, or API call is triggered on page load.
    let data=await read(await fetch(endpoint+'/audit',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload),signal:AbortSignal.timeout(100000)}));
-   if(data.state==='running')data=await waitForResult(data.request_id);
-   if(data.state==='interrupted')throw new Error(data.message);
-   render(data.result,data.cached);
-   summary.focus({preventScroll:true});results.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});
+   const finished=await finishAudit(data);
+   const firstReveal=results.hidden;
+   render(finished);
+   if(firstReveal){
+    results.focus({preventScroll:true});
+    results.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});
+   }
   }catch(e){progress.hidden=true;error.textContent=e.name==='TimeoutError'||e.name==='AbortError'?'The connection timed out. Your check may still be running, submitting the same details will reuse it.':e instanceof TypeError?'The audit service could not be reached from this page. Open Instant Audit on StartWeb7 or try again later.':e.message||'The audit is unavailable right now. Please try again later.';error.hidden=false;}
   finally{running=false;button.disabled=false;button.textContent='Run My Instant Audit';form.removeAttribute('aria-busy');}
  });
  // Restore only a completed local result. Refreshing never reruns paid checks.
- try{const saved=JSON.parse(store.get('sw7AuditResultV2'));if(saved&&Date.now()-saved.saved_at<86400000)render(saved.result,true);else store.remove('sw7AuditResultV2');}catch{store.remove('sw7AuditResultV2');}
+ try{const saved=JSON.parse(store.get('sw7AuditResultV2'));if(saved&&Date.now()-saved.saved_at<86400000)render(saved.result);else store.remove('sw7AuditResultV2');}catch{store.remove('sw7AuditResultV2');}
 })();

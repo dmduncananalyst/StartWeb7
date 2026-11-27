@@ -18,7 +18,7 @@
 .audit-fields label{display:grid;gap:9px;font-size:15px;font-weight:700;min-width:0}.audit-fields input{width:100%;min-width:0;min-height:50px;border:1px solid #9fb3c8;border-radius:10px;padding:12px 14px;background:#fff;color:#07101c;font:400 16px/1.4 Arial;box-sizing:border-box}
 .audit-fields input:focus{outline:3px solid #0784ff40;border-color:#0784ff}.audit-form .sw7-feature-button{margin-top:24px}.audit-error{color:#a32828;font-size:16px;line-height:1.5;margin:18px 0 0}
 .audit-progress{padding:24px 28px;border-radius:24px;background:#0c2942;color:#fff;margin-top:24px}.audit-progress h2{font-size:24px;line-height:1.2;margin:0 0 16px;color:#fff}.audit-progress ul{display:flex;flex-wrap:wrap;gap:12px 24px;list-style:none;padding:0;margin:0}.audit-progress li{font-size:15px;line-height:1.6}.audit-progress li::before{content:'◌';margin-right:8px;color:#67c5ff}
-.audit-results{padding:0 0 64px}.audit-summary{font-size:clamp(25px,3vw,38px);line-height:1.2;letter-spacing:-.03em;margin:0 0 20px}.audit-meta{font-size:14px;color:#526577;line-height:1.5}.audit-card-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin-top:28px}
+.audit-results{padding:0 0 64px}.audit-card-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin-top:28px}
 .audit-result-card{min-width:0;padding:28px;border:1px solid #d0dfea;border-radius:26px;background:#fff;box-shadow:0 12px 26px #143e6810}.audit-result-card:last-child{grid-column:1/-1}
 .audit-result-card h3{font-size:25px;margin:0 0 16px;color:#10263c;line-height:1.2}.audit-result-card h4{font-size:16px;margin:24px 0 10px;color:#10263c}.audit-result-card p,.audit-result-card li{font-size:16px;line-height:1.6;overflow-wrap:anywhere}.audit-result-card a{color:#0068cf;overflow-wrap:anywhere}.audit-result-card ul{padding-left:20px;margin-bottom:0}.audit-result-card li+li{margin-top:10px}
 .audit-status{display:inline-block;font-size:14px;font-weight:800;padding:8px 12px;border-radius:8px;background:#eaf1f7;color:#172d40;margin-bottom:10px}.audit-status.found{background:#e1f6ee;color:#0b6248}.audit-status.unable{background:#f0eeee;color:#574d4d}
@@ -73,3 +73,5 @@
 .audit-answer :is(ol,ul){padding-inline-start:1.6em}
 .audit-answer li+li{margin-top:.25em}
 .audit-answer :last-child{margin-bottom:0}
+
+.audit-progress-message{font-size:15px;line-height:1.6;margin:0 0 18px;color:#fff}
